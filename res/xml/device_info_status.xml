@@ -70,6 +70,13 @@
         android:summary="@string/summary_placeholder"
         android:persistent="false" />
     <Preference
+        android:key="eth_address"
+        android:enabled="false"
+        android:shouldDisableView="false"
+        android:title="@string/status_eth_address"
+        android:summary="@string/summary_placeholder"
+        android:persistent="false" />
+    <Preference
         android:key="serial_number"
         android:enabled="false"
         android:shouldDisableView="false"
