@@ -28,6 +28,8 @@
     <string name="confirmation_turn_on">Turn on</string>
 
     <string name="status_eth_address">ETH address</string>
+    <string name="status_chain_id">Select Chain</string>
+    <string name="status_chain_id_popup_title">Select Chain</string>
 
     <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
     <string name="device_info_default">Unknown</string>
