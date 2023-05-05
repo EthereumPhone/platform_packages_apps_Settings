@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.deviceinfo;
+package com.android.settings.network;
 
 import android.content.Context;
 import android.os.Build;
@@ -24,7 +24,7 @@ import android.text.TextUtils;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
-import com.android.settingslib.deviceinfo.AbstractEthChainPreferenceController;
+import com.android.settingslib.net.AbstractEthChainPreferenceController;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
@@ -75,7 +75,7 @@ public class EthChainPreferenceController extends AbstractEthChainPreferenceCont
         }
         
     }
-
+    
     @Override
     public boolean isAvailable() {
         return true;
@@ -140,6 +140,9 @@ public class EthChainPreferenceController extends AbstractEthChainPreferenceCont
             } else if (chainId == 42161){
                 preference.setValue("arbitrum");
                 preference.setSummary("Arbitrum One");
+            } else if (chainId == 84531){
+                preference.setValue("base_testnet");
+                preference.setSummary("Base Testnet");
             } else if (chainId == 5){
                 preference.setValue("goerli");
                 preference.setSummary("Goerli Testnet");

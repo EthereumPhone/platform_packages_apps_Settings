@@ -55,6 +55,16 @@
         settings:useAdminDisabledSummary="true"
         settings:searchable="@bool/config_show_sim_info"/>
 
+    <!-- Ethereum chainId -->
+    <ListPreference
+        android:key="eth_chain_id"
+        android:title="@string/status_chain_id"
+        android:icon="@drawable/ic_ethereum"
+        android:summary="@string/summary_placeholder"
+        android:dialogTitle="@string/status_chain_id_popup_title"
+        android:entries="@array/eth_chain_array_titles"
+        android:entryValues="@array/eth_chain_array_values" />
+
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="google_euicc_lpa"
         android:title="@string/g_euicc_lpa_title"
