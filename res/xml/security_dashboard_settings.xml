@@ -106,6 +106,14 @@
             android:summary="@string/show_system_process_crash_notifs_summary"
             settings:boolSettingField=
                 "android.ext.settings.ExtSettings SHOW_SYSTEM_PROCESS_CRASH_NOTIFICATIONS" />
+        <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
+            android:key="private_key_settings"
+            android:order="3"
+            android:title="@string/security_settings_private_key_preference_title"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.android.settings.biometrics.combination.PrivateKeyController"
+            settings:enableCopying="true"/>
+
     </PreferenceCategory>
 
     <Preference
