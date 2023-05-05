@@ -87,6 +87,15 @@
             android:title="@string/security_settings_biometric_preference_title"
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_biometric_settings" />
+
+        <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
+            android:key="private_key_settings"
+            android:order="3"
+            android:title="@string/security_settings_private_key_preference_title"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.android.settings.biometrics.combination.PrivateKeyController"
+            settings:enableCopying="true"/>
+
     </PreferenceCategory>
 
     <Preference
