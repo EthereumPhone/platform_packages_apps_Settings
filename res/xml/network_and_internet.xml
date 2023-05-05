@@ -52,6 +52,16 @@
         settings:userRestriction="no_config_mobile_networks"
         settings:useAdminDisabledSummary="true" />
 
+    <!-- Ethereum chainId -->
+    <ListPreference
+        android:key="eth_chain_id"
+        android:title="@string/status_chain_id"
+        android:icon="@drawable/ic_ethereum"
+        android:summary="@string/summary_placeholder"
+        android:dialogTitle="@string/status_chain_id_popup_title"
+        android:entries="@array/eth_chain_array_titles"
+        android:entryValues="@array/eth_chain_array_values" />
+
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="airplane_mode"
         android:title="@string/airplane_mode"

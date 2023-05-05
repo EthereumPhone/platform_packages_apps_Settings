@@ -39,6 +39,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
+import com.android.settings.network.EthChainPreferenceController;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -113,6 +114,7 @@ public class NetworkDashboardFragment extends DashboardFragment implements
 
         controllers.add(new MobileNetworkSummaryController(context, lifecycle));
         controllers.add(new TetherPreferenceController(context, lifecycle));
+        controllers.add(new EthChainPreferenceController(context));
         controllers.add(vpnPreferenceController);
         controllers.add(new ProxyPreferenceController(context));
         controllers.add(mobilePlanPreferenceController);
