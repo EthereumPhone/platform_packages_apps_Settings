@@ -132,7 +132,6 @@ android_library {
         "reactive-streams-android-lib",
         "rxjava-android-lib",
         "web3j-rlp-android-lib",
-        "bcprov-ext-android-lib",
         "androidx-biometrics",
         "androidx-core",
     ],
