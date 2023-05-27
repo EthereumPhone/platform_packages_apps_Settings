@@ -77,14 +77,18 @@ public class SettingsInitialize extends BroadcastReceiver {
         // Only run this once, and save in shared preferences that we've run.
         SharedPreferences mPreferences = context.getSharedPreferences("com.android.settings_preferences", 0);
         if (!mPreferences.contains("squircleWasRun")) {
+                
+                
                 Settings.Secure.putString(context.getContentResolver(),
                         Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES,
                         "{\"android.theme.customization.adaptive_icon_shape\":\"com.android.theme.icon.squircle\"}");
+
+                
     
                 SharedPreferences.Editor ed = mPreferences.edit();
                 ed.putBoolean("squircleWasRun", true);
                 ed.apply();
-            } 
+        } 
     }
 
     private void managedProfileSetup(Context context, final PackageManager pm, Intent broadcast,

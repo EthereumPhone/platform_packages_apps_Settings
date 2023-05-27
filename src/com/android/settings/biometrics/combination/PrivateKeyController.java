@@ -92,7 +92,7 @@ public class PrivateKeyController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        return mContext.getString(R.string.device_info_protected_single_press);
+        return "Protected by fingerprint";
     }
 
     private void authenticate(Preference preference) {
@@ -183,16 +183,6 @@ public class PrivateKeyController extends BasePreferenceController {
     @Override
     public boolean useDynamicSliceSummary() {
         return true;
-    }
-
-    @Override
-    public void copy() {
-        final ClipboardManager clipboard = (ClipboardManager) mContext.getSystemService(
-                CLIPBOARD_SERVICE);
-        clipboard.setPrimaryClip(ClipData.newPlainText("text", getPrivateKey()));
-
-        final String toast = "Copied to clipboard";
-        Toast.makeText(mContext, toast, Toast.LENGTH_SHORT).show();
     }
 
     private CharSequence getPreferenceTitle(int simSlot) {
