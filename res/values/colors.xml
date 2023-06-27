@@ -19,8 +19,8 @@
 
     <color name="divider_color">#20ffffff</color>
     <color name="title_color">@android:color/holo_blue_light</color>
-    <color name="setup_wizard_wifi_color_dark">#89ffffff</color>
-    <color name="setup_wizard_wifi_color_light">#89000000</color>
+    <color name="setup_wizard_wifi_color_dark">#ffffff</color>
+    <color name="setup_wizard_wifi_color_light">#ffffff</color>
 
     <color name="lock_pattern_background">#00000000</color>
 
