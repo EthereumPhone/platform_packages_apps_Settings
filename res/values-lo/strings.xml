@@ -272,7 +272,10 @@
     <string name="lock_after_timeout_summary_with_exception" msgid="3441806647509073124">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> ຫຼັງຈາກໝົດເວລາ, ຍົກເວັ້ນຕອນປົດລັອກໄວ້ໂດຍ <xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g>"</string>
     <string name="owner_info_settings_title" msgid="3555626140700093017">"ເພີ່ມຂໍ້ຄວາມຢູ່ໜ້າຈໍລັອກ"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"ບໍ່ມີ"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ຕົວ​ຢ່າງ, Android ຂອງ​ໂຈ."</string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ຕົວ​ຢ່າງ, ethOS ຂອງ​ໂຈ."</string>
+    <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"ສະແດງຂໍ້ມູນໂປຣໄຟລ໌ໃນໜ້າຈໍລັອກ"</string>
+    <string name="Accounts_settings_title" msgid="8434263183710375412">"ບັນຊີ"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"ສະຖານທີ່"</string>
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"ໃຊ້ສະຖານທີ່"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"ປິດ"</string>
@@ -869,10 +872,12 @@
     <string name="show_hdr_sdr_ratio_summary" msgid="986292785096013733">"ສະແດງອັດຕາສ່ວນ HDR/SDR ປັດຈຸບັນ"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"NFC"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"ຕ້ອງປົດລັອກອຸປະກອນສຳລັບ NFC"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"ອະນຸຍາດໃຫ້ໃຊ້ NFC ສະເພາະຕອນປົດລັອກໜ້າຈໍເທົ່ານັ້ນ"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"ພ້ອມທີ່ຈະສົ່ງເນື້ອຫາແອັບຯຜ່ານ NFC ແລ້ວ"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"ປິດ"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"ບໍ່ສາມາດໃຊ້ໄດ້ເນື່ອງຈາກ NFC ຖືກປິດໄວ້"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"ເມື່ອເປີດຄຸນສົມບັດນີ້ແລ້ວ ທ່ານຈະສາມາດປ່ອຍຄື້ນສັນຍານ ເພື່ອສົ່ງເນື້ອຫາແອັບໄປຫາອຸປະກອນທີ່ຮອງຮັບ NFC ເຄື່ອງອື່ນໄດ້ໂດຍການນຳອຸປະກອນມາຢູ່ໃກ້ໆກັນ. ຍົກຕົວຢ່າງເຊັ່ນ: ທ່ານສາມາດສົ່ງໜ້າເວັບ, ວິດີໂອ YouTube, ລາຍຊື່ຜູ້ຕິດຕໍ່ ແລະຂໍ້ມູນອື່ນໆ ໃຫ້ກັບອຸປະກອນອື່ນໂດຍໃຊ້ NFC ໄດ້.\n\nພຽງນຳອຸປະກອນມາຢູ່ໃກ້ໆກັນ (ໂດຍປົກກະຕິຈະເອົາດ້ານຫຼັງມາຕິດກັນ) ຈາກນັ້ນແຕະໜ້າຈໍຂອງທ່ານ, ແອັບກໍຈະກວດສອບວ່າຈະສົ່ງຂໍ້ມູນຫຍັງແດ່."</string>
     <string name="wifi_settings" msgid="8313301946393559700">"Wi​-Fi"</string>
     <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"ໃຊ້ Wi-Fi"</string>
@@ -1108,7 +1113,11 @@
     <string name="wifi_tether_carrier_unsupport_dialog_title" msgid="3089432578433978073">"ບໍ່ສາມາດໃຊ້ການປ່ອຍສັນຍານໄດ້"</string>
     <string name="wifi_tether_carrier_unsupport_dialog_content" msgid="5920421547607921112">"ກະລຸນາຕິດຕໍ່ຫາຜູ້ໃຫ້ບໍລິການຂອງທ່ານສຳລັບລາຍລະອຽດ"</string>
     <string name="wifi_tether_enabled_subtext" msgid="5085002421099821056">"<xliff:g id="NETWORK_SSID">%1$s</xliff:g> ເຮັດວຽກຢູ່"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Wi-Fi ຮັອດສະປອດເຄື່ອນທີ່ເກີດຄວາມຜິດພາດ"</string>
+    <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"ຕັ້ງຄ່າ Wi-Fi ຮັອດສະປອດ"</string>
+    <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"ການ​ຕັ້ງ​ຄ່າ Wi‑Fi ຮັອດ​ສະ​ປອດ"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ຮັອດສະປອດ ethOSAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"ບັນທຶກເຄືອຂ່າຍນີ້ບໍ?"</string>
     <string name="wifi_add_app_single_network_saving_summary" msgid="7366337245410388895">"ກຳລັງບັນທຶກ…"</string>
     <string name="wifi_add_app_single_network_saved_summary" msgid="7135016314713158289">"ບັນທຶກແລ້ວ"</string>
@@ -1306,8 +1315,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"PIN ຂອງ SIM ເຮັດວຽກລົ້ມເຫຼວ!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"ອັບເດດລະບົບ"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"ເວີຊັນຂອງ Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"ອັບເດດຄວາມປອດໄພ Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ເວີຊັນຂອງ ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ອັບເດດຄວາມປອດໄພ ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"ໂມເດວ"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"ເວີຊັນຂອງຮາດແວ"</string>
     <string name="manufactured_year" msgid="3401517138700926475">"ປີທີ່ຜະລິດ"</string>
@@ -1370,6 +1379,14 @@
     <string name="storage_menu_manage" msgid="7465522758801346408">"ຈັດ​ການ​ບ່ອນ​ຈັດ​ເກັບຂໍ້ມູນ"</string>
     <string name="storage_free_up_space_title" msgid="281047807372131975">"ສ້າງພື້ນທີ່ຫວ່າງ"</string>
     <string name="storage_free_up_space_summary" msgid="6650027929735481350">"ໄປຫາແອັບ Files ເພື່ອຈັດການ ແລະ ສ້າງພື້ນທີ່ຫວ່າງ"</string>
+    <string name="storage_title_usb" msgid="1332488715547400452">"ການເຊື່ອມຕໍ່ USB ຜ່ານຄອມພິວເຕີ"</string>
+    <string name="usb_connection_category" msgid="2288543238378907242">"ເຊື່ອມຕໍ່ເປັນ"</string>
+    <string name="usb_mtp_title" msgid="9068009584556422314">"ອຸປະກອນສື່ (MTP)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"ໃຫ້ທ່ານໂອນຍ້າຍໄຟລ໌ສື່ຕ່າງໆ ໃນ Windows ຫຼືໃຊ້ ethOS File Transfer ໃນ Mac (ເບິ່ງ www.android.com/filetransfer)"</string>
+    <string name="usb_ptp_title" msgid="4496529268189091846">"ກ້ອງຖ່າຍຮູບ (PTP)"</string>
+    <string name="usb_ptp_summary" msgid="8382539472311655671">"ໃຫ້ທ່ານໂອນຍ້າຍຮູບພາບໂດຍໃຊ້ຊອບແວກ້ອງ ແລະໂອນຍ້າຍໄຟລ໌ໃດໆ ກໍໄດ້ໃນຄອມພິວເຕີທີ່ບໍ່ຮອງຮັບ MTP"</string>
+    <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
+    <string name="usb_midi_summary" msgid="1842457325845863840">"ໃຫ້ MIDI ເປີດ​ໃຊ້​ງານ​ແອັບ​ພ​ລິ​ເຄ​ຊັນເຮັດ​ວຽກ​ຢູ່​ເທິງ USB ກັບ​ຊອບ​ແວ MIDI ຢູ່​ເທິງ​ຄອມ​ພິວ​ເຕີ​ຂອງ​ທ່ານ."</string>
     <string name="storage_other_users" msgid="7017206190449510992">"ຜູ່ໃຊ້ອື່ນໆ"</string>
     <string name="storage_size_large" msgid="1155308277890194878">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small>""</string>
     <string name="storage_mount_success" msgid="393972242641313135">"<xliff:g id="NAME">%1$s</xliff:g> ຖືກ​ເອົາ​ຕໍ່​ໃສ່​ແລ້ວ"</string>
@@ -1383,7 +1400,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"ເພື່ອ​ໃຊ້​ແອັບ, ຮູບ, ຫຼື​ຂໍ້​ມູນທີ່ <xliff:g id="NAME">^1</xliff:g> ນີ້​ມີ, ແຊກ​ມັນ​ເຂົ້າ​ໄປ​ອີກ. \n\nທາງ​ເລືອກ​ໜຶ່ງ, ທ່ານ​ສາ​ມາດ​ເລືອກ​ທີ່​ຈະ​ລືມ​ບ່ອນ​ຈັດ​ເກັບ​ຂໍ້​ມູນ​ນີ້ ຖ້າ​ບໍ່​ມີ​ອຸ​ປະ​ກອນ​ໃຫ້. \n\nຖ້າ​ທ່ານ​ເລືອກ​ທີ່​ຈະ​ລືມ, ທຸກ​ຂໍ້​ມູນ​ທີ່​ມີ​ຢູ່​ໃນ​ອຸ​ປະ​ກອນ​ຈະ​ເສຍ​ໄປ​ຖາ​ວອນ. \n\nທ່ານ​ສາ​ມາດ​ຕິດ​ຕັ້ງ​ແອັບ​ໄດ້​ພາຍ​ຫຼັງ, ແຕ່​ຂໍ້​ມູນ​ທີ່​ເກັບ​ໄວ້​ຢູ່​ໃນ​ອຸ​ປະ​ກອນ​ຈະ​ເສຍ​ໄປ."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"ລືມ <xliff:g id="NAME">^1</xliff:g> ບໍ?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"ແອັບ, ຮູບຖ່າຍ ແລະຂໍ້ມູນທັງໝົດທີ່ເກັບໄວ້ເທິງ <xliff:g id="NAME">^1</xliff:g> ອຸປະກອນນີ້ຈະເສຍໄປຕະຫຼອດການ."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"ລະບົບຮວມໄຟລ໌ທີ່ໃຊ້ເພື່ອຣັນ Android ເວີຊັນ <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"ລະບົບຮວມໄຟລ໌ທີ່ໃຊ້ເພື່ອຣັນ ethOS ເວີຊັນ <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"ຜູ້ໃຊ້ໂໝດແຂກບໍ່ສາມາດຟໍແມັດ SD card ໄດ້"</string>
     <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"ກຳ​ລັງ​ຟໍ​ແມັດ <xliff:g id="NAME">^1</xliff:g>…"</string>
     <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"ຢ່າຖອດ <xliff:g id="NAME">^1</xliff:g> ອອກໃນຂະນະທີ່ກຳລັງຈັດຮູບແບບ."</string>
@@ -1792,7 +1809,8 @@
     <string name="force_stop_dlg_title" msgid="86745852555490146">"ບັງ​ຄັບ​ປິດ?"</string>
     <string name="force_stop_dlg_text" msgid="1527286468544457368">"ຫານທ່ານບັງຄັບປິດແອັບໃດໜຶ່ງ, ມັນອາດເຮັດວຽກຜິດປົກກະຕິໄດ້."</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"ປິດການນຳໃຊ້ແອັບ"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"ຖ້າທ່ານປິດນຳໃຊ້ແອັບນີ້, Android ແລະ ແອັບອື່ນອາດບໍ່ເຮັດວຽກຕາມທີ່ຖືກອອກແບບມາໄດ້. ກະລຸນາຮັບຊາບວ່າ: ທ່ານບໍ່ສາມາດລຶບແອັບນີ້ເນື່ອງຈາກມັນຖືກຕິດຕັ້ງມາພ້ອມກັບອຸປະກອນທ່ານ. ໂດຍການປິດການນຳໃຊ້, ທ່ານຈະປິດແອັບນີ້ໄວ້ ແລະ ເຊື່ອງມັນຈາກອຸປະກອນຂອງທ່ານ."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"ຖ້າທ່ານປິດນຳໃຊ້ແອັບນີ້, ethOS ແລະ ແອັບອື່ນອາດບໍ່ເຮັດວຽກຕາມທີ່ຖືກອອກແບບມາໄດ້. ກະລຸນາຮັບຊາບວ່າ: ທ່ານບໍ່ສາມາດລຶບແອັບນີ້ເນື່ອງຈາກມັນຖືກຕິດຕັ້ງມາພ້ອມກັບອຸປະກອນທ່ານ. ໂດຍການປິດການນຳໃຊ້, ທ່ານຈະປິດແອັບນີ້ໄວ້ ແລະ ເຊື່ອງມັນຈາກອຸປະກອນຂອງທ່ານ."</string>
+    <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"ປິດການແຈ້ງເຕືອນ?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"ຮ້ານຄ້າ"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"ລາຍລະອຽດແອັບ"</string>
     <string name="app_install_details_summary" msgid="2013043219249992373">"ແອັບທີ່ຕິດຕັ້ງຈາກ <xliff:g id="APP_STORE">%1$s</xliff:g>"</string>
@@ -2582,7 +2600,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"ພື້ນຫຼັງ"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"ພື້ນໜ້າ"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"ໃນໜ່ວຍຄວາມຈຳ"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"ຕິດ​ຕົວ"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"​ເຄີນ​ເນວ"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -2609,7 +2627,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"ການຕັ້ງປ້ອນຂໍ້ມູນສຽງເຂົ້າ &amp; ອອກ"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"ການຕັ້ງຄ່າປ້ອນຂໍ້ມູນສຽງເຂົ້າ &amp; ອອກ"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"ຊອກຫາດ້ວຍສຽງ"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"ແປ້ນພິມ Android"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ແປ້ນພິມ ethOS"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"ການ​ຕັ້ງ​ຄ່າ​ການ​ປ້ອນ​ຂໍ້​ມູນ​​ດ້ວຍສຽງ"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"ການປ້ອນ​ຂໍ້ມູນ​ດ້ວຍສຽງ"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"​ບໍ​ລິ​ການ​ປ້ອນ​ຂໍ້​ມູນ​ດ້ວຍ​ສຽງ"</string>
@@ -3077,10 +3095,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, ໂໝດຂັບລົດ"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, ໂໝດຂັບລົດ, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, ໂໝດຂັບລົດ"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, ໂໝດຂັບລົດ, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, ໂໝດຂັບລົດ"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"ບໍ່ສາມາດໃຊ້ໄດ້ເນື່ອງຈາກ NFC ປິດຢູ່"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"ກະລຸນາຕິດຕັ້ງແອັບການຈ່າຍເງິນກ່ອນຈຶ່ງຈະໃຊ້ໄດ້"</string>
     <string name="app_and_notification_dashboard_summary" msgid="8047683010984186106">"ແອັບຫຼ້າສຸດ, ແອັບເລີ່ມຕົ້ນ"</string>
@@ -3483,7 +3501,8 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"ບໍ່ມີ"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">"ບໍ່​ມີ​ແອັບ​ທີ່​ຕິດ​ຕັ້ງ​ໃດ​​ຮ້ອງ​ຂໍ​ການ​ເຂົ້າ​ເຖິງ​ການ​ແຈ້ງ​ເຕືອນ."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"ອະນຸຍາດສິດເຂົ້າເຖິງການແຈ້ງເຕືອນ"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ການແຈ້ງເຕືອນແບບປັບຕົວໄດ້ຂອງ Android ຖືກແທນທີ່ດ້ວຍການແຈ້ງເຕືອນທີ່ປັບປຸງໃຫ້ດີຂຶ້ນໃນ Android 12 ແລ້ວ. ຄຸນສົມບັດນີ້ສະແດງຄຳສັ່ງ ແລະ ການຕອບກັບທີ່ແນະນຳ ແລະ ຈັດລະບຽບການແຈ້ງເຕືອນຂອງທ່ານ. \n\nການແຈ້ງເຕືອນທີ່ປັບປຸງໃຫ້ດີຂຶ້ນສາມາດເຂົ້າເຖິງເນື້ອຫາການແຈ້ງເຕືອນໄດ້, ຮວມທັງຂໍ້ມູນສ່ວນຕົວ ເຊັ່ນ: ຊື່ຜູ້ຕິດຕໍ່ ແລະ ຂໍ້ຄວາມ. ຄຸນສົມບັດນີ້ສາມາດປິດ ຫຼື ຕອບກັບຫາການແຈ້ງເຕືອນໄດ້ນຳ ເຊັ່ນ: ການຮັບສາຍໂທລະສັບ ແລະ ຄວບຄຸມໂໝດຫ້າມລົບກວນ."</string>
+    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"ອະນຸຍາດໃຫ້ເຂົ້າເຖິງການແຈ້ງເຕືອນສຳລັບ <xliff:g id="SERVICE">%1$s</xliff:g> ບໍ?"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ການແຈ້ງເຕືອນແບບປັບຕົວໄດ້ຂອງ ethOS ຖືກແທນທີ່ດ້ວຍການແຈ້ງເຕືອນທີ່ປັບປຸງໃຫ້ດີຂຶ້ນໃນ ethOS 12 ແລ້ວ. ຄຸນສົມບັດນີ້ສະແດງຄຳສັ່ງ ແລະ ການຕອບກັບທີ່ແນະນຳ ແລະ ຈັດລະບຽບການແຈ້ງເຕືອນຂອງທ່ານ. \n\nການແຈ້ງເຕືອນທີ່ປັບປຸງໃຫ້ດີຂຶ້ນສາມາດເຂົ້າເຖິງເນື້ອຫາການແຈ້ງເຕືອນໄດ້, ຮວມທັງຂໍ້ມູນສ່ວນຕົວ ເຊັ່ນ: ຊື່ຜູ້ຕິດຕໍ່ ແລະ ຂໍ້ຄວາມ. ຄຸນສົມບັດນີ້ສາມາດປິດ ຫຼື ຕອບກັບຫາການແຈ້ງເຕືອນໄດ້ນຳ ເຊັ່ນ: ການຮັບສາຍໂທລະສັບ ແລະ ຄວບຄຸມໂໝດຫ້າມລົບກວນ."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"ອະນຸຍາດ​ການ​ເຂົ້າ​ເຖິງ​ການ​ແຈ້ງ​ເຕືອນ​ສຳລັບ <xliff:g id="SERVICE">%1$s</xliff:g> ບໍ?"</string>
     <string name="notification_listener_security_warning_summary" msgid="1131986567509818121">"ແອັບ <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ຈະສາມາດອ່ານການແຈ້ງເຕືອນທັງໝົດ, ຮວມທັງຂໍ້ມູນສ່ວນຕົວເຊັ່ນ: ຊື່ຜູ້ຕິດຕໍ່, ຮູບພາບ ແລະ ຂໍ້ຄວາມທີ່ທ່ານໄດ້ຮັບ. ນອກຈາກນັ້ນ, ແອັບນີ້ຍັງຈະສາມາດເລື່ອນ ຫຼື ປິດການແຈ້ງເຕືອນ ຫຼື ໃຊ້ຄຳສັ່ງຢູ່ປຸ່ມຕ່າງໆໃນການແຈ້ງເຕືອນໄດ້, ຮວມທັງການຮັບສາຍໂທລະສັບນຳ. \n\nນີ້ຈະເປັນການເຮັດໃຫ້ແອັບສາມາດເປີດ ຫຼື ປິດໂໝດຫ້າມລົບກວນ ແລະ ປ່ຽນການຕັ້ງຄ່າທີ່ກ່ຽວຂ້ອງໄດ້."</string>
     <string name="nls_warning_prompt" msgid="1486887096703743841">"ແອັບ <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ຈະສາມາດ:"</string>
@@ -3561,8 +3580,8 @@
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"ອະນຸຍາດໂໝດຫ້າມລົບກວນ"</string>
     <string name="zen_access_empty_text" msgid="3779921853282293080">"ບໍ່​ມີ​ການ​ຂໍ​ແອັບ​ທີ່​ຕິດ​ຕັ້ງ​ໄວ້ ​ຫາ​ຫ້າມ​ລົບ​ກວນການ​ເຂົ້າ"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"ທ່ານບໍ່ໄດ້ອະນຸຍາດການແຈ້ງເຕືອນຈາກແອັບນີ້"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"ຕາມຄຳຂໍຂອງທ່ານ, Android ຈະບລັອກໝວດໝູ່ການແຈ້ງເຕືອນນີ້ບໍ່ໃຫ້ປາກົດຢູ່ອຸປະກອນນີ້"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"ຕາມຄຳຂໍຂອງທ່ານ, Android ຈະບລັອກກຸ່ມການແຈ້ງເຕືອນນີ້ບໍ່ໃຫ້ປາກົດຢູ່ອຸປະກອນນີ້"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"ຕາມຄຳຂໍຂອງທ່ານ, ethOS ຈະບລັອກໝວດໝູ່ການແຈ້ງເຕືອນນີ້ບໍ່ໃຫ້ປາກົດຢູ່ອຸປະກອນນີ້"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"ຕາມຄຳຂໍຂອງທ່ານ, ethOS ຈະບລັອກກຸ່ມການແຈ້ງເຕືອນນີ້ບໍ່ໃຫ້ປາກົດຢູ່ອຸປະກອນນີ້"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"ແອັບນີ້ບໍ່ໄດ້ສົ່ງການແຈ້ງເຕືອນ"</string>
     <string name="notification_channels" msgid="1502969522886493799">"ໝວດໝູ່"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"ອື່ນໆ"</string>
@@ -3964,7 +3983,9 @@
     <string name="display_dashboard_summary" msgid="1599453894989339454">"ຮູບແບບສີສັນມືດ, ຂະໜາດຟອນ, ຄວາມສະຫວ່າງ"</string>
     <string name="memory_summary" msgid="8221954450951651735">"ໂດຍສະເລ່ຍ ໃຊ້ຄວາມຈຳໄປແລ້ວ <xliff:g id="USED_MEMORY">%1$s</xliff:g> ຈາກທັງໝົດ <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"ເຂົ້າສູ່ລະບົບເປັນ <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"ອັບເດດເປັນ Android <xliff:g id="VERSION">%1$s</xliff:g> ແລ້ວ"</string>
+    <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ແມ່ນຄ່າເລີ່ມຕົ້ນ"</string>
+    <string name="backup_disabled" msgid="4503062265560959320">"ການສຳຮອງຂໍ້ມູນຖືກປິດໃຊ້ແລ້ວ"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ອັບເດດເປັນ ethOS <xliff:g id="VERSION">%1$s</xliff:g> ແລ້ວ"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"ມີອັບເດດໃໝ່"</string>
     <string name="disabled_by_policy_title" msgid="6852347040813204503">"ຖືກບລັອກໂດຍນະໂຍບາຍການເຮັດວຽກ"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"ບໍ່ສາມາດປ່ຽນລະດັບສຽງໄດ້"</string>
@@ -4708,7 +4729,7 @@
     <string name="wfc_disclaimer_location_desc_text" msgid="1417004513415772582">"ຜູ້ໃຫ້ບໍລິການຂອງທ່ານອາດຮວບຮວມສະຖານທີ່ຂອງທ່ານເມື່ອທ່ານໃຊ້ບໍລິການນີ້ສຳລັບການໂທສຸກເສີນ.\n\nກະລຸນາເຂົ້າເບິ່ງນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງຜູ້ໃຫ້ບໍລິການຂອງທ່ານສຳລັບລາຍລະອຽດຕ່າງໆ."</string>
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"ທ່ານອາດສູນເສຍສິດເຂົ້າເຖິງເວລາ ຫຼື ອິນເຕີເນັດທີ່ຍັງເຫຼືອຢູ່. ກະລຸນາກວດສອບກັບຜູ້ໃຫ້ບໍລິການຂອງທ່ານກ່ອນການລຶບອອກ."</string>
     <string name="content_capture" msgid="868372905432812238">"ເນື້ອຫາແອັບ"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"ອະນຸຍາດໃຫ້ແອັບສົ່ງເນື້ອຫາໄປຫາລະບົບ Android"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"ອະນຸຍາດໃຫ້ແອັບສົ່ງເນື້ອຫາໄປຫາລະບົບ ethOS"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"ບັນທຶກ heap dump ລະບົບ"</string>
     <string name="development_memtag_page_title" msgid="3546667618748029188">"Memory Tagging Extension"</string>
     <string name="development_memtag_intro" msgid="8032596625527637164">"Memory Tagging Extension (MTE) ເຮັດໃຫ້ມັນງ່າຍຂຶ້ນໃນການຊອກຫາບັນຫາຄວາມປອດໄພຂອງໜ່ວຍຄວາມຈຳໃນແອັບຂອງທ່ານ ແລະ ເຮັດໃຫ້ລະຫັດເດີມໃນນັ້ນປອດໄພຍິ່ງຂຶ້ນ."</string>
@@ -4724,7 +4745,7 @@
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"ກຳລັງບັນທຶກ heap dump ແອັບ"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"ບໍ່ສາມາດບັນທຶກ heap dump ລະບົບໄດ້"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"ບັນທຶກ heap dumps ລະບົບໂດຍອັດຕະໂນມັດ"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ບັນທຶກ heap dump ສຳລັບລະບົບ Android ໂດຍອັດຕະໂນມັດເມື່ອມັນໃຊ້ໜ່ວຍຄວາມຈຳຫຼາຍເກີນໄປ"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ບັນທຶກ heap dump ສຳລັບລະບົບ ethOS ໂດຍອັດຕະໂນມັດເມື່ອມັນໃຊ້ໜ່ວຍຄວາມຈຳຫຼາຍເກີນໄປ"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"ຕັດການເຊື່ອມຕໍ່"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"​ການ​ໂທ​ສຸກ​ເສີນ"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"ຜູ້ໃຫ້ບໍລິການຂອງທ່ານບໍ່ຮອງຮັບການໂທສຸກເສີນຜ່ານ Wi‑Fi.\nອຸປະກອນຈະສະຫຼັບໄປໃຊ້ເຄືອຂ່າຍມືຖືໂດຍອັດຕະໂນມັດເພື່ອໂທສຸກເສີນ.\nທ່ານສາມາດໂທສຸກເສີນໄດ້ສະເພາະໃນເວລາທີ່ຢູ່ໃນພື້ນທີ່ທີ່ມີສັນຍານໂທລະສັບມືຖືເທົ່ານັ້ນ."</string>

@@ -272,7 +272,10 @@
     <string name="lock_after_timeout_summary_with_exception" msgid="3441806647509073124">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> បន្ទាប់ពីអស់ម៉ោង លើកលែងតែពេលដោះសោដោយ <xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g>"</string>
     <string name="owner_info_settings_title" msgid="3555626140700093017">"បញ្ចូលអក្សរ​នៅលើ​អេក្រង់ចាក់សោ"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"គ្មាន"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ឧ. ទូរសព្ទ Android របស់ Joe ។"</string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ឧ. ទូរសព្ទ ethOS របស់ Joe ។"</string>
+    <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"បង្ហាញ​ព័ត៌មាន​​ប្រវត្តិរូប​លើ​អេក្រង់ចាក់សោ"</string>
+    <string name="Accounts_settings_title" msgid="8434263183710375412">"គណនី"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"ទី​តាំង​"</string>
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"ប្រើទីតាំង"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"បិទ"</string>
@@ -869,10 +872,12 @@
     <string name="show_hdr_sdr_ratio_summary" msgid="986292785096013733">"បង្ហាញសមាមាត្រ HDR/SDR បច្ចុប្បន្ន"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"NFC"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"តម្រូវ​ឱ្យ​ដោះសោ​ឧបករណ៍​សម្រាប់ NFC"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android បញ្ជូន"</string>
+    <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"អនុញ្ញាត​ឱ្យប្រើ NFC តែ​នៅពេល​អេក្រង់​មិនជាប់សោ​ប៉ុណ្ណោះ"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS បញ្ជូន"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"រួចរាល់​ដើម្បី​បញ្ជូន​ខ្លឹមសារ​កម្មវិធី​តាម NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"បិទ"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"មិនអាច​ប្រើ​បានទេ ដោយសារ NFC បានបិទ"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS បញ្ជូន"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"នៅ​ពេល​ដែល​មុខងារ​នេះ​បើក អ្នក​អាច​បញ្ជូន​ខ្លឹមសារ​កម្មវិធី​ទៅ​ឧបករណ៍​ដែល​អាច​ប្រើ NFC ផ្សេង​ទៀត​ដោយ​ដាក់​ឧបករណ៍​ផ្ទប់​គ្នា។ ឧទាហរណ៍៖ អ្នក​អាច​បញ្ជូន​គេហទំព័រ, វីដេអូ YouTube, ទំនាក់ទំនង និង​ខ្លឹមសារ​ជា​ច្រើន​ទៀត។\n\nគ្រាន់​តែ​ដាក់​ឧបករណ៍ផ្ទប់​គ្នា (តាម​ធម្មតា​ខ្នង​ទល់​ខ្នង) បន្ទាប់​មក​ប៉ះ​អេក្រង់​របស់​អ្នក​ជា​ការ​ស្រេច។ កម្មវិធី​នេះ​នឹង​កំណត់​របស់​ដែល​ត្រូវ​បញ្ជូន។"</string>
     <string name="wifi_settings" msgid="8313301946393559700">"Wi‑Fi"</string>
     <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"ប្រើ Wi‑Fi"</string>
@@ -1108,7 +1113,11 @@
     <string name="wifi_tether_carrier_unsupport_dialog_title" msgid="3089432578433978073">"មិនអាច​ភ្ជាប់​បានទេ"</string>
     <string name="wifi_tether_carrier_unsupport_dialog_content" msgid="5920421547607921112">"សូមទាក់ទងក្រុមហ៊ុន​សេវាទូរសព្ទ​របស់អ្នក ដើម្បីទទួលបាន​ព័ត៌មានលម្អិត"</string>
     <string name="wifi_tether_enabled_subtext" msgid="5085002421099821056">"<xliff:g id="NETWORK_SSID">%1$s</xliff:g> ដំណើរការ"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"កំហុស​វ៉ាយហ្វាយ​ហតស្ពត​ចល័ត"</string>
+    <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"រៀបចំ Wi-Fi ហតស្ប៉ត"</string>
+    <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"រៀបចំ​ហតស្ប៉តវ៉ាយហ្វាយ"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ហតស្ប៉ត ethOSAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"រក្សាទុក​បណ្ដាញ​នេះ​ឬ​?"</string>
     <string name="wifi_add_app_single_network_saving_summary" msgid="7366337245410388895">"កំពុង​រក្សាទុក…"</string>
     <string name="wifi_add_app_single_network_saved_summary" msgid="7135016314713158289">"បាន​រក្សាទុក"</string>
@@ -1306,8 +1315,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"បាន​បរាជ័យ​ក្នុង​ការ​ប្រតិបត្តិ​​លេខ​កូដ PIN ស៊ីម!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"បច្ចុប្បន្នភាព​ប្រព័ន្ធ"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"កំណែ Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"កំណែ​សុវត្ថិភាពថ្មី​របស់ Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"កំណែ ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"កំណែ​សុវត្ថិភាពថ្មី​របស់ ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"ម៉ូដែល"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"កំណែ​ហាតវែរ"</string>
     <string name="manufactured_year" msgid="3401517138700926475">"ឆ្នាំផលិត"</string>
@@ -1370,6 +1379,14 @@
     <string name="storage_menu_manage" msgid="7465522758801346408">"គ្រប់គ្រងទំហំផ្ទុក"</string>
     <string name="storage_free_up_space_title" msgid="281047807372131975">"បង្កើនទំហំផ្ទុក"</string>
     <string name="storage_free_up_space_summary" msgid="6650027929735481350">"ចូលទៅកាន់កម្មវិធី Files ដើម្បីគ្រប់គ្រង និងបង្កើនទំហំផ្ទុក"</string>
+    <string name="storage_title_usb" msgid="1332488715547400452">"ការ​តភ្ជាប់​កុំព្យូទ័រ​តាម​យូអេសប៊ី"</string>
+    <string name="usb_connection_category" msgid="2288543238378907242">"តភ្ជាប់​ជា"</string>
+    <string name="usb_mtp_title" msgid="9068009584556422314">"ឧបករណ៍​មេឌៀ (MTP)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"អនុញ្ញាត​ឲ្យ​អ្នក​ផ្ទេរ​ឯកសារ​មេឌៀ​លើ​ Windows, ឬ​ប្រើ​ការ​ផ្ទេរ​ឯកសារ ethOS នៅ​លើ Mac (see www.android.com/filetransfer)"</string>
+    <string name="usb_ptp_title" msgid="4496529268189091846">"ម៉ាស៊ីន​ថត (PTP)"</string>
+    <string name="usb_ptp_summary" msgid="8382539472311655671">"អនុញ្ញាត​ឲ្យ​អ្នក​ផ្ទេរ​រូបថត​ដោយ​ប្រើ​កម្មវិធី​ម៉ាស៊ីន​ថត និង​ផ្ទេរ​ឯកសារ​​តាម​កុំព្យូទ័រ​ដែល​មិន​គាំទ្រ MTP"</string>
+    <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
+    <string name="usb_midi_summary" msgid="1842457325845863840">"អនុញ្ញាតឲ្យកម្មវិធីដែលគាំទ្រមីឌីដំណើរកាលើ USB ជាមួយកម្មវិធីមីឌីនៅលើកុំព្យូទ័របស់អ្នក។"</string>
     <string name="storage_other_users" msgid="7017206190449510992">"អ្នក​ប្រើ​ប្រាស់ផ្សេងទៀត"</string>
     <string name="storage_size_large" msgid="1155308277890194878">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small>""</string>
     <string name="storage_mount_success" msgid="393972242641313135">"បានភ្ជាប់ <xliff:g id="NAME">%1$s</xliff:g>"</string>
@@ -1383,7 +1400,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"ដើម្បីប្រើកម្មវិធី រូបភាព ឬទិន្នន័យដែល <xliff:g id="NAME">^1</xliff:g> ផ្ទុក សូមបញ្ចូលវាម្តងទៀត។ \n\nជាជម្រើស អ្នកអាចជ្រើសរើសដើម្បីបំភ្លេចឧបករណ៍ផ្ទុកនេះ ប្រសិនបើឧបករណ៍នេះមិនមានទេ។ \n\nប្រសិនបើអ្នកជ្រើសរើសបំភ្លេច រាល់ទិន្នន័យទាំងអស់ដែលឧបករណ៍នេះផ្ទុកនឹងបាត់បង់រហូត។ \n\nអ្នកអាចដំឡើងកម្មវិធីនេះបាននៅពេលក្រោយ ប៉ុន្តែទិន្នន័យរបស់វាដែលអ្នកផ្ទុកនៅលើឧបករណ៍នេះនឹងបាត់បង់រហូត។"</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"បំភ្លេច <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"រាល់កម្មវិធី រូបភាព និងទិន្នន័យទាំងអស់នៅលើ <xliff:g id="NAME">^1</xliff:g> នឹងត្រូវបាត់បង់ជារៀងរហូត។"</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"ប្រព័ន្ធរាប់បញ្ចូលឯកសារដែលបាន​ប្រើ​ដើម្បី​ដំណើរការ​កំណែ Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"ប្រព័ន្ធរាប់បញ្ចូលឯកសារដែលបាន​ប្រើ​ដើម្បី​ដំណើរការ​កំណែ ethOS <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"អ្នក​ប្រើប្រាស់មុខងារភ្ញៀវមិនអាចឈូសកាត SD បានទេ"</string>
     <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"កំពុងសម្អាត <xliff:g id="NAME">^1</xliff:g>…"</string>
     <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"កុំ​យក <xliff:g id="NAME">^1</xliff:g> ចេញ ខណៈពេល​កំពុង​ធ្វើ​ការ​សម្អាត។"</string>
@@ -1792,7 +1809,8 @@
     <string name="force_stop_dlg_title" msgid="86745852555490146">"បង្ខំ​ឲ្យ​ឈប់?"</string>
     <string name="force_stop_dlg_text" msgid="1527286468544457368">"បើ​អ្នក​បង្ខំ​ឲ្យ​កម្មវិធី​ឈប់ វា​អាច​​ដំណើរការ​មិន​ត្រឹមត្រូវ។"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"បិទដំណើរការកម្មវិធី"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"ប្រសិន​បើ​អ្នក​បិទ​កម្មវិធីនេះ កម្មវិធី Android និង​កម្មវិធី​ផ្សេង​ទៀត​អាច​នឹង​លែង​ដំណើរការដូច​ដែលអ្វី​​ចង់បាន​។ សូមចាំថា អ្នក​មិនអាច​លុបកម្មវិធី​នេះ​បាន​ទេ ដោយសារកម្មវិធី​នេះត្រូវបាន​ដំឡើងជាស្រេច​នៅលើឧបករណ៍​របស់អ្នក។ ប្រសិនបើ​បិទ មានន័យថាអ្នក​បិទកម្មវិធីនេះ ហើយលាក់វានៅលើឧបករណ៍​របស់អ្នក។"</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"ប្រសិន​បើ​អ្នក​បិទ​កម្មវិធីនេះ កម្មវិធី ethOS និង​កម្មវិធី​ផ្សេង​ទៀត​អាច​នឹង​លែង​ដំណើរការដូច​ដែលអ្វី​​ចង់បាន​។ សូមចាំថា អ្នក​មិនអាច​លុបកម្មវិធី​នេះ​បាន​ទេ ដោយសារកម្មវិធី​នេះត្រូវបាន​ដំឡើងជាស្រេច​នៅលើឧបករណ៍​របស់អ្នក។ ប្រសិនបើ​បិទ មានន័យថាអ្នក​បិទកម្មវិធីនេះ ហើយលាក់វានៅលើឧបករណ៍​របស់អ្នក។"</string>
+    <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"បិទ​ការ​ជូន​ដំណឹង?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"ហាង"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"ព័ត៌មានលម្អិតកម្មវិធី"</string>
     <string name="app_install_details_summary" msgid="2013043219249992373">"កម្មវិធីបានដំឡើងពី <xliff:g id="APP_STORE">%1$s</xliff:g>"</string>
@@ -2582,7 +2600,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"ផ្ទៃ​ខាង​ក្រោយ"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"ផ្ទៃ​ខាង​មុខ"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"ទុក​ក្នុង​ឃ្លាំង​"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"ប្រព័ន្ធប្រតិបត្តិការ Android"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ប្រព័ន្ធប្រតិបត្តិការ ethOS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"ដើម"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"ខឺណែល"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -2609,7 +2627,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"ការ​បញ្ចូល &amp; បញ្ចេញ​សំឡេង"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"កំណត់​ការ​បញ្ចូល​​ &amp; បញ្ចេញ​សំឡេង"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"ស្វែងរក​តាម​​សំឡេង"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"ក្ដារ​ចុច Android"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ក្ដារ​ចុច ethOS"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"កំណត់​ការ​បញ្ចូល​សំឡេង"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"ការ​បញ្ចូល​សំឡេង"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"សេវាកម្ម​បញ្ចូល​សំឡេង"</string>
@@ -3077,10 +3095,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"ប៊្លូធូស មុខងារ​បើកបរ"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"ប៊្លូធូស, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"ប៊្លូធូស"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"ប៊្លូធូស, Android Auto, មុខងារបើកបរ, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"ប៊្លូធូស, Android Auto, មុខងារបើកបរ"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"ប៊្លូធូស, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"ប៊្លូធូស Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"ប៊្លូធូស, ethOS Auto, មុខងារបើកបរ, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"ប៊្លូធូស, ethOS Auto, មុខងារបើកបរ"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"ប៊្លូធូស, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"ប៊្លូធូស ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"មិនអាចប្រើបានទេ ដោយសារ NFC ត្រូវបានបិទ"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"ដើម្បី​ប្រើ សូមដំឡើង​កម្មវិធី​បង់ប្រាក់​ជាមុនសិន"</string>
     <string name="app_and_notification_dashboard_summary" msgid="8047683010984186106">"កម្មវិធី​ថ្មីៗ កម្មវិធីលំនាំដើម"</string>
@@ -3483,7 +3501,8 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"គ្មាន"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">"គ្មានកម្មវិធីបានដំឡើងណាមួយបានស្នើចូលដំណើរការការជូនដំណឹងទេ។"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"អនុញ្ញាត​ឱ្យចូលប្រើ​ការជូនដំណឹង"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ការជូនដំណឹងប្រសើរជាងមុន​បានជំនួស​ការជូនដំណឹងដែលមានភាពបត់បែន Android នៅក្នុង Android 12។ មុខងារនេះបង្ហាញការឆ្លើយតប និងសកម្មភាពដែលបានណែនាំ ព្រមទាំងរៀបចំការជូនដំណឹងរបស់អ្នក។ \n\nការជូនដំណឹងប្រសើរជាងមុនអាចចូលប្រើខ្លឹមសារនៃការជូនដំណឹង រួមទាំងព័ត៌មានផ្ទាល់ខ្លួនដូចជា ឈ្មោះទំនាក់ទំនង និងសារជាដើម។ មុខងារនេះក៏អាចច្រានចោល ឬឆ្លើយតបនឹងការជូនដំណឹងដូចជា ការទទួល​ការហៅទូរសព្ទ និងគ្រប់គ្រង​មុខងារកុំរំខានផងដែរ។"</string>
+    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"អនុញ្ញាតឱ្យចូល​ប្រើការជូនដំណឹង​សម្រាប់ <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ការជូនដំណឹងប្រសើរជាងមុន​បានជំនួស​ការជូនដំណឹងដែលមានភាពបត់បែន ethOS នៅក្នុង ethOS 12។ មុខងារនេះបង្ហាញការឆ្លើយតប និងសកម្មភាពដែលបានណែនាំ ព្រមទាំងរៀបចំការជូនដំណឹងរបស់អ្នក។ \n\nការជូនដំណឹងប្រសើរជាងមុនអាចចូលប្រើខ្លឹមសារនៃការជូនដំណឹង រួមទាំងព័ត៌មានផ្ទាល់ខ្លួនដូចជា ឈ្មោះទំនាក់ទំនង និងសារជាដើម។ មុខងារនេះក៏អាចច្រានចោល ឬឆ្លើយតបនឹងការជូនដំណឹងដូចជា ការទទួល​ការហៅទូរសព្ទ និងគ្រប់គ្រង​មុខងារកុំរំខានផងដែរ។"</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"អនុញ្ញាតឲ្យចូលប្រើការជូនដំណឹងសម្រាប់ <xliff:g id="SERVICE">%1$s</xliff:g> ឬ?"</string>
     <string name="notification_listener_security_warning_summary" msgid="1131986567509818121">"កម្មវិធី <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> នឹងអាចអាន​ការជូនដំណឹង​ទាំងអស់ រួមទាំងព័ត៌មាន​ផ្ទាល់ខ្លួន ដូចជាឈ្មោះទំនាក់ទំនង រូបថត និងអក្សរក្នុងសារ​ដែលអ្នក​ទទួលបានជាដើម។ កម្មវិធី​នេះ​ក៏នឹងអាចផ្អាក ឬ​ច្រានចោល​ការជូនដំណឹង ឬ​ធ្វើសកម្មភាពលើ​ប៊ូតុង​នៅក្នុង​ការជូនដំណឹង រួមទាំង​ទទួល​ទូរសព្ទ​ផងដែរ។ \n\nលក្ខណៈនេះក៏នឹងផ្តល់​លទ្ធភាព​ឱ្យកម្មវិធីបើក ឬបិទមុខងារកុំ​រំខាន និងប្ដូរការកំណត់​ដែលពាក់ព័ន្ធផងដែរ។"</string>
     <string name="nls_warning_prompt" msgid="1486887096703743841">"កម្មវិធី <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> នឹងអាច៖"</string>
@@ -3561,8 +3580,8 @@
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"អនុញ្ញាតមុខងារកុំរំខាន"</string>
     <string name="zen_access_empty_text" msgid="3779921853282293080">"គ្មានកម្មវិធីបានដំឡើងណាមួយបានស្នើការចូលដំណើរការមុខងារកុំរំខានទេ"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"អ្នកមិនបានអនុញ្ញាត​ការជូនដំណឹង​ពីកម្មវិធីនេះទេ"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"តាមសំណើ​របស់អ្នក ប្រព័ន្ធ​ប្រតិបត្តិការ Android កំពុង​ទប់ស្កាត់​ប្រភេទនៃការជូនដំណឹង​​នេះ​មិន​ឱ្យ​បង្ហាញ​នៅលើ​ឧបករណ៍​នេះទេ"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"តាមសំណើ​របស់អ្នក ប្រព័ន្ធ​ប្រតិបត្តិការ Android កំពុង​ទប់ស្កាត់​ក្រុមនៃ​ការជូនដំណឹង​នេះ​មិន​ឱ្យ​បង្ហាញ​នៅលើ​ឧបករណ៍​នេះទេ"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"តាមសំណើ​របស់អ្នក ប្រព័ន្ធ​ប្រតិបត្តិការ ethOS កំពុង​ទប់ស្កាត់​ប្រភេទនៃការជូនដំណឹង​​នេះ​មិន​ឱ្យ​បង្ហាញ​នៅលើ​ឧបករណ៍​នេះទេ"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"តាមសំណើ​របស់អ្នក ប្រព័ន្ធ​ប្រតិបត្តិការ ethOS កំពុង​ទប់ស្កាត់​ក្រុមនៃ​ការជូនដំណឹង​នេះ​មិន​ឱ្យ​បង្ហាញ​នៅលើ​ឧបករណ៍​នេះទេ"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"កម្មវិធីនេះមិនផ្ញើការជូនដំណឹងទេ"</string>
     <string name="notification_channels" msgid="1502969522886493799">"ប្រភេទ"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"ផ្សេងៗ"</string>
@@ -3964,7 +3983,9 @@
     <string name="display_dashboard_summary" msgid="1599453894989339454">"រចនាប័ទ្មងងឹត ទំហំពុម្ពអក្សរ ពន្លឺ"</string>
     <string name="memory_summary" msgid="8221954450951651735">"អង្គចងចាំត្រូវបានប្រើអស់ជាមធ្យម <xliff:g id="USED_MEMORY">%1$s</xliff:g> នៃ <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"ចូលជា <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"បានដំឡើង​ជំនាន់ទៅ Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ជាកម្មវិធីលំនាំដើម"</string>
+    <string name="backup_disabled" msgid="4503062265560959320">"បានបិទដំណើរការការបម្រុងទុក"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"បានដំឡើង​ជំនាន់ទៅ ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"មាន​កំណែថ្មី"</string>
     <string name="disabled_by_policy_title" msgid="6852347040813204503">"បានទប់ស្កាត់ដោយ​គោលការណ៍ការងារ"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"មិនអាចផ្លាស់ប្ដូរកម្រិតសំឡេងបានទេ"</string>
@@ -4708,7 +4729,7 @@
     <string name="wfc_disclaimer_location_desc_text" msgid="1417004513415772582">"ក្រុមហ៊ុនសេវាទូរសព្ទ​របស់អ្នកអាចនឹងប្រមូល​ទីតាំងរបស់អ្នក នៅពេលអ្នកប្រើ​សេវាកម្មនេះសម្រាប់​ការហៅទៅលេខសង្គ្រោះបន្ទាន់។\n\nសូមចូលទៅកាន់​គោលការណ៍ឯកជនភាព​របស់ក្រុមហ៊ុនសេវាទូរសព្ទអ្នក ដើម្បីទទួលបាន​ព័ត៌មានលម្អិត។"</string>
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"អ្នក​អាចនឹងបាត់បង់​សិទ្ធិ​ចូលប្រើទិន្នន័យ និងរយៈពេលនៅសល់។ សូម​សាកសួរ​ក្រុមហ៊ុន​ផ្ដល់សេវារបស់អ្នក មុនពេលលុប។"</string>
     <string name="content_capture" msgid="868372905432812238">"ខ្លឹមសារ​កម្មវិធី"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"អនុញ្ញាត​ឱ្យ​កម្មវិធី​ផ្ញើ​ខ្លឹមសារ​ទៅ​ប្រព័ន្ធ Android"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"អនុញ្ញាត​ឱ្យ​កម្មវិធី​ផ្ញើ​ខ្លឹមសារ​ទៅ​ប្រព័ន្ធ ethOS"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"ថត​ហ៊ីបដាំប្រព័ន្ធ"</string>
     <string name="development_memtag_page_title" msgid="3546667618748029188">"Memory Tagging Extension"</string>
     <string name="development_memtag_intro" msgid="8032596625527637164">"Memory Tagging Extension (MTE) ធ្វើឱ្យកាន់តែងាយស្រួលស្វែងរកបញ្ហាសុវត្ថិភាពអង្គចងចាំនៅក្នុងកម្មវិធីរបស់អ្នក និងធ្វើឱ្យលេខកូដដើមនៅក្នុងកម្មវិធីនោះកាន់តែមានសុវត្ថិភាព។"</string>
@@ -4724,7 +4745,7 @@
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"ថត​ព័ត៌មានកែបញ្ហាប្រព័ន្ធ"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"មិន​អាច​ថត​ព័ត៌មានកែបញ្ហាប្រព័ន្ធ​បានទេ"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"ថត​ព័ត៌មានកែបញ្ហាប្រព័ន្ធ​ដោយស្វ័យប្រវត្តិ"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ថត​ព័ត៌មានកែបញ្ហា​ដោយស្វ័យប្រវត្តិ​សម្រាប់​ប្រព័ន្ធ Android នៅពេលវាប្រើ​អង្គចងចាំច្រើន​ជ្រុល"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ថត​ព័ត៌មានកែបញ្ហា​ដោយស្វ័យប្រវត្តិ​សម្រាប់​ប្រព័ន្ធ ethOS នៅពេលវាប្រើ​អង្គចងចាំច្រើន​ជ្រុល"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"ផ្ដាច់"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"ការហៅ​ទៅលេខ​សង្គ្រោះបន្ទាន់"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"ក្រុមហ៊ុន​សេវាទូរសព្ទ​របស់អ្នក​​មិនផ្ដល់សេវាហៅ​ទៅលេខ​សង្គ្រោះបន្ទាន់​តាមរយៈការហៅតាម Wi‑Fi ទេ។\nឧបករណ៍​ប្ដូរទៅប្រើ​បណ្តាញចល័ត​ដោយស្វ័យប្រវត្តិ​ ដើម្បី​ហៅ​ទៅលេខ​សង្គ្រោះបន្ទាន់។\nការហៅ​ទៅលេខ​សង្គ្រោះបន្ទាន់​អាច​ធ្វើ​បាននៅក្នុង​តំបន់​ដែលមាន​សេវាគ្របដណ្តប់​បណ្តាញ​ចល័ត​តែប៉ុណ្ណោះ។"</string>

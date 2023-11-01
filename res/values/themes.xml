@@ -54,7 +54,7 @@
 
         <item name="preferenceBackgroundColor">@drawable/preference_background</item>
 
-        <!-- For AndroidX AlertDialog -->
+        <!-- For ethOSX AlertDialog -->
         <item name="alertDialogTheme">@style/Theme.AlertDialog</item>
 
         <item name="*android:lockPatternStyle">@style/LockPatternStyle</item>

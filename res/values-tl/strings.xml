@@ -272,7 +272,10 @@
     <string name="lock_after_timeout_summary_with_exception" msgid="3441806647509073124">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> pagkatapos mag-time out, maliban kung pinapanatiling naka-unlock ng <xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g>"</string>
     <string name="owner_info_settings_title" msgid="3555626140700093017">"Magdagdag ng text sa lock screen"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Wala"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Hal., Android ni Joe."</string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Hal., ethOS ni Joe."</string>
+    <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Ipakita ang impormasyon ng profile sa lock screen"</string>
+    <string name="Accounts_settings_title" msgid="8434263183710375412">"Mga Account"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Lokasyon"</string>
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"Gumamit ng lokasyon"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"Naka-off"</string>
@@ -869,10 +872,12 @@
     <string name="show_hdr_sdr_ratio_summary" msgid="986292785096013733">"Ipakita ang kasalukuyang ratio ng HDR/SDR"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"NFC"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Hingin ang pag-unlock ng device para sa NFC"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Payagan lang ang paggamit ng NFC kapag naka-unlock ang screen"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Handa nang maglipat ng content ng app sa pamamagitan ng NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"I-off"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Hindi available dahil naka-off ang NFC"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Kapag naka-on ang feature na ito, maaari mong i-beam ang content ng app sa iba pang device na may NFC sa pamamagitan ng paglalapit sa mga device. Halimbawa, maaari kang mag-beam ng mga web page, video sa YouTube, contact, at higit pa.\n\nPaglapitin lang ang mga device (karaniwang magkatalikuran) at pagkatapos ay i-tap ang iyong screen. Tutukuyin ng app kung ano ang ibi-beam."</string>
     <string name="wifi_settings" msgid="8313301946393559700">"Wi‑Fi"</string>
     <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"Gumamit ng Wi‑Fi"</string>
@@ -1108,7 +1113,11 @@
     <string name="wifi_tether_carrier_unsupport_dialog_title" msgid="3089432578433978073">"Hindi available ang pag-tether"</string>
     <string name="wifi_tether_carrier_unsupport_dialog_content" msgid="5920421547607921112">"Makipag-ugnayan sa iyong carrier para sa mga detalye"</string>
     <string name="wifi_tether_enabled_subtext" msgid="5085002421099821056">"Aktibo ang <xliff:g id="NETWORK_SSID">%1$s</xliff:g>"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Error sa portable na Wi-Fi hotspot"</string>
+    <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"I-set up ang Wi-Fi hotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Pag-setup ng Wi‑Fi hotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK na hotspot"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"I-save ang network na ito?"</string>
     <string name="wifi_add_app_single_network_saving_summary" msgid="7366337245410388895">"Sine-save…"</string>
     <string name="wifi_add_app_single_network_saved_summary" msgid="7135016314713158289">"Na-save"</string>
@@ -1306,8 +1315,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"Nabigo ang operasyon ng PIN ng SIM!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Mga pag-update ng system"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Bersyon ng Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Update sa seguridad ng Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"Bersyon ng ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"Update sa seguridad ng ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"Modelo"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Bersyon ng hardware"</string>
     <string name="manufactured_year" msgid="3401517138700926475">"Taon na ginawa"</string>
@@ -1370,6 +1379,14 @@
     <string name="storage_menu_manage" msgid="7465522758801346408">"Pamahalaan ang storage"</string>
     <string name="storage_free_up_space_title" msgid="281047807372131975">"Magbakante ng espasyo"</string>
     <string name="storage_free_up_space_summary" msgid="6650027929735481350">"Pumunta sa Files app para mamahala at magbakante ng espasyo"</string>
+    <string name="storage_title_usb" msgid="1332488715547400452">"Koneksyon ng computer ng USB"</string>
+    <string name="usb_connection_category" msgid="2288543238378907242">"Kumonekta bilang"</string>
+    <string name="usb_mtp_title" msgid="9068009584556422314">"Media na device (MTP)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Hinahayaan kang maglipat ng mga media file sa Windows, o ang paggamit ng ethOS File Transfer sa Mac (tingnan ang www.android.com/filetransfer)"</string>
+    <string name="usb_ptp_title" msgid="4496529268189091846">"Camera (PTP)"</string>
+    <string name="usb_ptp_summary" msgid="8382539472311655671">"Hinahayaan kang maglipat ng mga larawan gamit ang software ng camera, at maglipat ng anumang mga file sa mga computer na hindi sumusuporta sa MTP"</string>
+    <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
+    <string name="usb_midi_summary" msgid="1842457325845863840">"Hinahayaan ang mga application na na-enable ng MIDI na gumana sa pamamagitan ng USB gamit ang MIDI software sa iyong computer."</string>
     <string name="storage_other_users" msgid="7017206190449510992">"Iba pang mga user"</string>
     <string name="storage_size_large" msgid="1155308277890194878">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small>""</string>
     <string name="storage_mount_success" msgid="393972242641313135">"Na-mount na ang <xliff:g id="NAME">%1$s</xliff:g>"</string>
@@ -1383,7 +1400,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Upang gamitin ang mga app, larawan o data na nilalaman ng <xliff:g id="NAME">^1</xliff:g> na ito, ilagay itong muli. \n\nO kaya naman, maaari mong piliing kalimutan ang storage na ito kung hindi available ang device. \n\nKung piliin mong kalimutan, tuluyan nang mawawala ang lahat ng data na nilalaman ng device. \n\nMaaari mong muling i-install ang mga app sa ibang pagkakataon, ngunit mawawala ang data ng mga iyon na nakaimbak sa device na ito."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Kalimutan ang <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Habambuhay mawawala ang lahat ng app, larawan at data na naka-imbak sa <xliff:g id="NAME">^1</xliff:g> na ito."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Kasama sa system ang mga file na ginagamit para patakbuhin ang bersyon <xliff:g id="VERSION">%s</xliff:g> ng Android"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Kasama sa system ang mga file na ginagamit para patakbuhin ang bersyon <xliff:g id="VERSION">%s</xliff:g> ng ethOS"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Hindi makakapag-format ng SD card kapag guest mode"</string>
     <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"Pino-format ang <xliff:g id="NAME">^1</xliff:g>…"</string>
     <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"Huwag alisin ang <xliff:g id="NAME">^1</xliff:g> habang fino-format ito."</string>
@@ -1792,7 +1809,8 @@
     <string name="force_stop_dlg_title" msgid="86745852555490146">"Sapilitang itigil?"</string>
     <string name="force_stop_dlg_text" msgid="1527286468544457368">"Kung sapilitan mong ititigil ang isang app, maaari itong kumilos nang hindi tama."</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"I-disable ang app"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Kung idi-disable mo ang app na ito, baka hindi na gumana ang Android at iba pang app gaya ng inaasahan. Tandaan, hindi mo made-delete ang app na ito dahil naka-preinstall ito sa iyong device. Sa pamamagitan ng pag-disable nito, io-off mo ang app na ito at itatago mo ito sa iyong device."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Kung idi-disable mo ang app na ito, baka hindi na gumana ang ethOS at iba pang app gaya ng inaasahan. Tandaan, hindi mo made-delete ang app na ito dahil naka-preinstall ito sa iyong device. Sa pamamagitan ng pag-disable nito, io-off mo ang app na ito at itatago mo ito sa iyong device."</string>
+    <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"I-off ang mga notification?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Store"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Mga detalye ng app"</string>
     <string name="app_install_details_summary" msgid="2013043219249992373">"Na-install ang app mula sa <xliff:g id="APP_STORE">%1$s</xliff:g>"</string>
@@ -2582,7 +2600,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Background"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Foreground"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Naka-cache"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Native"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kernel"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -2609,7 +2627,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Input &amp; output ng boses"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Pag-input ng boses &amp; mga setting ng output"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Paghahanap gamit ang boses"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android keyboard"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS keyboard"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Mga setting ng input na boses"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Input na boses"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Mga serbisyo ng input na boses"</string>
@@ -3077,10 +3095,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, driving mode"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, driving mode, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, driving mode"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, driving mode, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, driving mode"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Hindi available dahil naka-off ang NFC"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Para magamit, mag-install muna ng app sa pagbabayad"</string>
     <string name="app_and_notification_dashboard_summary" msgid="8047683010984186106">"Mga kamakailang app, mga default na app"</string>
@@ -3483,7 +3501,8 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"Wala"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">"Walang mga naka-install na app ang humiling ng access sa notification."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Payagan ang pag-access sa notification"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Pinalitan ng Mga pinahusay na notification ang Mga Adaptive na Notification ng Android sa Android 12. Nagpapakita ang feature na ito ng mga iminumungkahing pagkilos at sagot, at isinasaayos nito ang iyong mga notification. \n\nMaa-access ng Mga pinahusay na notification ang content ng notification, kabilang ang personal na impormasyon gaya ng mga pangalan ng contact at mensahe. Magagawa rin ng feature na ito na i-dismiss o tugunan ang mga notification, gaya ng pagsagot sa mga tawag sa telepono, at kontrolin ang Huwag Istorbohin."</string>
+    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Payagan ang pag-access sa notification para sa <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Pinalitan ng Mga pinahusay na notification ang Mga Adaptive na Notification ng ethOS sa ethOS 12. Nagpapakita ang feature na ito ng mga iminumungkahing pagkilos at sagot, at isinasaayos nito ang iyong mga notification. \n\nMaa-access ng Mga pinahusay na notification ang content ng notification, kabilang ang personal na impormasyon gaya ng mga pangalan ng contact at mensahe. Magagawa rin ng feature na ito na i-dismiss o tugunan ang mga notification, gaya ng pagsagot sa mga tawag sa telepono, at kontrolin ang Huwag Istorbohin."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Payagan ang pag-access sa notification para sa <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="notification_listener_security_warning_summary" msgid="1131986567509818121">"Mababasa ng <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ang lahat ng notification, kabilang ang personal na impormasyon gaya ng mga pangalan ng contact, larawan, at ang text ng mga mensaheng natatanggap mo. Magagawa rin ng app na ito na i-snooze o i-dismiss ang mga notification, o gamitin ang mga button sa mga notification, kasama ang pagsagot sa mga tawag sa telepono. \n\nMabibigyan din ang app ng kakayahang i-on o i-off ang Huwag Istorbohin at baguhin ang mga nauugnay na setting."</string>
     <string name="nls_warning_prompt" msgid="1486887096703743841">"Magagawa ng <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> app na:"</string>
@@ -3561,8 +3580,8 @@
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"Payagan ang Huwag Istorbohin"</string>
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Walang mga naka-install na app ang humiling ng access na Huwag Istorbohin"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Hindi mo pinayagan ang mga notification mula sa app na ito"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Bilang tugon sa iyong kahilingan, pinipigilan ng Android na lumabas sa device na ito ang ganitong kategorya ng mga notification"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Bilang tugon sa iyong kahilingan, pinipigilan ng Android na lumabas sa device na ito ang ganitong grupo ng mga notification"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Bilang tugon sa iyong kahilingan, pinipigilan ng ethOS na lumabas sa device na ito ang ganitong kategorya ng mga notification"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Bilang tugon sa iyong kahilingan, pinipigilan ng ethOS na lumabas sa device na ito ang ganitong grupo ng mga notification"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Hindi nagpapadala ang app na ito ng mga notification"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Mga Kategorya"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Iba Pa"</string>
@@ -3964,7 +3983,9 @@
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Madilim na tema, laki ng font, liwanag"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Avg <xliff:g id="USED_MEMORY">%1$s</xliff:g> ng <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> ng ginamit na memory"</string>
     <string name="users_summary" msgid="8473589474976307510">"Naka-sign in bilang <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Na-update sa Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ang default"</string>
+    <string name="backup_disabled" msgid="4503062265560959320">"Na-disable ang pag-back up"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Na-update sa ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"May available na update"</string>
     <string name="disabled_by_policy_title" msgid="6852347040813204503">"Bina-block ng patakaran sa trabaho"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Hindi mababago ang volume"</string>
@@ -4708,7 +4729,7 @@
     <string name="wfc_disclaimer_location_desc_text" msgid="1417004513415772582">"Posibleng kolektahin ng carrier mo ang iyong lokasyon kapag ginamit mo ang serbisyong ito para sa mga emergency na tawag.\n\nBisitahin ang patakaran sa privacy ng iyong carrier para sa mga detalye."</string>
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Baka mawalan ka ng access sa anumang natitirang oras o data. Itanong sa iyong provider bago ito alisin."</string>
     <string name="content_capture" msgid="868372905432812238">"Content ng app"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Payagan ang mga app na magpadala ng content sa Android system"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Payagan ang mga app na magpadala ng content sa ethOS system"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Kunin ang heap dump ng system"</string>
     <string name="development_memtag_page_title" msgid="3546667618748029188">"Memory Tagging Extension"</string>
     <string name="development_memtag_intro" msgid="8032596625527637164">"Papadaliin ng Memory Tagging Extension (MTE) na maghanap ng isyu sa kaligtasan ng memory sa iyong app at ginagawa nitong mas secure ang native na code dito."</string>
@@ -4724,7 +4745,7 @@
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Kinukuha ang heap dump ng system"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Hindi makuha ang heap dump ng system"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Awtomatikong kunin ang mga heap dump ng system"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Awtomatikong kumuha ng heap dump para sa Android System kapag masyadong malaking memory ang ginagamit nito"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Awtomatikong kumuha ng heap dump para sa ethOS System kapag masyadong malaking memory ang ginagamit nito"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Idiskonekta"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Mga emergency na tawag"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Hindi sinusuportahan ng iyong carrier ang mga emergency na tawag sa Pagtawag gamit ang Wi‑Fi.\nAwtomatikong lumilipat ang device sa isang cellular network para gumawa ng emergency na tawag.\nPosible lang ang mga emergency na tawag sa mga lugar na may cellular signal."</string>

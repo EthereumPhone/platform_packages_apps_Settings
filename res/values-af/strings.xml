@@ -272,7 +272,7 @@
     <string name="lock_after_timeout_summary_with_exception" msgid="3441806647509073124">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> ná uitteltyd, behalwe as <xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g> dit ontsluit hou"</string>
     <string name="owner_info_settings_title" msgid="3555626140700093017">"Voeg teks by op sluitskerm"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Geen"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Bv. Joe se Android."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Bv. Joe se ethOS."</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Ligging"</string>
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"Gebruik ligging"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"Af"</string>
@@ -1306,8 +1306,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIM PIN-bewerking het misluk!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Stelselopdaterings"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android-weergawe"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android-sekuriteitopdatering"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS-weergawe"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS-sekuriteitopdatering"</string>
     <string name="model_info" msgid="8997566254717810904">"Model"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Hardewareweergawe"</string>
     <string name="manufactured_year" msgid="3401517138700926475">"Jaar van vervaardiging"</string>
@@ -1383,7 +1383,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Sit hierdie <xliff:g id="NAME">^1</xliff:g> weer in om die programme, foto\'s of data te gebruik wat dit bevat. \n\nAndersins kan jy kies om hierdie berging te vergeet as die toestel nie beskikbaar is nie. \n\nAs jy kies om te vergeet, sal al die data wat die toestel bevat, vir altyd verlore wees. \n\nJy kan die programme later herinstalleer, maar die data wat in hierdie toestel geberg is, sal verlore wees."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Vergeet <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Al die programme, foto\'s en data wat op hierdie <xliff:g id="NAME">^1</xliff:g> geberg is, sal vir altyd verlore wees."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Stelsel sluit lêers in wat gebruik word om Android-weergawe <xliff:g id="VERSION">%s</xliff:g> te laat loop"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Stelsel sluit lêers in wat gebruik word om ethOS-weergawe <xliff:g id="VERSION">%s</xliff:g> te laat loop"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Gasmodusgebruikers kan nie SD-kaarte formateer nie"</string>
     <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"Formateer tans <xliff:g id="NAME">^1</xliff:g> …"</string>
     <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"Moenie die <xliff:g id="NAME">^1</xliff:g> verwyder terwyl dit geformateer word nie."</string>
@@ -2525,18 +2525,7 @@
     <string name="battery_saver_pref_auto_routine_summary" msgid="4739240095966241508">"Sal aanskakel op grond van jou roetine"</string>
     <string name="battery_saver_auto_percentage" msgid="558533724806281980">"Gegrond op persentasie"</string>
     <string name="battery_saver_auto_routine_summary" msgid="3913145448299472628">"Batterybespaarder skakel aan as jou battery waarskynlik sal leegloop voor die volgende keer wanneer jy dit normaalweg laai"</string>
-    <string name="battery_saver_auto_percentage_summary" msgid="6190884450723824287">"Sal aanskakel by <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
-    <string name="battery_saver_schedule_settings_title" msgid="3688019979950082237">"Stel \'n skedule"</string>
-    <string name="battery_saver_turn_on_summary" msgid="1433919417587171160">"Verleng batterylewe"</string>
-    <string name="battery_saver_sticky_title_new" msgid="5942813274115684599">"Skakel af wanneer dit gelaai is"</string>
-    <string name="battery_saver_sticky_title_percentage" msgid="1178162022087559148">"Skakel af by <xliff:g id="BATTERY_PERCENTAGE">%1$s</xliff:g>"</string>
-    <string name="battery_saver_sticky_description_new" msgid="6472610662679038342">"Batterybespaarder skakel af wanneer battery <xliff:g id="BATTERY_PERCENTAGE">%1$s</xliff:g> bereik"</string>
-    <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
-    <skip />
-    <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"Skakel aan"</string>
-    <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"Gebruik Batterybespaarder"</string>
-    <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"Skakel outomaties aan"</string>
-    <string name="battery_saver_turn_on_automatically_never" msgid="6194649389871448663">"Nooit"</string>
+    <andrstring name="battery_saver_turn_on_automatically_never" msgid="6194649389871448663">"Nooit"</string>
     <string name="battery_saver_turn_on_automatically_pct" msgid="4294335680892392449">"met battery <xliff:g id="PERCENT">%1$s</xliff:g> vol"</string>
     <string name="battery_percentage" msgid="1779934245963043490">"Batterypersentasie"</string>
     <string name="battery_percentage_description" msgid="2321465139126125541">"Wys batterypersentasie op statusbalk"</string>
@@ -2582,7 +2571,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Agtergrond"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Voorgrond"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Gekas"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android-bedryfstelsel"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS-bedryfstelsel"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Oorspronklik"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kern"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -2609,7 +2598,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Steminvoering en -uitvoering"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Steminvoering- en -uitvoeringsinstellings"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Stemsoektog"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android-sleutelbord"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS-sleutelbord"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Steminvoerinstellings"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Steminvoer"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Steminvoerdienste"</string>
@@ -3077,10 +3066,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, rymodus"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, rymodus, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, rymodus"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, rymodus, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, rymodus"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Nie beskikbaar nie want NFC is af"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Installeer eers \'n betalingprogram om dit te gebruik"</string>
     <string name="app_and_notification_dashboard_summary" msgid="8047683010984186106">"Onlangse apps, verstekapps"</string>
@@ -3561,8 +3550,8 @@
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"Laat Moenie Steur Nie toe"</string>
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Geen geïnstalleerde programme het toegang tot Moenie Steur Nie versoek nie"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Jy het nie kennisgewings van hierdie app af toegelaat nie"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Android keer tans op jou versoek dat hierdie kategorie kennisgewings op hierdie toestel verskyn"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Android keer tans op jou versoek dat hierdie groep kennisgewings op hierdie toestel verskyn"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"ethOS keer tans op jou versoek dat hierdie kategorie kennisgewings op hierdie toestel verskyn"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"ethOS keer tans op jou versoek dat hierdie groep kennisgewings op hierdie toestel verskyn"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Hierdie app stuur nie kennisgewings nie"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Kategorieë"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Ander"</string>
@@ -4708,7 +4697,7 @@
     <string name="wfc_disclaimer_location_desc_text" msgid="1417004513415772582">"Jou diensverskaffer kan jou ligging bepaal wanneer jy hierdie diens vir noodoproepe gebruik.\n\nKry besonderhede op jou diensverskaffer se privaatheidsbeleid."</string>
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Jy kan toegang tot enige oorblywende tyd of data verloor. Vra jou verskaffer voordat jy dit verwyder."</string>
     <string name="content_capture" msgid="868372905432812238">"Programinhoud"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Stel apps in staat om inhoud na die Android-stelsel toe te stuur"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Stel programme in staat om inhoud na die ethOS-stelsel toe te stuur"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Vang stelselhoopstortings vas"</string>
     <string name="development_memtag_page_title" msgid="3546667618748029188">"Geheuemerkinguitbreiding"</string>
     <string name="development_memtag_intro" msgid="8032596625527637164">"Geheuemerkinguitbreiding (GMU) maak dit makliker om geheueveiligheidkwessies in jou app te kry, en maak toestelspesifieke kode daarin veiliger."</string>
@@ -4724,7 +4713,7 @@
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Vasvangstelsel vir hoopstorting"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Kon nie stelselhoopstorting vasvang nie"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Vang outomaties stelselhoopstortings vas"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Vang outomaties \'n hoopstorting vir Android-stesel vas wanneer dit te veel gegeue gebruik"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Vang outomaties \'n hoopstorting vir ethOS-stesel vas wanneer dit te veel gegeue gebruik"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Ontkoppel"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Noodoproepe"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Jou diensverskaffer steun nie noodoproepe oor Wi‑Fi nie.\nDie toestel skakel outomaties na \'n selnetwerk toe oor om \'n noodoproep te maak.\nNoodoproepe is net moontlik in gebiede met sellulêre dekking."</string>

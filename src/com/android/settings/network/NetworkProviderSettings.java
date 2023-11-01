@@ -27,6 +27,7 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.location.LocationManager;
 import android.net.NetworkTemplate;
 import android.net.wifi.WifiConfiguration;
@@ -46,6 +47,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -265,9 +268,65 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
         super(DISALLOW_CONFIG_WIFI);
     }
 
+    public static void printViewInfo(View view) {
+        if (view == null) {
+            return;
+        }
+
+        int id = view.getId();
+        String viewType = view.getClass().getSimpleName();
+        String text = "";
+
+        // Check if the view is a TextView and has text content
+        if (view instanceof TextView) {
+            text = ((TextView) view).getText().toString();
+        }
+
+        int color = 0;
+
+        // Try to get the background color of the view
+        if (view.getBackground() != null) {
+            try {
+                color = ((ColorDrawable) view.getBackground()).getColor();
+            } catch (ClassCastException e) {
+                // Ignore if the background is not a ColorDrawable
+            }
+        }
+
+        String viewInfo = "SETTINGS_MHAAS: ID: " + getResourceName(view, id) +
+                ", Type: " + viewType +
+                ", Color: #" + Integer.toHexString(color) +
+                (text.isEmpty() ? "" : ", Text: " + text);
+
+        System.out.println(viewInfo);
+
+        if (view instanceof ViewGroup) {
+            ViewGroup viewGroup = (ViewGroup) view;
+            int childCount = viewGroup.getChildCount();
+            for (int i = 0; i < childCount; i++) {
+                View child = viewGroup.getChildAt(i);
+                printViewInfo(child); // Recursively call the function for child views
+            }
+        }
+    }
+
+    private static String getResourceName(View view, int id) {
+        if (id == View.NO_ID) {
+            return "NO_ID";
+        } else {
+            try {
+                return view.getResources().getResourceName(id);
+            } catch (Exception e) {
+                return "Unknown";
+            }
+        }
+    }
+
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        // Set the background color of the fragment
         Activity activity = getActivity();
         if (activity == null) {
             return;

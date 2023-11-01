@@ -20,6 +20,16 @@
     <color name="setup_wizard_wifi_color_dark">#89ffffff</color>
     <color name="setup_wizard_wifi_color_light">#89000000</color>
 
+    <color name="black">#000000</color>
+
+    <color name="lock_pattern_background">#00000000</color>
+
+    <color name="settings_bg">#eff1f2</color>
+
+    <color name="fingerprint_title_area_bg">?android:attr/colorAccent</color>
+    <color name="fingerprint_title_color">#ffffffff</color>
+    <color name="fingerprint_message_color">#de000000</color>
+
     <color name="running_processes_system_ram">#ff384248</color>
     <color name="running_processes_free_ram">#ffced7db</color>
 

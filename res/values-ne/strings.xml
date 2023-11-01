@@ -272,7 +272,10 @@
     <string name="lock_after_timeout_summary_with_exception" msgid="3441806647509073124">"<xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g> ले अनलक अवस्थामा राखेको बेलाबाहेक टाइमआउटपछि <xliff:g id="TIMEOUT_STRING">%1$s</xliff:g>"</string>
     <string name="owner_info_settings_title" msgid="3555626140700093017">"लक स्क्रिनमा टेक्स्ट थपियोस्"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"कुनै पनि होइन"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"उदाहरण, Joe को Android।"</string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"उदाहरण, Joe को ethOS।"</string>
+    <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"लक स्क्रिनमा प्रोफाइलको जानकारी देखाउनुहोस्"</string>
+    <string name="Accounts_settings_title" msgid="8434263183710375412">"खाताहरू"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"लोकेसन"</string>
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"लोकेसन प्रयोग गरियोस्"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"निष्क्रिय"</string>
@@ -1108,7 +1111,11 @@
     <string name="wifi_tether_carrier_unsupport_dialog_title" msgid="3089432578433978073">"टेदरिङ उपलब्ध छैन"</string>
     <string name="wifi_tether_carrier_unsupport_dialog_content" msgid="5920421547607921112">"यससम्बन्धी थप जानकारी प्राप्त गर्न आफ्नो मोबाइल सेवा प्रदायकलाई सम्पर्क गर्नुहोस्"</string>
     <string name="wifi_tether_enabled_subtext" msgid="5085002421099821056">"<xliff:g id="NETWORK_SSID">%1$s</xliff:g> सक्रिय छ"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"पोर्टेबल Wi-Fi हटस्पट त्रुटि"</string>
+    <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Wi-Fi हटस्पट सेटअप गर्नुहोस्"</string>
+    <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Wi-Fi हटस्पट सेटअप"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK हटस्पट"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"यो नेटवर्क सुरक्षित गर्ने हो?"</string>
     <string name="wifi_add_app_single_network_saving_summary" msgid="7366337245410388895">"सुरक्षित गर्दै…"</string>
     <string name="wifi_add_app_single_network_saved_summary" msgid="7135016314713158289">"सेभ गरियो"</string>
@@ -1306,8 +1313,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIM PIN कार्य बिफल भयो!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"प्रणाली  अद्यावधिकहरू"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android संस्करण"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android को सुरक्षासम्बन्धी अपडेट"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS संस्करण"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS को सुरक्षासम्बन्धी अपडेट"</string>
     <string name="model_info" msgid="8997566254717810904">"मोडेल"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"हार्डवेयरको संस्करण"</string>
     <string name="manufactured_year" msgid="3401517138700926475">"उत्पादन गरिएको वर्ष"</string>
@@ -1383,7 +1390,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"<xliff:g id="NAME">^1</xliff:g> मा भएका एपहरू, तस्बिरहरु, र डेटाको प्रयोग गर्न, यसलाई पुन: घुसाउनुहोस्।\n\nवैकल्पिक रूपमा, यन्त्र उपलब्ध नभएको खण्डमा यस भण्डारणलाई भुल्नको लागि रोज्न सक्नुहुनेछ।\n\nयदि तपाईँले भुल्ने विकल्प रोज्नु हुन्छ भने, डिभाइसमा भएका सम्पूर्ण डेटा सदाको लागि नष्ट हुनेछ।\n\nतपाईँले पछि पनि एपहरू पुन: स्थापना गर्न सक्नुहुन्छ तर यस डिभाइसमा भण्डारण भएका डेटा नष्ट हुनेछ।"</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g> भुल्नुभयो?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"यो <xliff:g id="NAME">^1</xliff:g> मा भण्डारण गरिएका सबै एपहरू, फोटोहरू, र डेटा सधैंका लागि नष्ट हुनेछन्।"</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"सिस्टममा Android संस्करण <xliff:g id="VERSION">%s</xliff:g> चलाउनका लागि प्रयोग भएका फाइलहरू समावेश छन्"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"सिस्टममा ethOS संस्करण <xliff:g id="VERSION">%s</xliff:g> चलाउनका लागि प्रयोग भएका फाइलहरू समावेश छन्"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"गेस्ट मोड प्रयोगकर्ताहरू SD कार्ड फर्म्याट गर्न सक्दैनन्"</string>
     <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"<xliff:g id="NAME">^1</xliff:g> ढाँचा मिलाइदै ..."</string>
     <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"<xliff:g id="NAME">^1</xliff:g> फर्म्याट भइरहेको बेला यसलाई नहटाउनुहोस्।"</string>
@@ -1792,7 +1799,8 @@
     <string name="force_stop_dlg_title" msgid="86745852555490146">"बलपूर्वक रोक्ने हो?"</string>
     <string name="force_stop_dlg_text" msgid="1527286468544457368">"यदि तपाईँले एपलाई जबर्जस्ती रोक्नु भएको खण्डमा त्यसले चाहेअनुसार काम नगर्न सक्छ।"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"एप असक्षम गर्नुहोस्"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"तपाईंले यो एपलाई असक्षम पार्नुभयो भने Android र अन्य एपहरूले अब उप्रान्त अपेक्षाअनुसार कार्य नगर्न सक्छन्। स्मरण रहोस्, तपाईं यो एप तपाईंको यन्त्रसँग पहिल्यै स्थापना भएर आएको हुँदा तपाईं यसलाई मेट्न सक्नुहुन्न। यो एप असक्षम पारेर, तपाईं यसलाई निष्क्रिय पार्नुहुन्छ र यसलाई आफ्नो डिभाइसमा लुकाउनुहुन्छ।"</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"तपाईंले यो एपलाई असक्षम पार्नुभयो भने ethOS र अन्य एपहरूले अब उप्रान्त अपेक्षाअनुसार कार्य नगर्न सक्छन्। स्मरण रहोस्, तपाईं यो एप तपाईंको यन्त्रसँग पहिल्यै स्थापना भएर आएको हुँदा तपाईं यसलाई मेट्न सक्नुहुन्न। यो एप असक्षम पारेर, तपाईं यसलाई निष्क्रिय पार्नुहुन्छ र यसलाई आफ्नो डिभाइसमा लुकाउनुहुन्छ।"</string>
+    <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"सूचनाहरू बन्द गर्नुहोस्?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"स्टोर"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"एपका विवरणहरू"</string>
     <string name="app_install_details_summary" msgid="2013043219249992373">"<xliff:g id="APP_STORE">%1$s</xliff:g>बाट इन्स्टल गरिएको एप"</string>
@@ -2582,7 +2590,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"पृष्ठभूमि"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"फ‍ोरग्राउन्ड"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"भन्डार गरिएको"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"निवासी"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"कर्नेल"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3077,11 +3085,11 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"ब्लुटुथ, ड्राइभिङ मोड"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"ब्लुटुथ, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"ब्लुटुथ"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, ड्राइभिङ मोड, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"ब्लुटुथ, Android Auto, ड्राइभिङ मोड"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"ब्लुटुथ, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"ब्लुटुथ, Android Auto"</string>
-    <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC अफ भएकाले उपलब्ध नभएको"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, ड्राइभिङ मोड, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"ब्लुटुथ, ethOS Auto, ड्राइभिङ मोड"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"ब्लुटुथ, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"ब्लुटुथ, ethOS Auto"</string>
+    <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC निष्क्रिय रहेकाले उपलब्ध नभएको"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"यो सुवधा प्रयोग गर्न सर्वप्रथम भुक्तानी एप इन्स्टल गर्नुहोस्"</string>
     <string name="app_and_notification_dashboard_summary" msgid="8047683010984186106">"हालैका एपहरू, डिफल्ट एपहरू"</string>
     <string name="notification_settings_work_profile" msgid="6076211850526353975">"कार्य प्रोफाइलका एपहरूको सूचनामाथि पहुँच छैन।"</string>
@@ -3483,7 +3491,8 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"कुनै पनि होइन"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">"कुनै स्थापित एपहरूले सूचना पहुँच अनुरोध गरेका छैनन्।"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"सूचना हेर्ने अनुमति दिइयोस्"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android १२ मा Android को एड्याप्टिभ सूचनाहरू नामक सुविधालाई परिष्कृत सूचनाहरू नामक सुविधाले प्रतिस्थापन गरेको छ। यो सुविधाले कारबाही तथा जवाफसम्बन्धी सुझाव देखाउँछ र तपाईंका सूचनाहरू व्यवस्थित गर्छ। \n\nपरिष्कृत सूचनाहरू नामक सुविधाले सूचनामा उल्लिखित सम्पर्क व्यक्तिको नाम र म्यासेज जस्ता व्यक्तिगत जानकारीलगायतका सामग्री हेर्न तथा प्रयोग गर्न सक्छ। यो सुविधाले फोन उठाउने तथा \'बाधा नपुऱ्याउनुहोस्\' मोड नियन्त्रण गर्ने कार्यसहित सूचनाहरू हटाउने वा सूचनाहरूको जवाफ दिने कार्य पनि गर्न सक्छ।"</string>
+    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> लाई सूचनामाथि पहुँच राख्ने अनुमति दिने हो?"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ethOS १२ मा ethOS को अनुकूल पार्न मिल्ने सूचनाहरू नामक सुविधालाई परिष्कृत सूचनाहरू नामक सुविधाले प्रतिस्थापन गरेको छ। यो सुविधाले कारबाही तथा जवाफसम्बन्धी सुझाव देखाउँछ र तपाईंका सूचनाहरू व्यवस्थित गर्छ। \n\nपरिष्कृत सूचनाहरू नामक सुविधाले सूचनामा उल्लिखित सम्पर्क व्यक्तिको नाम र म्यासेज जस्ता व्यक्तिगत जानकारीलगायतका सामग्री हेर्न तथा प्रयोग गर्न सक्छ। यो सुविधाले फोन उठाउने तथा \'बाधा नपुऱ्याउनुहोस्\' मोड नियन्त्रण गर्ने कार्यसहित सूचनाहरू हटाउने वा सूचनाहरूको जवाफ दिने कार्य पनि गर्न सक्छ।"</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g> लाई सूचना पठाउने तथा हेर्ने अनुमति दिने हो?"</string>
     <string name="notification_listener_security_warning_summary" msgid="1131986567509818121">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> एपले कन्ट्याक्टका नाम, फोटो र तपाईंले प्राप्त गर्नुभएका म्यासेजमा लेखिएका कुरालगायतका व्यक्तिगत जानकारीलगायतका सबै सूचनाहरू पढ्न तथा हेर्न सक्ने छ। यो एपले सूचनाहरू स्नुज गर्ने वा हटाउने वा सूचनामा रहेका बटनहरू प्रयोग गरी फोन उठाउने जस्ता विभिन्न कार्यहरू पनि गर्न सक्ने छ। \n\nसाथै, यो एपले Do Not Disturb अन वा अफ गर्न र सम्बन्धित सेटिङ परिवर्तन गर्न पनि सक्ने छ।"</string>
     <string name="nls_warning_prompt" msgid="1486887096703743841">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> एपले निम्न कुराहरू गर्न सक्ने छ:"</string>
@@ -3561,8 +3570,8 @@
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"\'बाधा नपुर्‍याउनुहोस्\' सुविधालाई अनुमति दिइयोस्"</string>
     <string name="zen_access_empty_text" msgid="3779921853282293080">"कुनै पनि स्थापित एपहरू द्वारा \'बाधा नपुर्‍याउनुहोस्\' सेटिङ अन हुँदाको अनुमति को माग गरेका छैनन्"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"तपाईंले यो एपलाई सूचना पठाउने अनुमति दिनुभएको छैन"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"तपाईंको अनुरोधबमोजिम Android ले सूचनाहरूको यस कोटिलाई यो डिभाइसमा देखिन दिइरहेको छैन"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"तपाईंको अनुरोधबमोजिम Android ले सूचनाहरूको यस समूहलाई यो डिभाइसमा देखाउन दिइरहेको छैन"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"तपाईंको अनुरोधबमोजिम ethOS ले सूचनाहरूको यस कोटिलाई यो डिभाइसमा देखिन दिइरहेको छैन"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"तपाईंको अनुरोधबमोजिम ethOS ले सूचनाहरूको यस समूहलाई यो डिभाइसमा देखाउन दिइरहेको छैन"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"यो एपले सूचना पठाउँदैन"</string>
     <string name="notification_channels" msgid="1502969522886493799">"कोटिहरू"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"अन्य"</string>
@@ -3964,7 +3973,9 @@
     <string name="display_dashboard_summary" msgid="1599453894989339454">"अँध्यारो थिम, फन्टको आकार, चमक"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> मध्ये औसत <xliff:g id="USED_MEMORY">%1$s</xliff:g> प्रयोग भएको छ"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> रूपमा साइन इन गरिएको छ"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"अपडेट गरी Android <xliff:g id="VERSION">%1$s</xliff:g> बनाइएको छ"</string>
+    <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> डिफल्ट छ"</string>
+    <string name="backup_disabled" msgid="4503062265560959320">"ब्याकअप असक्षम गरियो"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"अपडेट गरी ethOS <xliff:g id="VERSION">%1$s</xliff:g> बनाइएको छ"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"अद्यावधिक उपलब्ध छ"</string>
     <string name="disabled_by_policy_title" msgid="6852347040813204503">"कार्यसम्बन्धी नीतिका आधारमा ब्लक गरिएको छ"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"भोल्युम परिवर्तन गर्न सकिँदैन"</string>
@@ -4708,7 +4719,7 @@
     <string name="wfc_disclaimer_location_desc_text" msgid="1417004513415772582">"तपाईंले यो सेवा प्रयोग गरेर आपत्कालीन अवस्थामा कल गर्दा तपाईंका सेवा प्रदायकले तपाईंको लोकेसन सङ्कलन गर्न सक्छ।\n\nविस्तृत विवरणका लागि सेवा प्रदायककको गोपनीयता नीति हेर्नुहोस्।"</string>
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"तपाईं बाँकी जुनसुकै समय वा डेटामाथिको पहुँच गुमाउन सक्नुहुन्छ। हटाउनुभन्दा पहिले आफ्ना सेवा प्रदायकमार्फत जाँच गर्नुहोस्।"</string>
     <string name="content_capture" msgid="868372905432812238">"एपको सामग्री"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"एपहरूलाई Android सिस्टममा सामग्री पठाउने अनुमति दिइयोस्"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"एपहरूलाई ethOS सिस्टममा सामग्री पठाउने अनुमति दिइयोस्"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"सिस्टमको हिप डम्प क्याप्चर गर्नुहोस्"</string>
     <string name="development_memtag_page_title" msgid="3546667618748029188">"मेमोरी ट्यागिङ एक्स्टेन्सन"</string>
     <string name="development_memtag_intro" msgid="8032596625527637164">"मेमोरी ट्यागिङ एक्स्टेन्सन (MTE) का सहायताले तपाईंको एपमा भएका मेमोरीको सुरक्षासम्बन्धी समस्याहरू सजिलै पत्ता लगाउन तथा उक्त एपमा भएको नेटिभ कोड अझ सुरक्षित बनाउन सकिन्छ।"</string>
@@ -4724,7 +4735,7 @@
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"प्रणालीको हिप डम्प समावेश गर्दै"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"प्रणालीको हिप डम्प समावेश गर्न सकिएन"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"प्रणालीका हिप डम्पहरू स्वत: समावेश गर्नुहोस्"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Android प्रणालीले अत्यधिक मेमोरी प्रयोग गर्दा यसका लागि स्वतः हिप डम्प समावेश गर्नुहोस्"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ethOS प्रणालीले अत्यधिक मेमोरी प्रयोग गर्दा यसका लागि स्वतः हिप डम्प समावेश गर्नुहोस्"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"डिस्कनेक्ट गर्नुहोस्"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"आपताकालीन कल"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"तपाईंको सेवा प्रदायकले Wi‑Fi मार्फत आपत्‌कालीन कल गर्ने सुविधा समर्थन गदैन। \nअपतकालीन कल गर्नका लागि उक्त यन्त्रले स्वतः सेलुलर नेटवर्क प्रयोग गर्छ।\n सेलुलर नेटवर्कको कभरेज राम्रो भएका क्षेत्रमा मात्र अपतकालीन कल गर्न सम्भव हुन्छ।"</string>
