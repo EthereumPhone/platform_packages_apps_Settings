@@ -18,7 +18,7 @@
 <!-- SUW related themes -->
 <resources>
     <style name="GlifTheme" parent="SudThemeGlif.DayNight">
-        <!-- For all AndroidX Alert Dialogs -->
+        <!-- For all ethOSX Alert Dialogs -->
         <item name="alertDialogTheme">@style/ThemeOverlay.AlertDialog</item>
         <item name="android:windowBackground">?android:attr/colorBackground</item>
         <item name="*android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>
@@ -37,7 +37,7 @@
     </style>
 
     <style name="GlifTheme.Light" parent="SudThemeGlif.Light">
-        <!-- For all AndroidX Alert Dialogs -->
+        <!-- For all ethOSX Alert Dialogs -->
         <item name="alertDialogTheme">@style/ThemeOverlay.AlertDialog</item>
         <item name="android:windowBackground">?android:attr/colorBackground</item>
         <item name="*android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>
@@ -55,7 +55,7 @@
     </style>
 
     <style name="GlifV2Theme" parent="SudThemeGlifV2.DayNight">
-        <!-- For all AndroidX Alert Dialogs -->
+        <!-- For all ethOSX Alert Dialogs -->
         <item name="alertDialogTheme">@style/GlifV2ThemeAlertDialog</item>
         <item name="android:windowBackground">?android:attr/colorBackground</item>
         <item name="*android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>
@@ -74,7 +74,7 @@
     </style>
 
     <style name="GlifV2Theme.Light" parent="SudThemeGlifV2.Light">
-        <!-- For all AndroidX Alert Dialogs -->
+        <!-- For all ethOSX Alert Dialogs -->
         <item name="alertDialogTheme">@style/GlifV2ThemeAlertDialog.Light</item>
         <item name="android:windowBackground">?android:attr/colorBackground</item>
         <item name="*android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>
@@ -92,7 +92,7 @@
     </style>
 
     <style name="GlifV3Theme" parent="SudThemeGlifV3.DayNight">
-        <!-- For all AndroidX Alert Dialogs -->
+        <!-- For all ethOSX Alert Dialogs -->
         <item name="alertDialogTheme">@style/GlifV2ThemeAlertDialog</item>
         <item name="android:windowBackground">?android:attr/colorBackground</item>
         <item name="*android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>
@@ -116,7 +116,7 @@
     </style>
 
     <style name="GlifV3Theme.Light" parent="SudThemeGlifV3.Light">
-        <!-- For all AndroidX Alert Dialogs -->
+        <!-- For all ethOSX Alert Dialogs -->
         <item name="alertDialogTheme">@style/GlifV2ThemeAlertDialog.Light</item>
         <item name="android:windowBackground">?android:attr/colorBackground</item>
         <item name="*android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>
@@ -134,7 +134,7 @@
     </style>
 
     <style name="GlifV4Theme" parent="SudThemeGlifV4.DayNight">
-        <!-- For all AndroidX Alert Dialogs -->
+        <!-- For all ethOSX Alert Dialogs -->
         <item name="alertDialogTheme">@style/GlifV2ThemeAlertDialog</item>
         <item name="android:windowBackground">?android:attr/colorBackground</item>
         <item name="*android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>
@@ -153,7 +153,7 @@
     </style>
 
     <style name="GlifV4Theme.Light" parent="SudThemeGlifV4.Light">
-        <!-- For all AndroidX Alert Dialogs -->
+        <!-- For all ethOSX Alert Dialogs -->
         <item name="alertDialogTheme">@style/GlifV2ThemeAlertDialog.Light</item>
         <item name="android:windowBackground">?android:attr/colorBackground</item>
         <item name="*android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>

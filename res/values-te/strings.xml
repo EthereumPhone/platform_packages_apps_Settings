@@ -253,7 +253,10 @@
     <string name="lock_after_timeout_summary_with_exception" msgid="3441806647509073124">"<xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g> అన్‌లాక్ చేసి ఉంచినప్పుడు మినహా, గడువు ముగిసిన <xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> తర్వాత లాక్ అవుతుంది"</string>
     <string name="owner_info_settings_title" msgid="3555626140700093017">"లాక్ స్క్రీన్‌పై ఉండే టెక్స్ట్"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"ఏమీ లేదు"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ఉదా., రాజేష్ గారి Android."</string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ఉదా., రాజేష్ గారి ethOS."</string>
+    <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"లాక్ స్క్రీన్‌లో ప్రొఫైల్ సమాచారాన్ని చూపు"</string>
+    <string name="Accounts_settings_title" msgid="8434263183710375412">"ఖాతాలు"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"లొకేషన్"</string>
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"లొకేషన్‌ను ఉపయోగించండి"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"ఆఫ్"</string>
@@ -709,10 +712,12 @@
     <string name="show_refresh_rate_summary" msgid="3558118122374609663">"ప్రస్తుత డిస్‌ప్లేకు చెందిన రిఫ్రెష్ రేట్ చూపండి"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"NFC"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFC కోసం పరికరాన్ని అన్‌లాక్ చేయాలి"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"స్క్రీన్ అన్‌లాక్ అయి ఉన్నప్పుడు మాత్రమే NFC ఉపయోగాన్ని అనుమతించండి"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"యాప్ కంటెంట్‌ను NFC ద్వారా పంపడానికి సిద్ధంగా ఉంది"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"ఆఫ్‌లో ఉంది"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC ఆఫ్ చేయబడినందున అందుబాటులో లేదు"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"ఈ ఫీచర్ ప్రారంభించబడినప్పుడు, మీరు డివైజ్‌లను దగ్గరగా ఉంచి పట్టుకోవడం ద్వారా యాప్ కంటెంట్‌ను మరో NFC-సామర్థ్య డివైజ్‌కు బదిలీ చేయవచ్చు. ఉదాహరణకు, మీరు వెబ్ పేజీలు, YouTube వీడియోలు, కాంటాక్ట్‌లు మొదలైనవి బదిలీ చేయవచ్చు.\n\nడివైజ్‌లను దగ్గరగా తీసుకువచ్చి (సాధారణంగా ఒకదాని వెనుక ఒకటి ఉంచి), ఆపై మీ స్క్రీన్‌ను నొక్కండి. యాప్ బదిలీ చేయాల్సిన వాటిని గుర్తిస్తుంది."</string>
     <string name="wifi_settings" msgid="8313301946393559700">"Wi‑Fi"</string>
     <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"Wi-Fiని ఉపయోగించండి"</string>
@@ -937,7 +942,11 @@
     <string name="wifi_tether_carrier_unsupport_dialog_title" msgid="3089432578433978073">"టెథరింగ్ అందుబాటులో లేదు"</string>
     <string name="wifi_tether_carrier_unsupport_dialog_content" msgid="5920421547607921112">"వివరాల కోసం మీ క్యారియర్‌ను కాంటాక్ట్ చేయండి"</string>
     <string name="wifi_tether_enabled_subtext" msgid="5085002421099821056">"<xliff:g id="NETWORK_SSID">%1$s</xliff:g> యాక్టివ్‌గా ఉంది"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"Android హాట్‌స్పాట్"</string>
+    <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"పోర్టబుల్ Wi‑Fi హాట్‌స్పాట్ ఎర్రర్"</string>
+    <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Wi‑Fi హాట్‌స్పాట్‌ను సెటప్ చేయండి"</string>
+    <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Wi‑Fi హాట్‌స్పాట్ సెటప్"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK హాట్‌స్పాట్"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOS హాట్‌స్పాట్"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"ఈ నెట్‌వర్క్‌ను సేవ్ చేయాలా?"</string>
     <string name="wifi_add_app_single_network_saving_summary" msgid="7366337245410388895">"సేవ్ చేస్తోంది…"</string>
     <string name="wifi_add_app_single_network_saved_summary" msgid="7135016314713158289">"సేవ్ అయింది"</string>
@@ -1130,8 +1139,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"సిమ్ పిన్ చర్య విఫలమైంది!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"సిస్టమ్ అప్‌డేట్‌లు"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android వెర్షన్"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android సెక్యూరిటీ అప్‌డేట్"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS వెర్షన్"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS సెక్యూరిటీ అప్‌డేట్"</string>
     <string name="model_info" msgid="8997566254717810904">"మోడల్"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"హార్డ్‌వేర్ వెర్షన్"</string>
     <string name="manufactured_year" msgid="3401517138700926475">"తయారు చేసిన సంవత్సరం"</string>
@@ -1192,7 +1201,17 @@
     <string name="storage_menu_manage" msgid="7465522758801346408">"నిల్వను మేనేజ్ చేయండి"</string>
     <string name="storage_free_up_space_title" msgid="281047807372131975">"స్పేస్‌ను ఖాళీ చేయండి"</string>
     <string name="storage_free_up_space_summary" msgid="6650027929735481350">"స్పేస్‌ను మేనేజ్ చేయడానికి, అలాగే ఖాళీ చేయడానికి Files యాప్‌నకు వెళ్లండి"</string>
-    <string name="storage_other_users" msgid="7017206190449510992">"ఇతర యూజర్‌లు"</string>
+    <string name="storage_title_usb" msgid="1332488715547400452">"USB కంప్యూటర్ కనెక్షన్"</string>
+    <string name="usb_connection_category" msgid="2288543238378907242">"ఇలా కనెక్ట్ చేయండి"</string>
+    <string name="usb_mtp_title" msgid="9068009584556422314">"మీడియా పరికరం (MTP)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Windowsలో మీడియా ఫైళ్లను బదిలీ చేయడానికి లేదా Macలో ethOS ఫైల్ బదిలీని ఉపయోగించి (www.android.com/filetransferని చూడండి) బదిలీ చేయడానికి మిమ్మల్ని అనుమతిస్తుంది"</string>
+    <string name="usb_ptp_title" msgid="4496529268189091846">"కెమెరా (PTP)"</string>
+    <string name="usb_ptp_summary" msgid="8382539472311655671">"కెమెరా సాఫ్ట్‌వేర్‌ను ఉపయోగించి ఫోటోలను బదిలీ చేయడానికి, MTPకి సపోర్ట్ లేని కంప్యూటర్లలో ఏవైనా ఫైళ్లను బదిలీ చేయడానికి మిమ్మల్ని అనుమతిస్తుంది"</string>
+    <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
+    <string name="usb_midi_summary" msgid="1842457325845863840">"MIDI ప్రారంభిత యాప్‌లు USB ద్వారా మీ కంప్యూటర్‌లోని MIDI సాఫ్ట్‌వేర్‌తో పని చేసేలా అనుమతిస్తుంది."</string>
+    <string name="storage_other_users" msgid="7017206190449510992">"ఇతర వినియోగదారులు"</string>
+    <string name="storage_internal_title" msgid="3265098802217660829">"పరికర స్టోరేజ్‌"</string>
+    <string name="storage_external_title" msgid="8984075540312137135">"పోర్టబుల్ స్టోరేజ్‌"</string>
     <string name="storage_size_large" msgid="1155308277890194878">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small>""</string>
     <string name="storage_mount_success" msgid="393972242641313135">"<xliff:g id="NAME">%1$s</xliff:g> మౌంట్ చేయబడింది"</string>
     <string name="storage_mount_failure" msgid="3667915814876418011">"<xliff:g id="NAME">%1$s</xliff:g>ని మౌంట్ చేయలేకపోయింది"</string>
@@ -1205,7 +1224,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"ఈ <xliff:g id="NAME">^1</xliff:g> కలిగి ఉన్న యాప్‌లు, ఫోటోలు లేదా డేటాను ఉపయోగించడానికి, దాన్ని మళ్లీ ఇన్‌సర్ట్ చేయండి. \n\nపరికరం అందుబాటులో లేకపోతే ప్రత్యామ్నాయంగా మీరు ఈ స్టోరేజ్‌ను విస్మరించేలా ఎంచుకోవచ్చు. \n\nమీరు విస్మరించాలని ఎంచుకుంటే, పరికరంలో ఉన్న మొత్తం డేటాను శాశ్వతంగా కోల్పోతారు. \n\nమీరు తర్వాత యాప్‌లను మళ్లీ ఇన్‌స్టాల్ చేయవచ్చు, కానీ ఈ పరికరంలో స్టోర్ చేసిన వాటి డేటాను కోల్పోతారు."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g>ని విస్మరించాలా?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"ఈ <xliff:g id="NAME">^1</xliff:g>లో స్టోర్ చేయబడిన అన్ని యాప్‌లు, ఫోటోలు ఇంకా డేటాను శాశ్వతంగా కోల్పోతారు."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"సిస్టమ్‌లో Android వెర్షన్ <xliff:g id="VERSION">%s</xliff:g>ను రన్ చేయడానికి అవసరమైన ఫైళ్లు ఉంటాయి"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"సిస్టమ్‌లో ethOS వెర్షన్ <xliff:g id="VERSION">%s</xliff:g>ను రన్ చేయడానికి అవసరమైన ఫైళ్లు ఉంటాయి"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"గెస్ట్ మోడ్ యూజర్స్ SD కార్డ్‌లను ఫార్మాట్ చేయలేరు"</string>
     <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"<xliff:g id="NAME">^1</xliff:g>ని ఫార్మాట్ చేస్తోంది…"</string>
     <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"<xliff:g id="NAME">^1</xliff:g>ని ఫార్మాట్ చేసే సమయంలో దీనిని తీసివేయవద్దు."</string>
@@ -1613,7 +1632,8 @@
     <string name="force_stop_dlg_title" msgid="86745852555490146">"ఫోర్స్ స్టాప్ చేయాలా?"</string>
     <string name="force_stop_dlg_text" msgid="1527286468544457368">"ఏదైనా యాప్‌ను మీరు ఫోర్స్ స్టాప్ చేస్తే, అది సరిగ్గా పని చేయకపోవచ్చు."</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"యాప్‌ను నిలిపివేయి"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"మీరు ఈ యాప్‌ను నిలిపివేస్తే, Android మరియు ఇతర యాప్‌లు ఇకపై ఉద్దేశించిన రీతిలో పని చేయకపోవచ్చు. గుర్తుంచుకోండి, ఈ యాప్ మీ పరికరంలో ముందుగానే ఇన్‌స్టాల్ చేసి, అందించినది అయినందున మీరు దీనిని తొలగించలేరు. నిలిపివేయడం ద్వారా, మీరు ఈ యాప్‌ను ఆఫ్ చేసి, మీ పరికరంలో దానిని దాచవచ్చు."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"మీరు ఈ యాప్‌ను నిలిపివేస్తే, ethOS మరియు ఇతర యాప్‌లు ఇకపై ఉద్దేశించిన రీతిలో పని చేయకపోవచ్చు. గుర్తుంచుకోండి, ఈ యాప్ మీ పరికరంలో ముందుగానే ఇన్‌స్టాల్ చేసి, అందించినది అయినందున మీరు దీనిని తొలగించలేరు. నిలిపివేయడం ద్వారా, మీరు ఈ యాప్‌ను ఆఫ్ చేసి, మీ పరికరంలో దానిని దాచవచ్చు."</string>
+    <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"నోటిఫికేషన్‌లను ఆపివేయాలా?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"స్టోర్"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"యాప్ వివరాలు"</string>
     <string name="app_install_details_summary" msgid="2013043219249992373">"యాప్ <xliff:g id="APP_STORE">%1$s</xliff:g> నుండి ఇన్‌స్టాల్ చేయబడింది"</string>
@@ -2362,7 +2382,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"బ్యాక్‌గ్రౌండ్"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"ముందుభాగం"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"కాష్ చేయబడింది"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"స్థానికం"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"కెర్నల్"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -2389,7 +2409,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"వాయిస్ ఇన్‌పుట్ &amp; అవుట్‌పుట్"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"వాయిస్ ఇన్‌పుట్ &amp; అవుట్‌పుట్ సెట్టింగ్‌లు"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"వాయిస్ సెర్చ్"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android కీబోర్డ్"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS కీబోర్డ్"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"వాయిస్ ఇన్‌పుట్ సెట్టింగ్‌లు"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"వాయిస్ ఇన్‌పుట్"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"వాయిస్ ఇన్‌పుట్ సర్వీస్‌లు"</string>
@@ -2871,10 +2891,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"బ్లూటూత్, డ్రైవింగ్ మోడ్"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"బ్లూటూత్, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"బ్లూటూత్"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"బ్లూటూత్, Android Auto, డ్రైవింగ్ మోడ్, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"బ్లూటూత్, Android Auto, డ్రైవింగ్ మోడ్"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"బ్లూటూత్, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"బ్లూటూత్, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"బ్లూటూత్, ethOS Auto, డ్రైవింగ్ మోడ్, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"బ్లూటూత్, ethOS Auto, డ్రైవింగ్ మోడ్"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"బ్లూటూత్, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"బ్లూటూత్, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC ఆఫ్‌లో ఉన్నందున అందుబాటులో లేదు"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"ఉపయోగించాలంటే, ముందు ఒక పేమెంట్ యాప్‌ను ఇన్‌స్టాల్ చేయండి"</string>
     <string name="app_and_notification_dashboard_summary" msgid="8047683010984186106">"ఇటీవలి యాప్‌లు, ఆటోమేటిక్ యాప్‌లు"</string>
@@ -3279,7 +3299,8 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"ఏమీ లేవు"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">"ఇన్‌స్టాల్ చేసిన అనువర్తనాలేవీ నోటిఫికేషన్ యాక్సెస్‌ను రిక్వెస్ట్ చేయలేదు."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"నోటిఫికేషన్ యాక్సెస్‌ను అనుమతించండి"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12లో Android అనుకూల నోటిఫికేషన్‌లను, \'మెరుగైన నోటిఫికేషన్‌లు\' రీప్లేస్ చేశాయి. ఈ ఫీచర్, సూచించిన చర్యలను, రిప్లయిలను చూపించి, మీ నోటిఫికేషన్‌లను ఆర్గనైజ్ చేస్తుంది. \n\nకాంటాక్ట్ పేర్లు, మెసేజ్‌లు లాంటి వ్యక్తిగత సమాచారంతో సహా నోటిఫికేషన్ కంటెంట్‌ను \'మెరుగైన నోటిఫికేషన్‌లు\' యాక్సెస్ చేయవచ్చు. ఫోన్ కాల్స్‌కు సమాధానమివ్వడం, \'అంతరాయం కలిగించవద్దు\' ఆప్షన్‌ను కంట్రోల్ చేయడం లాంటి నోటిఫికేషన్‌లను విస్మరించడం లేదా ప్రతిస్పందించడం కూడా ఈ ఫీచర్ చేయగలదు."</string>
+    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> కోసం నోటిఫికేషన్ యాక్సెస్ అనుమతించాలా?"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ethOS 12లో ethOS అనుకూల నోటిఫికేషన్‌లను, \'మెరుగైన నోటిఫికేషన్‌లు\' రీప్లేస్ చేశాయి. ఈ ఫీచర్, సూచించిన చర్యలను, రిప్లయిలను చూపించి, మీ నోటిఫికేషన్‌లను ఆర్గనైజ్ చేస్తుంది. \n\nకాంటాక్ట్ పేర్లు, మెసేజ్‌లు లాంటి వ్యక్తిగత సమాచారంతో సహా నోటిఫికేషన్ కంటెంట్‌ను \'మెరుగైన నోటిఫికేషన్‌లు\' యాక్సెస్ చేయవచ్చు. ఫోన్ కాల్స్‌కు సమాధానమివ్వడం, \'అంతరాయం కలిగించవద్దు\' ఆప్షన్‌ను కంట్రోల్ చేయడం లాంటి నోటిఫికేషన్‌లను విస్మరించడం లేదా ప్రతిస్పందించడం కూడా ఈ ఫీచర్ చేయగలదు."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g> కోసం నోటిఫికేషన్ యాక్సెస్‌ను అనుమతించాలా?"</string>
     <string name="notification_listener_security_warning_summary" msgid="1131986567509818121">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> యాప్ కాంటాక్ట్ పేర్లు, ఫోటోలు, ఇంకా మీరు అందుకున్న మెసేజ్‌ల టెక్స్ట్ వంటి వ్యక్తిగత సమాచారంతో పాటు అన్ని నోటిఫికేషన్‌లను చదవగలదు. ఈ యాప్ ఫోన్ కాల్స్‌కు సమాధానం ఇవ్వడంతో పాటు నోటిఫికేషన్‌లను తాత్కాలికంగా వాయిదా వేయగలదు లేదా విస్మరించగలదు లేదా నోటిఫికేషన్‌లలోని బటన్‌లపై చర్యను తీసుకోగలదు. \n\nదీని వలన, \'అంతరాయం కలిగించవద్దు\' ఎంపికను ఆన్ చేయగల లేదా ఆఫ్ చేయగలిగే సామర్థ్యం ఈ యాప్‌నకు వస్తుంది, సంబంధిత సెట్టింగ్‌లు కూడా మారతాయి."</string>
     <string name="nls_warning_prompt" msgid="1486887096703743841">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> యాప్ వీటిని చేయగలుగుతుంది:"</string>
@@ -3346,8 +3367,8 @@
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"\'అంతరాయం కలిగించవద్దు\' ఫీచర్‌ను అనుమతించండి"</string>
     <string name="zen_access_empty_text" msgid="3779921853282293080">"ఇన్‌స్టాల్ చేసిన యాప్‌లేవీ అంతరాయం కలిగించవద్దు యాక్సెస్ రిక్వెస్ట్ చేయలేదు"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"మీరు ఈ యాప్ నుండి నోటిఫికేషన్‌లను అనుమతించలేదు"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"మీ అభ్యర్ధన మేరకు Android, ఈ పరికరంలో ఈ వర్గం యొక్క నోటిఫికేషన్‌లను కనిపించకుండా బ్లాక్ చేస్తోంది"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"మీ అభ్యర్ధన మేరకు Android, ఈ పరికరంలో ఈ గ్రూప్‌ యొక్క నోటిఫికేషన్‌లను కనిపించకుండా బ్లాక్ చేస్తోంది"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"మీ అభ్యర్ధన మేరకు ethOS, ఈ పరికరంలో ఈ వర్గం యొక్క నోటిఫికేషన్‌లను కనిపించకుండా బ్లాక్ చేస్తోంది"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"మీ అభ్యర్ధన మేరకు ethOS, ఈ పరికరంలో ఈ గ్రూప్‌ యొక్క నోటిఫికేషన్‌లను కనిపించకుండా బ్లాక్ చేస్తోంది"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"ఈ యాప్ నోటిఫికేషన్‌లను పంపదు"</string>
     <string name="notification_channels" msgid="1502969522886493799">"కేటగిరీలు"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"ఇతరం"</string>
@@ -3736,7 +3757,9 @@
     <string name="display_dashboard_summary" msgid="1599453894989339454">"ముదురు రంగు రూపం, ఫాంట్ సైజ్, బ్రైట్‌నెస్"</string>
     <string name="memory_summary" msgid="8221954450951651735">"సగటున <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>లో <xliff:g id="USED_MEMORY">%1$s</xliff:g> మెమరీ వినియోగించబడింది"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g>‌గా సైన్ ఇన్ చేశారు"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g>కు అప్‌డేట్ చేయబడింది"</string>
+    <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ఆటోమేటిక్‌గా ఉంది"</string>
+    <string name="backup_disabled" msgid="4503062265560959320">"బ్యాకప్ నిలిపివేయబడింది"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ethOS <xliff:g id="VERSION">%1$s</xliff:g>కు అప్‌డేట్ చేయబడింది"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"అప్‌డేట్ అందుబాటులో ఉంది"</string>
     <string name="disabled_by_policy_title" msgid="6852347040813204503">"వర్క్ ప్లేస్ పాలసీ ప్రకారం బ్లాక్ చేయబడింది"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"వాల్యూమ్‌ని మార్చలేరు"</string>
@@ -4424,23 +4447,14 @@
     <string name="wfc_disclaimer_location_desc_text" msgid="1417004513415772582">"మీరు ఈ సర్వీస్‌ను ఎమర్జెన్సీ కాల్స్ కోసం ఉపయోగించినప్పుడు మీ క్యారియర్ మీ లొకేషన్‌ను సేకరించే అవకాశం ఉంది.\n\nవివరాల కోసం మీ క్యారియర్ గోప్యతా పాలసీని సందర్శించండి."</string>
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"మీరు ఏదైనా మిగిలిన సమయం లేదా డేటాకు యాక్సెస్‌ను కోల్పోవచ్చు. తీసివేసే ముందు మీ ప్రదాతతో చెక్ చేయండి."</string>
     <string name="content_capture" msgid="868372905432812238">"యాప్ కంటెంట్"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Android సిస్టమ్‌కు కంటెంట్‌ను పంపడానికి యాప్‌లను అనుమతిస్తుంది"</string>
-    <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"సిస్టమ్ హీప్ డంప్‌ను క్యాప్చర్ చేయండి"</string>
-    <string name="development_memtag_page_title" msgid="3546667618748029188">"మెమరీ ట్యాగింగ్ ఎక్స్‌టెన్షన్"</string>
-    <string name="development_memtag_intro" msgid="8032596625527637164">"మెమరీ ట్యాగింగ్ ఎక్స్‌టెన్షన్ (MTE) మీ యాప్‌లో మెమరీ భద్రతా సమస్యలను కనుగొనడాన్ని సులభతరం చేసి, దానిలోని స్థానిక కోడ్‌ను మరింత సురక్షితంగా చేస్తుంది."</string>
-    <string name="development_memtag_footer" msgid="5681925148773626562">"MTEని ఆన్ చేయడం వలన పరికరం పనితీరు నెమ్మదిగా ఉండవచ్చు."</string>
-    <string name="development_memtag_learn_more" msgid="8961984806973926704">"MTE గురించి మరింత తెలుసుకోండి"</string>
-    <string name="development_memtag_toggle" msgid="2474420239518386894">"మీరు MTEని ఆఫ్‌ చేసేంత వరకు ఎనేబుల్ చేసి ఉంచండి"</string>
-    <string name="development_memtag_reboot_message_on" msgid="8100075676107327847">"MTEని ఆన్ చేయడానికి మీరు మీ పరికరాన్ని రీస్టార్ట్ చేయవలసి ఉంటుంది."</string>
-    <string name="development_memtag_reboot_message_off" msgid="3703925647922079456">"MTEని ఆఫ్ చేయడానికి మీరు మీ పరికరాన్ని రీస్టార్ట్ చేయవలసి ఉంటుంది."</string>
-    <string name="reboot_with_mte_title" msgid="2320125810211279">"సింగిల్ సెషన్ కోసం MTEని ఎనేబుల్ చేయండి"</string>
-    <string name="reboot_with_mte_message" msgid="1232881567956207641">"సిస్టమ్ రీస్టార్ట్ అవుతుంది, మెమరీ ట్యాగింగ్ ఎక్స్‌టెన్షన్ (MTE)తో ప్రయోగాలు చేయడానికి అనుమతిస్తుంది. MTE సిస్టమ్ పనితీరు, స్థిరత్వాన్ని ప్రతికూలంగా ప్రభావితం చేయవచ్చు. తదుపరి రీబూట్‌లో రీసెట్ చేయబడుతుంది."</string>
-    <string name="reboot_with_mte_summary" msgid="3896537791216432882">"MTE ఎనేబుల్ చేయబడిన ఒక సెషన్ కోసం రీస్టార్ట్ చేయండి"</string>
-    <string name="reboot_with_mte_already_enabled" msgid="4439168867613407167">"MTE ఇప్పటికే ఎనేబుల్ చేయబడింది"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"ethOS సిస్టమ్‌కు కంటెంట్‌ను పంపడానికి యాప్‌లను అనుమతిస్తుంది"</string>
+    <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"సిస్టమ్ హీప్ డంప్‌ను క్యాప్చర్ చేయి"</string>
+    <string name="reboot_with_mte_title" msgid="9167242803901899693">"MTEతో రీబూట్ చేయండి"</string>
+    <string name="reboot_with_mte_message" msgid="7675836625682561153">"సిస్టమ్ రీబూట్ అవుతుంది, మెమరీ ట్యాగింగ్ ఎక్స్‌టెన్షన్ (MTE)తో ప్రయోగాలు చేయడానికి అనుమతిస్తుంది. MTE సిస్టమ్ పనితీరు, స్థిరత్వాన్ని ప్రతికూలంగా ప్రభావితం చేయవచ్చు. తదుపరి రీబూట్‌లో రీసెట్ చేయబడుతుంది."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"సిస్టమ్ హీప్ డంప్‌ను క్యాప్చర్ చేస్తోంది"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"సిస్టమ్ హీప్ డంప్‌ను క్యాప్చర్ చేయలేకపోయింది"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"సిస్టమ్ హీప్ డంప్‌లను ఆటోమేటిక్‌గా క్యాప్చర్ చేయి"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Android సిస్టమ్ అధిక మెమెరీని వినియోగించినప్పుడు హీప్ డంప్‌ను ఆటోమేటిక్‌గా క్యాప్చర్ చేస్తుంది"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ethOS సిస్టమ్ అధిక మెమెరీని వినియోగించినప్పుడు హీప్ డంప్‌ను ఆటోమేటిక్‌గా క్యాప్చర్ చేస్తుంది"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"డిస్‌కనెక్ట్ చేయండి"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"అత్యవసర కాల్స్‌"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Wi‑Fi కాలింగ్‌ను ఉపయోగించి అత్యవసర కాల్స్‌ను చేయడానికి మీ క్యారియర్‌కు మద్దతు లేదు.\nఅత్యవసర కాల్‌ను చేయాల్సినప్పుడు పరికరం ఆటోమేటిక్‌గా సెల్యులార్ నెట్‌వర్క్‌‌కు మారుతుంది.\nసెల్యులార్ కవరేజీ ఉన్న ప్రాంతాలలో మాత్రమే అత్యవసర కాల్స్‌ను చేయడానికి సాధ్యమవుతుంది."</string>

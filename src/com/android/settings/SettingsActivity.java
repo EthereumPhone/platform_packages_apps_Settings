@@ -36,8 +36,10 @@ import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.UserInfo;
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.content.res.Resources.Theme;
+import android.graphics.Color;
 import android.graphics.drawable.Icon;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -312,6 +314,17 @@ public class SettingsActivity extends SettingsBaseActivity
 
         setContentView(R.layout.settings_main_prefs);
 
+        // Check if dark-mode is on
+
+        int nightModeFlags = getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
+
+        if (nightModeFlags == Configuration.UI_MODE_NIGHT_NO) {
+            // Set background color to settings_bg
+            getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.settings_bg));
+        } else if (nightModeFlags == Configuration.UI_MODE_NIGHT_YES) {
+            getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.black));
+        }
+        
         getSupportFragmentManager().addOnBackStackChangedListener(this);
 
         if (savedState != null) {

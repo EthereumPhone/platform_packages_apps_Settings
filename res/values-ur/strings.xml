@@ -253,7 +253,10 @@
     <string name="lock_after_timeout_summary_with_exception" msgid="3441806647509073124">"ٹائم آؤٹ کے <xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> بعد، سوائے اس وقت جب <xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g> سے غیر مقفل رکھا ہو"</string>
     <string name="owner_info_settings_title" msgid="3555626140700093017">"مقفل اسکرین پر ٹیکسٹ شامل کریں"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"کوئی نہیں"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"‏مثلاً، Joe کا Android۔"</string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"‏مثلاً، Joe کا ethOS۔"</string>
+    <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"مقفل سکرین پر پروفائل کی معلومات دکھائیں"</string>
+    <string name="Accounts_settings_title" msgid="8434263183710375412">"اکاؤنٹس"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"مقام"</string>
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"مقام استعمال کریں"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"آف ہے"</string>
@@ -709,10 +712,12 @@
     <string name="show_refresh_rate_summary" msgid="3558118122374609663">"موجودہ ڈسپلے کی ریفریش کی شرح دکھائیں"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"NFC"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"‏NFC کے لیے آلہ کو غیر مقفل کرنے کی ضرورت ہے"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"‏NFC کو صرف اسکرین کے غیر مقفل ہونے کے وقت استعمال کرنے کی اجازت دیں"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"‏NFC کے ذریعے ایپ کا مواد ٹرانسمٹ کرنے کیلئے تیار"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"آف"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"‏دستیاب نہیں ہے کیونکہ NFC آف ہے"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"‏یہ خصوصیت آن ہونے پر، آپ آلات کو قریب میں ایک ساتھ پکڑ کر کسی دوسرے NFC کیلئے اہل آلہ میں مواد کو بیم کر سکتے ہیں۔ مثلاً، آپ ویب صفحات، YouTube ویڈيوز، رابطے وغیرہ کو بیم کر سکتے ہیں۔\n\nبس آلات کو قریب لائیں (عام طور پر پشت سے پشت) اور پھر اپنی اسکرین پر تھپتپائیں۔ ایپ اس چیز کا تعین کرتی ہے کہ کس چیز کو بیم کیا جانا ہے۔"</string>
     <string name="wifi_settings" msgid="8313301946393559700">"Wi‑Fi"</string>
     <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"‏Wi-Fi کا استعمال کریں"</string>
@@ -937,7 +942,11 @@
     <string name="wifi_tether_carrier_unsupport_dialog_title" msgid="3089432578433978073">"ٹیدرنگ دستیاب نہیں ہے"</string>
     <string name="wifi_tether_carrier_unsupport_dialog_content" msgid="5920421547607921112">"تفاصیل کے لیے اپنے کیریئر سے رابطہ کریں"</string>
     <string name="wifi_tether_enabled_subtext" msgid="5085002421099821056">"<xliff:g id="NETWORK_SSID">%1$s</xliff:g> فعال ہے"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"‏پورٹیبل Wi‑Fi ہاٹ اسپاٹ میں خرابی"</string>
+    <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"‏Wi‑Fi ہاٹ اسپاٹ کو ترتیب دیں"</string>
+    <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"‏Wi‑Fi ہاٹ اسپاٹ سیٹ اپ"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"‏ethOSAP WPA2 PSK ہاٹ اسپاٹ"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"اس نیٹ ورک کو محفوظ کریں؟"</string>
     <string name="wifi_add_app_single_network_saving_summary" msgid="7366337245410388895">"محفوظ ہو رہا ہے…"</string>
     <string name="wifi_add_app_single_network_saved_summary" msgid="7135016314713158289">"محفوظ کردہ"</string>
@@ -1130,8 +1139,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"‏SIM کے PIN کا عمل ناکام ہوگیا!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"سسٹم اپ ڈیٹس"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"‏Android ورژن"</string>
-    <string name="security_patch" msgid="4071756145347865382">"‏Android سیکیورٹی اپ ڈیٹ"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"‏ethOS ورژن"</string>
+    <string name="security_patch" msgid="4071756145347865382">"‏ethOS سیکیورٹی اپ ڈیٹ"</string>
     <string name="model_info" msgid="8997566254717810904">"ماڈل"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"ہارڈ ویئر کا ورژن"</string>
     <string name="manufactured_year" msgid="3401517138700926475">"مینوفیکچر کئے جانے کا سال"</string>
@@ -1192,6 +1201,14 @@
     <string name="storage_menu_manage" msgid="7465522758801346408">"اسٹوریج کا نظم کریں"</string>
     <string name="storage_free_up_space_title" msgid="281047807372131975">"جگہ خالی کریں"</string>
     <string name="storage_free_up_space_summary" msgid="6650027929735481350">"‏جگہ کو خالی کرنے اور اس کا نظم کرنے کے لیے Files ایپ پر جائیں"</string>
+    <string name="storage_title_usb" msgid="1332488715547400452">"‏USB کمپیوٹر کنکشن"</string>
+    <string name="usb_connection_category" msgid="2288543238378907242">"مربوط ہوں بطور"</string>
+    <string name="usb_mtp_title" msgid="9068009584556422314">"‏میڈیا آلہ (MTP)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"‏آپ کوWindows پر، یا Mac پر ethOS فائل ٹرانسفر کا استعمال کر کے میڈیا فائلیں منتقل کرنے دیتا ہے (www.android.com/filetransfer دیکھیں)"</string>
+    <string name="usb_ptp_title" msgid="4496529268189091846">"‏کیمرا (PTP)"</string>
+    <string name="usb_ptp_summary" msgid="8382539472311655671">"‏کیمرا سافٹ ویئر کا استعمال کرکے آپ کو تصاویر منتقل کرنے اور کمپیوٹرز پر موجود کسی بھی ایسی فائل کو منتقل کرنے دیتا ہے جو MTP کا تعاون نہیں کرتی ہیں"</string>
+    <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
+    <string name="usb_midi_summary" msgid="1842457325845863840">"‏MIDI فعال کردہ ایپلیکیشنز کو آپ کے کمپیوٹر پر MIDI سافٹ ویئر کے ساتھ USB پر کام کرنے دیتا ہے۔"</string>
     <string name="storage_other_users" msgid="7017206190449510992">"دوسرے صارفین"</string>
     <string name="storage_size_large" msgid="1155308277890194878">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small></string>
     <string name="storage_mount_success" msgid="393972242641313135">"<xliff:g id="NAME">%1$s</xliff:g> کو ماؤنٹ کر دیا گیا"</string>
@@ -1205,7 +1222,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"اس <xliff:g id="NAME">^1</xliff:g> میں موجود ایپس، تصاویر یا ڈیٹا استعمال کرنے کیلئے، اسے دوبارہ داخل کریں۔ \n\nبصورت دیگر، اگر آلہ دستیاب نہ ہو تو آپ اس اسٹوریج کو بھول جائیں کو منتخب کر سکتے ہیں۔ \n\nاگر آپ بھول جائیں کو منتخب کرتے ہیں تو آلہ پر مشتمل سبھی ڈیٹا ہمیشہ کیلئے ضائ‏ع ہو جائے گا۔ \n\nآپ بعد میں ایپس کو دوبارہ انسٹال کر سکتے ہیں، لیکن اس آلہ پر اسٹور کردہ ان کا ڈیٹا ضائع ہو جائے گا۔"</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g> بھول جاؤ؟"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"اس <xliff:g id="NAME">^1</xliff:g> پر اسٹور کردہ تمام ایپس، تصاویر اور ڈیٹا ہمیشہ کیلئے ضائع ہو جائے گا۔"</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"‏سسٹم میں Android ورژن <xliff:g id="VERSION">%s</xliff:g> چلانے کیلئے استعمال کی جانے والی فائلیں شامل ہیں"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"‏سسٹم میں ethOS ورژن <xliff:g id="VERSION">%s</xliff:g> چلانے کیلئے استعمال کی جانے والی فائلیں شامل ہیں"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"‏مہمان وضع کے صارفین SD کارڈز فارمیٹ نہیں کر سکتے"</string>
     <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"<xliff:g id="NAME">^1</xliff:g> کو فارمیٹ کیا جا رہا ہے…"</string>
     <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"<xliff:g id="NAME">^1</xliff:g> کو فارمیٹ کیے جانے کے وقت اسے نہ ہٹائیں۔"</string>
@@ -1613,7 +1630,8 @@
     <string name="force_stop_dlg_title" msgid="86745852555490146">"زبردستی روکیں؟"</string>
     <string name="force_stop_dlg_text" msgid="1527286468544457368">"اگر آپ کسی ایپ کو زبردستی روک دیتے ہیں تو یہ غلط برتاؤ کر سکتی ہے۔"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"ایپ کو غیر فعال کریں"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"‏اگر آپ اس ایپ کو غیر فعال کرتے ہیں تو ہو سکتا ہے Android اور دیگر ایپس ٹھیک سے کام نہ کریں۔ ذہن نشین رکھیں کہ آپ اس ایپ کو حذف نہیں کر سکتے ہیں کیونکہ یہ آپ کے آلہ پر پہلے سے انسٹال ہے۔ غیر فعال کر کے، آپ اس ایپ کو آف کر دیتے ہیں اور اس کو اپنے آلہ پر چھپا دیتے ہیں۔"</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"‏اگر آپ اس ایپ کو غیر فعال کرتے ہیں تو ہو سکتا ہے ethOS اور دیگر ایپس ٹھیک سے کام نہ کریں۔ ذہن نشین رکھیں کہ آپ اس ایپ کو حذف نہیں کر سکتے ہیں کیونکہ یہ آپ کے آلہ پر پہلے سے انسٹال ہے۔ غیر فعال کر کے، آپ اس ایپ کو آف کر دیتے ہیں اور اس کو اپنے آلہ پر چھپا دیتے ہیں۔"</string>
+    <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"اطلاعات آف کریں؟"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"اسٹور"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"ایپ کی تفصیلات"</string>
     <string name="app_install_details_summary" msgid="2013043219249992373">"‫<xliff:g id="APP_STORE">%1$s</xliff:g> سے انسٹال کردہ ایپ"</string>
@@ -2362,7 +2380,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"پس منظر"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"پیش منظر"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"عارضی طور پر ذخیرہ کردہ"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"اصل"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"کرنل"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -2389,7 +2407,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"صوتی ان پٹ اور آؤٹ پٹ"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"صوتی ان پٹ اور آؤٹ پٹ کی ترتیبات"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"صوتی تلاش"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"‏Android کی بورڈ"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"‏ethOS کی بورڈ"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"صوتی ان پٹ کی ترتیبات"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"صوتی ان پٹ"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"صوتی  ان پٹ سروسز"</string>
@@ -2871,10 +2889,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"بلوٹوتھ، ڈرائیونگ موڈ"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"‏بلوٹوتھ، NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"بلوٹوتھ"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"‏بلوٹوتھ، Android Auto، ڈرائیونگ موڈ، NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"‏بلوٹوتھ، Android Auto، ڈرائیونگ موڈ"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"‏بلوٹوتھ، Android Auto، ‏NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"‏بلوٹوتھ، Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"‏بلوٹوتھ، ethOS Auto، ڈرائیونگ موڈ، NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"‏بلوٹوتھ، ethOS Auto، ڈرائیونگ موڈ"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"‏بلوٹوتھ، ethOS Auto، ‏NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"‏بلوٹوتھ، ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"‏دستیاب نہیں ہے کیونکہ NFC آف ہے"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"استعمال کرنے کے لیے، پہلے کوئی ادائیگی ایپ انسٹال کریں"</string>
     <string name="app_and_notification_dashboard_summary" msgid="8047683010984186106">"حالیہ ایپس، ڈیفالٹ ایپس"</string>
@@ -2958,8 +2976,7 @@
     <string name="keywords_sim_status_iccid_esim" msgid="4634015619840979184">"‏نیٹ ورک، موبائل نیٹ ورک کی صورتحال، سروس کی صورتحال، سگنل کی قوت، موبائل نیٹ ورک کی قسم، رومنگ، iccid، ‏eid"</string>
     <string name="keywords_esim_eid" msgid="8128175058237372457">"eid"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"نمبر شمار، ہارڈ ویئر کا ورژن"</string>
-    <string name="keywords_battery_info" msgid="3319796850366687033">"بیٹری کی معلومات، مینوفیکچر کی تاریخ، چارج سائیکل کی تعداد، پہلا استعمال"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"‏Android سیکیورٹی پیچ کی سطح، بیس بینڈ ورژن، کرنل ورژن"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"‏ethOS سیکیورٹی پیچ کی سطح، بیس بینڈ ورژن، کرنل ورژن"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"تھیم، ہلکی، گہری، وضع، ہلکی حساسیت، فوٹو فوبیا، رنگ کو زیادہ گہرا کرنا، رنگ گہرا کرنا، تاریک وضع، آدھے سر کا درد"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"گہری تھیم"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"بگ"</string>
@@ -2972,7 +2989,7 @@
     <string name="keywords_display_auto_brightness" msgid="7162942396941827998">"مدھم اسکرین، ٹچ اسکرین، بیٹری، اسمارٹ چمک، ڈائنیمک چمک، خودکار چمک"</string>
     <string name="keywords_display_adaptive_sleep" msgid="4905300860114643966">"اسمارٹ، مدھم اسکرین، سلیپ وضع، بیٹری، ٹائم آؤٹ، توجہ، ڈسپلے، اسکرین، غیر فعالیت"</string>
     <string name="keywords_auto_rotate" msgid="7288697525101837071">"کیمرا، اسمارٹ، خود کار طور پر گھمائیں، گھمائیں، اچھالیں، گردش، پورٹریٹ، لینڈ اسکیپ، سمت بندی، عمودی، افقی"</string>
-    <string name="keywords_system_update_settings" msgid="5769003488814164931">"‏اپ گریڈ کریں، Android"</string>
+    <string name="keywords_system_update_settings" msgid="5769003488814164931">"‏اپ گریڈ کریں، ethOS"</string>
     <string name="keywords_zen_mode_settings" msgid="7810203406522669584">"ڈسٹرب نہ کریں، شیڈول، اطلاعات، انسداد، سکوت، وائبریٹ، سلیپ، کام، توجہ، آواز، خاموش، دن، ہفتہ کا دن، ویک اینڈ، ہفتہ کی رات، ایونٹ"</string>
     <string name="keywords_screen_timeout" msgid="8921857020437540572">"اسکرین، لاک ٹائم، ٹائم آؤٹ، لاک اسکرین"</string>
     <string name="keywords_storage_settings" msgid="6018856193950281898">"میموری، کیش، ڈیٹا، حذف، صاف، خالی، جگہ"</string>
@@ -3279,7 +3296,8 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"کوئی نہیں"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">"کسی انسٹال کردہ ایپ نے نوٹیفیکیشن تک رسائی کی درخواست نہیں کی ہے"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"اطلاع تک رسائی کی اجازت دیں"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"‏Android 12 میں بہتر کردہ اطلاعات نے Android اڈاپٹیو اطلاعات کی جگہ لے لی ہے۔ یہ خصوصیت تجویز کردہ کارروائیاں اور جوابات دکھاتی ہے اور آپ کی اطلاعات کا نظم کرتی ہے۔ \n\nبہتر کردہ اطلاعات رابطوں کے نام اور پیغامات جیسی ذاتی معلومات سمیت اطلاعات کے مواد تک رسائی حاصل کر سکتی ہیں۔ یہ خصوصیت اطلاعات کو برخاست کر سکتی ہے یا ان کا جواب بھی دے سکتی ہے جیسے فون کالز کا جواب دینا اور ڈسٹرب نہ کریں کو کنٹرول کرنا۔"</string>
+    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"‫<xliff:g id="SERVICE">%1$s</xliff:g> کیلئے اطلاع تک رسائی کی اجازت دیں؟"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"‏ethOS 12 میں بہتر کردہ اطلاعات نے ethOS اڈاپٹیو اطلاعات کی جگہ لے لی ہے۔ یہ خصوصیت تجویز کردہ کارروائیاں اور جوابات دکھاتی ہے اور آپ کی اطلاعات کا نظم کرتی ہے۔ \n\nبہتر کردہ اطلاعات رابطوں کے نام اور پیغامات جیسی ذاتی معلومات سمیت اطلاعات کے مواد تک رسائی حاصل کر سکتی ہیں۔ یہ خصوصیت اطلاعات کو برخاست کر سکتی ہے یا ان کا جواب بھی دے سکتی ہے جیسے فون کالز کا جواب دینا اور ڈسٹرب نہ کریں کو کنٹرول کرنا۔"</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"‫<xliff:g id="SERVICE">%1$s</xliff:g> کیلئے اطلاع تک رسائی کی اجازت دیں؟"</string>
     <string name="notification_listener_security_warning_summary" msgid="1131986567509818121">"رابطوں کے نام، تصاویر اور آپ کو موصول ہونے والے پیغامات ٹیکسٹ جیسی ذاتی معلومات سمیت <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ایپ تمام اطلاعات پڑھنے کی اہل ہوگی۔ یہ ایپ فون کالز کا جواب دینے سمیت اسنوز کرنے یا اطلاعات کو برخاست کرنے یا اطلاعات میں بٹنز پر کارروائی کرنے کی بھی اہل ہوگی۔ \n\nاس سے ایپ کو \'ڈسٹرب نہ کریں\' آن یا آف کرنے اور متعلقہ ترتیبات تبدیل کرنے کی اہلیت بھی حاصل ہوگی۔"</string>
     <string name="nls_warning_prompt" msgid="1486887096703743841">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ایپ درج ذیل کرنے کے قابل ہوگی:"</string>
@@ -3346,8 +3364,8 @@
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"\'ڈسٹرب نہ کریں\' کو اجازت دیں"</string>
     <string name="zen_access_empty_text" msgid="3779921853282293080">"کسی انسٹال کردہ ایپس نے ڈسٹرب نہ کریں تک رسائی کی درخواست نہیں کی ہے"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"آپ نے اس ایپ سے اطلاعات کی اجازت نہیں دی ہے"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"‏آپ کی درخواست پر، Android اطلاعات کے اس زمرے کو اس آلہ پر ظاہر ہونے سے مسدود کررہا ہے"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"‏آپ کی درخواست پر، Android اطلاعات کے اس گروپ کو اس آلہ پر ظاہر ہونے سے مسدود کر رہا ہے"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"‏آپ کی درخواست پر، ethOS اطلاعات کے اس زمرے کو اس آلہ پر ظاہر ہونے سے مسدود کررہا ہے"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"‏آپ کی درخواست پر، ethOS اطلاعات کے اس گروپ کو اس آلہ پر ظاہر ہونے سے مسدود کر رہا ہے"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"یہ ایپ اطلاعات نہیں بھیجتی ہے"</string>
     <string name="notification_channels" msgid="1502969522886493799">"زمرے"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"دیگر"</string>
@@ -3736,7 +3754,9 @@
     <string name="display_dashboard_summary" msgid="1599453894989339454">"گہری تھیم، فونٹ سائز، چمکیلاپن"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> میں سے اوسط <xliff:g id="USED_MEMORY">%1$s</xliff:g> میموری استعمال ہوئی"</string>
     <string name="users_summary" msgid="8473589474976307510">"بطور <xliff:g id="USER_NAME">%1$s</xliff:g> سائن ان ہے"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"‏Android <xliff:g id="VERSION">%1$s</xliff:g> پر اپ ڈیٹ کردہ"</string>
+    <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ڈیفالٹ ہے"</string>
+    <string name="backup_disabled" msgid="4503062265560959320">"بیک اپ غیر فعال ہے"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"‏ethOS <xliff:g id="VERSION">%1$s</xliff:g> پر اپ ڈیٹ کردہ"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"اپ ڈیٹ دستیاب ہے"</string>
     <string name="disabled_by_policy_title" msgid="6852347040813204503">"کام کی پالیسی کے ذریعے مسدود کردہ"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"والیوم تبدیل نہیں کر سکتے"</string>
@@ -4424,7 +4444,7 @@
     <string name="wfc_disclaimer_location_desc_text" msgid="1417004513415772582">"جب آپ ایمرجنسی کالز کے لیے اس سروس کا استعمال کرتے ہیں تو آپ کا کیریئر آپ کے مقام کا پتہ لگا سکتا ہے۔\n\nتفصیلات کے لئے اپنے کیریئر کی رازداری کی پالیسی ملاحظہ کریں۔"</string>
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"آپ باقی کسی وقت یا ڈیٹا تک رسائی سے محروم ہو سکتے ہیں۔ ہٹانے سے پہلے اپنے فراہم کنندہ سے رابطہ کریں۔"</string>
     <string name="content_capture" msgid="868372905432812238">"ایپ کا مواد"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"‏ایپس کو Android سسٹم میں مواد بھیجنے کی اجازت دیں"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"‏ایپس کو ethOS سسٹم میں مواد بھیجنے کی اجازت دیں"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"سسٹم کا ہیپ ڈمپ کیپچر کریں"</string>
     <string name="development_memtag_page_title" msgid="3546667618748029188">"میموری ٹیگنگ ایکسٹینشن"</string>
     <string name="development_memtag_intro" msgid="8032596625527637164">"‏میموری ٹیگنگ ایکسٹینشن (MTE) آپ کی ایپ میں میموری کے تحفظ کے مسائل کو تلاش کرنا آسان بناتا ہے اور اس میں موجود مقامی کوڈ کو مزید محفوظ بناتا ہے۔"</string>
@@ -4440,7 +4460,7 @@
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"سسٹم کا ہیپ ڈمپ کیپچر کیا جا رہا ہے"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"سسٹم کے ہیپ ڈمپ کو کیپچر نہیں کیا جا سکا"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"سسٹم کے ہیپ ڈمپس کو خودکار طور پر کیپچر کریں"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"‏جب Android سسٹم کافی زیادہ میموری استعمال کرے تو اس کے لیے خودکار طور پر ہیپ ڈمپ کیپچر کریں"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"‏جب ethOS سسٹم کافی زیادہ میموری استعمال کرے تو اس کے لیے خودکار طور پر ہیپ ڈمپ کیپچر کریں"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"غیر منسلک کریں"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"ایمرجنسی کالز"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"‏آپ کے کیریئر کی جانب سے Wi-Fi پر ایمرجنسی کالز تعاون یافتہ نہیں ہیں۔\nایمرجنسی کال کرنے کے لیے آلہ خود کار طور پر سیلولر نیٹ ورک پر سوئچ ہو جاتا ہے۔\nایمرجنسی کالز صرف سیلولر کوریج والے علاقے میں ممکن ہیں۔"</string>

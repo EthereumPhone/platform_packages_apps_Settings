@@ -136,7 +136,7 @@
             settings:isPreferenceVisible="@bool/config_show_sim_info"
             settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>
 
-        <!-- Android version -->
+        <!-- ethOS version -->
         <Preference
             android:key="firmware_version"
             android:order="42"
@@ -198,6 +198,15 @@
             android:key="eth_address"
             android:order="47"
             android:title="@string/status_eth_address"
+            android:summary="@string/summary_placeholder"
+            android:selectable="false"
+            settings:enableCopying="true"/>
+
+        <!-- Funded by nouns -->
+	<Preference
+            android:key="funded_by_nouns"
+            android:order="47"
+            android:title="@string/status_nouns_funded"
             android:summary="@string/summary_placeholder"
             android:selectable="false"
             settings:enableCopying="true"/>

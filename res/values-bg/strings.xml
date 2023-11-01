@@ -253,7 +253,10 @@
     <string name="lock_after_timeout_summary_with_exception" msgid="3441806647509073124">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> след времето за изчакване, освен когато екранът се поддържа отключен от <xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g>"</string>
     <string name="owner_info_settings_title" msgid="3555626140700093017">"Добав. на текст на закл. екран"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Няма"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Напр. „Устройството с Android на Иван“."</string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Напр. „Устройството с ethOS на Иван“."</string>
+    <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Показв. на инф. за потр. профил върху закл. екран"</string>
+    <string name="Accounts_settings_title" msgid="8434263183710375412">"Профили"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Местоположение"</string>
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"Използване на местоположението"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"Изкл."</string>
@@ -709,10 +712,12 @@
     <string name="show_refresh_rate_summary" msgid="3558118122374609663">"Показва текущата честота на опресняване на екрана"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"NFC"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Изискване за отключване на устройството за NFC"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Разрешаване на използването на NFC само при отключен екран"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"В готовност за предаване на съдържание на приложения чрез NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Изключено"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Не е налице, защото функцията за NFC е изключена"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Когато тази функция е включена, можете да излъчвате съдържание от приложенията до друго устройство с поддръжка за NFC, като държите устройствата близо едно до друго. Например можете да излъчвате уеб страници, видеоклипове от YouTube, контакти и др.\n\nТрябва само да поставите устройствата едно до друго (обикновено задните им страни), след което да докоснете екрана си. Приложението определя какво се излъчва."</string>
     <string name="wifi_settings" msgid="8313301946393559700">"Wi‑Fi"</string>
     <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"Използване на Wi-Fi"</string>
@@ -937,7 +942,11 @@
     <string name="wifi_tether_carrier_unsupport_dialog_title" msgid="3089432578433978073">"Функцията за тетъринг не е налице"</string>
     <string name="wifi_tether_carrier_unsupport_dialog_content" msgid="5920421547607921112">"За подробности се обърнете към оператора си"</string>
     <string name="wifi_tether_enabled_subtext" msgid="5085002421099821056">"Мрежата „<xliff:g id="NETWORK_SSID">%1$s</xliff:g>“ е активна"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Грешка на преносимата точка за достъп до Wi‑Fi"</string>
+    <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Настройка на точката за достъп до Wi‑Fi"</string>
+    <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Точка за достъп до Wi‑Fi: Настр."</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP – точка за достъп до Wi‑Fi с WPA2 PSK"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Да се запази ли тази мрежа?"</string>
     <string name="wifi_add_app_single_network_saving_summary" msgid="7366337245410388895">"Запазва се…"</string>
     <string name="wifi_add_app_single_network_saved_summary" msgid="7135016314713158289">"Запазено"</string>
@@ -1130,8 +1139,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"Операцията с ПИН кода за SIM картата не бе успешна!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Актуализации на системата"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Версия на Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Актуализация за сигурността на Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"Версия на ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"Актуализация за сигурността на ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"Модел"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Версия на хардуера"</string>
     <string name="manufactured_year" msgid="3401517138700926475">"Година на производство"</string>
@@ -1192,6 +1201,14 @@
     <string name="storage_menu_manage" msgid="7465522758801346408">"Управление на хранилището"</string>
     <string name="storage_free_up_space_title" msgid="281047807372131975">"Освобождаване на място"</string>
     <string name="storage_free_up_space_summary" msgid="6650027929735481350">"Отворете приложението Files, за да освобождавате място и да управлявате наличното"</string>
+    <string name="storage_title_usb" msgid="1332488715547400452">"USB връзка с компютър"</string>
+    <string name="usb_connection_category" msgid="2288543238378907242">"Свързване като"</string>
+    <string name="usb_mtp_title" msgid="9068009584556422314">"Мултимедийно устройство (MTP)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Позволява ви да прехвърляте медийни файлове под Windows или да използвате ethOS File Transfer за Mac (вижте www.android.com/filetransfer)"</string>
+    <string name="usb_ptp_title" msgid="4496529268189091846">"Камера (PTP)"</string>
+    <string name="usb_ptp_summary" msgid="8382539472311655671">"Позволява ви да прехвърляте снимки чрез софтуера за камера и файлове на компютри, които не поддържат MTP"</string>
+    <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
+    <string name="usb_midi_summary" msgid="1842457325845863840">"Разрешава на активираните за MIDI приложения да работят през USB със софтуера за MIDI на компютъра ви."</string>
     <string name="storage_other_users" msgid="7017206190449510992">"Други потребители"</string>
     <string name="storage_size_large" msgid="1155308277890194878">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small>""</string>
     <string name="storage_mount_success" msgid="393972242641313135">"<xliff:g id="NAME">%1$s</xliff:g>: Свързването бе успешно"</string>
@@ -1205,7 +1222,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"За да използвате приложенията, снимките или данните в това хранилище (<xliff:g id="NAME">^1</xliff:g>), го поставете отново. \n\nДруга възможност е да забравите това устройство, ако не е налице. \n\nВ случай че забравите хранилището, всички данни в него ще бъдат заличени завинаги. \n\nПо-късно можете да инсталирате отново приложенията, но съхраняваните им на това устройство данни ще бъдат заличени."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g>: Да се забрави ли?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Всички приложения, снимки и данни, съхранявани в това хранилище (<xliff:g id="NAME">^1</xliff:g>), ще бъдат заличени завинаги."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Системата включва файлове, използвани за изпълняването на версия <xliff:g id="VERSION">%s</xliff:g> на Android"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Системата включва файлове, използвани за изпълняването на версия <xliff:g id="VERSION">%s</xliff:g> на ethOS"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Не можете да форматирате SD карти в режим на гост"</string>
     <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"<xliff:g id="NAME">^1</xliff:g>: Форматира се…"</string>
     <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"Не премахвайте хранилището (<xliff:g id="NAME">^1</xliff:g>), докато се форматира."</string>
@@ -1613,7 +1630,8 @@
     <string name="force_stop_dlg_title" msgid="86745852555490146">"Да се спре ли принудително?"</string>
     <string name="force_stop_dlg_text" msgid="1527286468544457368">"Ако принудително спрете приложение, то може да не функционира правилно."</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Деактивиране на приложението"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Ако деактивирате това приложение, Android и други приложения може да спрат да работят както трябва. Имайте предвид, че не можете да изтриете това приложение, тъй като е предварително инсталирано на устройството ви. Като деактивирате приложението, го изключвате и скривате на устройството си."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Ако деактивирате това приложение, ethOS и други приложения може да спрат да работят както трябва. Имайте предвид, че не можете да изтриете това приложение, тъй като е предварително инсталирано на устройството ви. Като деактивирате приложението, го изключвате и скривате на устройството си."</string>
+    <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Да се изключат ли известията?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Магазин"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Подробности за прилож."</string>
     <string name="app_install_details_summary" msgid="2013043219249992373">"Приложението е инсталирано от <xliff:g id="APP_STORE">%1$s</xliff:g>"</string>
@@ -2362,7 +2380,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"заден план"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"преден план"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"кеширани"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android (ОС)"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS (ОС)"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Стандартни процеси"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Ядро"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -2389,7 +2407,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Въвеждане и синтезиране на глас"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Настройки за въвеждане и синтезиране на глас"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Гласово търсене"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Клавиатура на Android"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"Клавиатура на ethOS"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Настройки за гласово въвеждане"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Гласово въвеждане"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Услуги за гласово въвеждане"</string>
@@ -2871,10 +2889,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, режим за шофиране"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, режим за шофиране, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, режим за шофиране"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, режим за шофиране, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, режим за шофиране"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Не е налице, защото функцията за NFC е изключена"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"За да използвате, първо инсталирайте приложение за плащане"</string>
     <string name="app_and_notification_dashboard_summary" msgid="8047683010984186106">"Скорошни и стандартни приложения"</string>
@@ -2958,8 +2976,7 @@
     <string name="keywords_sim_status_iccid_esim" msgid="4634015619840979184">"мрежа, състояние на мобилната мрежа, състояние на услугата, сила на сигнала, тип мобилна мрежа, роуминг, iccid, eid"</string>
     <string name="keywords_esim_eid" msgid="8128175058237372457">"eid"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"сериен номер, версия на хардуера"</string>
-    <string name="keywords_battery_info" msgid="3319796850366687033">"информация за батерията, дата на производство, брой цикли, първо използване"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"ниво на корекцията на сигурността под Android, версия на радиомодула, версия на ядрото"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"ниво на корекцията на сигурността под ethOS, версия на радиомодула, версия на ядрото"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"тема, светла, тъмна, режим, чувствителност към светлина, фотофобия, намаляване на яркостта, потъмняване, тъмен режим, мигрена"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"тъмна тема"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"програмна грешка"</string>
@@ -2972,7 +2989,7 @@
     <string name="keywords_display_auto_brightness" msgid="7162942396941827998">"затъмняване на екрана, сензорен екран, батерия, интелигентна яркост, динамична яркост, автоматична яркост"</string>
     <string name="keywords_display_adaptive_sleep" msgid="4905300860114643966">"интелигентно, затъмняване на екрана, спящ режим, батерия, време за изчакване, внимание, дисплей, екран, неактивност"</string>
     <string name="keywords_auto_rotate" msgid="7288697525101837071">"камера, интелигентно, автоматично завъртане, автоматична ориентация, завъртане, обръщане, вертикален режим, хоризонтален режим, ориентация, вертикално, хоризонтално"</string>
-    <string name="keywords_system_update_settings" msgid="5769003488814164931">"надстройване, Android"</string>
+    <string name="keywords_system_update_settings" msgid="5769003488814164931">"надстройване, ethOS"</string>
     <string name="keywords_zen_mode_settings" msgid="7810203406522669584">"режим „Не безпокойте“, график, известия, блокиране, тих режим, вибриране, спящ режим, работа, фокусиране, звук, заглушаване, спиране, ден, ден от седмицата, уикенд, делнична нощ, събитие"</string>
     <string name="keywords_screen_timeout" msgid="8921857020437540572">"екран, време за заключване, време за изчакване, заключване на екрана"</string>
     <string name="keywords_storage_settings" msgid="6018856193950281898">"памет, кеш, данни, изтриване, изчистване, освобождаване, място"</string>
@@ -3279,7 +3296,8 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"Без"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">"Няма инсталирани приложения, които са заявили достъп до известията."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Разрешаване на достъп до известията"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Адаптивните известия бяха заменени от функцията за подобрени известия в Android 12. Тя показва предложени действия и отговори и организира известията ви. \n\nФункцията може да осъществява достъп до съдържанието в известията, включително личната информация, като например имената на контактите и текстовите съобщения. Тя има възможност да отхвърля известията или да предприема действия в тях, като например приемане на телефонни обаждания или контролиране на режима „Не безпокойте“."</string>
+    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Да се разреши ли достъпът до известията за „<xliff:g id="SERVICE">%1$s</xliff:g>“?"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Адаптивните известия бяха заменени от функцията за подобрени известия в ethOS 12. Тя показва предложени действия и отговори и организира известията ви. \n\nФункцията може да осъществява достъп до съдържанието в известията, включително личната информация, като например имената на контактите и текстовите съобщения. Тя има възможност да отхвърля известията или да предприема действия в тях, като например приемане на телефонни обаждания или контролиране на режима „Не безпокойте“."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Да се разреши ли достъпът до известията за „<xliff:g id="SERVICE">%1$s</xliff:g>“?"</string>
     <string name="notification_listener_security_warning_summary" msgid="1131986567509818121">"Приложението <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ще може да чете всички известия, включително личната информация, като например имената на контактите, снимките и текста на съобщенията, които получавате. Това приложение ще може също да отлага или отхвърля известия и да взаимодейства с бутоните в тях, включително да отговаря на телефонни обаждания. \n\nПриложението ще може също да включва и изключва режима „Не безпокойте“, както и да променя свързаните с него настройки."</string>
     <string name="nls_warning_prompt" msgid="1486887096703743841">"Приложението <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ще може следното:"</string>
@@ -3346,8 +3364,8 @@
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"Разрешаване на режима „Не безпокойте“"</string>
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Никое инсталирано приложение не е заявило достъп до „Не безпокойте“"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Не сте разрешили на приложението да показва известия"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"По ваша заявка Android блокира показването на тази категория известия на устройството"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"По ваша заявка Android блокира показването на тази група известия на устройството"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"По ваша заявка ethOS блокира показването на тази категория известия на устройството"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"По ваша заявка ethOS блокира показването на тази група известия на устройството"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Това приложение не изпраща известия"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Категории"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Други"</string>
@@ -3736,7 +3754,9 @@
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Тъмна тема, размер на шрифта, яркост"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Използвана памет: Средно <xliff:g id="USED_MEMORY">%1$s</xliff:g> от <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Влезли сте като: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Извършена е актуализация до Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> е стандартното приложение"</string>
+    <string name="backup_disabled" msgid="4503062265560959320">"Функцията за резервно копие е деактивирана"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Извършена е актуализация до ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Налице е актуализация"</string>
     <string name="disabled_by_policy_title" msgid="6852347040813204503">"Блокирано от служебните правила"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Силата на звука не може да бъде променена"</string>
@@ -4424,7 +4444,7 @@
     <string name="wfc_disclaimer_location_desc_text" msgid="1417004513415772582">"Операторът ви може да събира данни за местоположението ви, когато използвате тази услуга за спешни обаждания.\n\nЗа подробности разгледайте декларацията му за поверителност."</string>
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Възможно е да загубите достъп до остатъка от времето или данните. Преди премахване се свържете с доставчика си."</string>
     <string name="content_capture" msgid="868372905432812238">"Съдържание на приложението"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Разрешаване на приложенията да изпращат съдържание до системата Android"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Разрешаване на приложенията да изпращат съдържание до системата ethOS"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Създаване на моментна снимка на паметта за системата"</string>
     <string name="development_memtag_page_title" msgid="3546667618748029188">"Memory Tagging Extension (MTE)"</string>
     <string name="development_memtag_intro" msgid="8032596625527637164">"MTE улеснява намирането на проблеми с безопасността на паметта и повишава сигурността на кода с директно изпълнение в приложeнието."</string>
@@ -4440,7 +4460,7 @@
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Създава се моментна снимка на паметта за системата"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Не можа да се направи моментна снимка на паметта за системата"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Автоматично създаване на моментни снимки на паметта за системата"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Автоматично създаване на моментна снимка на паметта за системата Android, когато използва твърде много памет"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Автоматично създаване на моментна снимка на паметта за системата ethOS, когато използва твърде много памет"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Прекратяв. на връзката"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Спешни обаждания"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Операторът ви не поддържа спешни обаждания през Wi-Fi.\nУстройството автоматично превключва към мобилна мрежа, за да извърши спешно обаждане.\nИзвършването на спешни обаждания е възможно само в райони с мобилно покритие."</string>

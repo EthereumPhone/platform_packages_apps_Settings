@@ -253,7 +253,10 @@
     <string name="lock_after_timeout_summary_with_exception" msgid="3441806647509073124">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> après la mise en veille, sauf lorsque l\'appareil est maintenu déverrouillé par <xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g>"</string>
     <string name="owner_info_settings_title" msgid="3555626140700093017">"Ajouter texte sur écr. de verr."</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Aucun"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Par exemple : Android de Jonathan"</string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Par exemple : ethOS de Jonathan"</string>
+    <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Afficher infos de profil sur écran de verrouillage"</string>
+    <string name="Accounts_settings_title" msgid="8434263183710375412">"Comptes"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Position"</string>
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"Utiliser ma position"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"Désactivé"</string>
@@ -709,10 +712,12 @@
     <string name="show_refresh_rate_summary" msgid="3558118122374609663">"Affichez le taux d\'actualisation actuel"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"CCP"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Déverrouillage de l\'appareil requis pour utiliser la fonctionnalité CCP"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Autoriser l\'utilisation de la technologie CCP uniquement lorsque l\'écran est déverrouillé"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Prêt à partager le contenu de l\'application par CCP"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Désactivé"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Non accessible, car la CCP est désactivée"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Lorsque cette fonctionnalité est activée, vous pouvez partager le contenu d\'une application avec un appareil compatible CCP en rapprochant les appareils. Vous pouvez, par exemple, partager des pages Web, des vidéos YouTube, des contacts et plus encore.\n\nIl vous suffit de rapprocher les appareils (en les plaçant généralement dos à dos), puis de toucher votre écran. L\'application détermine le contenu à transférer."</string>
     <string name="wifi_settings" msgid="8313301946393559700">"Wi-Fi"</string>
     <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"Utiliser le Wi-Fi"</string>
@@ -937,7 +942,11 @@
     <string name="wifi_tether_carrier_unsupport_dialog_title" msgid="3089432578433978073">"Le partage de connexion n\'est pas pris en charge"</string>
     <string name="wifi_tether_carrier_unsupport_dialog_content" msgid="5920421547607921112">"Communiquez avec votre fournisseur de services pour en savoir plus"</string>
     <string name="wifi_tether_enabled_subtext" msgid="5085002421099821056">"<xliff:g id="NETWORK_SSID">%1$s</xliff:g> est actif"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Erreur liée au point d\'accès Wi-Fi mobile."</string>
+    <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Configurer le point d\'accès Wi-Fi"</string>
+    <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Configuration point accès Wi‑Fi"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Point d\'accès ethOSAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Enregistrer ce réseau?"</string>
     <string name="wifi_add_app_single_network_saving_summary" msgid="7366337245410388895">"Enregistrement en cours…"</string>
     <string name="wifi_add_app_single_network_saved_summary" msgid="7135016314713158289">"Enregistré"</string>
@@ -1130,8 +1139,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"Le déverrouillage par NIP de carte SIM a échoué."</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Mises à jour du système"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Version d\'Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Mise à jour de sécurité Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"Version d\'ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"Mise à jour de sécurité ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"Modèle"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Version du matériel"</string>
     <string name="manufactured_year" msgid="3401517138700926475">"Année de fabrication"</string>
@@ -1192,6 +1201,14 @@
     <string name="storage_menu_manage" msgid="7465522758801346408">"Gérer l\'espace de stockage"</string>
     <string name="storage_free_up_space_title" msgid="281047807372131975">"Libérer de l\'espace"</string>
     <string name="storage_free_up_space_summary" msgid="6650027929735481350">"Accédez à l\'application Fichiers pour gérer l\'espace et en libérer"</string>
+    <string name="storage_title_usb" msgid="1332488715547400452">"Connexion USB à l\'ordinateur"</string>
+    <string name="usb_connection_category" msgid="2288543238378907242">"Connecter en tant que"</string>
+    <string name="usb_mtp_title" msgid="9068009584556422314">"Périphérique multimédia (MTP)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Permet de transférer des fichiers multimédias sous Windows ou à l\'aide de l\'application ethOS File Transfer pour Mac (voir www.android.com/filetransfer)"</string>
+    <string name="usb_ptp_title" msgid="4496529268189091846">"Appareil photo (PTP)"</string>
+    <string name="usb_ptp_summary" msgid="8382539472311655671">"Permet de transférer des photos à l\'aide du logiciel photo et de transférer des fichiers sur les ordinateurs non compatibles avec le protocole MTP."</string>
+    <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
+    <string name="usb_midi_summary" msgid="1842457325845863840">"Permettre aux applications compatibles avec le protocole MIDI de fonctionner par USB avec des logiciels MIDI sur votre ordinateur"</string>
     <string name="storage_other_users" msgid="7017206190449510992">"Autres utilisateurs"</string>
     <string name="storage_size_large" msgid="1155308277890194878">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small>""</string>
     <string name="storage_mount_success" msgid="393972242641313135">"<xliff:g id="NAME">%1$s</xliff:g> est monté"</string>
@@ -1205,7 +1222,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Pour utiliser les applications, les photos ou les données que la mémoire de stockage « <xliff:g id="NAME">^1</xliff:g> » contient, insérez de nouveau celle-ci. \n\nVous pouvez également la supprimer de la liste des mémoires de stockage si elle n\'est pas disponible. \n\nSi vous la supprimez, toutes les données qu\'elle contient seront définitivement effacées. \n\nVous pouvez réinstaller les applications plus tard, mais les données correspondantes enregistrées sur cette mémoire seront perdues."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Oublier « <xliff:g id="NAME">^1</xliff:g> »?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Toutes les applications, photos et données enregistrées sur la mémoire de stockage « <xliff:g id="NAME">^1</xliff:g> » seront perdues définitivement."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Le répertoire Système comprend des fichiers utilisés pour faire fonctionner Android version <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Le répertoire Système comprend des fichiers utilisés pour faire fonctionner ethOS version <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"En mode Invité, on ne peut formater de cartes SD"</string>
     <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"Formatage de « <xliff:g id="NAME">^1</xliff:g> » en cours..."</string>
     <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"Ne retirez pas <xliff:g id="NAME">^1</xliff:g> durant le formatage."</string>
@@ -1613,7 +1630,8 @@
     <string name="force_stop_dlg_title" msgid="86745852555490146">"Forcer l\'arrêt?"</string>
     <string name="force_stop_dlg_text" msgid="1527286468544457368">"Si vous forcez l\'arrêt d\'une application, son fonctionnement peut en être affecté."</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Désactiver l\'application"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Si vous désactivez cette application, Android et d\'autres applications risquent de ne plus fonctionner correctement. Gardez à l\'esprit que vous ne pouvez pas supprimer cette application, étant donné qu\'elle était préinstallée sur votre appareil. En la désactivant, elle ne sera plus active et elle sera masquée sur votre appareil."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Si vous désactivez cette application, ethOS et d\'autres applications risquent de ne plus fonctionner correctement. Gardez à l\'esprit que vous ne pouvez pas supprimer cette application, étant donné qu\'elle était préinstallée sur votre appareil. En la désactivant, elle ne sera plus active et elle sera masquée sur votre appareil."</string>
+    <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Désactiver les notifications?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Boutique d\'applications"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Détails de l\'application"</string>
     <string name="app_install_details_summary" msgid="2013043219249992373">"Source de l\'application : <xliff:g id="APP_STORE">%1$s</xliff:g>"</string>
@@ -2362,7 +2380,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Arrière-plan"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Avant-plan"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"En cache"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Système d\'exploitation Android"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"Système d\'exploitation ethOS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Natif"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Noyau"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-RAM"</string>
@@ -2389,7 +2407,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Saisie et sortie vocales"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Paramètres de saisie et de sortie vocales"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Recherche vocale"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Clavier Android"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"Clavier ethOS"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Paramètres d\'entrée vocale"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Entrée vocale"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Services d\'entrée vocale"</string>
@@ -2871,10 +2889,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, mode Voiture"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, CCP"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, mode Voiture, CCP"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, mode Voiture"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, CCP"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, mode Voiture, CCP"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, mode Voiture"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, CCP"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Non accessible parce que la technologie CCP est désactivée"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Pour utiliser la fonctionnalité, installez d\'abord une application de paiement"</string>
     <string name="app_and_notification_dashboard_summary" msgid="8047683010984186106">"Applications récentes, applications par défaut"</string>
@@ -3279,7 +3297,8 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"Aucune"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">"Aucune demande d\'accès aux notifications n\'a été envoyée pour les applications installées."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Autoriser l\'accès aux notifications"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Les notifications améliorées ont remplacé les notifications adaptatives Android sous Android 12. Cette fonctionnalité vous présente des suggestions d\'actions et de réponses, et organise vos notifications. \n\nLes notifications améliorées peuvent accéder au contenu de toutes les notifications, y compris les renseignements personnels comme le nom des contacts et les messages. Cette fonctionnalité peut aussi fermer des notifications ou interagir avec elles, comme répondre aux appels téléphoniques et gérer le mode Ne pas déranger."</string>
+    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Autoriser <xliff:g id="SERVICE">%1$s</xliff:g> à accéder aux notifications?"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Les notifications améliorées ont remplacé les notifications adaptatives ethOS sous ethOS 12. Cette fonctionnalité vous présente des suggestions d\'actions et de réponses, et organise vos notifications. \n\nLes notifications améliorées peuvent accéder au contenu de toutes les notifications, y compris les renseignements personnels comme le nom des contacts et les messages. Cette fonctionnalité peut aussi fermer des notifications ou interagir avec elles, comme répondre aux appels téléphoniques et gérer le mode Ne pas déranger."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Autoriser <xliff:g id="SERVICE">%1$s</xliff:g> à accéder aux notifications?"</string>
     <string name="notification_listener_security_warning_summary" msgid="1131986567509818121">"L\'application <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> pourra lire toutes les notifications, y compris les renseignements personnels tels que les noms des contacts, les photos et le texte des messages que vous recevez. Cette application pourra également répéter ou fermer des notifications, ou effectuer des actions sur des boutons dans les notifications, y compris répondre à des appels téléphoniques. \n\nCette action permettra également à l\'application d\'activer et de désactiver la fonctionnalité Ne pas déranger et de modifier les paramètres connexes."</string>
     <string name="nls_warning_prompt" msgid="1486887096703743841">"L\'application <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> pourra effectuer les actions suivantes :"</string>
@@ -3346,8 +3365,8 @@
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"Autoriser le mode Ne pas déranger"</string>
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Aune application installée n\'a demandé l\'accès au mode « Ne pas déranger »"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Vous n\'avez pas autorisé les notifications de cette application"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"À votre demande, Android empêche cette catégorie de notifications de s\'afficher sur cet appareil"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"À votre demande, Android empêche ce groupe de notifications de s\'afficher sur cet appareil"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"À votre demande, ethOS empêche cette catégorie de notifications de s\'afficher sur cet appareil"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"À votre demande, ethOS empêche ce groupe de notifications de s\'afficher sur cet appareil"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Cette application n\'envoie pas de notifications"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Catégories"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Autre"</string>
@@ -3736,7 +3755,9 @@
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Thème sombre, taille de la police, luminosité"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Mémoire utilisée en moyenne : <xliff:g id="USED_MEMORY">%1$s</xliff:g> sur <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Connecté en tant que <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Mis à jour vers Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> est l\'application par défaut"</string>
+    <string name="backup_disabled" msgid="4503062265560959320">"Sauvegardes désactivées"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Mis à jour vers ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Mise à jour disponible"</string>
     <string name="disabled_by_policy_title" msgid="6852347040813204503">"Bloqué conformément à la politique de l\'entreprise"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Impossible de modifier le volume"</string>
@@ -4424,7 +4445,7 @@
     <string name="wfc_disclaimer_location_desc_text" msgid="1417004513415772582">"Votre fournisseur de services peut collecter les données relatives à votre position lorsque vous utilisez ce service en lien avec les appels d\'urgence.\n\nConsultez la politique de confidentialité de votre fournisseur de services pour obtenir plus de détails."</string>
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Vous risquez de perdre l\'accès au temps ou aux données restants. Communiquez avec votre fournisseur de services avant de procéder au retrait."</string>
     <string name="content_capture" msgid="868372905432812238">"Contenu de l\'application"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Autoriser les applications à envoyer du contenu au système Android"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Autoriser les applications à envoyer du contenu au système ethOS"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Capturer l\'empreinte de mémoire système"</string>
     <string name="development_memtag_page_title" msgid="3546667618748029188">"Memory Tagging Extension"</string>
     <string name="development_memtag_intro" msgid="8032596625527637164">"L\'extension MTE (Memory Tagging Extension) facilite la détection des problèmes de sécurité de la mémoire dans votre application et rend plus sécuritaire son code natif."</string>
@@ -4440,7 +4461,7 @@
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Capture de l\'empreinte de mémoire système en cours…"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Impossible de capturer l\'empreinte de mémoire du système"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Capturer automatiquement les empreintes de mémoire système"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Capturer automatiquement une empreinte de mémoire pour le système Android lorsqu\'il utilise trop de mémoire"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Capturer automatiquement une empreinte de mémoire pour le système ethOS lorsqu\'il utilise trop de mémoire"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Déconnecter"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Appels d\'urgence"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Votre fournisseur de services ne prend pas en charge les appels Wi‑Fi.\nL\'appareil basculera automatiquement vers le réseau cellulaire pour faire un appel urgence.\nLes appels d\'urgence sont uniquement possibles dans les régions couvertes par un réseau cellulaire."</string>

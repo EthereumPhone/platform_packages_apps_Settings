@@ -46,6 +46,7 @@ import com.android.settings.search.SearchStateReceiver;
 import com.android.settingslib.utils.ThreadUtils;
 import android.provider.Settings;
 import android.content.SharedPreferences;
+import android.content.Intent;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,22 +75,9 @@ public class SettingsInitialize extends BroadcastReceiver {
         ThreadUtils.postOnBackgroundThread(() -> refreshExistingShortcuts(context));
         enableTwoPaneDeepLinkActivityIfNecessary(pm, context);
 
-        System.out.println("Trying to change to Squircle");
-        // Only run this once, and save in shared preferences that we've run.
-        SharedPreferences mPreferences = context.getSharedPreferences("com.android.settings_preferences", 0);
-        if (!mPreferences.contains("squircleWasRun")) {
-                
-                
-                Settings.Secure.putString(context.getContentResolver(),
-                        Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES,
-                        "{\"android.theme.customization.adaptive_icon_shape\":\"com.android.theme.icon.squircle\"}");
-
-                
-    
-                SharedPreferences.Editor ed = mPreferences.edit();
-                ed.putBoolean("squircleWasRun", true);
-                ed.apply();
-        } 
+        Intent intent = new Intent("org.ethosmobile.kpis.ACTION_TRIGGER");
+        intent.setPackage("org.ethosmobile.kpis");
+        context.sendBroadcast(intent);
     }
 
     private void managedProfileSetup(Context context, final PackageManager pm, Intent broadcast,
