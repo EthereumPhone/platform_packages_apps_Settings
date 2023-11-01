@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Ikiwashwa, kifaa kitafungwa wakati kipengele cha mwisho cha kutathmini hali ya kuaminika kitaacha kuaminika"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Hamna"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Mfano, Android ya Joe."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Mfano, ethOS ya Joe."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Onyesha maelezo ya wasifu kwenye skrini iliyofungwa"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Akaunti"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Kutambua Mahali"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC hubadilisha data kati ya kifaa hiki na malengo au vifaa vingine vya karibu nawe, kama vile vituo vya malipo, visomaji vya data ya kadi na lebo au matangazo yanayoshirikisha mtumiaji."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Hitaji kifaa kifunguliwe ili kipengele cha NFC kitumike"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Ruhusu tu matumizi ya NFC wakati skrini imefunguliwa"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Programu iko tayari kusambaza maudhui kupitia NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Imezimwa"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Haipatikani kwa sababu NFC imezimwa"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Unapowasha kipengele hiki, unaweza kutuma maudhui ya programu kwenye kifaa kingine kinachoweza kutumia NFC kwa kuviweka vifaa pamoja. Kwa mfano, unaweza kutuma kurasa za wavuti, video za YouTube, anwani na mengineyo.\n\nWeka tu vifaa pamoja (kwa kuvigusisha sehemu za nyuma) na uguse skrini yako. Programu itabaini kile kitatumwa."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Washa Wi-Fi"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Hitilafu ya mtandaopepe wa Wi-Fi"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Weka intaneti ya Wi-Fi ya kusambazwa"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Kuweka mtandaopepe wa Wi-Fi"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Mtandao pepe wa AndroidAP WPA2 PSK"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Mtandao pepe wa ethOSAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Ungependa kuhifadhi mtandao huu?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> inataka kuhifadhi mtandao kwenye simu yako"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> inataka kuhifadhi mtandao kwenye kompyuta yako kibao"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"Utendakazi wa PIN ya SIM umeshindwa!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Masasisho ya mfumo"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Toleo la Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Sasisho la usalama la Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"Toleo la ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"Sasisho la usalama la ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"Muundo"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Toleo la maunzi"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"Kitambulisho cha Kifaa"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"Kuunganishwa kwenye kompyuta kwa USB"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Unganisha kama"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Kifaa cha media (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Hukuwezesha kuhamisha faili za media kwenye Windows, au kwa kutumia Uhamishaji Faili wa Android kwenye Mac  (angalia www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Hukuwezesha kuhamisha faili za media kwenye Windows, au kwa kutumia Uhamishaji Faili wa ethOS kwenye Mac  (angalia www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Kamera (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Hukuwezesha kuhamisha picha kwa kutumia programu ya kamera, na kuhamisha faili zozote kwenye kompyuta ambayo haitumii MTP"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Ili utumie programu, picha na data zilizo kwenye <xliff:g id="NAME">^1</xliff:g> hii, iingize tena. \n\nAma, unaweza kuamua kusahau hifadhi hii ikiwa kifaa hakipatikani. \n\nUkiamua kusahau, data yote iliyo kwenye kifaa itapotea kabisa. \n\nUnaweza kusakinisha upya programu baadaye, lakini data iliyohifadhiwa kwenye kifaa hiki itapotea."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Ungetaka kusahau <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Programu, picha, na data zote zilizohifadhiwa kwenye <xliff:g id="NAME">^1</xliff:g> hii zitapotea kabisa."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Mfumo unajumuisha faili zinazotumika katika toleo la Android la <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Mfumo unajumuisha faili zinazotumika katika toleo la ethOS la <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Watumiaji wageni hawawezi kuandaa diski za kadi za SD"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Sanidi <xliff:g id="NAME">^1</xliff:g> yako"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Andaa kadi ya SD kwa ajili ya hifadhi inayohamishika"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Eneo sakinishwa pendekezwa"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Badilisha usakinishaji wa eneo unalopenda ya programu mpya"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Zima programu"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Ukizima programu hii, huenda Android na programu zingine zikakosa kufanya kazi tena kama ilivyokusudiwa. Kumbuka, huwezi kufuta programu hii kwa kuwa ilisakinishwa mapema kwenye kifaa chako. Kwa kuizima, unazima programu hii na kuificha kwenye kifaa chako."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Ukizima programu hii, huenda ethOS na programu zingine zikakosa kufanya kazi tena kama ilivyokusudiwa. Kumbuka, huwezi kufuta programu hii kwa kuwa ilisakinishwa mapema kwenye kifaa chako. Kwa kuizima, unazima programu hii na kuificha kwenye kifaa chako."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Arifa zilemazwe?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Duka"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Maelezo ya programu"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Ikifanya kazi chinichini"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Ikifanya kazi waziwazi"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Iliyowekwa kwenye akiba"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Mfumo wa uendeshaji wa Android"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"Mfumo wa uendeshaji wa ethOS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Asili"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kernel"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Kuweka na kupokea data kwa kutamka"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Mipangilio kuweka na kupokea data kwa kutamka"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Tafuta kwa kutamka"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Baobonye la Android"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"Baobonye la ethOS"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Mipangilio ya kuweka data kwa kutamka"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Kuweka data kwa kutamka"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Huduma za kuweka data kwa kutamka"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, hali ya kuendesha gari"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, hali ya kuendesha gari, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, hali ya kuendesha gari"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, hali ya kuendesha gari, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, hali ya kuendesha gari"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Haipatikani kwa sababu NFC imezimwa"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Ili utumie, sakinisha kwanza programu ya kulipa"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Programu na arifa"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Hakuna programu zilizosakinishwa ambazo zimeomba kufikia arifa."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Ruhusu ifikie arifa"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Je, ungependa kuruhusu ufikiaji wa arifa za <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Kipengele cha Arifa Zilizoboreshwa kilichukua nafasi ya Arifa Zinazojirekebisha za Android katika Android 12. Kipengele hiki kinaonyesha majibu na vitendo vinavyopendekezwa na kupanga arifa zako. \n\nKipengele cha Arifa zilizoboreshwa kinaweza kufikia maudhui ya arifa, ikiwa ni pamoja na taarifa binafsi kama vile majina ya anwani na ujumbe. Kipengele hiki kinaweza pia kuondoa au kujibu arifa, kama vile kujibu simu na kudhibiti kipengele cha Usinisumbue."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Kipengele cha Arifa Zilizoboreshwa kilichukua nafasi ya Arifa Zinazojirekebisha za ethOS katika ethOS 12. Kipengele hiki kinaonyesha majibu na vitendo vinavyopendekezwa na kupanga arifa zako. \n\nKipengele cha Arifa zilizoboreshwa kinaweza kufikia maudhui ya arifa, ikiwa ni pamoja na taarifa binafsi kama vile majina ya anwani na ujumbe. Kipengele hiki kinaweza pia kuondoa au kujibu arifa, kama vile kujibu simu na kudhibiti kipengele cha Usinisumbue."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Je, ungependa kuruhusu ufikiaji wa arifa za <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> itaweza kusoma arifa zote, ikiwa ni pamoja na taarifa binafsi kama vile majina ya anwani, picha na maandishi ya ujumbe unaopokea. Programu hii itaweza pia kuahirisha au kuondoa arifa au kuchukua hatua kwenye vitufe katika arifa, ikiwa ni pamoja na kujibu simu. \n\nHatua hii pia itaipa programu uwezo wa kuwasha au kuzima kipengele cha Usinisumbue na kubadilisha mipangilio inayohusiana nacho."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> itaweza:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Hakuna programu zilizosakinishwa ambazo zimeomba kufikia kipengele cha Usinisumbue"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Inapakia programu…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Hujaruhusu arifa kwenye programu hii"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Kutokana na ombi lako, Android inazuia aina hizi za arifa ili zisionekane kwenye kifaa hiki"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Kutokana na ombi lako, Android inazuia kikundi hiki cha arifa ili zisionekane kwenye kifaa hiki"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Kutokana na ombi lako, ethOS inazuia aina hizi za arifa ili zisionekane kwenye kifaa hiki"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Kutokana na ombi lako, ethOS inazuia kikundi hiki cha arifa ili zisionekane kwenye kifaa hiki"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Programu hii haitumi arifa"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Aina"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Nyingine"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Umeingia katika akaunti kama <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ni chaguomsingi"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Kipengee cha kuhifadhi nakala kimezimwa"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Imesasishwa na inatumia Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Imesasishwa na inatumia ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Sasisho linapatikana"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"Imezuiwa na msimamizi wako wa Tehama"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Haiwezi kubadilisha sauti"</string>
@@ -5001,7 +5001,7 @@
     <string name="notification_log_details_extras" msgid="8602887256103970989">"za ziada"</string>
     <string name="notification_log_details_icon" msgid="6728710746466389675">"aikoni"</string>
     <string name="notification_log_details_parcel" msgid="2098454650154230531">"ukubwa wa sehemu"</string>
-    <string name="notification_log_details_ashmem" msgid="6163312898302809015">"hifadhi inayoshirikiwa katika Android"</string>
+    <string name="notification_log_details_ashmem" msgid="6163312898302809015">"hifadhi inayoshirikiwa katika ethOS"</string>
     <string name="notification_log_details_alerted" msgid="5285078967825048406">"imewasilisha arifa"</string>
     <string name="notification_log_channel" msgid="3406738695621767204">"kituo"</string>
     <string name="notification_log_details_none" msgid="1090852853755089991">"hamna"</string>
@@ -5661,14 +5661,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Huenda ukapoteza idhini ya kutumia muda au data inayosalia. Wasiliana na mtoa huduma wako kabla hujaondoa."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"picha ya maudhui, maudhui ya programu"</string>
     <string name="content_capture" msgid="868372905432812238">"Maudhui ya programu"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Ruhusu programu zitume maudhui kwenye mfumo wa Android"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Ruhusu programu zitume maudhui kwenye mfumo wa ethOS"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Piga picha ya hifadhi ya mfumo"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"Washa tena MTE ikiwa imewaka"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Mfumo utajiwasha tena na kuruhusu kufanya jaribio na Viendelezi vya Kuweka Lebo za Kumbukumbu (MTE). Kipengele cha MTE kinaweza kuathiri utendaji na uthabiti wa mfumo. Itawekwa upya utakapowasha tena kifaa chako."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Inapiga picha ya hifadhi ya mfumo"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Imeshindwa kupiga picha ya hifadhi ya mfumo"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Piga picha za hifadhi ya mfumo kiotomatiki"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Piga picha ya hifadhi ya Mfumo wa Android kiotomatiki inapotumia hifadhi kubwa mno"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Piga picha ya hifadhi ya Mfumo wa ethOS kiotomatiki inapotumia hifadhi kubwa mno"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Ondoa"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Simu za dharura"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Mtoa huduma wako hakuruhusu kupiga simu za dharura kupitia Wi-Fi.\nKifaa hubadili kiotomatiki na kutumia mtandao wa simu ya mkononi ili kupiga simu ya dharura.\nUnaweza kupiga simu za dharura katika maeneo yaliyo na mtandao wa simu ya mkononi pekee."</string>

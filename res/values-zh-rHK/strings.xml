@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"啟用這項功能後，當最後一個信任代理程式失去信任時，裝置將會上鎖"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"無"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"例如：Joe 的 Android。"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"例如：Joe 的 ethOS。"</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"在上鎖畫面上顯示個人檔案資料"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"帳戶"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"位置"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC 讓此裝置和其他附近的裝置/目標 (例如付款終端機、存取閱讀器，以及互動廣告或標籤) 交換之間交換資料。"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"必須解鎖裝置才能使用 NFC"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"只在螢幕解鎖時才允許使用 NFC"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"準備就緒，可經由 NFC 傳輸應用程式內容"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"關閉"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC 已關閉，因此無法使用"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"開啟此功能後，只需將裝置靠在一起，即可將應用程式內容傳送至另一部支援 NFC 的裝置。例如，您可以傳送網頁、YouTube 影片、聯絡人和其他內容。\n\n只需將裝置靠在一起 (通常是背靠背)，然後輕按螢幕，應用程式便會隨即決定要傳送的內容。"</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi‑Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"開啟 Wi-Fi"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"可攜式 Wi-Fi 熱點發生錯誤"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"設定 Wi-Fi 熱點"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Wi‑Fi 熱點設定"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK 熱點"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"Android 熱點"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK 熱點"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOS 熱點"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"要儲存此網絡嗎？"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想將網絡儲存至您的手機"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想在您的平板電腦中新增網絡"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIM PIN 碼操作失敗！"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"系統更新"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android 版本"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android 安全性更新"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS 版本"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS 安全性更新"</string>
     <string name="model_info" msgid="8997566254717810904">"型號"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"硬件版本"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"設備編號"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB 電腦連接"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"已連結為"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"媒體裝置 (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"讓您在 Windows 上傳輸媒體檔案，或是在 Mac 上使用「Android 檔案傳輸」應用程式傳輸媒體檔案 (下載網址：www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"讓您在 Windows 上傳輸媒體檔案，或是在 Mac 上使用「ethOS 檔案傳輸」應用程式傳輸媒體檔案 (下載網址：www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"相機 (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"讓您使用相機軟件傳送照片，並在不支援 MTP 的電腦上傳送任何檔案"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"如需使用儲存在<xliff:g id="NAME">^1</xliff:g>內的應用程式、相片或資料，請重新插入。\n\n如果無法使用裝置，可選擇忘記此儲存空間。\n\n如果您選擇忘記儲存空間，裝置上的所有資料將被永久刪除。\n\n您可以稍後重新安裝應用程式，但儲存在此裝置的相關資料將被刪除。"</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"要忘記 <xliff:g id="NAME">^1</xliff:g> 嗎？"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"儲存在此 <xliff:g id="NAME">^1</xliff:g> 上的所有應用程式、相片和資料將被永久刪除。"</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"「系統」包含用來執行 Android <xliff:g id="VERSION">%s</xliff:g> 版本的檔案"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"「系統」包含用來執行 ethOS <xliff:g id="VERSION">%s</xliff:g> 版本的檔案"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"使用訪客模式的使用者無法格式化 SD 卡"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"設定您的<xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"將 SD 卡格式化為外置儲存空間"</string>
@@ -2257,7 +2257,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"偏好的安裝位置"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"更改新應用程式在安裝時的喜好位置。"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"停用應用程式"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"如果您停用此應用程式，Android 和其他應用程式可能無法正常運作。請謹記，由於此應用程式已預先安裝至您的裝置，因此無法將之刪除。停用後，您便可關閉此應用程式並在裝置上隱藏它。"</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"如果您停用此應用程式，ethOS 和其他應用程式可能無法正常運作。請謹記，由於此應用程式已預先安裝至您的裝置，因此無法將之刪除。停用後，您便可關閉此應用程式並在裝置上隱藏它。"</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"關閉通知？"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"商店"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"應用程式詳細資料"</string>
@@ -3119,7 +3119,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"背景"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"前景"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"快取"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android 作業系統"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS 作業系統"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"本機"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"核心"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3146,7 +3146,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"語音輸入裝置與輸出裝置"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"語音輸入與輸出裝置設定"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"語音搜尋"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android 鍵盤"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS 鍵盤"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"語音輸入設定"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"語音輸入"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"語音輸入服務"</string>
@@ -3726,10 +3726,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"藍牙、駕駛模式"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"藍牙、NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"藍牙"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"藍牙、Android Auto、駕駛模式、NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"藍牙、Android Auto、駕駛模式"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"藍牙、Android Auto、NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"藍牙、Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"藍牙、ethOS Auto、駕駛模式、NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"藍牙、ethOS Auto、駕駛模式"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"藍牙、ethOS Auto、NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"藍牙、ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"由於 NFC 已關閉，因此無法使用"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"如要使用，請先安裝付款應用程式"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"應用程式和通知"</string>
@@ -3800,7 +3800,7 @@
     <string name="keywords_imei_info" msgid="8848791606402333514">"MEI, MEID, MIN, PRL 版本, IMEI SV"</string>
     <string name="keywords_sim_status" msgid="8784456547742075508">"網絡, 流動網絡狀態, 服務狀態, 訊號強度, 流動網絡類型, 漫遊, ICCID, EID"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"序號, 硬件版本"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"Android 安全性修補程式等級, 基頻版本, 核心版本"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"ethOS 安全性修補程式等級, 基頻版本, 核心版本"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"主題, 淺色, 深色, 模式, 光敏度, 光敏, 調暗, 調低亮度, 暗光模式, 偏頭痛"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"深色主題背景"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"錯誤"</string>
@@ -3812,7 +3812,7 @@
     <string name="keywords_display_auto_brightness" msgid="7162942396941827998">"調暗螢幕, 觸控螢幕, 電池, 智能亮度, 動態亮度, 自動調整亮度"</string>
     <string name="keywords_display_adaptive_sleep" msgid="4905300860114643966">"智能, 調暗螢幕, 休眠, 電池, 逾時, 注意, 顯示屏, 螢幕, 閒置"</string>
     <string name="keywords_auto_rotate" msgid="7288697525101837071">"相機, 智能, 自動旋轉, 旋轉, 翻轉, 旋轉, 直向, 橫向, 屏幕定向, 垂直, 水平"</string>
-    <string name="keywords_system_update_settings" msgid="5769003488814164931">"升級, Android"</string>
+    <string name="keywords_system_update_settings" msgid="5769003488814164931">"升級, ethOS"</string>
     <string name="keywords_zen_mode_settings" msgid="7810203406522669584">"請勿騷擾, 時間表, 通知, 封鎖, 靜音, 震動, 休眠, 工作, 焦點, 音效, 忽略, 天, 平日, 週末, 平日晚上, 活動"</string>
     <string name="keywords_screen_timeout" msgid="8921857020437540572">"螢幕, 鎖定時間, 逾時, 鎖定螢幕"</string>
     <string name="keywords_storage_settings" msgid="6018856193950281898">"記憶體, 快取, 資料, 刪除, 清除, 釋出, 空間"</string>
@@ -4176,7 +4176,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"沒有已安裝的應用程式要求通知存取權。"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"允許存取通知"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"要允許<xliff:g id="SERVICE">%1$s</xliff:g>存取通知嗎？"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"在 Android 12 中，我們將 Android 自動調整通知取代成強化通知。此功能可顯示建議操作和回覆，以及整理通知。\n\n強化通知功能可存取所有通知內容 (包括聯絡人姓名和訊息等個人資料)，以及關閉或回應通知，例如接聽來電和控制「請勿騷擾」功能。"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"在 ethOS 12 中，我們將 ethOS 自動調整通知取代成強化通知。此功能可顯示建議操作和回覆，以及整理通知。\n\n強化通知功能可存取所有通知內容 (包括聯絡人姓名和訊息等個人資料)，以及關閉或回應通知，例如接聽來電和控制「請勿騷擾」功能。"</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"要允許<xliff:g id="SERVICE">%1$s</xliff:g>存取通知嗎？"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"「<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>」將可讀取所有通知，包括聯絡人姓名、相片和您收到的訊息內容等個人資料，以及延後或關閉通知或針對通知中的按鈕採取行動，包括接聽來電。\n\n此外，該應用程式還能開啟或關閉「請勿騷擾」模式及變更相關設定。"</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"「<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>」將可執行以下操作："</string>
@@ -4247,8 +4247,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"沒有已安裝的應用程式要求存取「請勿騷擾」。"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"正在載入應用程式…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"您尚未允許此應用程式發出通知"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Android 目前按您的要求防止這類通知在此裝置上顯示"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Android 目前按您的要求防止這類通知在此裝置上顯示"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"ethOS 目前按您的要求防止這類通知在此裝置上顯示"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"ethOS 目前按您的要求防止這類通知在此裝置上顯示"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"此應用程式不會傳送通知"</string>
     <string name="notification_channels" msgid="1502969522886493799">"類別"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"其他"</string>
@@ -4824,7 +4824,7 @@
     <string name="users_summary" msgid="8473589474976307510">"已使用<xliff:g id="USER_NAME">%1$s</xliff:g>的身分登入"</string>
     <string name="payment_summary" msgid="5513009140568552693">"預設使用「<xliff:g id="APP_NAME">%1$s</xliff:g>」"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"已停用備份功能"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"已更新至 Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"已更新至 ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"有可用的更新"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"已被您的 IT 管理員封鎖"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"無法變更音量"</string>
@@ -5661,14 +5661,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"您可能會失去所有剩餘時間或資料的存取權。移除前，請聯絡您的供應商尋求指示。"</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"內容擷取, 應用程式內容"</string>
     <string name="content_capture" msgid="868372905432812238">"應用程式內容"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"允許應用程式向 Android 系統傳送內容"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"允許應用程式向 ethOS 系統傳送內容"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"擷取系統堆轉儲"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"重新啟動並啟用 MTE"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"系統將會重新啟動並允許進行 Memory Tagging Extension (MTE) 實驗。MTE 可能會降低系統效能和穩定性。系統將在下次重新開機時重設。"</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"正在擷取系統堆轉儲"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"無法擷取系統堆轉儲"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"自動擷取系統堆轉儲"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"當使用過多記憶體時，自動為 Android 系統擷取堆轉儲"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"當使用過多記憶體時，自動為 ethOS 系統擷取堆轉儲"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"中斷連線"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"緊急通話"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"您的電訊商目前不支援透過 Wi-Fi 通話撥打緊急電話。\n裝置會自動切換至流動網絡以撥打緊急電話。\n您只可在流動網絡覆蓋的區域撥打緊急電話。"</string>

@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC ஆனது இந்தச் சாதனம் மற்றும் அருகிலுள்ள பிற சாதனங்கள் அல்லது இலக்குகளுக்கு இடையே (எ.கா: கட்டண முனையங்கள், ஆக்சஸ் ரீடர்கள், ஊடாடத்தக்க விளம்பரங்கள் அல்லது குறிகள்) தரவைப் பரிமாற்றும்."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFCக்கு சாதனம் அன்லாக் செய்யப்படுவதை அவசியமாக்குதல்"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"திரை திறந்திருக்கும்போது மட்டும் NFCயை அனுமதிக்கும்"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android பீம்"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS பீம்"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"NFC வழியாக ஆப்ஸ் உள்ளடக்கத்தைப் பரிமாற்றும்"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"ஆஃப்"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC முடக்கப்பட்டுள்ளதால் கிடைக்கவில்லை"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android பீம்"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS பீம்"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"இந்த அம்சம் இயக்கப்பட்டிருக்கும் போது, சாதனங்களை அருகில் வைத்துப் பிடித்து, ஆப்ஸ் உள்ளடக்கத்தை மற்றொரு NFC திறன் வாய்ந்த சாதனத்தில் தெரியுமாறு புரொஜக்ட் செய்யலாம். எடுத்துக்காட்டாக, உங்கள் இணையப் பக்கங்கள், YouTube வீடியோக்கள், தொடர்புகள், மேலும் பலவற்றை மற்றொரு சாதனத்தில் தெரியுமாறு புரொஜக்ட் செய்யலாம்.\n\nசாதனங்களின் பின்புறத்தை அருகில் கொண்டுவந்து, உங்கள் திரையில் தட்டவும். புரொஜக்ட் செய்ய வேண்டிய உள்ளடக்கத்தை மற்றொரு சாதனத்தில் இந்த அம்சம் காட்டும்."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"வைஃபை"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"வைஃபையை இயக்கு"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"போர்ட்டபில் வைஃபை ஹாட்ஸ்பாட் பிழை"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"வைஃபை ஹாட்ஸ்பாட்டை அமை"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"வைஃபை ஹாட்ஸ்பாட் அமைவு"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK ஹாட்ஸ்பாட்"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK ஹாட்ஸ்பாட்"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"இந்த நெட்வொர்க்கை சேமிக்க வேண்டுமா?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"உங்கள் மொபைலில் ஒரு நெட்வொர்க்கை <xliff:g id="APPNAME">%1$s</xliff:g> சேமிக்க விரும்புகிறது"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"உங்கள் டேப்லெட்டில் ஒரு நெட்வொர்க்கை சேமிக்க <xliff:g id="APPNAME">%1$s</xliff:g> விரும்புகிறது"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"சிம் பின் செயல்பாடு தோல்வி!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"புதிய பதிப்பு"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android பதிப்பு"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android பாதுகாப்புப் புதுப்பிப்பு"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS பதிப்பு"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS பாதுகாப்புப் புதுப்பிப்பு"</string>
     <string name="model_info" msgid="8997566254717810904">"மாடல்"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"வன்பொருள் பதிப்பு"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"உபகரணத்தின் ஐடி"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB கணினி இணைப்பு"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"இவ்வாறு இணை"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"மீடியா சாதனம் (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"நீங்கள் Windows இல் மீடியா ஃபைல்களை இடமாற்றவும் அல்லது Mac இல் Android ஃபைலின் இடமாற்றத்தைப் பயன்படுத்தவும் அனுமதிக்கிறது (www.android.com/filetransfer ஐப் பார்க்கவும்)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"நீங்கள் Windows இல் மீடியா ஃபைல்களை இடமாற்றவும் அல்லது Mac இல் ethOS ஃபைலின் இடமாற்றத்தைப் பயன்படுத்தவும் அனுமதிக்கிறது (www.android.com/filetransfer ஐப் பார்க்கவும்)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"கேமரா (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"கேமரா மென்பொருளைப் பயன்படுத்தி நீங்கள் படங்களை அனுப்பவும், மேலும் MTP ஆதரிக்காத கணினிகளில் எந்த ஃபைல்களையும் பரிமாற்றவும் உதவுகிறது."</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"<xliff:g id="NAME">^1</xliff:g> இல் உள்ள ஆப்ஸ், படங்கள் அல்லது தரவைப் பயன்படுத்த, அதை மீண்டும் செருகவும். \n\nசாதனம் இல்லையெனில், இந்தச் சேமிப்பகத்தை அகற்றிவிடவும். \n\nஅவ்வாறு அகற்றினால், அதிலுள்ள தரவு இனி கிடைக்காது. \n\nஆப்ஸை மீண்டும் நிறுவிக்கொள்ளலாம், எனினும் அவற்றின் தரவு மீண்டும் கிடைக்காது."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g>ஐ அகற்றவா?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"<xliff:g id="NAME">^1</xliff:g> இல் சேமிக்கப்பட்ட அனைத்து ஆப்ஸ், படங்கள் மற்றும் தரவு ஆகியவற்றை நிரந்தரமாக இழப்பீர்கள்."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Android <xliff:g id="VERSION">%s</xliff:g> பதிப்பை இயக்குவதற்குப் பயன்படுத்தப்படும் ஃபைல்களும் சிஸ்டத்தில் அடங்கும்"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"ethOS <xliff:g id="VERSION">%s</xliff:g> பதிப்பை இயக்குவதற்குப் பயன்படுத்தப்படும் ஃபைல்களும் சிஸ்டத்தில் அடங்கும்"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"கெஸ்ட் பயனர்கள் SD கார்டை ஃபார்மேட் செய்ய முடியாது"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"<xliff:g id="NAME">^1</xliff:g>ஐ அமைக்கவும்"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"போர்டபிள் சேமிப்பகத்திற்கு SD கார்டை ஃபார்மேட் செய்தல்"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"தேர்வுசெய்த நிறுவல் இருப்பிடம்"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"புதிய பயன்பாடுகளுக்கான பரிந்துரைக்கப்பட்ட நிறுவல் இடங்களை மாற்றவும்"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"ஆப்ஸை முடக்கு"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"இந்த ஆப்ஸை முடக்கினால் Androidம் பிற ஆப்ஸும் எதிர்பார்த்தவாறு செயல்படாமல் போகக்கூடும். கவனத்திற்கு: சாதனத்தை வாங்கும்போதே ஆப்ஸ் நிறுவப்பட்டுள்ளதால் இதை நீக்க இயலாது. இதை முடக்குவதன் மூலம் ஆஃப் செய்யப்பட்ட நிலையில் ஆப்ஸ் சாதனத்திலேயே இருக்கும்"</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"இந்த ஆப்ஸை முடக்கினால் ethOSம் பிற ஆப்ஸும் எதிர்பார்த்தவாறு செயல்படாமல் போகக்கூடும். கவனத்திற்கு: சாதனத்தை வாங்கும்போதே ஆப்ஸ் நிறுவப்பட்டுள்ளதால் இதை நீக்க இயலாது. இதை முடக்குவதன் மூலம் ஆஃப் செய்யப்பட்ட நிலையில் ஆப்ஸ் சாதனத்திலேயே இருக்கும்"</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"அறிவிப்புகளை முடக்கவா?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Store"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"ஆப்ஸின் விவரங்கள்"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"பின்புலம்"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"முன்புலம்"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"தற்காலிகச் சேமிப்பு"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"உள்ளகம்"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"கெர்னல்"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"குரல் உள்ளீடு &amp; வெளியீடு"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"குரல் உள்ளீடு &amp; வெளியீட்டின் அமைப்பு"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"குரல் தேடல்"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android கீபோர்டு"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS கீபோர்டு"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"குரல் உள்ளீட்டு அமைப்பு"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"குரல் உள்ளீடு"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"குரல் உள்ளீட்டுச் சேவைகள்"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"புளூடூத், வாகனம் ஓட்டும் பயன்முறை"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"புளூடூத், NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"புளூடூத்"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"புளூடூத், Android Auto, வாகனம் ஓட்டும் பயன்முறை, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"புளூடூத், Android Auto, வாகனம் ஓட்டும் பயன்முறை"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"புளூடூத், Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"புளூடூத், Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"புளூடூத், ethOS Auto, வாகனம் ஓட்டும் பயன்முறை, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"புளூடூத், ethOS Auto, வாகனம் ஓட்டும் பயன்முறை"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"புளூடூத், ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"புளூடூத், ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC ஆஃப் செய்யப்பட்டிருப்பதால் பயன்படுத்த முடியாது"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"பயன்படுத்த, முதலில் பேமெண்ட் ஆப்ஸை நிறுவவும்"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"ஆப்ஸ் &amp; அறிவிப்பு"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"அறிவிப்பு அணுகலைக் கோரும் ஆப்ஸ் எதுவும் நிறுவப்படவில்லை."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"அறிவிப்பு அணுகலை அனுமதி"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> சேவைக்கான அறிவிப்பு அணுகலை அனுமதிக்கவா?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12 பதிப்பில் \'Android சூழலுக்கேற்ற அறிவிப்புகள்\' அம்சத்திற்குப் பதிலாக \'மேம்பட்ட அறிவிப்புகள்\' கொடுக்கப்பட்டுள்ளது. இந்த அம்சம், பரிந்துரைக்கப்படும் செயல்களையும் பதில்களையும் காட்டுவதுடன் உங்கள் அறிவிப்புகளையும் ஒழுங்கமைக்கும். \n\nதொடர்புகளின் பெயர்கள், மெசேஜ்கள் போன்ற தனிப்பட்ட தகவல்கள் உட்பட அனைத்து அறிவிப்பு உள்ளடக்கத்தையும் \'மேம்பட்ட அறிவிப்புகள்\' அணுக முடியும். மேலும் இந்த அம்சத்தால் அறிவிப்புகளை நிராகரிக்கவும் அவற்றுக்குப் பதிலளிக்கவும் முடியும் (அழைப்புகளுக்குப் பதிலளிப்பது, \'தொந்தரவு செய்ய வேண்டாம்\' அம்சத்தைக் கட்டுப்படுத்துவது போன்றவை)."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ethOS 12 பதிப்பில் \'ethOS சூழலுக்கேற்ற அறிவிப்புகள்\' அம்சத்திற்குப் பதிலாக \'மேம்பட்ட அறிவிப்புகள்\' கொடுக்கப்பட்டுள்ளது. இந்த அம்சம், பரிந்துரைக்கப்படும் செயல்களையும் பதில்களையும் காட்டுவதுடன் உங்கள் அறிவிப்புகளையும் ஒழுங்கமைக்கும். \n\nதொடர்புகளின் பெயர்கள், மெசேஜ்கள் போன்ற தனிப்பட்ட தகவல்கள் உட்பட அனைத்து அறிவிப்பு உள்ளடக்கத்தையும் \'மேம்பட்ட அறிவிப்புகள்\' அணுக முடியும். மேலும் இந்த அம்சத்தால் அறிவிப்புகளை நிராகரிக்கவும் அவற்றுக்குப் பதிலளிக்கவும் முடியும் (அழைப்புகளுக்குப் பதிலளிப்பது, \'தொந்தரவு செய்ய வேண்டாம்\' அம்சத்தைக் கட்டுப்படுத்துவது போன்றவை)."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g>க்கான அறிவிப்பு அணுகலை அனுமதிக்கவா?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"தொடர்புகளின் பெயர்கள், படங்கள் மற்றும் நீங்கள் பெறும் மெசேஜ்கள் போன்ற தனிப்பட்ட தகவல்கள் அடங்கிய அனைத்து அறிவிப்புகளையும் <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> படிக்க முடியும். இந்த ஆப்ஸால் மெசேஜ்களுக்குப் பதிலளிக்க முடியும், அறிவிப்புகளில் உள்ள பட்டன்களில் நடவடிக்கை எடுக்க முடியும் (அழைப்புகளுக்குப் பதிலளிப்பது உட்பட). \n\n’தொந்தரவு செய்ய வேண்டாம்’ அம்சத்தை ஆப்ஸால் ஆன்/ஆஃப் செய்ய முடியும், அது தொடர்பான அமைப்புகளை மாற்ற முடியும்."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> இவற்றைப் பார்க்க முடியும்:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"\'தொந்தரவு செய்யாதே\' அணுகலை நிறுவப்பட்ட ஆப்ஸ் எதுவும் கோரவில்லை"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"ஆப்ஸை ஏற்றுகிறது…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"இந்த ஆப்ஸின் அறிவிப்புகளை நீங்கள் அனுமதிக்கவில்லை"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"உங்கள் கோரிக்கையின் படி, இந்தச் சாதனத்தில், இந்த வகை அறிவிப்புகள் தோன்றுவதை Android தடுக்கிறது"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"உங்கள் கோரிக்கையின் படி, இந்தச் சாதனத்தில், இந்தக் குழு அறிவிப்புகள் தோன்றுவதை Android தடுக்கிறது"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"உங்கள் கோரிக்கையின் படி, இந்தச் சாதனத்தில், இந்த வகை அறிவிப்புகள் தோன்றுவதை ethOS தடுக்கிறது"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"உங்கள் கோரிக்கையின் படி, இந்தச் சாதனத்தில், இந்தக் குழு அறிவிப்புகள் தோன்றுவதை ethOS தடுக்கிறது"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"இந்த ஆப்ஸ் அறிவிப்புகளை அனுப்பாது"</string>
     <string name="notification_channels" msgid="1502969522886493799">"வகைகள்"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"மற்றவை"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"உள்நுழைந்துள்ள முகவரி: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> இயல்பு பயன்பாடாகும்"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"காப்புப் பிரதி முடக்கப்பட்டுள்ளது"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> பதிப்புக்குப் புதுப்பிக்கப்பட்டது"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ethOS <xliff:g id="VERSION">%1$s</xliff:g> பதிப்புக்குப் புதுப்பிக்கப்பட்டது"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"புதுப்பிப்பு உள்ளது"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"உங்கள் IT நிர்வாகி தடைசெய்துள்ளார்"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"ஒலியளவை மாற்ற முடியாது"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"மீதமிருக்கும் நேரம் அல்லது தரவிற்கான அணுகலை நீங்கள் இழக்கக்கூடும். இதை அகற்றுவதற்கு முன்பாக வழங்குநரைத் தொடர்புகொள்ளவும்."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"உள்ளடக்கத்தைச் சேமித்தல், ஆப்ஸ் உள்ளடக்கம்"</string>
     <string name="content_capture" msgid="868372905432812238">"ஆப்ஸ் உள்ளடக்கம்"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Android சிஸ்டத்திற்கு உள்ளடக்கத்தை அனுப்ப ஆப்ஸை அனுமதிக்கும்"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"ethOS சிஸ்டத்திற்கு உள்ளடக்கத்தை அனுப்ப ஆப்ஸை அனுமதிக்கும்"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"சிஸ்டம் ஹீப் டம்ப்பைத் தொடங்குதல்"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"MTE மூலம் மறுபடி தொடங்குதல்"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"சிஸ்டம் மீண்டும் தொடங்கி, நினைவகக் குறியிடல் நீட்டிப்பு (MTE - Memory Tagging Extensions) மூலம் பரிசோதனை செய்ய அனுமதிக்கும். நினைவகக் குறியிடல் நீட்டிப்புகள் (MTE) சிஸ்டமின் செயல்திறனையும் நிலைப்புத்தன்மையையும் எதிர்மறையாகப் பாதிக்கக்கூடும். அடுத்த முறை மீண்டும் தொடங்கும்போது ரீசெட் செய்யப்படும்."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"சிஸ்டம் ஹீப் டம்பைத் தொடங்குகிறது"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"சிஸ்டம் ஹீப் டம்ப்பைத் தொடங்க இயலவில்லை"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"சிஸ்டம் ஹீப் டம்ப்களைத் தானாகவே தொடங்குதல்"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"அதிகப்படியான நினைவகத்தைப் பயன்படுத்தும்போது Android சிஸ்டம் ஹீப் டம்ப்பைத் தானாகவே தொடங்கும்"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"அதிகப்படியான நினைவகத்தைப் பயன்படுத்தும்போது ethOS சிஸ்டம் ஹீப் டம்ப்பைத் தானாகவே தொடங்கும்"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"இணைப்பைத் துண்டி"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"அவசர அழைப்புகள்"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"வைஃபை அழைப்பு மூலம் அவசர அழைப்பு செய்வதை உங்கள் மொபைல் நிறுவனம் ஆதரிக்கவில்லை.\nஅவசர அழைப்பைச் செய்வதற்குச் சாதனம் தானாகச் செல்லுலார் நெட்வொர்க்கிற்கு மாறி விடும்.\nசெல்லுலார் கவரேஜ் உள்ள இடங்களில் மட்டுமே அவசர அழைப்புகள் சாத்தியமாகும்."</string>

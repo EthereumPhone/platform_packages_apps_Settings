@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Gaitzen bada, gailua blokeatu egingo da azken fidagarritasun-agenteak fidagarritasuna galtzen duenean"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Bat ere ez"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Adibidez, Jonen Android-eko gailua."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Adibidez, Jonen ethOS-eko gailua."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Erakutsi profileko informazioa pantaila blokeatuan."</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Kontuak"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Kokapena"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC eginbideak datuak trukatzen ditu gailu honen eta inguruko beste gailu edo helburu batzuen artean (adibidez, ordainketa-terminalak, sarbide-irakurgailuak, eta iragarki edo etiketa interaktiboak)."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Behartu gailua desblokeatzera NFCa erabiltzeko"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Eman NFCa erabiltzeko baimena pantaila desblokeatuta dagoenean soilik"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Aplikazioaren edukia NFC bidez transmititzeko prest"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Desaktibatuta"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Ez dago erabilgarri NFC desaktibatuta dagoelako"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Eginbide hau aktibatzen baduzu, NFC bidez parteka dezakezu aplikazioen edukia NFC gaitasuna duten beste gailu batzuekin, gailuak bata bestearengana hurbilduta. Besteak beste, web-orriak, YouTube-ko bideoak, kontaktuak eta beste hainbat gauza parteka ditzakezu.\n\nHori egiteko, hurbildu gailuak bata bestearengana (atzealdeak elkartu behar izan ohi dira), eta sakatu zure pantaila. Aplikazioak zehaztuko du partekatu beharrekoa zer den."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wifia"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Aktibatu Wi-Fia"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Wifi-gune eramangarriaren errorea gertatu da"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Konfiguratu wifi-gunea"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Wifi-gunearen konfigurazioa"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK wifi-gunea"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidSarePublikoa"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK wifi-gunea"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSSarePublikoa"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Sarea gorde nahi duzu?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> aplikazioak sare bat gorde nahi du telefonoan"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> aplikazioak tabletan gorde nahi du sare bat"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIMaren PIN kodearen eragiketak huts egin du!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Sistemaren eguneratzeak"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android-en bertsioa"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android-en segurtasun-eguneratzea"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS-en bertsioa"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS-en segurtasun-eguneratzea"</string>
     <string name="model_info" msgid="8997566254717810904">"Modeloa"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Hardware-bertsioa"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"Ekipoaren IDa"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB-ordenagailu konexioa"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Konektatu honela"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Multimedia-gailua (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Multimedia-fitxategiak Windows-en transferitzeko aukera ematen dizu, edo Mac-en Android fitxategi-transferentzia erabilita (ikusi www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Multimedia-fitxategiak Windows-en transferitzeko aukera ematen dizu, edo Mac-en ethOS fitxategi-transferentzia erabilita (ikusi www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Kamera (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Argazkiak kamera-softwarea erabilita transferitzea ahalbidetzen dizu, baita MTP onartzen ez duten ordenagailuetan fitxategiak transferitzea ere"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"<xliff:g id="NAME">^1</xliff:g> gailuak dituen aplikazioak, argazkiak edo datuak erabiltzeko, sar ezazu berriro. \n\nBestela, memoria ahaztea aukera dezakezu, gailua erabilgarri ez badago. \n\nAhazteko aukerarekin, gailuak dituen datu guztiak betiko galduko dira. \n\nGeroago instala ditzakezu berriro aplikazioak, baina gailu honetan haiek dituzten datuak galdu egingo dira."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g> ahaztu nahi duzu?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Betiko galduko dira <xliff:g id="NAME">^1</xliff:g> memoria-unitatean gordetako aplikazio, argazki eta datu guztiak."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Android-en <xliff:g id="VERSION">%s</xliff:g> bertsioa exekutatzeko erabiltzen diren fitxategiak daude sisteman"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"ethOS-en <xliff:g id="VERSION">%s</xliff:g> bertsioa exekutatzeko erabiltzen diren fitxategiak daude sisteman"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Gonbidatu moduan ezin dira formateatu SD txartelak"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Konfiguratu <xliff:g id="NAME">^1</xliff:g> memoria"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Formateatu SD txartela biltegiratze-gailu eramangarri gisa"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Instalazioaren kokapen hobetsia"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Aldatu aplikazio berrien instalazio-kokapen hobetsia"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Desgaitu aplikazioa"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Aplikazioa desgaitzen baduzu, baliteke Android-ek eta beste aplikazio batzuek behar bezala ez funtzionatzea. Kontuan izan ezin duzula ezabatu aplikazio hau gailuan berez instalatuta zetorrelako. Desgaituz gero, aplikazioa desaktibatu egingo duzu, eta gailutik ezkutatuko."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Aplikazioa desgaitzen baduzu, baliteke ethOS-ek eta beste aplikazio batzuek behar bezala ez funtzionatzea. Kontuan izan ezin duzula ezabatu aplikazio hau gailuan berez instalatuta zetorrelako. Desgaituz gero, aplikazioa desaktibatu egingo duzu, eta gailutik ezkutatuko."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Jakinarazpenak desaktibatu nahi dituzu?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Denda"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Aplikazioaren xehetasunak"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Atzeko planoa"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Aurreko planoa"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Cachean gordeta"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android sistema eragilea"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS sistema eragilea"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Natiboa"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kernel-a"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Ahots-sarrera eta -irteera"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Ahots-sarreraren eta -irteeraren ezarpenak"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Ahozko bilaketa"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android teklatua"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS teklatua"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Ahozko idazketaren ezarpenak"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Ahozko idazketa"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Ahozko idazketa-zerbitzuak"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, gidatze modua"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetootha, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetootha"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetootha, Android Auto, gidatze modua, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetootha, Android Auto, gidatze modua"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetootha, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetootha, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetootha, ethOS Auto, gidatze modua, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetootha, ethOS Auto, gidatze modua"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetootha, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetootha, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Ez dago erabilgarri NFC desaktibatuta dagoelako"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Erabiltzeko, instalatu ordainketak egiteko aplikazio bat"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Aplikazioak eta jakinarazpenak"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Ez dago jakinarazpenetarako sarbidea eskatu duen aplikaziorik."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Eman jakinarazpenak erabiltzeko baimena"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> zerbitzuari jakinarazpenetarako sarbidea eman nahi diozu?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12-n, jakinarazpen hobetuek ordeztu dituzte Android-eko jakinarazpen egokituak. Eginbide horrek, iradokitako ekintzak eta erantzunak erakusten, eta zure jakinarazpenak antolatzen ditu. \n\nJakinarazpen hobetuek jakinarazpenen eduki osoa atzi dezakete, informazio pertsonala barne (esaterako, kontaktuen izenak eta mezuak). Halaber, eginbideak jakinarazpenak bazter ditzake edo haiei erantzun diezaieke; adibidez, telefono-deiei erantzun diezaieke eta ez molestatzeko modua kontrola dezake."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ethOS 12-n, jakinarazpen hobetuek ordeztu dituzte ethOS-eko jakinarazpen egokituak. Eginbide horrek, iradokitako ekintzak eta erantzunak erakusten, eta zure jakinarazpenak antolatzen ditu. \n\nJakinarazpen hobetuek jakinarazpenen eduki osoa atzi dezakete, informazio pertsonala barne (esaterako, kontaktuen izenak eta mezuak). Halaber, eginbideak jakinarazpenak bazter ditzake edo haiei erantzun diezaieke; adibidez, telefono-deiei erantzun diezaieke eta ez molestatzeko modua kontrola dezake."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Jakinarazpenak erabiltzeko baimena eman nahi diozu <xliff:g id="SERVICE">%1$s</xliff:g> zerbitzuari?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> aplikazioak jakinarazpen guztiak irakurri ahalko ditu, informazio pertsonala barne (adibidez, kontaktuen izenak eta jasotzen dituzun mezuen testua). Halaber, aplikazioak jakinarazpenak atzeratu edo baztertu ahal izango ditu, edo jakinarazpenetako botoiak erabili, telefono-deiei erantzuteko botoia barne. \n\nHorrez gain, ez molestatzeko modua aktibatzeko eta desaktibatzeko aukera izango du aplikazioak, baita harekin erlazionatutako ezarpenak aldatzekoa ere."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"Hauek egiteko gai izango da <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Ez dago ez molestatzeko modurako sarbidea eskatu duen aplikaziorik"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Aplikazioak kargatzen…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Ez dituzu onartzen aplikazio honen jakinarazpenak"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Zure eskaerari jarraikiz, jakinarazpen-kategoria hau gailu honetan erakustea galarazten ari da Android"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Zure eskaerari jarraikiz, jakinarazpen talde hau gailu honetan erakustea galarazten ari da Android"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Zure eskaerari jarraikiz, jakinarazpen-kategoria hau gailu honetan erakustea galarazten ari da ethOS"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Zure eskaerari jarraikiz, jakinarazpen talde hau gailu honetan erakustea galarazten ari da ethOS"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Aplikazio honek ez du bidaltzen jakinarazpenik"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Kategoriak"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Beste batzuk"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> gisa hasi duzu saioa"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> da aplikazio lehenetsia"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Desgaituta dago babeskopiak egiteko aukera"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> bertsiora eguneratuta"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ethOS <xliff:g id="VERSION">%1$s</xliff:g> bertsiora eguneratuta"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Eguneratu egin daiteke"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"IKT saileko administratzaileak blokeatu egin du"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Ezin da aldatu bolumena"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Denbora edo daturik geldituz gero, baliteke haiek galtzea. Kendu aurretik, galdetu hornitzaileari."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"eduki-bilketa, aplikazioko edukia"</string>
     <string name="content_capture" msgid="868372905432812238">"Aplikazioko edukia"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Eman Android sistemara edukia bidaltzeko baimena aplikazioei"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Eman ethOS sistemara edukia bidaltzeko baimena aplikazioei"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Sortu memoria-iraulketaren txostena"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"Berrabiarazi MTEekin"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Sistema berrabiaraziko da, eta memorian etiketatzeko luzapenarekin (MTE) probak egiteko baimena emango. Baliteke MTEak eragin negatiboa izatea sistemaren errendimenduan eta egonkortasunean. Ondoz ondoko hurrengo berrabiaraztean berrezarriko da."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Memoria-iraulketaren txostena sortzen"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Ezin izan da sortu memoria-iraulketaren txostena"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Sortu automatikoki memoria-prozesuaren txostenak"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Sortu automatikoki Android sistemaren memoria-iraulketaren txosten bat memoria gehiegi erabiltzen denean"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Sortu automatikoki ethOS sistemaren memoria-iraulketaren txosten bat memoria gehiegi erabiltzen denean"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Deskonektatu"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Larrialdi-deiak"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Zure operadoreak ez ditu onartzen wifi bidezko larrialdi-deiak.\nLarrialdi-dei bat egin behar dela hautematean, gailua automatikoki aldatzen da sare mugikor batera deia egiteko.\nSare mugikorren estaldura-eremuetan bakarrik egin daitezke larrialdi-deiak."</string>

@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC, bu cihaz və yaxınlıqdakı gidər cihaz və nişangahlar arasında ödəniş terminalları, giriş oxuyucuları və interaktiv reklam və ya işarələr kimi data mübadiləsi edir."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFC üçün cihaz kilidinin açılması tələb olunsun"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"NFC ekran kilidi açıldıqdan sonra istifadə edilsin"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Tətbiq kontenti NFC vasitəsilə göndərilməyə hazırdır"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Qapalı"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC deaktiv edildiyi üçün əlçatan deyil"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Bu funksiya aktiv edildiyi zaman cihazları bir-birinə yaxın tutmaqla, digər NFC ilə uyğun tətbiq ötürə bilərsiniz. Məsələn, Brauzer səhifələrini, YouTube videolarını, kontaktları və bir çox məlumatları ötürə bilərsiniz.\n\nSadəcə cihazları bir-birinə yaxın tutun (adətən arxa-arxaya) və ekrana toxunun. Nəyin ötürülməsinə tətbiq özü qərar verəcək."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Wi-Fi yandırın"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Daşınan Wi-Fi hotspot xətası"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Wi-Fi hotspot ayarlayın"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Wi‑Fi hotspot quraşdırma"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK hotspot"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK hotspot"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Bu şəbəkə yadda saxlanılsın?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> şəbəkəni telefonunuzda yadda saxlamaq istəyir"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> şəbəkəni planşetinizdə yadda saxlamaq istəyir"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIM PIN əməliyyatı alınmadı!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Sistem güncəlləmələri"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android versiyası"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android güvənlik güncəllənməsi"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS versiyası"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS güvənlik güncəllənməsi"</string>
     <string name="model_info" msgid="8997566254717810904">"Model"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Avadanlıq versiyası"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"Avadanlıq ID"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB kompüter bağlantısı"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Qoşulmanı seçin"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Media cihaz (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Media faylları Windows\'a göndərməyə və ya Mac\'da Android File Transfer istifadə etməyə imkan verir  (bax www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Media faylları Windows\'a göndərməyə və ya Mac\'da ethOS File Transfer istifadə etməyə imkan verir  (bax www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Kamera (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Kamera proqramı istifadə etməklə Sizə fotoları transfer etməyə, MTP dəstəklənməyən kompüterlərə istənilən faylı göndərməyə imkan verir."</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"<xliff:g id="NAME">^1</xliff:g> yaddaşında olan tətbiq, foto və ya datanı istifadə etmək üçün, onu yenidən daxil edin. \n\nHəmçinin, əgər cihaz əlçatan deyilsə, bu yaddaşı unutmağı da seçə bilərsiniz. \n\nUnutmağı seçsəniz, cihazda olan bütün data həmişəlik silinəcək. \n\nTətbiqi sonra yenidən quraşdıra bilərsiniz, amma bu cihazda saxlanılan data itiriləcək."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g> unudulsun?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"<xliff:g id="NAME">^1</xliff:g> daxilində saxlanılan bütün tətbiq, foto və data həmişəlik silinəcək."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem Android <xliff:g id="VERSION">%s</xliff:g> versiyasını istifadə etmək üçün lazım olan fayllardan ibarətdir"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem ethOS <xliff:g id="VERSION">%s</xliff:g> versiyasını istifadə etmək üçün lazım olan fayllardan ibarətdir"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Qonaq rejimi istifadəçiləri SD kartları formatlaya bilməz"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"<xliff:g id="NAME">^1</xliff:g> cihazını quraşdırın"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Portativ yaddaş üçün SD kartı formatlayın"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Tərcih edilmiş quraşdırma yeri"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Yeni tətbiq üçün tərcih edilmiş quraşdırma yerini dəyişin"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Tətbiqi deaktiv edin"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Əgər bu tətbiqi deaktiv etsəniz, Android və digər tətbiqlər düzgün işlməyə bilər. Cihazda əvvəlcədən quraşdırıldığına görə bu tətbiqi silə bilməzsiniz. Əlçatan olmasını dayandırmaqla, bu tətbiqi deaktiv edir və cihazda gizlədirsiniz."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Əgər bu tətbiqi deaktiv etsəniz, ethOS və digər tətbiqlər düzgün işlməyə bilər. Cihazda əvvəlcədən quraşdırıldığına görə bu tətbiqi silə bilməzsiniz. Əlçatan olmasını dayandırmaqla, bu tətbiqi deaktiv edir və cihazda gizlədirsiniz."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Bildirişlər deaktiv edilsin?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Mağaza"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Tətbiq məlumatları"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Arxa fon"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Ön plan"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Keşli"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Native"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kernel"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Səs girişi və çıxışı"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Səs daxiletməsi və çıxış parametrləri"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Səsli axtarış"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android klaviatura"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS klaviatura"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Səs daxiletməsi parametrləri"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Səs daxiletməsi"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Səs daxiletmə xidmətləri"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, sürücülük rejimi"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, sürücülük rejimi, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, sürücülük rejimi"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, sürücülük rejimi, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, sürücülük rejimi"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC sönülü olduğu üçün əlçatan deyil"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"İstifadə etmək üçün öncə ödəniş tətbiqini quraşdırın"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Tətbiq və bildirişlər"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Heç bir quraşdırılmış tətbiq bildiriş girişi almayıb."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Bildiriş girişinə icazə verin"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> üçün bildiriş icazəsi verilsin?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12-də qabaqcıl bildirişlər var. Bu funksiya bütün bildirişləri qaydaya salır, cavab və əməliyyatlara dair tövsiyə verir.\n\nFunksiyanın kontaktlar, mesajlar və şəxsi məlumatlar daxil olmaqla bütün bildirişlərə girişi var. Zənglərə cavab verə, \"Narahat etməyin\" rejimini idarə edə, bildirişləri qapada və cavablaya bilər."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ethOS 12-də qabaqcıl bildirişlər var. Bu funksiya bütün bildirişləri qaydaya salır, cavab və əməliyyatlara dair tövsiyə verir.\n\nFunksiyanın kontaktlar, mesajlar və şəxsi məlumatlar daxil olmaqla bütün bildirişlərə girişi var. Zənglərə cavab verə, \"Narahat etməyin\" rejimini idarə edə, bildirişləri qapada və cavablaya bilər."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g> üçün bildiriş girişinə icazə verilsin?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kontakt adları, fotoları və aldığınız mesajların mətni kimi şəxsi məlumatlar daxil olmaqla, bütün bildirişləri oxuyacaq. Bu tətbiq həmçinin bildirişləri ertələyə və ya ötürə və ya bildirişlərlə bağlı düymələr üzərində əməliyyatlar icra edə biləcək (telefon zənglərini cavablandırmaq da daxil olmaqla). \n\nBu, tətbiqə \"Narahat Etməyin\" rejimini aktiv və ya deaktiv etmək, həmçinin əlaqədar ayarları dəyişmək imkanı verəcək."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> bunları edə biləcək:"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> kimi daxil olundu"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> deloftdur"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Yedəkləmə deaktiv edildi"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> versiyasına güncəlləndi"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ethOS <xliff:g id="VERSION">%1$s</xliff:g> versiyasına güncəlləndi"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Güncəlləmə əlçatandır"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"IT admininiz tərəfindən bloklanıb"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Səsi dəyişmək olmur"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Qalan vaxt və ya dataya girişi itirə bilərsiniz. Silməzdən əvvəl provayder ilə yoxlayın."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"kontentin əldə edilməsi, tətbiq kontenti"</string>
     <string name="content_capture" msgid="868372905432812238">"Tətbiq kontenti"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Tətbiqlərin kontenti Android sisteminə göndərməsinə icazə verin"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Tətbiqlərin kontenti ethOS sisteminə göndərməsinə icazə verin"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Sistem snepşotu əldə edin"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"MTE ilə yenidən başladılsın"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Sistem yenidən başladılacaq və Yaddaş Teqləmə Artırması (MTE) ilə sınaq keçirməyə icazə veriləcək. MTE sistemin performansına və sabitliyinə mənfi təsir göstərə bilər. Növbəti yenidən başladılma zamanı sıfırlanacaq."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Sistem snepşotu əldə edilir"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Sistem snepşotunu çəkmək alınmadı"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Sistem snepşotunu avtomatik əldə edin"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Android Sistemi çox yaddaş istifadə etdikdə avtomatik snepşot əldə edin"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ethOS Sistemi çox yaddaş istifadə etdikdə avtomatik snepşot əldə edin"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Bağlantını kəsin"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Təcili zənglər"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Operator Wi‑Fi Zəngi ilə təcili zəngləri dəstəkləmir.\nTəcili zəng etmək üçün cihaz avtomotik olaraq mobil şəbəkəyə keçir.\nTəcili zənglər yalnız mobil əhatə dairələrində əlçatandır."</string>

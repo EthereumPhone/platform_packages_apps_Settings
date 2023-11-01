@@ -322,7 +322,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"في حال تفعيل الميزة، سيتم قفل الجهاز عندما يفقد الوكيل المعتمد الأخير الثقة."</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"بدون"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"‏جهاز Android الخاص بهاني مثلاً"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"‏جهاز ethOS الخاص بهاني مثلاً"</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"إظهار معلومات الملف الشخصي في شاشة القفل"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"الحسابات"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"الموقع الجغرافي"</string>
@@ -1107,11 +1107,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"‏يتم من خلال تقنية الاتصال بالحقل القريب (NFC) تبادل البيانات بين هذا الجهاز والأجهزة أو الأهداف المجاورة الأخرى، مثل محطات الدفع وبرامج قراءة الوصول والعلامات أو الإعلانات التفاعلية."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"‏يجب فتح قفل الجهاز لاستخدام تقنية الاتصال القصير المدى (NFC)"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"‏السماح باستخدام الاتصال القصير المدى (NFC) عندما تكون الشاشة مفتوحة فقط"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"‏شعاع Android"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"‏شعاع ethOS"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"‏جاهز لنقل محتوى التطبيق عبر الاتصالات القريبة المدى (NFC)"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"إيقاف"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"‏الإعداد غير متاح بسبب إيقاف تقنية الاتصال القصير المدى (NFC)."</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"‏شعاع Android"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"‏شعاع ethOS"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"‏عند تفعيل هذه الميزة، يمكنك إرسال محتوى التطبيق إلى جهاز به اتصال NFC عن طريق الإمساك بالجهازين بالقرب من بعضهما. ويمكنك على سبيل المثال إرسال صفحات ويب وفيديوهات YouTube وجهات اتصال وغيرها.\n\nما عليك سوى تقريب الجهازين لبعضهما بعضًا (من الخلف عادةً) والنقر على الشاشة وسيحدّد التطبيق ما يتم إرساله."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi‑Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"‏تفعيل شبكة Wi-Fi"</string>
@@ -1393,8 +1393,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"‏خطأ في نقطة اتصال Wi-Fi المحمولة"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"‏إعداد نقطة اتصال Wi-Fi"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"‏إعداد نقطة اتصال Wi‑Fi"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"‏نقطة اتصال AndroidAP WPA2 PSK"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"‏نقطة اتصال ethOSAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"هل تريد حفظ هذه الشبكة؟"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"يريد التطبيق <xliff:g id="APPNAME">%1$s</xliff:g> حفظ شبكة على هاتفك."</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"يريد تطبيق <xliff:g id="APPNAME">%1$s</xliff:g> حفظ شبكة على جهازك اللوحي."</string>
@@ -1694,8 +1694,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"‏تعذّر إتمام عملية \"رقم التعريف الشخصي\" لبطاقة SIM!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"تحديثات النظام"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"‏إصدار Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"‏تحديث أمان نظام Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"‏إصدار ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"‏تحديث أمان نظام ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"الطراز"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"إصدار الجهاز"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"معرّف الجهاز"</string>
@@ -1810,7 +1810,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"‏اتصال USB بالكمبيوتر"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"اتصال كـ"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"‏جهاز الوسائط (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"‏يتيح لك نقل ملفات الوسائط على Windows، أو استخدام نقل الملفات في Android على Mac (راجع www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"‏يتيح لك نقل ملفات الوسائط على Windows، أو استخدام نقل الملفات في ethOS على Mac (راجع www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"‏الكاميرا (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"‏يتيح لك نقل الصور باستخدام برامج الكاميرا، ونقل أي ملفات على أجهزة كمبيوتر لا تدعم MTP"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1833,7 +1833,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"لاستخدام التطبيقات أو الصور أو البيانات التي يحتوي عليها <xliff:g id="NAME">^1</xliff:g> يمكنك إعادة إدخاله. \n\nبدلاً من ذلك، يمكنك اختيار حذف وحدة التخزين هذه إذا لم يكن الجهاز متاحًا. \n\nوإذا اخترت الحذف، فستفقد جميع البيانات التي يحتوي عليها الجهاز للأبد. \n\nويمكنك إعادة تثبيت التطبيقات لاحقًا، إلا أنه سيتم فقد بياناتها المخزنة على هذا الجهاز."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"هل تريد حذف <xliff:g id="NAME">^1</xliff:g>؟"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"سيتم فقد كل التطبيقات والصور والبيانات المخزنة على <xliff:g id="NAME">^1</xliff:g> هذه للأبد."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"‏يتضمّن النظام الملفات المستخدمة لتشغيل إصدار Android <xliff:g id="VERSION">%s</xliff:g>."</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"‏يتضمّن النظام الملفات المستخدمة لتشغيل إصدار ethOS <xliff:g id="VERSION">%s</xliff:g>."</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"‏يتعذّر على مستخدمي وضع الضيف تهيئة بطاقات SD."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"إعداد <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"‏تهيئة بطاقة SD كوحدة تخزين محمولة"</string>
@@ -2352,7 +2352,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"موقع التثبيت المفضل"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"تغيير موقع التثبيت المفضل للتطبيقات الجديدة"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"إيقاف التطبيق"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"‏قد يؤدي إيقاف هذا التطبيق إلى عدم عمل كل من نظام التشغيل Android وتطبيقات أخرى على النحو المنشود. يجب الانتباه إلى أنه لا يمكنك حذف هذا التطبيق لأنه تم تثبيته مسبقًا على جهازك. ويعني إيقاف التطبيق أنه سيتم إيقافه وإخفاؤه على جهازك."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"‏قد يؤدي إيقاف هذا التطبيق إلى عدم عمل كل من نظام التشغيل ethOS وتطبيقات أخرى على النحو المنشود. يجب الانتباه إلى أنه لا يمكنك حذف هذا التطبيق لأنه تم تثبيته مسبقًا على جهازك. ويعني إيقاف التطبيق أنه سيتم إيقافه وإخفاؤه على جهازك."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"هل تريد إيقاف الإشعارات؟"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"المتجر"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"تفاصيل التطبيق"</string>
@@ -3270,7 +3270,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"خلفية"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"المقدمة"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"نسخة مخبأة"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"‏نظام التشغيل Android"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"‏نظام التشغيل ethOS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"أصلية"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kernel"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3297,7 +3297,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"الإدخال الصوتي والاستماع"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"إعدادات الإدخال الصوتي والاستماع"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"البحث الصوتي"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"‏لوحة مفاتيح Android"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"‏لوحة مفاتيح ethOS"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"إعدادات الإدخال الصوتي"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"الإدخال الصوتي"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"خدمات الإدخال الصوتي"</string>
@@ -3897,10 +3897,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"بلوتوث، وضع القيادة"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"‏بلوتوث وNFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"بلوتوث"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"‏بلوتوث وAndroid Auto ووضع القيادة وNFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"‏بلوتوث وAndroid Auto ووضع القيادة"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"‏البلوتوث وAndroid Auto وNFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"‏بلوتوث وAndroid Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"‏بلوتوث وethOS Auto ووضع القيادة وNFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"‏بلوتوث وethOS Auto ووضع القيادة"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"‏البلوتوث وethOS Auto وNFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"‏بلوتوث وethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"‏الإعداد غير متاح بسبب إيقاف تقنية الاتصال القصير المدى (NFC)."</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"لاستخدام هذه الميزة، يجب تثبيت تطبيق دفع أولاً."</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"التطبيقات والإشعارات"</string>
@@ -4363,7 +4363,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"لم تطلب أي تطبيقات مثبّتة الإذن بالوصول إلى الإشعارات."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"السماح بالوصول إلى الإشعارات"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"هل تسمح بوصول خدمة <xliff:g id="SERVICE">%1$s</xliff:g> إلى الإشعارات؟"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"‏تم إبدال الإشعارات التكيُّفية لنظام التشغيل Android في الإصدار 12 منه بالإشعارات المحسّنة. تعرض هذه الميزة إجراءات وردودًا مقترحة وتنظِّم الإشعارات. \n\nيمكن للإشعارات المحسّنة الوصول إلى محتوى الإشعارات، بما في ذلك المعلومات الشخصية، مثلاً أسماء جهات الاتصال والرسائل. يمكن لهذه الميزة أيضًا إغلاق الإشعارات أو الاستجابة لها، مثلاً الردّ على مكالمات الهاتف والتحكّم في ميزة \"عدم الإزعاج\"."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"‏تم إبدال الإشعارات التكيُّفية لنظام التشغيل ethOS في الإصدار 12 منه بالإشعارات المحسّنة. تعرض هذه الميزة إجراءات وردودًا مقترحة وتنظِّم الإشعارات. \n\nيمكن للإشعارات المحسّنة الوصول إلى محتوى الإشعارات، بما في ذلك المعلومات الشخصية، مثلاً أسماء جهات الاتصال والرسائل. يمكن لهذه الميزة أيضًا إغلاق الإشعارات أو الاستجابة لها، مثلاً الردّ على مكالمات الهاتف والتحكّم في ميزة \"عدم الإزعاج\"."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"هل تسمح بوصول خدمة <xliff:g id="SERVICE">%1$s</xliff:g> إلى الإشعارات؟"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"سيكون بإمكان \"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>\" قراءة جميع الإشعارات، بما في ذلك المعلومات الشخصية، مثلاً أسماء جهات الاتصال ونصوص الرسائل التي تتلقّاها. وسيتمكّن أيضًا من إغلاق الإشعارات أو اتخاذ إجراءات من خلال الأزرار في الإشعارات بما في ذلك الردّ على المكالمات الهاتفية. \n\nستتيح هذه الميزة أيضًا للتطبيق إمكانية تفعيل ميزة \"عدم الإزعاج\" أو إيقافها وتغيير الإعدادات ذات الصلة."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"سيكون بإمكان \"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>\" تنفيذ ما يلي:"</string>
@@ -4438,8 +4438,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"لم تطلّب أي تطبيقات مثبّتة الإذن بالوصول إلى إعداد \"عدم الإزعاج\""</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"جارٍ تحميل التطبيقات…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"لم تسمح بالإشعارات من هذا التطبيق."</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"‏بناءً على طلبك، يمنع Android ظهور هذه الفئة من الإشعارات على هذا الجهاز."</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"‏بناءً على طلبك، يمنع Android ظهور هذه المجموعة من الإشعارات على هذا الجهاز."</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"‏بناءً على طلبك، يمنع ethOS ظهور هذه الفئة من الإشعارات على هذا الجهاز."</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"‏بناءً على طلبك، يمنع ethOS ظهور هذه المجموعة من الإشعارات على هذا الجهاز."</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"لا يُرسِل هذا التطبيق إشعارات."</string>
     <string name="notification_channels" msgid="1502969522886493799">"الفئات"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"غير ذلك"</string>
@@ -5091,7 +5091,7 @@
     <string name="users_summary" msgid="8473589474976307510">"تم تسجيل الدخول باسم <xliff:g id="USER_NAME">%1$s</xliff:g>."</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> هو التطبيق التلقائي"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"تم إيقاف الاحتفاظ بنسخة احتياطية"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"‏تم التحديث إلى الإصدار <xliff:g id="VERSION">%1$s</xliff:g> من Android."</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"‏تم التحديث إلى الإصدار <xliff:g id="VERSION">%1$s</xliff:g> من ethOS."</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"هناك تحديث متوفّر."</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"حظر مشرف تكنولوجيا المعلومات هذا الإعداد"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"يتعذّر تغيير مستوى الصوت."</string>
@@ -6008,14 +6008,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"قد تفقد إمكانية الوصول إلى أي وقت أو بيانات متبقية. يُرجى مراجعة ذلك مع مقدّم الخدمة قبل الإزالة."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"تسجيل المحتوى، محتوى التطبيق"</string>
     <string name="content_capture" msgid="868372905432812238">"محتوى التطبيق"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"‏يمكنك السماح للتطبيقات بإرسال المحتوى إلى نظام Android."</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"‏يمكنك السماح للتطبيقات بإرسال المحتوى إلى نظام ethOS."</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"تسجيل نَسْخ الذاكرة في النظام"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"‏إعادة التشغيل مع تفعيل إضافات وضع علامات الذاكرة (MTE)"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"‏ستتم إعادة تشغيل النظام والسماح بتجربة إضافة وضع علامات الذاكرة (MTE). وقد تؤثر هذه الإضافة سلبًا على أداء النظام وثباته. وستتم إعادة الضبط عند إعادة التشغيل اللاحقة."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"جارٍ تسجيل نَسْخ الذاكرة في النظام"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"تعذّر تسجيل نَسْخ الذاكرة في النظام."</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"تسجيل عمليات نَسْخ الذاكرة في النظام تلقائيًا"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"‏يمكنك تلقائيًا تسجيل نَسْخ ذاكرة لنظام Android عند استخدامه لمقدار كبير من بيانات الذاكرة."</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"‏يمكنك تلقائيًا تسجيل نَسْخ ذاكرة لنظام ethOS عند استخدامه لمقدار كبير من بيانات الذاكرة."</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"قطع الاتصال"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"مكالمات الطوارئ"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"‏لا يتيح مشغّل شبكة الجوّال مكالمات الطوارئ من خلال ميزة \"الاتصال عبر Wi-Fi\".\nويتم تبديل الجهاز تلقائيًا إلى شبكة جوّال لإجراء مكالمة طوارئ.\nلا يمكن إجراء مكالمات الطوارئ إلا في المناطق التي تتوفّر فيها تغطية شبكة الجوّال."</string>

@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC vaihtaa tietoja tämän ja muiden lähellä olevien laitteiden tai kohteiden, esimerkiksi maksupäätteiden, syötteenlukijoiden tai interaktiivisten mainosten/tagien, kanssa."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Vaadi laitteen lukituksen avaamista NFC:n käyttämiseksi"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Salli NFC:n käyttö vain kun näytön lukitus on auki"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Valmis lähettämään sovelluksen sisältöä NFC:n kautta"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Pois päältä"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Ei käytettävissä, koska NFC on pois päältä"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Kun tämä ominaisuus on käytössä, voit jakaa sovellusten sisältöä toiselle NFC-yhteensopivalle laitteelle asettamalla laitteet lähekkäin. Voit jakaa esimerkiksi verkkosivuja, YouTube-videoita ja yhteystietoja.\n\nAseta vain laitteet vierekkäin (yleensä takakannet vastakkain) ja kosketa näyttöä. Jaettava sisältö riippuu sovelluksesta."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Ota Wi-Fi käyttöön"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Kannettavan Wi-Fi-hotspotin virhe"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Luo Wi-Fi-hotspot"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Wi‑Fi-hotspotin määritys"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Hotspot: AndroidAP WPA2 PSK"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Hotspot: ethOSAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Tallennetaanko tämä verkko?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> haluaa tallentaa verkon puhelimeesi"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> haluaa tallentaa verkon tablettiisi"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIM-kortin PIN-toiminto epäonnistui!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Järjestelmäpäivitykset"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android-versio"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Androidin tietoturvapäivitys"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS-versio"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOSin tietoturvapäivitys"</string>
     <string name="model_info" msgid="8997566254717810904">"Malli"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Laitteistoversio"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"Varustetunnus"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB-tietokoneyhteys"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Yhdistä tyyppinä"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Medialaite (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Voit siirtää mediatiedostoja Windowsissa tai Android File Transferin avulla Macissa (katso www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Voit siirtää mediatiedostoja Windowsissa tai ethOS File Transferin avulla Macissa (katso www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Kamera (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Voit käyttää kameraohjelmistoa kuvien siirtämiseen ja siirtää tiedostoja tietokoneilta, jotka eivät tue MTP:tä"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Jos haluat käyttää tallennuslaitteen <xliff:g id="NAME">^1</xliff:g> sisältämiä sovelluksia, kuvia tai tietoja, liitä se uudelleen. \n\nVoit myös halutessasi unohtaa tämän tallennuslaitteen, jos se ei ole käytettävissä. \n\nJos päätät unohtaa laitteen, menetät kaikki sen sisältämät tiedot lopullisesti. \n\nVoit asentaa sovellukset uudelleen myöhemmin, mutta niiden laitteelle tallentamat tiedot menetetään."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Unohdetaanko <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Kaikki kohteen (<xliff:g id="NAME">^1</xliff:g>) sovellukset, kuvat ja tiedot poistetaan pysyvästi."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Järjestelmä sisältää tiedostoja, joita tarvitaan Android-version <xliff:g id="VERSION">%s</xliff:g> toimintaan."</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Järjestelmä sisältää tiedostoja, joita tarvitaan ethOS-version <xliff:g id="VERSION">%s</xliff:g> toimintaan."</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Vierastilan käyttäjät eivät voi alustaa SD-korttia"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Määritä <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Alusta SD-kortti siirrettäväksi tallennustilaksi"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Ensisijainen asennussijainti"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Vaihda uusien sovelluksien ensisijaista asennussijaintia."</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Poista sovellus käytöstä"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Jos poistat sovelluksen käytöstä, Android ja muut sovellukset eivät välttämättä enää toimi oikein. Muista, ettet voi poistaa sovellusta, sillä se tuli laitteesi mukana. Poistamalla sovelluksen käytöstä suljet sen ja piilotat sen laitteella."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Jos poistat sovelluksen käytöstä, ethOS ja muut sovellukset eivät välttämättä enää toimi oikein. Muista, ettet voi poistaa sovellusta, sillä se tuli laitteesi mukana. Poistamalla sovelluksen käytöstä suljet sen ja piilotat sen laitteella."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Poista ilmoitukset käytöstä?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Kauppa"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Sovelluksen tiedot"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Tausta"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Etuala"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Välimuistissa"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android-käyttöjärjestelmä"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS-käyttöjärjestelmä"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Käyttöjärjestelmän mukana tulleet"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kernel"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Äänisyöte ja -tulo"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Äänisyöte- ja -tulo-asetukset"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Puhehaku"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android-näppäimistö"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS-näppäimistö"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Äänisyöteasetukset"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Äänisyöte"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Äänisyötepalvelut"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, ajotila"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, ajotila, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, ajotila"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, ajotila, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, ajotila"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Ei saatavilla, koska NFC on pois päältä"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Aloita käyttö asentamalla ensin maksullinen sovellus"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Sovellukset ja ilmoitukset"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Yksikään asennettu sovellus ei ole pyytänyt ilmoituksien käyttöoikeutta."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Salli pääsy ilmoituksiin"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Saako <xliff:g id="SERVICE">%1$s</xliff:g> ilmoitusten käyttöoikeuden?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Parannetut ilmoitukset korvasivat Androidin mukautuvat ilmoitukset Android 12:ssa. Tämä ominaisuus näyttää toiminto- ja vastausehdotuksia ja järjestää ilmoituksesi. \n\nParannetuilla ilmoituksilla on pääsy kaikkeen ilmoitussisältöön, myös henkilökohtaisiin tietoihin (esim. kontaktien nimet ja viestit). Ominaisuus voi myös ohittaa ilmoituksia tai vastata niihin, esim. vastata puheluihin ja ohjata Älä häiritse ‑tilaa."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Parannetut ilmoitukset korvasivat ethOSin mukautuvat ilmoitukset ethOS 12:ssa. Tämä ominaisuus näyttää toiminto- ja vastausehdotuksia ja järjestää ilmoituksesi. \n\nParannetuilla ilmoituksilla on pääsy kaikkeen ilmoitussisältöön, myös henkilökohtaisiin tietoihin (esim. kontaktien nimet ja viestit). Ominaisuus voi myös ohittaa ilmoituksia tai vastata niihin, esim. vastata puheluihin ja ohjata Älä häiritse ‑tilaa."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Saako <xliff:g id="SERVICE">%1$s</xliff:g> ilmoituksien käyttöoikeuden?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> voi nähdä kaikki ilmoitukset ja niiden sisältämät henkilökohtaiset tiedot, esim. yhteystietojen nimet, kuvat ja saamiesi viestien sisällön. Sovellus voi myös torkuttaa tai hylätä ilmoituksia ja käyttää niiden toimintoja, esim. vastata puheluihin. \n\nSovellus saa myös oikeuden laittaa Älä häiritse ‑tilan päälle tai pois päältä ja muokata siihen liittyviä asetuksia."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> voi tehdä seuraavia:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Yksikään asennettu sovellus ei ole pyytänyt Älä häiritse -tilan käyttöoikeutta."</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Ladataan sovelluksia…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Et ole sallinut ilmoituksia tästä sovelluksesta"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Android estää pyynnöstäsi tähän luokkaan kuuluvien ilmoituksien näyttämisen tällä laitteella"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Android estää pyynnöstäsi tähän ryhmään kuuluvien ilmoituksien näyttämisen tällä laitteella"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"ethOS estää pyynnöstäsi tähän luokkaan kuuluvien ilmoituksien näyttämisen tällä laitteella"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"ethOS estää pyynnöstäsi tähän ryhmään kuuluvien ilmoituksien näyttämisen tällä laitteella"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Tämä sovellus ei lähetä ilmoituksia"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Luokat"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Muut"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Kirjautunut sisään käyttäjänä <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> on oletus."</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Varmuuskopiointi poistettu käytöstä"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Päivitetty Android-versioon <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Päivitetty ethOS-versioon <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Päivitys saatavilla"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"IT-järjestelmänvalvojasi estämä"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Äänenvoimakkuutta ei voi muuttaa"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Voit menettää jäljellä olevan ajan tai datan. Tarkista asia operaattorilta ennen poistamista."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"sisällön tallennus, sovelluksen sisältö"</string>
     <string name="content_capture" msgid="868372905432812238">"Sovelluksen sisältö"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Salli sovellusten lähettää sisältöä Android-järjestelmään"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Salli sovellusten lähettää sisältöä ethOS-järjestelmään"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Tallenna järjestelmän keon vedos"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"Uudelleenkäynnistys MTE:llä"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Järjestelmä käynnistyy uudelleen ja sallii Memory Tagging Extensionilla (MTE) kokeilun. MTE saattaa vaikuttaa negatiivisesti järjestelmän suorituskykyyn ja vakauteen. Nollautuu seuraavassa uudelleenkäynnistyksessä."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Tallennetaan järjestelmän keon vedosta"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Keon vedoksen tallennus epäonnistui"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Tallenna järjestelmän keon vedokset automaattisesti"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Tallenna Android-järjestelmän keon vedos automaattisesti, jos se käyttää liikaa muistia"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Tallenna ethOS-järjestelmän keon vedos automaattisesti, jos se käyttää liikaa muistia"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Katkaise yhteys"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Hätäpuhelut"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Operaattorisi ei tue hätäpuhelun soittamista Wi-Fi-puheluna.\nLaite vaihtaa automaattisesti mobiiliverkkoon soittaakseen hätäpuhelun.\nHätäpuheluja voi soittaa vain matkapuhelinverkon kantaman sisällä."</string>

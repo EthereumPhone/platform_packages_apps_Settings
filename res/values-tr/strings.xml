@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Etkinleştirilirse son güven aracısı güvenini kaybettiğinde cihaz kilitlenecektir."</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Yok"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Ör. Can\'ın Android\'i."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Ör. Can\'ın ethOS\'i."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Kilit ekranında profil bilgisini göster"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Hesaplar"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Konum"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC, bu cihaz ile etrafındaki diğer cihazlar veya ödeme noktaları, erişim okuyucular ve etkileşimli reklamlar ya da etiketler gibi hedefler arasında veri alışverişi yapar."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFC için cihaz kilidinin açılmasını zorunlu kıl"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"NFC kullanımına yalnızca ekran kilitli değilken izin verilir"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"NFC ile uygulama içeriği aktarmaya hazır"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Kapalı"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC kapalı olduğundan kullanılamıyor"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Bu özellik açık olduğunda, cihazları birbirine yakın tutarak uygulama içeriğini NFC özelliği olan başka bir cihaza ışınlayabilirsiniz. Örneğin, web sayfalarını, YouTube videolarını, kişileri ve diğer verileri ışınlayabilirsiniz.\n\nCihazları bir araya getirmeniz (genellikle sırt sırta) ve ekranınıza dokunmanız yeterli. Uygulama nelerin ışınlanacağını belirler."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Kablosuz"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Kablosuz bağlantıyı aç"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Taşınabilir Kablosuz hotspot"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Kablosuz hotspot kurulumu yap"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Kablosuz hotspot kurulumu"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK hotspot"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"Android Ortak Erişim Noktası"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK hotspot"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOS Ortak Erişim Noktası"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Bu ağ kaydedilsin mi?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g>, telefonunuza bir ağ kaydetmek istiyor"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g>, tabletinize bir ağ kaydetmek istiyor"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIM PIN işlemi başarısız oldu!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Sistem güncellemeleri"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android sürümü"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android güvenlik güncellemesi"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS sürümü"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS güvenlik güncellemesi"</string>
     <string name="model_info" msgid="8997566254717810904">"Model"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Donanım sürümü"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"Cihaz Kimliği"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB bilgisayar bağlantısı"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Şu şekilde bağlan:"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Medya cihazı (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Windows\'da ya da Android Dosya Aktarımı\'nı kullanarak Mac üzerinde (www.android.com/filetransfer sayfasına bakın) medya dosyalarını aktarma olanağı sağlar"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Windows\'da ya da ethOS Dosya Aktarımı\'nı kullanarak Mac üzerinde (www.android.com/filetransfer sayfasına bakın) medya dosyalarını aktarma olanağı sağlar"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Kamera (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Kamera yazılımını kullanarak fotoğrafları ve MTP\'yi desteklemeyen bilgisayarlardaki her türlü dosyayı aktarmanıza olanak sağlar."</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Bu <xliff:g id="NAME">^1</xliff:g> içindeki uygulamaları, fotoğrafları ve verileri kullanmak için depolama birimini tekrar yerleştirin. \n\nCihaz kullanılamıyorsa ayrıca bu depolama birimini unutmayı seçebilirsiniz. \n\nUnutmayı seçerseniz cihazdaki tüm veriler kalıcı olarak kaybolur. \n\nUygulamaları daha sonra yeniden yükleyebilirsiniz, ancak uygulamalara ait bu cihazda depolanmış veriler kaybolur."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g> unutulsun mu?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Bu <xliff:g id="NAME">^1</xliff:g> biriminde depolanan tüm uygulamalar, fotoğraflar ve veriler kalıcı olarak silinecek."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem, Android <xliff:g id="VERSION">%s</xliff:g> sürümünü çalıştırmak için kullanılan dosyaları içerir"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem, ethOS <xliff:g id="VERSION">%s</xliff:g> sürümünü çalıştırmak için kullanılan dosyaları içerir"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Misafir modu kullanıcıları SD kart biçimlendiremez"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"<xliff:g id="NAME">^1</xliff:g> cihazınızı kurun"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"SD kartı taşınabilir depolama için biçimlendirin"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Tercih edilen yükleme konumu"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Yeni uygulamalar için tercih edilen yükleme konumunu değiştir"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Uygulamayı devre dışı bırak"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Bu uygulamayı devre dışı bırakırsanız Android ve diğer uygulamalar artık beklendiği gibi çalışmayabilir. Cihazınızda önceden yüklü olarak geldiğinden bu uygulamayı silemeyeceğinizi unutmayın. Devre dışı bıraktığınızda bu uygulamayı kapatır ve cihazınızda gizlersiniz."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Bu uygulamayı devre dışı bırakırsanız ethOS ve diğer uygulamalar artık beklendiği gibi çalışmayabilir. Cihazınızda önceden yüklü olarak geldiğinden bu uygulamayı silemeyeceğinizi unutmayın. Devre dışı bıraktığınızda bu uygulamayı kapatır ve cihazınızda gizlersiniz."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Bildirimler kapatılsın mı?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Mağaza"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Uygulama ayrıntıları"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Arka plan"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Ön plan"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Önbelleğe alındı"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Yerel"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Çekirdek"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-RAM"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Ses girişi/çıkışı"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Ses giriş/çıkış ayarları"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Ses ile arama"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android klavyesi"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS klavyesi"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Ses girişi ayarları"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Ses girişi"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Ses girişi hizmetleri"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, sürüş modu"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, sürüş modu, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, sürüş modu"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, sürüş modu, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, sürüş modu"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC kapalı olduğundan kullanılamıyor"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Kullanmak için önce bir ödeme uygulaması yükleyin"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Uygulama ve bildirimler"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Yüklü hiçbir uygulama, bildirim erişimi isteğinde bulunmadı."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Bildirimlere erişime izin ver"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> için bildirim erişimine izin verilsin mi?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Gelişmiş bildirimler, Android 12\'de Android Uyarlanabilir Bildirimler\'in yerini aldı. Bu özellik, önerilen işlem ve yanıtları gösterir ve bildirimlerinizi organize eder. \n\nGelişmiş bildirimler, kişi adları ve mesajlar gibi kişisel bilgiler dahil olmak üzere bildirim içeriklerine erişebilir. Bu özellik ayrıca bildirimleri kapatabilir veya telefon aramalarını yanıtlamak ve Rahatsız Etmeyin modunu kontrol etmek gibi işlemlerle bildirimlere yanıt verebilir."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Gelişmiş bildirimler, ethOS 12\'de ethOS Uyarlanabilir Bildirimler\'in yerini aldı. Bu özellik, önerilen işlem ve yanıtları gösterir ve bildirimlerinizi organize eder. \n\nGelişmiş bildirimler, kişi adları ve mesajlar gibi kişisel bilgiler dahil olmak üzere bildirim içeriklerine erişebilir. Bu özellik ayrıca bildirimleri kapatabilir veya telefon aramalarını yanıtlamak ve Rahatsız Etmeyin modunu kontrol etmek gibi işlemlerle bildirimlere yanıt verebilir."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g> için bildirim erişimine izin verilsin mi?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>, kişi adları, fotoğraflar ve gelen mesajların metni gibi kişisel bilgiler de dahil olmak üzere tüm bildirimleri okuyabilir. Bu uygulama ayrıca bildirimleri erteleyebilir ya da kapatabilir veya telefon çağrılarını yanıtlamak da dahil olmak üzere bildirimlerdeki düğmeler üzerinde işlem yapabilir. \n\nBu izin, uygulamaya, Rahatsız Etmeyin ayarını açma veya kapatma ve ilgili ayarları değiştirme olanağı da verir."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> şu işlemleri yapabilecek:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Yüklü hiçbir uygulama Rahatsız Etmeyin erişimi isteğinde bulunmadı"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Uygulamalar yükleniyor…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Bu uygulamadan gelen bildirimlere izin vermediniz"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"İsteğiniz üzerine Android, bu kategorideki bildirimlerin bu cihazda görünmesini engelliyor"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"İsteğiniz üzerine Android, bu bildirim grubunun bu cihazda görünmesini engelliyor"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"İsteğiniz üzerine ethOS, bu kategorideki bildirimlerin bu cihazda görünmesini engelliyor"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"İsteğiniz üzerine ethOS, bu bildirim grubunun bu cihazda görünmesini engelliyor"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Bu uygulama bildirim göndermiyor."</string>
     <string name="notification_channels" msgid="1502969522886493799">"Kategoriler"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Diğer"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> olarak oturum açıldı"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> varsayılandır"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Yedekleme devre dışı"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> sürümüne güncellendi"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ethOS <xliff:g id="VERSION">%1$s</xliff:g> sürümüne güncellendi"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Uygulama güncellendi"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"BT yöneticiniz tarafından engellendi"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Ses düzeyi değiştirilemez"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Kalan sürelere veya verilere erişiminizi kaybedebilirsiniz. Kaldırmadan önce sağlayıcınıza başvurun."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"içerik yakalama, uygulama içeriği"</string>
     <string name="content_capture" msgid="868372905432812238">"Uygulama içeriği"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Uygulamaların Android sistemine içerik göndermesine izin verin"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Uygulamaların ethOS sistemine içerik göndermesine izin verin"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Sistem bellek yığını dökümünü yakala"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"MTE ile yeniden başlat"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Sistem yeniden başlatılır ve Bellek Etiketleme Uzantısı (MTE) ile deneme yapılmasına izin verir. Bu da sistem performansını ve kararlılığı olumsuz etkileyebilir. Sonraki yeniden başlatma işleminde sıfırlanır."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Sistem bellek yığını dökümü yakalanıyor"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Sistem bellek yığın dökümü yakalanamadı"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Sistem bellek yığını dökümlerini otomatik olarak yakala"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Android Sistemi çok fazla bellek kullandığında otomatik olarak bir bellek yığını dökümü yakalayın"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ethOS Sistemi çok fazla bellek kullandığında otomatik olarak bir bellek yığını dökümü yakalayın"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Bağlantıyı kes"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Acil durum aramaları"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Operatörünüz, kablosuz çağrı üzerinden yapılan acil durum aramalarını desteklememektedir.\nAcil durum araması yapmak için cihaz otomatik olarak hücresel ağa geçer.\nAcil durum aramaları sadece hücresel ağ kapsamında olan yerlerde yapılabilir."</string>

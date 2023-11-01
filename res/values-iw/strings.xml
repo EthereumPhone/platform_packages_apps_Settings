@@ -316,7 +316,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"אם תופעל, המכשיר יינעל כשאובדת האמינות של הסביבה האמינה האחרונה"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"ללא"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"‏לדוגמה, ה-Android של יוסי."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"‏לדוגמה, ה-ethOS של יוסי."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"הצגת פרטי פרופיל במסך הנעילה"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"חשבונות"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"מיקום"</string>
@@ -1056,11 +1056,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"‏מתקיימת תקשורת נתונים ב-NFC בין המכשיר הזה לבין מכשירים או יעדים אחרים בקרבת מקום, כמו למשל מסופי תשלום, מתקנים לזיהוי גישה, ומודעות או תגים אינטראקטיביים."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"‏דרישה לביטול נעילת המכשיר עבור NFC"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"‏ניתן להשתמש ב-NFC רק לאחר ביטול נעילת המסך"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"‏מוכן לשדר תוכן אפליקציה באמצעות NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"כבוי"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"‏לא זמינה כי NFC כבוי"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"‏כשתכונה זו מופעלת, אפשר לשדר תוכן מאפליקציה למכשיר אחר התומך ב-NFC על ידי החזקת המכשירים קרוב זה לזה. לדוגמה, אפשר לשדר דפי אינטרנט, סרטוני YouTube, אנשי קשר ועוד.\n\nפשוט מקרבים את המכשירים זה לזה (בדרך כלל גב אל גב) ולאחר מכן נוגעים במסך. האפליקציה תקבע מה ישודר."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"‏הפעלת ה-Wi-Fi"</string>
@@ -1333,8 +1333,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"‏שגיאה בנקודה ניידת לשיתוף אינטרנט ב-Wi-Fi"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"‏הגדרת נקודה לשיתוף אינטרנט דרך Wi-Fi"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"‏הגדרה של נקודת שיתוף Wi‑Fi"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"‏נקודה לשיתוף אינטרנט AndroidAP WPA2 PSK"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"‏נקודה לשיתוף אינטרנט ethOSAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"לשמור את הרשת הזו?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"התקבלה בקשה מהאפליקציה <xliff:g id="APPNAME">%1$s</xliff:g> לשמור רשת בטלפון"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"התקבלה בקשה מהאפליקציה <xliff:g id="APPNAME">%1$s</xliff:g> לשמור רשת בטאבלט"</string>
@@ -1631,8 +1631,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"‏פעולת קוד הגישה של כרטיס ה-SIM נכשלה!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"עדכוני מערכת"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"‏גרסת Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"‏עדכון אבטחה ל-‏Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"‏גרסת ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"‏עדכון אבטחה ל-‏ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"דגם"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"גרסת חומרה"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"זיהוי ציוד"</string>
@@ -1747,7 +1747,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"‏חיבור USB למחשב"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"חבר בתור"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"‏מכשיר מדיה (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"‏מאפשר העברת קובצי מדיה ב-Windows, או באמצעות העברת הקבצים של Android ב-Mac (ראה www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"‏מאפשר העברת קובצי מדיה ב-Windows, או באמצעות העברת הקבצים של ethOS ב-Mac (ראה www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"‏מצלמה (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"‏מאפשר להעביר תמונות באמצעות תוכנת המצלמה, ולהעביר קבצים במחשבים שאינם תומכים ב-MTP"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1770,7 +1770,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"כדי להשתמש באפליקציות, בתמונות או בנתונים המאוחסנים ב-<xliff:g id="NAME">^1</xliff:g> הזה, יש להכניס אותו שוב. \n\nלחלופין, אפשר לבחור לשכוח את האחסון הזה אם ההתקן אינו זמין. \n\nאם בוחרים לשכוח, כל הנתונים שבהתקן יאבדו לצמיתות. \n\nאפשר להתקין מחדש את האפליקציות מאוחר יותר, אך הנתונים שלהן שהיו מאוחסנים בהתקן הזה יאבדו."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"האם לשכוח את <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"כל האפליקציות, התמונות והנתונים המאוחסנים ב-<xliff:g id="NAME">^1</xliff:g> הזה יימחקו לתמיד."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"‏המערכת כוללת קבצים המשמשים להפעלת גרסת Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"‏המערכת כוללת קבצים המשמשים להפעלת גרסת ethOS <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"‏משתמשים במצב אורח לא יכולים לפרמט כרטיסי SD"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"הגדרת <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"‏פירמוט של כרטיס SD לאחסון נייד"</string>
@@ -2280,7 +2280,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"מיקום התקנה מועדף"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"שינוי מיקום ההתקנה המועדף עבור אפליקציות חדשות."</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"השבתת האפליקציה"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"‏אם האפליקציה הזו תושבת, ייתכן ש-Android ואפליקציות אחרות לא יפעלו כצפוי. חשוב לזכור שלא ניתן למחוק את האפליקציה, מפני שהיא הגיע כחלק מהמכשיר. ההשבתה מכבה את האפליקציה ומסתירה אותה במכשיר."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"‏אם האפליקציה הזו תושבת, ייתכן ש-ethOS ואפליקציות אחרות לא יפעלו כצפוי. חשוב לזכור שלא ניתן למחוק את האפליקציה, מפני שהיא הגיע כחלק מהמכשיר. ההשבתה מכבה את האפליקציה ומסתירה אותה במכשיר."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"האם לבטל התראות?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"חנות"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"פרטי האפליקציה"</string>
@@ -3156,7 +3156,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"רקע"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"חזית"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"בקובץ שמור"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"‏מערכת ההפעלה של Android"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"‏מערכת ההפעלה של ethOS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"מקורי"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"ליבה"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3183,7 +3183,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"קלט ופלט קוליים"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"הגדרות קלט ופלט קולי"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"חיפוש קולי"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"‏מקלדת Android"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"‏מקלדת ethOS"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"הגדרות של קלט קולי"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"קלט קולי"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"שירותי קלט קולי"</string>
@@ -3768,10 +3768,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"‏Bluetooth, מצב נהיגה"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"‏Bluetooth,‏ NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"‏Bluetooth, ‏Android Auto, מצב נהיגה, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"‏Bluetooth, ‏Android Auto, מצב נהיגה"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"‏Bluetooth, ‏Android Auto, ‏NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"‏Bluetooth, ‏Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"‏Bluetooth, ‏ethOS Auto, מצב נהיגה, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"‏Bluetooth, ‏ethOS Auto, מצב נהיגה"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"‏Bluetooth, ‏ethOS Auto, ‏NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"‏Bluetooth, ‏ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"‏לא זמין כי NFC כבוי"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"כדי להשתמש, יש להתקין תחילה אפליקציה לתשלום"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"אפליקציות והתראות"</string>
@@ -3842,7 +3842,7 @@
     <string name="keywords_imei_info" msgid="8848791606402333514">"‏imei,‏ meid,‏ min, גרסת prl,‏ imei sv"</string>
     <string name="keywords_sim_status" msgid="8784456547742075508">"‏רשת, מצב הרשת הסלולרית, מצב השירות, עוצמת האות, סוג הרשת הסלולרית, נדידה, iccid,‏ eid"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"מספר סידורי, גרסת חומרה"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"‏רמת תיקון האבטחה ב-Android, גרסת פס בסיס, גרסת ליבה"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"‏רמת תיקון האבטחה ב-ethOS, גרסת פס בסיס, גרסת ליבה"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"עיצוב, בהיר, כהה, מצב, רגישות לאור, פוטופוביה, שינוי לגוון כהה יותר, גוון כהה יותר, מצב כהה, מיגרנה"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"עיצוב כהה"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"באג"</string>
@@ -3854,7 +3854,7 @@
     <string name="keywords_display_auto_brightness" msgid="7162942396941827998">"עמעום מסך, מסך מגע, סוללה, בהירות חכמה, בהירות דינמית, בהירות אוטומטית"</string>
     <string name="keywords_display_adaptive_sleep" msgid="4905300860114643966">"חכם, עמעום מסך, שינה, סוללה, זמן קצוב לתפוגה, המסך נשאר דלוק, תצוגה, מסך, חוסר פעילות"</string>
     <string name="keywords_auto_rotate" msgid="7288697525101837071">"מצלמה, חכם, לסובב אוטומטית, סיבוב אוטומטי, לסובב, להפוך, סיבוב, לאורך, לרוחב, כיוון, מאוזן, אנכי"</string>
-    <string name="keywords_system_update_settings" msgid="5769003488814164931">"‏שדרוג, Android"</string>
+    <string name="keywords_system_update_settings" msgid="5769003488814164931">"‏שדרוג, ethOS"</string>
     <string name="keywords_zen_mode_settings" msgid="7810203406522669584">"‏dnd, לוח זמנים, התראות חסימה, השתקה, רטט, שינה, עבודה, הדגשה, צליל, יום, יום בשבוע, סוף שבוע, לילה באמצע שבוע, אירוע"</string>
     <string name="keywords_screen_timeout" msgid="8921857020437540572">"מסך, זמן נעילה, זמן קצוב לכיבוי, נעילת מסך"</string>
     <string name="keywords_storage_settings" msgid="6018856193950281898">"זיכרון, מטמון, נתונים, מחיקה, ניקוי, פינוי, שטח"</string>
@@ -4222,7 +4222,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"אין אפליקציות מותקנות שביקשו גישה להתראות."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"הענקת גישה להתראות"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"לאשר לאפליקציה \'<xliff:g id="SERVICE">%1$s</xliff:g>\' לגשת אל ההתראות?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"‏התכונה \'התראות משופרות\' החליפה את \'התראות מותאמות ל-Android\' ב-‏Android 12. התכונה הזו מציגה הצעות לפעולות ולתשובות ומארגנת את ההתראות שלך. \n\nל\'התראות משופרות\' יש גישה לתוכן של התראות, כולל מידע אישי כמו שמות אנשי קשר והודעות. התכונה הזו יכולה גם לסגור התראות או להגיב עליהן (למשל לענות לשיחות טלפון) ולשלוט בתכונה \'נא לא להפריע\'."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"‏התכונה \'התראות משופרות\' החליפה את \'התראות מותאמות ל-ethOS\' ב-‏ethOS 12. התכונה הזו מציגה הצעות לפעולות ולתשובות ומארגנת את ההתראות שלך. \n\nל\'התראות משופרות\' יש גישה לתוכן של התראות, כולל מידע אישי כמו שמות אנשי קשר והודעות. התכונה הזו יכולה גם לסגור התראות או להגיב עליהן (למשל לענות לשיחות טלפון) ולשלוט בתכונה \'נא לא להפריע\'."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"לאשר לאפליקציה \'<xliff:g id="SERVICE">%1$s</xliff:g>\' לגשת אל ההתראות?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"ל-<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> תהיה אפשרות לקרוא את כל ההתראות, כולל מידע אישי כמו שמות של אנשי קשר והודעות טקסט שמתקבלות. האפליקציה תוכל גם לבטל התראות, להעביר אותן למצב נודניק או להפעיל לחצני פעולה שהן כוללות, וכן לענות לשיחות טלפון. \n\nכמו כן, האפליקציה תוכל להפעיל או לכבות את התכונה \'נא לא להפריע\' ולשנות הגדרות קשורות."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"ל-<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> תהיה אפשרות:"</string>
@@ -4294,8 +4294,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"אין אפליקציות מותקנות שביקשו גישה אל \'נא לא להפריע\'"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"מתבצעת טעינה של אפליקציות…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"לא הפעלת קבלת התראות מהאפליקציה הזו"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"‏לבקשתך, מערכת Android לא מאפשרת להציג במכשיר הזה התראות ששייכות לקטגוריה הזו"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"‏לבקשתך, מערכת Android לא מאפשרת להציג במכשיר הזה התראות מקבוצה זו"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"‏לבקשתך, מערכת ethOS לא מאפשרת להציג במכשיר הזה התראות ששייכות לקטגוריה הזו"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"‏לבקשתך, מערכת ethOS לא מאפשרת להציג במכשיר הזה התראות מקבוצה זו"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"האפליקציה הזו לא שולחת התראות"</string>
     <string name="notification_channels" msgid="1502969522886493799">"קטגוריות"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"אחר"</string>
@@ -4890,7 +4890,7 @@
     <string name="users_summary" msgid="8473589474976307510">"התחברת בתור <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"ברירת המחדל היא <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"הגיבוי מושבת"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"‏המערכת עודכנה ל-Android גרסה ‏<xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"‏המערכת עודכנה ל-ethOS גרסה ‏<xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"יש עדכון זמין"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"‏נחסם על ידי מנהל ה-IT"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"לא ניתן לשנות את הנפח"</string>
@@ -5747,14 +5747,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"ייתכן שזמן שיחה או נתונים שנותרו בחבילה יימחקו. יש לבדוק אצל הספק לפני ההסרה."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"תיעוד תוכן, תוכן אפליקציות"</string>
     <string name="content_capture" msgid="868372905432812238">"תוכן אפליקציות"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"‏אפליקציות יכולות לשלוח תוכן למערכת Android"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"‏אפליקציות יכולות לשלוח תוכן למערכת ethOS"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"תיעוד תמונת מצב הזיכרון של המערכת"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"‏הפעלה מחדש באמצעות MTE"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"‏תתבצע הפעלה מחדש ואפשר יהיה להתנסות בתוסף תיוג זיכרון (MTE). ל-MTE עשויה להיות השפעה שלילית על הביצועים והיציבות של המערכת. בהפעלה הבאה מחדש יתבצע איפוס."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"‏מתבצע תיעוד dump ערימה של המערכת"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"‏לא ניתן היה לתעד את dump הערימה של המערכת"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"תיעוד אוטומטי של קובצי תמונות מצב הזיכרון של המערכת"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"‏יש לתעד באופן אוטומטי dump ערימה בשביל מערכת Android כשהיא משתמשת בזיכרון רב מדי"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"‏יש לתעד באופן אוטומטי dump ערימה בשביל מערכת ethOS כשהיא משתמשת בזיכרון רב מדי"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"ניתוק"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"שיחות חירום"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"‏הספק שלך לא תומך בשיחות חירום ב-Wi-Fi.\n. הגדרות המכשיר עוברות באופן אוטומטי לרשת סלולרית כדי לבצע שיחת חירום.\nניתן לבצע שיחות חירום רק באזורים שבהם יש קליטה סלולרית."</string>

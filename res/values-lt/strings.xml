@@ -318,7 +318,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Jei parinktis bus įgalinta, įrenginys užsirakins, kai paskutinė patikima priemonė praras pasitikėjimą"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Nėra"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Pvz., Tomo „Android“."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Pvz., Tomo „ethOS“."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Rodyti profilio informaciją užrakinimo ekrane"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Paskyros"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Vietovė"</string>
@@ -1073,11 +1073,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"ALR atlieka duomenų mainų operacijas tarp šio ir kitų netoliese esančių įrenginių ar paskirties vietų, pvz., mokėjimo terminalų, prieigos kortelių skaitytuvų ir interaktyvių skelbimų ar žymų."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Norint naudoti NFC reikia panaikinti įrenginio operatoriaus pasirinkimo ribojimą"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Leisti naudoti NFC, tik kai ekranas atrakintas"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Parengta perduoti programos turinį naudojant ALR"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Išjungta"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Negalima, nes išjungtas ALR"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Kai ši funkcija įjungta, galite programos turinį perduoti į kitą ALR palaikantį įrenginį laikydami du įrenginius šalia. Pavyzdžiui, galite perduoti tinklalapius, „YouTube“ vaizdo įrašus, kontaktus ir dar daugiau.\n\nTiesiog sudėkite du įrenginius vieną šalia kito (įprastai suglaudę galinėmis dalimis) ir palieskite ekraną. Programa nustato, kas bus perduodama."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Įjungti „Wi-Fi“"</string>
@@ -1353,8 +1353,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Kilnojamojo „Wi-Fi“ viešosios interneto prieigos taško klaida"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Nustatyti „Wi-Fi“ viešosios interneto prieigos tašką"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"„Wi‑Fi“ vieš. int. pr. t. sąr."</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"„AndroidAP“ WPA2 PSK viešosios interneto prieigos taškas"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"„AndroidHotspot“"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"„ethOSAP“ WPA2 PSK viešosios interneto prieigos taškas"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"„ethOSHotspot“"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Išsaugoti šį tinklą?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"„<xliff:g id="APPNAME">%1$s</xliff:g>“ nori išsaugoti tinklą jūsų telefone"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"„<xliff:g id="APPNAME">%1$s</xliff:g>“ nori išsaugoti tinklą jūsų planšetiniame kompiuteryje"</string>
@@ -1652,8 +1652,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"Nepavyko atlikti SIM kortelės PIN kodo operacijos."</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Sistemos naujiniai"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"„Android“ versija"</string>
-    <string name="security_patch" msgid="4071756145347865382">"„Android“ saugos naujinys"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"„ethOS“ versija"</string>
+    <string name="security_patch" msgid="4071756145347865382">"„ethOS“ saugos naujinys"</string>
     <string name="model_info" msgid="8997566254717810904">"Modelis"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Aparatinės įrangos versija"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"Įrangos ID"</string>
@@ -1768,7 +1768,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB kompiuterio jungtis"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Prisijungti kaip"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Medijos įrenginys (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Leidžia perduoti failus „Windows“ ar „Mac“ naudojant „Android File Transfer“ (žr. šiuo adresu: www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Leidžia perduoti failus „Windows“ ar „Mac“ naudojant „ethOS File Transfer“ (žr. šiuo adresu: www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Fotoaparatas (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Galite perduoti nuotraukas naudodami fotoaparato programinę įrangą ir perduoti bet kokius failus MTP nepalaikančiuose kompiuteriuose"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1791,7 +1791,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Kad galėtumėte naudoti programas, nuotraukas ar duomenis iš <xliff:g id="NAME">^1</xliff:g>, įdėkite ją iš naujo.\n\nArba galite pasirinkti pamiršti šią saugyklą, jei įrenginys nebepasiekiamas.\n\nJei pasirinksite pamiršti įrenginį, visi duomenis iš to įrenginio bus prarasti visam laikui.\n\nVėliau galėsite iš naujo įdiegti programas, bet jų duomenys, saugomi šiame įrenginyje, bus prarasti."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Pamiršti <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Visi šioje saugykloje (<xliff:g id="NAME">^1</xliff:g>) saugomi duomenys, programos ir nuotraukos bus prarasti visam laikui."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistema apima failus, naudojamus vykdant <xliff:g id="VERSION">%s</xliff:g> versijos „Android“"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistema apima failus, naudojamus vykdant <xliff:g id="VERSION">%s</xliff:g> versijos „ethOS“"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Svečio režimu SD kortelių formatuoti negalima"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Nustatykite <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Formatuoti SD kortelę kaip nešiojamąją saugyklą"</string>
@@ -2304,7 +2304,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Pageidaujama diegimo vieta"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Pakeisti pageidaujamą naujų programų diegimo vietą"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Išjungti programą"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Jei išjungsite šią programą, „Android“ ir kitos programos gali neveikti, kaip numatyta. Atminkite, kad negalite ištrinti šios programos, nes ji buvo iš anksto įdiegta įrenginyje. Išjungę išjungsite šią programą ir paslėpsite ją įrenginyje."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Jei išjungsite šią programą, „ethOS“ ir kitos programos gali neveikti, kaip numatyta. Atminkite, kad negalite ištrinti šios programos, nes ji buvo iš anksto įdiegta įrenginyje. Išjungę išjungsite šią programą ir paslėpsite ją įrenginyje."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Išjungti pranešimus?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Parduotuvė"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Išsami programos informacija"</string>
@@ -3194,7 +3194,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Fonas"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Priekinis planas"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Išsaugota talpykloje"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"„Android“ OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"„ethOS“ OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Savasis"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Branduolys"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3221,7 +3221,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Balso įvestis ir išvestis"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Balso įvesties ir išvesties nustatymai"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Paieška balsu"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"„Android“ klaviatūra"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"„ethOS“ klaviatūra"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Įvesties balsu nustatymai"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Įvestis balsu"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Įvesties balsu paslaugos"</string>
@@ -3811,10 +3811,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"„Bluetooth“, vairavimo režimas"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"„Bluetooth“, ALR"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"„Bluetooth“, „Android Auto“, vairavimo režimas, ALR"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"„Bluetooth“, „Android Auto“, vairavimo režimas"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"„Bluetooth“, „Android Auto“, ALR"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"„Bluetooth“, „Android Auto“"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"„Bluetooth“, „ethOS Auto“, vairavimo režimas, ALR"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"„Bluetooth“, „ethOS Auto“, vairavimo režimas"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"„Bluetooth“, „ethOS Auto“, ALR"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"„Bluetooth“, „ethOS Auto“"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Nepasiekiama, nes ALR išjungta"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Jei norite naudoti, pirmiausia įdiekite mokėjimo programą"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Programos ir pranešimai"</string>
@@ -3885,7 +3885,7 @@
     <string name="keywords_imei_info" msgid="8848791606402333514">"IMEI, MEID, MIN, PRL versija, IMEI SV"</string>
     <string name="keywords_sim_status" msgid="8784456547742075508">"tinklas, mobiliojo ryšio tinklo būsena, paslaugos būsena, signalo stiprumas, mobiliojo ryšio tinklo tipas, tarptinklinis ryšys, ICCID, EID"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"serijos numeris, aparatinės įrangos versija"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"„Android“ saugos pataisos lygis, nemoduliuotų signalų įrangos versija, branduolio versija"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"„ethOS“ saugos pataisos lygis, nemoduliuotų signalų įrangos versija, branduolio versija"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"tema, šviesus, tamsus, režimas, jautrumas šviesai, fotofobija, padaryti tamsesnį, patamsinti, tamsus režimas, migrena"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"Tamsi tema"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"riktas"</string>
@@ -4269,7 +4269,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Jokios įdiegtos programos nepateikė pranešimo prieigos užklausos."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Leisti prieigą prie pranešimų"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Leisti paslaugos „<xliff:g id="SERVICE">%1$s</xliff:g>“ prieigą prie pranešimų?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"12 versijos „Android“ patobulinti pranešimai pakeitė „Android“ prisitaikančius pranešimus. Ši funkcija rodo siūlomus veiksmus bei atsakymus ir tvarko jūsų pranešimus. \n\nPatobulintų pranešimų funkcija gali pasiekti pranešimų turinį, įskaitant asmens informaciją (pvz., kontaktų vardus ir pranešimus). Ši funkcija taip pat gali atsisakyti pranešimų arba į juos atsakyti, pvz., atsakyti į telefono skambučius ir valdyti netrukdymo režimą."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"12 versijos „ethOS“ patobulinti pranešimai pakeitė „ethOS“ prisitaikančius pranešimus. Ši funkcija rodo siūlomus veiksmus bei atsakymus ir tvarko jūsų pranešimus. \n\nPatobulintų pranešimų funkcija gali pasiekti pranešimų turinį, įskaitant asmens informaciją (pvz., kontaktų vardus ir pranešimus). Ši funkcija taip pat gali atsisakyti pranešimų arba į juos atsakyti, pvz., atsakyti į telefono skambučius ir valdyti netrukdymo režimą."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Leisti <xliff:g id="SERVICE">%1$s</xliff:g> pranešimo prieigą?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"„<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>“ galės skaityti visus pranešimus, įskaitant asmens informaciją, pvz., kontaktų vardus, nuotraukas ir gautų pranešimų tekstą. Ši programa taip pat galės atidėti pranešimus ar jų atsisakyti arba imtis veiksmų su pranešimuose esančiais mygtukais, įskaitant atsakymą į telefono skambučius. \n\nPrograma taip pat galės įjungti ar išjungti netrukdymo režimą ir keisti susijusius nustatymus."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"„<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>“ galės atlikti toliau nurodytus veiksmus."</string>
@@ -4342,8 +4342,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Jokios įdiegtos programos nepateikė prieigos „Netrukdyti“ užklausos"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Įkeliamos programos…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Neleidote šios programos pranešimų"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"„Android“ jūsų prašymu blokuoja šios kategorijos pranešimus, kad jie nebūtų rodomi šiame įrenginyje"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"„Android“ jūsų prašymu blokuoja šios grupės pranešimus, kad jie nebūtų rodomi šiame įrenginyje"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"„ethOS“ jūsų prašymu blokuoja šios kategorijos pranešimus, kad jie nebūtų rodomi šiame įrenginyje"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"„ethOS“ jūsų prašymu blokuoja šios grupės pranešimus, kad jie nebūtų rodomi šiame įrenginyje"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Ši programa nesiunčia pranešimų"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Kategorijos"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Kita"</string>
@@ -4957,7 +4957,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Prisijungta kaip <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"Programa „<xliff:g id="APP_NAME">%1$s</xliff:g>“ yra numatytoji"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Atsarginės kopijos kūrimas išjungtas"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Atnaujinta į <xliff:g id="VERSION">%1$s</xliff:g> versijos „Android“"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Atnaujinta į <xliff:g id="VERSION">%1$s</xliff:g> versijos „ethOS“"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Pasiekiamas naujinys"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"Užblokavo jūsų IT administratorius"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Nepavyko pakeisti garsumo"</string>
@@ -5316,7 +5316,7 @@
     <string name="web_action_enable_title" msgid="6654581786741216382">"Akimirksniu įkeliamos programos"</string>
     <string name="web_action_enable_summary" msgid="2658930257777545990">"Atidaryti nuorodas programose, net jei jos neįdiegtos"</string>
     <string name="web_action_section_title" msgid="994717569424234098">"Akimirksniu įkeliamos programos"</string>
-    <string name="instant_apps_settings" msgid="4280942494969957858">"„Android“ akimirksniu įkeliamų programų nuostatos"</string>
+    <string name="instant_apps_settings" msgid="4280942494969957858">"„ethOS“ akimirksniu įkeliamų programų nuostatos"</string>
     <string name="domain_url_section_title" msgid="9028890472923474958">"Įdiegtos programos"</string>
     <string name="automatic_storage_manager_activation_warning" msgid="170508173207142665">"Saugyklą dabar tvarko saugyklos valdytojas"</string>
     <string name="account_for_section_header" msgid="7466759342105251096">"<xliff:g id="USER_NAME">%1$s</xliff:g> paskyros"</string>
@@ -5834,14 +5834,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Galite prarasti galimybę pasiekti likusį laiką ar duomenis. Prieš pašalindami pasikonsultuokite su teikėju."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"turinio užfiksavimas, programos turinys"</string>
     <string name="content_capture" msgid="868372905432812238">"Programos turinys"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Leisti programai siųsti turinį į „Android“ sistemą"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Leisti programai siųsti turinį į „ethOS“ sistemą"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Fiksuoti sistemos atminties išklotinę"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"Paleisti iš naujo su MTE"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Sistema bus paleista iš naujo ir leidžiama eksperimentuoti su atminties žymėjimo plėtiniais (angl. „Memory Tagging Extensions“, MTE). MTE gali neigiamai paveikti sistemos našumą ir stabilumą. Bus iš naujo nustatyta kitą kartą paleidus iš naujo."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Sistemos atminties išklotinės fiksavimas"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Nepavyko užfiksuoti sistemos atminties išklotinės"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Automatinis sistemos atminties išklotinių fiksavimas"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Automatiškai fiksuoti „Android“ sistemos atminties išklotinę, kai naudojama per daug atminties"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Automatiškai fiksuoti „ethOS“ sistemos atminties išklotinę, kai naudojama per daug atminties"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Atsijungti"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Skambučiai pagalbos numeriu"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Jūsų operatorius nepalaiko skambučių pagalbos numeriu naudojant „Wi‑Fi“ skambinimo funkciją.\nSkambinant pagalbos numeriu automatiškai perjungiama į įrenginio mobiliojo ryšio tinklą.\nSkambinti pagalbos numeriu galima, tik kur veikia mobilusis ryšys."</string>

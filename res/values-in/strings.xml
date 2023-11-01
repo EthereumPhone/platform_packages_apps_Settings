@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Jika diaktifkan, perangkat akan terkunci saat perangkat dipercaya terakhir kehilangan kepercayaan"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Tidak ada"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Misalnya, Android Joko."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Misalnya, ethOS Joko."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Tampilkan info profil di layar kunci"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Akun"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Lokasi"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC mempertukarkan data antara perangkat ini dan perangkat atau target lain di sekitar, seperti terminal pembayaran, pembaca akses, dan iklan atau tag interaktif."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Buka kunci perangkat untuk NFC"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Mengizinkan penggunaan NFC hanya saat kunci layar dibuka"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Siap mentransmisikan konten apl melalui NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Mati"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Tidak tersedia karena NFC nonaktif"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Jika fitur ini diaktifkan, Anda dapat membagikan konten aplikasi lewat beaming ke perangkat lain yang mendukung NFC, yaitu dengan saling menempelkan perangkat. Anda dapat membagikan halaman web, video YouTube, kontak, dan lainnya.\n\nCukup tempelkan perangkat (biasanya saling membelakangi), lalu ketuk layar. Konten yang dibagikan secara beaming bergantung pada aplikasi."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi‑Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Nyalakan Wi-Fi"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Kesalahan hotspot Wi-Fi portabel"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Siapkan hotspot Wi-Fi"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Penyiapan hotspot Wi‑Fi"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Hotspot AndroidAP WPA2 PSK"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Hotspot ethOSAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Simpan jaringan ini?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> ingin menyimpan jaringan ke ponsel"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> ingin menyimpan jaringan ke tablet Anda"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"Operasi PIN SIM gagal!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Update sistem"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Versi Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Update keamanan Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"Versi ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"Update keamanan ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"Model"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Versi hardware"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"ID Peralatan"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"Koneksi komputer USB"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Sambungkan sebagai"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Perangkat media (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Memungkinkan Anda mentransfer file media di Windows, atau menggunakan Transfer File Android di Mac (lihat www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Memungkinkan Anda mentransfer file media di Windows, atau menggunakan Transfer File ethOS di Mac (lihat www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Kamera (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Memungkinkan Anda mentransfer foto menggunakan software kamera, dan mentransfer file apa pun di komputer yang tidak mendukung MTP"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Untuk menggunakan aplikasi, foto, atau data dalam <xliff:g id="NAME">^1</xliff:g> ini, colokkan kembali. \n\nAtau, Anda dapat memilih untuk melupakan penyimpanan ini jika perangkat tidak tersedia. \n\nJika Anda memilih untuk melupakan, semua data dalam perangkat ini akan hilang selamanya. \n\nNanti Anda dapat memasang ulang aplikasi, tetapi datanya yang disimpan di perangkat ini akan hilang."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Lupakan <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Semua aplikasi, foto, dan data yang disimpan di <xliff:g id="NAME">^1</xliff:g> ini akan hilang selamanya."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem menyertakan file yang digunakan untuk menjalankan Android versi <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem menyertakan file yang digunakan untuk menjalankan ethOS versi <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Pengguna mode tamu tidak dapat memformat kartu SD"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Siapkan <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Format kartu SD untuk penyimpanan portabel"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Lokasi pemasangan yang disukai"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Ubah lokasi pemasangan yang diinginkan untuk apl baru."</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Menonaktifkan aplikasi"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Jika Anda menonaktifkan aplikasi ini, Android dan aplikasi lain mungkin tidak berfungsi lagi sesuai harapan. Perlu diingat, Anda tidak dapat menghapus aplikasi yang disertakan oleh pabrikan di perangkat Anda. Namun, Anda dapat menonaktifkannya, yang berarti mematikan dan menyembunyikan aplikasi tersebut di perangkat Anda."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Jika Anda menonaktifkan aplikasi ini, ethOS dan aplikasi lain mungkin tidak berfungsi lagi sesuai harapan. Perlu diingat, Anda tidak dapat menghapus aplikasi yang disertakan oleh pabrikan di perangkat Anda. Namun, Anda dapat menonaktifkannya, yang berarti mematikan dan menyembunyikan aplikasi tersebut di perangkat Anda."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Matikan notifikasi?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"App Store"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Detail aplikasi"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Latar Belakang"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Latar Depan"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Dalam Cache"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"OS Android"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"OS ethOS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Asli"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kernel"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Masukan suara &amp; keluaran"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Masukan suara &amp; setelan keluaran"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Penelusuran suara"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Keyboard Android"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"Keyboard ethOS"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Setelan masukan suara"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Input suara"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Layanan masukan suara"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, mode mengemudi"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, mode mengemudi, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, mode mengemudi"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, mode mengemudi, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, mode mengemudi"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Tidak tersedia karena NFC nonaktif"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Untuk menggunakannya, instal aplikasi pembayaran terlebih dahulu"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Aplikasi &amp; notifikasi"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Tidak ada aplikasi terpasang yang meminta akses notifikasi."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Izinkan akses notifikasi"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Izinkan akses notifikasi untuk <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Notifikasi yang ditingkatkan menggantikan Notifikasi Adaptif Android di Android 12. Fitur ini menunjukkan tindakan dan balasan yang disarankan, serta mengatur notifikasi. \n\nNotifikasi yang ditingkatkan dapat mengakses konten notifikasi, termasuk informasi pribadi seperti nama kontak dan pesan. Fitur ini juga dapat menutup atau merespons notifikasi, seperti menjawab panggilan telepon dan mengontrol fitur Jangan Ganggu."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Notifikasi yang ditingkatkan menggantikan Notifikasi Adaptif ethOS di ethOS 12. Fitur ini menunjukkan tindakan dan balasan yang disarankan, serta mengatur notifikasi. \n\nNotifikasi yang ditingkatkan dapat mengakses konten notifikasi, termasuk informasi pribadi seperti nama kontak dan pesan. Fitur ini juga dapat menutup atau merespons notifikasi, seperti menjawab panggilan telepon dan mengontrol fitur Jangan Ganggu."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Izinkan akses notifikasi untuk <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> akan dapat membaca semua notifikasi, termasuk informasi pribadi seperti nama kontak, foto, dan teks pesan yang Anda terima. Aplikasi ini juga akan dapat menunda atau menutup notifikasi atau melakukan tindakan pada tombol di notifikasi, termasuk menjawab panggilan telepon. \n\nTindakan ini juga akan memberi aplikasi kemampuan untuk mengaktifkan atau menonaktifkan fitur Jangan Ganggu dan mengubah setelan terkait."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> akan dapat:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Tidak ada aplikasi terpasang yang meminta akses Jangan Ganggu"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Memuat aplikasi …"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Anda belum mengizinkan notifikasi dari aplikasi ini"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Sesuai permintaan, Android memblokir kategori notifikasi ini agar tidak muncul di perangkat ini"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Sesuai permintaan, Android memblokir grup notifikasi ini agar tidak muncul di perangkat ini"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Sesuai permintaan, ethOS memblokir kategori notifikasi ini agar tidak muncul di perangkat ini"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Sesuai permintaan, ethOS memblokir grup notifikasi ini agar tidak muncul di perangkat ini"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Aplikasi ini tidak mengirim notifikasi"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Kategori"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Lainnya"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Login sebagai <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> default"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Pencadangan dinonaktifkan"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Telah diupdate ke Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Telah diupdate ke ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Ada update"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"Diblokir oleh admin IT Anda"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Volume tidak dapat diubah"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Anda dapat kehilangan akses ke waktu atau data apa pun yang tersisa. Hubungi penyedia Anda sebelum menghapus."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"gambar konten, konten aplikasi"</string>
     <string name="content_capture" msgid="868372905432812238">"Konten aplikasi"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Mengizinkan aplikasi mengirimkan konten ke sistem Android"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Mengizinkan aplikasi mengirimkan konten ke sistem ethOS"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Ambil heap dump sistem"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"Mulai ulang dengan MTE"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Sistem akan memulai ulang dan mengizinkan eksperimen dengan Memory Tagging Extension (MTE). MTE dapat berdampak negatif pada performa dan stabilitas sistem. Akan direset pada mulai ulang berikutnya."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Mengambil heap dump sistem"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Tidak dapat mengambil heap dump sistem"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Otomatis ambil heap dump sistem"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Otomatis ambil heap dump untuk Sistem Android saat sistem menggunakan terlalu banyak memori"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Otomatis ambil heap dump untuk Sistem ethOS saat sistem menggunakan terlalu banyak memori"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Putuskan koneksi"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Panggilan darurat"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Panggilan darurat melalui Panggilan Wi‑Fi tidak didukung oleh operator Anda.\nPerangkat beralih ke jaringan seluler secara otomatis untuk melakukan panggilan darurat.\nPanggilan darurat hanya dapat dilakukan dengan cakupan seluler."</string>

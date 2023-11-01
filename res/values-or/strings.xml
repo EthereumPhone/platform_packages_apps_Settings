@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"ଯଦି ସକ୍ଷମ କରାଯାଇଥାଏ,ଗତଥରର ଟ୍ରଷ୍ଟ ଏଜେଣ୍ଟ ବିଶ୍ୱାସ ହରାଇଲେ ଡିଭାଇସ୍‍ଟି ଲକ୍‍ ହୋଇଯିବ"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"କିଛି ନୁହେଁ"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ଯେପରିକି ଶୁଭ୍ରାର Android।"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ଯେପରିକି ଶୁଭ୍ରାର ethOS।"</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"ଲକ୍‌ ସ୍କ୍ରୀନ୍‌ରେ ପ୍ରୋଫାଇଲ୍‌ ସୂଚନା ଦେଖନ୍ତୁ"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"ଆକାଉଣ୍ଟ"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"ଲୋକେସନ୍‌"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC ଏହି ଡିଭାଇସ୍‌ ଏବଂ ଅନ୍ୟ ନିକଟସ୍ଥ ଡିଭାଇସ କିମ୍ବା ଧାର୍ଯ୍ୟ, ଯେପରିକି ଦେୟ ଟର୍ମିନାଲ୍‌ସ, ଆକସେସ୍‌ ରିଡରସ୍, ଏବଂ ଇଣ୍ଟରାକ୍ଟିଭ ଆଡସ୍‌ କିମ୍ବା ଟ୍ୟାଗସ୍‌ ମଧ୍ୟରେ ଡାଟା ପ୍ରତିବଦଳ କରେ।"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFC ପାଇଁ ଡିଭାଇସ୍ ଅନଲକ୍ ଆବଶ୍ୟକ"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"ସ୍କ୍ରିନ ଅନଲକ୍ ହେଲେ ହିଁ କେବଳ NFCର ବ୍ୟବହାରକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android ବିମ୍‌"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS ବିମ୍‌"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"NFC ମାଧ୍ୟମରେ ଆପ୍‌ର କଣ୍ଟେଣ୍ଟ ପଠାଇବାକୁ ପ୍ରସ୍ତୁତ"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"ବନ୍ଦ"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC ବନ୍ଦ ଥିବା କାରଣରୁ ଉପଲବ୍ଧ ନାହିଁ"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android ବିମ୍‌"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS ବିମ୍‌"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"ଯେତେବେଳେ ଏହି ଫିଚର୍‌କୁ ଚାଲୁ କରାଯାଏ, ଡିଭାଇସ୍‌ଗୁଡ଼ିକୁ ପାଖାପାଖି ଧରି NFC ସକ୍ଷମ ଥିବା ଡିଭାଇସ୍‌କୁ ଆପ୍‌ କଣ୍ଟେଣ୍ଟ ବିମ୍‌ କରିହେବ। ଉଦାହରଣସ୍ୱରୂପ, ଆପଣ ୱେବ୍‌ ପେଜ୍‌, YouTube ଭିଡିଓ, ଯୋଗାଯୋଗ ଓ ଆହୁରି ଅନେକ କିଛି ପଠାଇପାରିବେ।\n\nକେବଳ ଡିଭାଇସ୍‌ଗୁଡ଼ିକୁ ପାଖାପାଖି ଆଣନ୍ତୁ (ପଛକୁ ପଛ) ଏବଂ ତା’ପରେ ନିଜ ସ୍କ୍ରୀନ୍‌ ଉପରେ ଟାପ୍‌ କରନ୍ତୁ। କ’ଣ ବିମ୍‌ କରାଯିବ, ତାହାର ନିଷ୍ପତ୍ତି ଆପ୍‍ ନେବ।"</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"ୱାଇଫାଇ"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"ୱାଇ-ଫାଇ ଅନ୍‌ କରନ୍ତୁ"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"ପୋର୍ଟବଲ୍‌ ୱାଇ-ଫାଇ ହଟ୍‌ସ୍ପଟ୍‌ର ସମସ୍ୟା"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"ୱାଇ-ଫାଇ ହଟସ୍ପଟ୍‌ ସେଟ୍ ଅପ୍‌ କରନ୍ତୁ"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"ୱାଇ-ଫାଇ ହଟସ୍ପଟ୍‌ ସେଟଅପ୍‌"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK ହଟ୍‌ସ୍ପଟ୍"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"Android ହଟ୍‌ସ୍ପଟ୍‌"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK ହଟ୍‌ସ୍ପଟ୍"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOS ହଟ୍‌ସ୍ପଟ୍‌"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"ଏହି ନେଟ୍‌ୱାର୍କକୁ ସେଭ୍ କରିବେ?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> ଆପଣଙ୍କ ଫୋନରେ ଏକ ନେଟୱାର୍କ ସେଭ୍ କରିବାକୁ ଚାହେଁ"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> ଆପଣଙ୍କ ଟାବଲେଟରେ ଏକ ନେଟୱାର୍କ ସେଭ୍ କରିବାକୁ ଚାହେଁ"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"ସିମ୍‌ ପିନ୍‌ କାମ ବିଫଳ ହେଲା!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"ସିଷ୍ଟମ୍‌ ଅପଡେଟ୍‌‍"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android ସଂସ୍କରଣ"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android ସୁରକ୍ଷା ଅପଡେଟ୍"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS ସଂସ୍କରଣ"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS ସୁରକ୍ଷା ଅପଡେଟ୍"</string>
     <string name="model_info" msgid="8997566254717810904">"ମଡେଲ"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"ହାର୍ଡୱେର ସଂସ୍କରଣ"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"ଉପକରଣ ଆଇଡି"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB କମ୍ପ୍ୟୁଟର ସଂଯୋଗ"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"ଭାବରେ ସଂଯୋଗ କରନ୍ତୁ"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"ମିଡିଆ ଡିଭାଇସ୍‌ (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Windowsରେ, କିମ୍ବା Macରେ Android ଫାଇଲ୍‌ ଟ୍ରାନ୍ସଫର୍‌ ବ୍ୟବହାର କରି (www.android.com/filetransfer ଦେଖନ୍ତୁ) ମିଡିଆ ଫାଇଲ୍‌ଗୁଡିକ ସ୍ଥାନାନ୍ତର କରିପାରିବେ"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Windowsରେ, କିମ୍ବା Macରେ ethOS ଫାଇଲ୍‌ ଟ୍ରାନ୍ସଫର୍‌ ବ୍ୟବହାର କରି (www.android.com/filetransfer ଦେଖନ୍ତୁ) ମିଡିଆ ଫାଇଲ୍‌ଗୁଡିକ ସ୍ଥାନାନ୍ତର କରିପାରିବେ"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"କ୍ୟାମେରା (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"କ୍ୟାମେରା ସଫ୍ଟୱେର ବ୍ୟବହାର କରି ଫଟୋ ପଠାଇପାରିବେ ଏବଂ MTP କୁ ସମର୍ଥନ କରୁନଥିବା କମ୍ପ୍ୟୁଟରଗୁଡ଼ିକୁ ଯେକୌଣସି ଫାଇଲ ପଠାଇପାରିବେ।"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"<xliff:g id="NAME">^1</xliff:g> ରେ ଥିବା ଫୋଟୋ କିମ୍ୱା ଡାଟା ବ୍ୟବହାର କରିବା ପାଇଁ, ଏହାକୁ ପୁଣିଥରେ ଭର୍ତ୍ତି କରନ୍ତୁ। \n\nନହେଲେ, ଯଦି ଡିଭାଇସ୍‌ ଉପଲବ୍ଧ ନଥାଏ, ତେବେ ଏହି ଷ୍ଟୋରେଜକୁ ଭୁଲିଯିବା ଚୟନ କରିପାରିବେ। \n\nଯଦି ଆପଣ ଭୁଲିଯିବାକୁ ଚୟନ କରନ୍ତି, ଡିଭାଇସ୍‌ରେ ଥିବା ସବୁ ଡାଟା ସବୁଦିନ ପାଇଁ ହରାଇଦେବେ। \n\nଆପଣ, ଆପ୍‌ଗୁଡ଼ିକୁ ପରେ ପୁଣିଥରେ ଇନ୍‌ଷ୍ଟଲ୍‌ କରିପାରିବେ, ହେଲେ ଏହି ଡିଭାଇସ୍‌ରେ ଥିବା ସେଗୁଡ଼ିକର ଡାଟା ଫେରିପାଇବେ ନାହିଁ।"</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g> କୁ ଭୁଲିଯିବେ?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"ଏହି <xliff:g id="NAME">^1</xliff:g> ରେ ଷ୍ଟୋର୍‌ ହୋଇଥିବା ସମସ୍ତ ଆପସ, ଫଟୋଗୁଡିକ, ତଥା ଡାଟା ସବୁ ସମୟ ପାଇଁ ବାହାରିଯିବ।"</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Android ଭର୍ସନ୍‌ <xliff:g id="VERSION">%s</xliff:g>କୁ ଚଲାଇବା ପାଇଁ ବ୍ୟବହୃତ ଫାଇଲ୍‌ଗୁଡ଼ିକ ସିଷ୍ଟମରେ ଅଛି"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"ethOS ଭର୍ସନ୍‌ <xliff:g id="VERSION">%s</xliff:g>କୁ ଚଲାଇବା ପାଇଁ ବ୍ୟବହୃତ ଫାଇଲ୍‌ଗୁଡ଼ିକ ସିଷ୍ଟମରେ ଅଛି"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"ଗେଷ୍ଟ ମୋଡ ଉପଯୋଗକର୍ତ୍ତା SD କାର୍ଡ ଫର୍ମାଟ କରିପାରିବେ ନାହିଁ"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"ଆପଣଙ୍କର <xliff:g id="NAME">^1</xliff:g> କୁ ସେଟ୍‍ କରନ୍ତୁ"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"ପୋର୍ଟେବଲ ଷ୍ଟୋରେଜ ପାଇଁ SD କାର୍ଡକୁ ଫର୍ମାଟ କରନ୍ତୁ"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"ଇନ୍‌ଷ୍ଟଲ୍‌ କରିବା ପାଇଁ ନିଜ ପସନ୍ଦର ଲୋକେସନ୍‌ ବାଛନ୍ତୁ"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"ନୂଆ ଆପ୍‌ଗୁଡ଼ିକ ପାଇଁ ନିଜ ପସନ୍ଦର ଇନଷ୍ଟଲେସନ୍‌ ଲୋକେସନ୍‌ ବଦଳାନ୍ତୁ"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"ଆପ୍‌ ଅକ୍ଷମ କରନ୍ତୁ"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"ଯଦି ଆପଣ ଏହି ଆପ୍‌କୁ ନିଷ୍କ୍ରିୟ କରନ୍ତି, ତେବେ Android ଓ ଅନ୍ୟାନ୍ୟ ଆପ୍ସ ଆଉ କାମ ନକରିପାରେ। ମନେ ରଖନ୍ତୁ, ଯେହେତୁ ଏହା ଆପଣଙ୍କ ଡିଭାଇସ୍‌ରେ ପୂର୍ବରୁ-ଇନ୍‌ଷ୍ଟଲ୍ ଅଛି, ତେଣୁ ଆପଣ ଏହି ଆପ୍‌କୁ ଡିଲିଟ୍ କରିପାରିବେ ନାହିଁ। ଏହାକୁ ଅକ୍ଷମ କରି, ଏହି ଆପ୍‌କୁ ଆପଣ ବନ୍ଦ କରିବେ ଏବଂ ଆପଣଙ୍କର ଡିଭାଇସ୍‌ରେ ଲୁଚାଇବେ।"</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"ଯଦି ଆପଣ ଏହି ଆପ୍‌କୁ ନିଷ୍କ୍ରିୟ କରନ୍ତି, ତେବେ ethOS ଓ ଅନ୍ୟାନ୍ୟ ଆପ୍ସ ଆଉ କାମ ନକରିପାରେ। ମନେ ରଖନ୍ତୁ, ଯେହେତୁ ଏହା ଆପଣଙ୍କ ଡିଭାଇସ୍‌ରେ ପୂର୍ବରୁ-ଇନ୍‌ଷ୍ଟଲ୍ ଅଛି, ତେଣୁ ଆପଣ ଏହି ଆପ୍‌କୁ ଡିଲିଟ୍ କରିପାରିବେ ନାହିଁ। ଏହାକୁ ଅକ୍ଷମ କରି, ଏହି ଆପ୍‌କୁ ଆପଣ ବନ୍ଦ କରିବେ ଏବଂ ଆପଣଙ୍କର ଡିଭାଇସ୍‌ରେ ଲୁଚାଇବେ।"</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ ବନ୍ଦ କରିବେ?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Store"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"ଆପ୍‌ ବିବରଣୀ"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"ବ୍ୟାକ୍‌ଗ୍ରାଉଣ୍ଡ"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"ଅଗ୍ରଭାଗ"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"କ୍ୟାଶ୍‌ ହୋଇଥିବା"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"ମୂଳ"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"କର୍ନେଲ"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"ଭଏସ୍‌ ଇନ୍‌ପୁଟ୍‌‍ ଓ ଆଉଟ୍‌ପୁଟ୍‌"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"ଭଏସ ଇନପୁଟ ଓ ଆଉଟପୁଟ ସେଟିଂସ"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"ଭଏସ୍‌ ସନ୍ଧାନ"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android କୀବୋର୍ଡ"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS କୀବୋର୍ଡ"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"ଭଏସ ଇନପୁଟ ସେଟିଂସ"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"ଭଏସ୍‌ ଇନପୁଟ୍"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"ଭଏସ୍‌ ଇନପୁଟ୍‌ ସେବାମାନ"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"ବ୍ଲୁଟୂଥ୍‍‌, ଡ୍ରାଇଭିଙ୍ଗ ମୋଡ୍"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"ବ୍ଲୁଟୁଥ,NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"ବ୍ଲୁଟୁଥ"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"ବ୍ଲୁଟୁଥ୍, Android Auto, ଡ୍ରାଇଭିଂ ମୋଡ୍, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"ବ୍ଲୁଟୁଥ୍, Android Auto, ଡ୍ରାଇଭିଂ ମୋଡ୍"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"ବ୍ଲୁଟୁଥ୍, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"ବ୍ଲୁଟୁଥ୍, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"ବ୍ଲୁଟୁଥ୍, ethOS Auto, ଡ୍ରାଇଭିଂ ମୋଡ୍, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"ବ୍ଲୁଟୁଥ୍, ethOS Auto, ଡ୍ରାଇଭିଂ ମୋଡ୍"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"ବ୍ଲୁଟୁଥ୍, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"ବ୍ଲୁଟୁଥ୍, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC ବନ୍ଦ ଥିବାରୁ ଅନୁପଲବ୍ଧ ଅଛି"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"ବ୍ୟବହାର କରିବାକୁ, ପ୍ରଥମେ ଏକ ପେମେଣ୍ଟ ଆପ୍ ଇନଷ୍ଟଲ୍ କରନ୍ତୁ"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"ଆପ୍‌ ଓ ବିଜ୍ଞପ୍ତି"</string>
@@ -3799,7 +3799,7 @@
     <string name="keywords_imei_info" msgid="8848791606402333514">"imei, meid, min, prl ଭର୍ସନ୍‌, imei sv"</string>
     <string name="keywords_sim_status" msgid="8784456547742075508">"ନେଟ୍‌ୱାର୍କ, ମୋବାଇଲ୍‌ ନେଟ୍‌ୱାର୍କର ସ୍ଥିତି, ସେବାର ସ୍ଥିତି, ସିଗନାଲ୍ କ୍ଷମତା, ମୋବାଇଲ୍‌ ନେଟ୍‌ୱାର୍କର ପ୍ରକାର, ରୋମିଂ, iccid, eid"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"କ୍ରମିକ ସଂଖ୍ୟା, ହାର୍ଡୱେର୍‌ ଭର୍ସନ୍‌"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"Android ସୁରକ୍ଷା ପ୍ୟାଚ୍‌ ସ୍ତର, ବେସ୍‌ବ୍ୟାଣ୍ଡ ଭର୍ସନ୍‌, କର୍ନେଲ୍‌ ଭର୍ସନ୍‌"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"ethOS ସୁରକ୍ଷା ପ୍ୟାଚ୍‌ ସ୍ତର, ବେସ୍‌ବ୍ୟାଣ୍ଡ ଭର୍ସନ୍‌, କର୍ନେଲ୍‌ ଭର୍ସନ୍‌"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"ଥିମ୍, ଲାଇଟ୍, ଡାର୍କ, ମୋଡ୍, ଆଲୋକ ପ୍ରତି ସମ୍ବେଦନଶୀଳତା, ଫଟୋଫୋବିଆ, ଅଧିକ ଗାଢ଼ା କରନ୍ତୁ, ଗାଢ଼ା କରନ୍ତୁ, ଡାର୍କ ମୋଡ୍, ମାଇଗ୍ରେନ୍"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"ଗାଢ଼ା ଥିମ୍"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"ବଗ୍‍"</string>
@@ -3811,7 +3811,7 @@
     <string name="keywords_display_auto_brightness" msgid="7162942396941827998">"ଡିମ୍ ସ୍କ୍ରିନ୍, ଟଚ୍‌ସ୍କ୍ରିନ୍, ବ୍ୟାଟେରୀ, ସ୍ମାର୍ଟ ଉଜ୍ୱଳତା, ଡାଇନାମିକ୍ ଉଜ୍ୱଳତା ସ୍ୱତଃ ଉଜ୍ୱଳତା"</string>
     <string name="keywords_display_adaptive_sleep" msgid="4905300860114643966">"ସ୍ମାର୍ଟ, ଡିମ୍ ସ୍କ୍ରିନ୍, ସ୍ଲିପ୍, ବ୍ୟାଟେରୀ, ସମୟ ସମାପ୍ତି, ଆଟେନସନ୍, ଡିସପ୍ଲେ, ସ୍କ୍ରିନ୍, ନିଷ୍କ୍ରିୟତା"</string>
     <string name="keywords_auto_rotate" msgid="7288697525101837071">"କ୍ୟାମେରା, ସ୍ମାର୍ଟ, ଅଟୋ ରୋଟେଟ୍, ଅଟୋ-ରୋଟେଟ୍, ଘୂରିବା, ଫ୍ଲିପ୍, ଘୂର୍ଣ୍ଣନ, ପୋର୍ଟ୍ରେଟ୍, ଲ୍ୟାଣ୍ଡସ୍କେପ୍, ଓରିଏଣ୍ଟେସନ୍, ଭର୍ଟିକାଲ୍, ହରିଜୋଣ୍ଟାଲ୍"</string>
-    <string name="keywords_system_update_settings" msgid="5769003488814164931">"ଅପଗ୍ରେଡ୍, Android"</string>
+    <string name="keywords_system_update_settings" msgid="5769003488814164931">"ଅପଗ୍ରେଡ୍, ethOS"</string>
     <string name="keywords_zen_mode_settings" msgid="7810203406522669584">"DND, ନିର୍ଦ୍ଧାରଣ, ବିଜ୍ଞପ୍ତି, ଅବରୋଧ, ସାଇଲେନ୍ସ, ଭାଇବ୍ରେଟ୍, ସ୍ଲୀପ୍, ୱର୍କ, ଫୋକସ୍, ସାଉଣ୍ଡ, ମ୍ୟୁଟ୍, ଦିନ,ସାପ୍ତାହିକ ଦିନ, ସପ୍ତାହର ଶେଷ ଦିନ, ସାପ୍ତାହିକ ରାତି, ଇଭେଣ୍ଟ"</string>
     <string name="keywords_screen_timeout" msgid="8921857020437540572">"ସ୍କ୍ରିନ୍, ଲକ୍ ସମୟ, ସମୟ ସମାପ୍ତି, ଲକ୍ ସ୍କ୍ରିନ୍"</string>
     <string name="keywords_storage_settings" msgid="6018856193950281898">"ମେମୋରୀ, କେଚ୍, ଡାଟା, ଡିଲିଟ୍ କରନ୍ତୁ, ଖାଲି କରନ୍ତୁ, ଖାଲି, ସ୍ପେସ୍"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"ଇନ୍‌ଷ୍ଟଲ୍‌ କରାଯାଇଥିବା କୌଣସି ଆପ୍‌ ବିଜ୍ଞପ୍ତି ଆକସେସ୍‌ କରିବାର ଅନୁରୋଧ କରିନାହିଁ।"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"ବିଜ୍ଞପ୍ତି ଆକ୍ସେସ କରିବା ପାଇଁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> ପାଇଁ ବିଜ୍ଞପ୍ତି ଆକ୍ସେସ୍‌ର ଅନୁମତି ଦେବେ?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12ରେ Android ଆଡେପ୍ଟିଭ୍ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ଉନ୍ନତ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକରେ ପରିବର୍ତ୍ତନ କରାଯାଇଛି। ଏହି ଫିଚର ପ୍ରସ୍ତାବିତ କାର୍ଯ୍ୟ ଏବଂ ପ୍ରତ୍ୟୁତ୍ତରଗୁଡ଼ିକୁ ଦେଖାଏ ଏବଂ ଆପଣଙ୍କ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ବ୍ୟବସ୍ଥିତ କରେ। \n\nଉନ୍ନତ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ କଣ୍ଟାକ୍ଟ ନାମ ଏବଂ ମେସେଜଗୁଡ଼ିକ ପରି ବ୍ୟକ୍ତିଗତ ସୂଚନା ସମେତ ବିଜ୍ଞପ୍ତିର ବିଷୟବସ୍ତୁକୁ ଆକ୍ସେସ କରିପାରିବ। ଏହି ଫିଚର ଫୋନ କଲଗୁଡ଼ିକର ଉତ୍ତର ଦେବା ଏବଂ \'ବିରକ୍ତ କରନ୍ତୁ ନାହିଁ\'କୁ ନିୟନ୍ତ୍ରଣ କରିବା ପରି, ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ମଧ୍ୟ ଖାରଜ କରିପାରିବ କିମ୍ବା ସେଗୁଡ଼ିକର ଉତ୍ତର ଦେଇପାରିବ।"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ethOS 12ରେ ethOS ଆଡେପ୍ଟିଭ୍ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ଉନ୍ନତ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକରେ ପରିବର୍ତ୍ତନ କରାଯାଇଛି। ଏହି ଫିଚର ପ୍ରସ୍ତାବିତ କାର୍ଯ୍ୟ ଏବଂ ପ୍ରତ୍ୟୁତ୍ତରଗୁଡ଼ିକୁ ଦେଖାଏ ଏବଂ ଆପଣଙ୍କ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ବ୍ୟବସ୍ଥିତ କରେ। \n\nଉନ୍ନତ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ କଣ୍ଟାକ୍ଟ ନାମ ଏବଂ ମେସେଜଗୁଡ଼ିକ ପରି ବ୍ୟକ୍ତିଗତ ସୂଚନା ସମେତ ବିଜ୍ଞପ୍ତିର ବିଷୟବସ୍ତୁକୁ ଆକ୍ସେସ କରିପାରିବ। ଏହି ଫିଚର ଫୋନ କଲଗୁଡ଼ିକର ଉତ୍ତର ଦେବା ଏବଂ \'ବିରକ୍ତ କରନ୍ତୁ ନାହିଁ\'କୁ ନିୟନ୍ତ୍ରଣ କରିବା ପରି, ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ମଧ୍ୟ ଖାରଜ କରିପାରିବ କିମ୍ବା ସେଗୁଡ଼ିକର ଉତ୍ତର ଦେଇପାରିବ।"</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g> ପାଇଁ ବିଜ୍ଞପ୍ତି ଆକ୍ସେସ୍‌ର ଅନୁମତି ଦେବେ?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> କଣ୍ଟାକ୍ଟ ନାମ, ଫଟୋ ଏବଂ ଆପଣ ପାଇଥିବା ମେସେଜର ଟେକ୍ସଟ ପରି ବ୍ୟକ୍ତିଗତ ସୂଚନା ସମେତ ସମସ୍ତ ବିଜ୍ଞପ୍ତି ପଢ଼ିବାକୁ ସକ୍ଷମ ହେବ। ଏହି ଆପ ଫୋନ କଲଗୁଡ଼ିକର ଉତ୍ତର ଦେବା ସହ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ସ୍ନୁଜ କିମ୍ବା ଖାରଜ କରିବାକୁ କିମ୍ବା ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକରେ ଥିବା ବଟନଗୁଡ଼ିକ ଉପରେ ପଦକ୍ଷେପ ନେବା ପାଇଁ ମଧ୍ୟ ସକ୍ଷମ ହେବ। \n\nଏହା ଆପଟିକୁ \"ବିରକ୍ତ କରନ୍ତୁ ନାହିଁ\"କୁ ଚାଲୁ କିମ୍ବା ବନ୍ଦ କରିବା ଏବଂ ସମ୍ବନ୍ଧିତ ସେଟିଂସ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ ମଧ୍ୟ କ୍ଷମତା ଦେବ।"</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ଏହା କରିବାକୁ ସକ୍ଷମ ହେବ:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"ବ୍ୟସ୍ତ କରନ୍ତୁ ନାହିଁ ଆକ୍ସେସ୍‌ କୌଣସି ସଂସ୍ଥାପିତ ଆପ୍‌ଗୁଡ଼ିକ ଅନୁରୋଧ କରିନାହାଁନ୍ତି"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"ଆପଗୁଡ଼ିକ ଲୋଡ୍ ହେଉଛି…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"ଆପଣ ଏହି ଆପରୁ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ଅନୁମତି ଦେଇନାହାଁନ୍ତି"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"ଆପଣଙ୍କ ଅନୁରୋଧରେ, Android, ବିଜ୍ଞପ୍ତିଗୁଡିର ଏହି ବର୍ଗକୁ ଏହି ଡିଭାଇସରେ ଦେଖାଦେବାରେ ଅବରୋଧ କରୁଛି"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"ଆପଣଙ୍କ ଅନୁରୋଧରେ, Android, ବିଜ୍ଞପ୍ତିଗୁଡିର ଏହି ଗୋଷ୍ଠୀକୁ ଏହି ଡିଭାଇସରେ ଦେଖାଦେବାରେ ଅବରୋଧ କରୁଛି"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"ଆପଣଙ୍କ ଅନୁରୋଧରେ, ethOS, ବିଜ୍ଞପ୍ତିଗୁଡିର ଏହି ବର୍ଗକୁ ଏହି ଡିଭାଇସରେ ଦେଖାଦେବାରେ ଅବରୋଧ କରୁଛି"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"ଆପଣଙ୍କ ଅନୁରୋଧରେ, ethOS, ବିଜ୍ଞପ୍ତିଗୁଡିର ଏହି ଗୋଷ୍ଠୀକୁ ଏହି ଡିଭାଇସରେ ଦେଖାଦେବାରେ ଅବରୋଧ କରୁଛି"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"ଏହି ଆପ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ପଠାଏ ନାହିଁ"</string>
     <string name="notification_channels" msgid="1502969522886493799">"ବର୍ଗ"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"ଅନ୍ୟାନ୍ୟ"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> ଭାବରେ ସାଇନ୍‌ ଇନ୍‌ କରିଛନ୍ତି"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ହେଉଛି ପୂର୍ବ-ନିର୍ଦ୍ଧାରିତ"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"ବ୍ୟାକ-ଅପ ବନ୍ଦ କରିଦିଆଯାଇଛି"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> ଭର୍ସନ୍‌କୁ ଅପଡେଟ୍‌ ହୋଇଗଲା"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ethOS <xliff:g id="VERSION">%1$s</xliff:g> ଭର୍ସନ୍‌କୁ ଅପଡେଟ୍‌ ହୋଇଗଲା"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"ଅପଡେଟ୍‌ ଉପଲବ୍ଧ"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"ଆପଣଙ୍କ IT ଆଡମିନ ବ୍ଲକ୍ କରିଛନ୍ତି"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"ଭଲ୍ୟୁମ୍‌କୁ ବଦଳାଇହେବ ନାହିଁ"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"ଆପଣ ହୁଏତଃ ବାକି ଥିବା କୌଣସି ସମୟ କିମ୍ବା ଡାଟାକୁ ଆକ୍ସେସ୍ ହରାଇପାରିନ୍ତି। ହଟେଇବା ପୂର୍ବରୁ ଆପଣଙ୍କ ପ୍ରଦାତାଙ୍କ ସହ ସମ୍ପର୍କ କରନ୍ତୁ।"</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"ବିଷୟବସ୍ତୁ କ୍ୟାପ୍‌ଚର୍, ଆପ୍ ବିଷୟବସ୍ତୁ"</string>
     <string name="content_capture" msgid="868372905432812238">"ଆପ୍ ବିଷୟବସ୍ତୁ"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Android ସିଷ୍ଟମ୍‌କୁ ବିଷୟବସ୍ତୁ ପଠାଇବା ପାଇଁ ଆପ୍ସକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"ethOS ସିଷ୍ଟମ୍‌କୁ ବିଷୟବସ୍ତୁ ପଠାଇବା ପାଇଁ ଆପ୍ସକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"ସିଷ୍ଟମ୍ ହିପ୍‍ ଡମ୍ପ କ୍ୟାପ୍ଚର୍ କରନ୍ତୁ"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"MTE ସହିତ ରିବୁଟ କରନ୍ତୁ"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"ସିଷ୍ଟମକୁ ରିବୁଟ କରି ମେମୋରୀ ଟାଗିଂ ଏକ୍ସଟେନସନ (MTE) ସହିତ ପରୀକ୍ଷଣକୁ ଅନୁମତି ଦେବ। ସିଷ୍ଟମର ପରଫରମାନ୍ସ ଏବଂ ସ୍ଥିରତା ଉପରେ MTE ନକାରାତ୍ମକ ପ୍ରଭାବ ପକାଇପାରେ। ପରବର୍ତ୍ତୀ ଥର ରିବୁଟ କରିବା ସମୟରେ ରିସେଟ ହୋଇଯିବ।"</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"ସିଷ୍ଟମ୍ ହିପ୍‍ ଡମ୍ପ କ୍ୟାପ୍‌ଚର୍ କରାଯାଉଛି"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"ସିଷ୍ଟମ୍ ହିପ୍ ଡମ୍ପ୍ କ୍ୟାପଚର୍ ହେଲାନାହିଁ"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"ସ୍ବଚାଳିତ ଭାବେ ସିଷ୍ଟମ୍ ହିପ୍ ଡମ୍ପ କ୍ୟାପ୍‌ଚର୍ କରନ୍ତୁ"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ଯେତେବେଳେ Android ସିଷ୍ଟମ୍ ଅଧିକ ମେମୋରୀ ବ୍ୟବହାର କରେ, ସେତେବେଳେ ଏଥି ପାଇଁ ସ୍ବଚାଳିତ ଭାବେ ଏକ ହେଡ୍ ଡମ୍ପ କ୍ୟାପ୍ଚର୍ କରନ୍ତୁ"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ଯେତେବେଳେ ethOS ସିଷ୍ଟମ୍ ଅଧିକ ମେମୋରୀ ବ୍ୟବହାର କରେ, ସେତେବେଳେ ଏଥି ପାଇଁ ସ୍ବଚାଳିତ ଭାବେ ଏକ ହେଡ୍ ଡମ୍ପ କ୍ୟାପ୍ଚର୍ କରନ୍ତୁ"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"ବିଚ୍ଛିନ୍ନ କରନ୍ତୁ"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"ଜରୁରୀକାଳୀନ କଲ୍"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"ଆପଣଙ୍କ ବାହକ ଦ୍ୱାରା ୱାଇ-ଫାଇ କଲିଂରେ ଜରୁରୀକାଳୀନ କଲ୍ ଉପଲବ୍ଧ ନାହିଁ।\nଏକ ଜରୁରୀକାଳୀନ କଲ୍ କରିବାକୁ ଡିଭାଇସ୍ ସ୍ୱଚାଳିତ ଭାବେ ମୋବାଇଲ୍ ନେଟ୍‌ୱାର୍କକୁ ପରିବର୍ତ୍ତନ ହୋଇଥାଏ।\nଜରୁରୀକାଳୀନ କଲ୍ କେବଳ ମୋବାଇଲ୍ ନେଟ୍‌ୱାର୍କ ଥିବା ସ୍ଥାନଗୁଡ଼ିକରେ ସମ୍ଭବ।"</string>

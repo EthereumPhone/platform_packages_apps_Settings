@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Om detta aktiveras låses enheten när den sista betrodda agenten slutar att vara betrodd"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Inget"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"T.ex. Jockes Android."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"T.ex. Jockes ethOS."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Visa profilinfo på den låsta skärmen"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Konton"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Plats"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC skickar och tar emot data till och från denna enhet samt andra enheter eller mål i närheten, t.ex. betalningsterminaler, tillgänglighetsläsare och interaktiva annonser eller taggar."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Enheten måste låsas upp för NFC"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Tillåt endast NFC när skärmen är upplåst"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Redo att överföra appinnehåll via NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Av"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Funktionen är inte tillgänglig eftersom NFC är inaktiverat"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"När den här funktionen är aktiverad kan du överföra appinnehåll trådlöst till en annan NFC-kompatibel enhet genom att hålla enheterna mot varandra. Du kan till exempel överföra webbsidor, YouTube-videor, kontakter och mycket annat.\n\nHåll bara enheterna mot varandra (oftast baksida mot baksida) och tryck sedan på skärmen. Appen avgör vad som överförs."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wifi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Aktivera wifi"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Fel på mobil wifi-surfzon"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Konfigurera surfzon via wifi"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Installation för wifi-surfzon"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK-surfzon"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK-surfzon"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Vill du spara nätverket?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> vill spara ett nätverk på telefonen"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> vill spara ett nätverk på surfplattan"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"Det gick inte att låsa upp med pinkoden för SIM-kortet."</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Systemuppdateringar"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android-version"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Säkerhetsuppdatering för Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS-version"</string>
+    <string name="security_patch" msgid="4071756145347865382">"Säkerhetsuppdatering för ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"Modell"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Maskinvaruversion"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"Utrustnings-ID"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB-anslutning till dator"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Anslut som"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Mediaenhet (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Gör att du kan överföra mediefiler i Windows eller använda Android-appen för filöverföring på Mac (läs mer på www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Gör att du kan överföra mediefiler i Windows eller använda ethOS-appen för filöverföring på Mac (läs mer på www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Kamera (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Gör att du kan överföra foton med kameraprogrammet och överföra filer på datorer som inte har stöd för MTP"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Om du vill använda de appar, foton eller data som <xliff:g id="NAME">^1</xliff:g> innehåller infogar du enheten på nytt. \n\nOm enheten inte är tillgänglig kan du i stället välja att glömma bort lagringsenheten. \n\nOm du väljer att glömma den raderas all data som enheten innehåller, vilket inte kan ångras. \n\nDu kan installera apparna på nytt senare, men den data du lagrade på enheten finns inte kvar."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Vill du glömma <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Alla appar, alla foton och all data som har lagrats på <xliff:g id="NAME">^1</xliff:g> raderas permanent."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Systemet innehåller filer som används för att köra Android-versionen <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Systemet innehåller filer som används för att köra ethOS-versionen <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Användare i gästläget kan inte formatera SD-kort"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Konfigurera ditt <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Formatera SD-kortet för bärbart lagringsutrymme"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Önskad installationsplats"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Ändra önskad installationsplats för nya appar."</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Inaktivera app"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Om du inaktiverar den här appen kan det påverka Android och andra appar så att de inte längre fungerar som de ska. Du kan inte radera appen eftersom den har förinstallerats på enheten. Om du inaktiverar appen döljs den på enheten."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Om du inaktiverar den här appen kan det påverka ethOS och andra appar så att de inte längre fungerar som de ska. Du kan inte radera appen eftersom den har förinstallerats på enheten. Om du inaktiverar appen döljs den på enheten."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Inaktivera meddelanden?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Butik"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Uppgifter om appen"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Bakgrundsprocesser"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Förgrundsprocesser"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Cachade processer"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Operativsystemet Android"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"Operativsystemet ethOS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Inbyggt"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kärna"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Röstindata och -utdata"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Inställningar för röstindata och -utdata"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Röstsökning"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android-tangentbordet"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS-tangentbordet"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Inställningar för röstinmatning"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Röstinmatning"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Röstinmatningstjänster"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, körläge"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, körläge, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, körläge"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, körläge, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, körläge"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Inte tillgängligt eftersom NFC är inaktiverat"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Först behöver du installera en betalningsapp"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Appar och aviseringar"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Inga installerade appar har begärt åtkomst till aviseringar"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Tillåt åtkomst till aviseringar"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Vill du tillåta åtkomst till aviseringar för <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Förbättrade aviseringar har ersatt Anpassade aviseringar för Android i Android 12. Den här funktionen visar förslag på åtgärder och svar och organiserar dina aviseringar. \n\nFörbättrade aviseringar har åtkomst till allt innehåll i aviseringar, inklusive personliga uppgifter som namn på kontakter och meddelanden. Funktionen kan även ignorera aviseringar eller utföra åtgärder utifrån dem, till exempel svara på telefonsamtal och styra Stör ej."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Förbättrade aviseringar har ersatt Anpassade aviseringar för ethOS i ethOS 12. Den här funktionen visar förslag på åtgärder och svar och organiserar dina aviseringar. \n\nFörbättrade aviseringar har åtkomst till allt innehåll i aviseringar, inklusive personliga uppgifter som namn på kontakter och meddelanden. Funktionen kan även ignorera aviseringar eller utföra åtgärder utifrån dem, till exempel svara på telefonsamtal och styra Stör ej."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Vill du tillåta åtkomst till aviseringar för <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kan läsa alla aviseringar, inklusive personliga uppgifter som namn på kontaktpersoner, foton och texten i mottagna meddelanden. Appen kan även skjuta upp och stänga aviseringar eller använda åtgärdsknappar i aviseringar för att t.ex. svara på telefonsamtal. \n\nAppen kan också aktivera eller inaktivera Stör ej och ändra relaterade inställningar."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kan:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Inga installerade appar har begärt Stör ej-åtkomst"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Läser in appar …"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Du har inte godkänt aviseringar från den här appen"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"På din begäran blockeras denna aviseringskategori av Android och visas inte på enheten"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"På din begäran blockeras denna aviseringsgrupp av Android och visas inte på enheten"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"På din begäran blockeras denna aviseringskategori av ethOS och visas inte på enheten"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"På din begäran blockeras denna aviseringsgrupp av ethOS och visas inte på enheten"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Den här appen skickar inga aviseringar"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Kategorier"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Övrigt"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Inloggad som <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> är standardval"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Säkerhetskopiering har inaktiverats"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Uppdaterad till Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Uppdaterad till ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Det finns en uppdatering"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"Blockeras av IT-administratören"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Det gick inte att ändra volymen"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Du kan förlora kvarstående tid eller data. Hör med operatören innan du raderar."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"innehållsidentifiering, appinnehåll"</string>
     <string name="content_capture" msgid="868372905432812238">"Appinnehåll"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Tillåt att innehåll skickas från appar till Android-systemet"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Tillåt att innehåll skickas från appar till ethOS-systemet"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Skapa en minnesdump av systemet"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"Starta om med MTE"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Systemet startas om och möjligheten att experimentera med MTE (Memory Tagging Extension) aktiveras. MTE kan påverka systemets prestanda och stabilitet negativt. Den tidigare inställningen återställs nästa gång systemet startas om."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Skapar en minnesdump av systemet"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Det gick inte att skapa en minnesdump av systemet"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Skapa automatiskt minnesdumpar av systemet"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Skapa automatiskt en minnesdump av Android-systemet när det använder för mycket minne"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Skapa automatiskt en minnesdump av ethOS-systemet när det använder för mycket minne"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Koppla från"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Nödsamtal"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Nödsamtal via wifi stöds inte av din operatör.\nEnheten byter automatiskt till ett mobilnätverk vid nödsamtal.\nNödsamtal fungerar endast i områden där mobilnätverket har täckning."</string>

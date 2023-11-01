@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Hvis alternativet er slått på, låses enheten når den siste pålitelige agenten ikke anses som pålitelig lenger"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Ingen"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"F.eks. Petters Android."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"F.eks. Petters ethOS."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Vis profilinformasjon på låseskjermen"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Kontoer"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Posisjon"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC utveksler data mellom denne enheten og andre enheter eller mål i nærheten, for eksempel betalingsterminaler, adgangslesere og interaktive annonser eller etiketter."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Krev opplåst enhet for NFC"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Bare tillat bruk av NFC når skjermen er låst opp"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Klar til å overføre appinnhold via NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Av"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Utilgjengelig fordi NFC er slått av"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Når denne funksjonen er slått på, kan du beame appinnhold til en annen enhet som støtter nærfeltskommunikasjon (NFC). Du gjør dette ved å holde enhetene tett sammen. Du kan for eksempel beame nettsider, YouTube-videoer, kontakter med mer.\n\nDu holder bare enhetene mot hverandre (vanligvis rygg mot rygg) og trykker på skjermen. Appen avgjør hva som beames."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wifi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Slå på wifi"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Feil med flyttbar wifi-sone"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Konfigurer wifi-sone"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Konfigurasjon av wifi-sone"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK-wifi-sone"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK-wifi-sone"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Vil du lagre dette nettverket?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> vil lagre et nettverk på telefonen din"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> vil lagre et nettverk på nettbrettet ditt"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"PIN-koden for SIM-kortet ble avvist."</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Systemoppdateringer"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android-versjon"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Sikkerhetsoppdatering for Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS-versjon"</string>
+    <string name="security_patch" msgid="4071756145347865382">"Sikkerhetsoppdatering for ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"Modell"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Maskinvareversjon"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"Utstyrs-ID"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB-tilkoblingen til datamaskinen"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Koble til som"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Medieenhet (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Lar deg overføre mediefiler i Windows, eller ved å bruke Android File Transfer på Mac (se www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Lar deg overføre mediefiler i Windows, eller ved å bruke ethOS File Transfer på Mac (se www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Kamera (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Gjør at du kan overføre bilder ved hjelp av kameraets programvare samt overføre alle slags filer på datamaskiner som ikke støtter MTP"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"For å bruke appene, bildene eller dataene som <xliff:g id="NAME">^1</xliff:g> inneholder, sett den inn på nytt. \n\nAlternativt kan du velge å glemme denne lagringen hvis enheten ikke er tilgjengelig. \n\nHvis du velger å glemme, forsvinner alle dataene som enheten inneholder for alltid. \n\nDu kan installere appene på nytt senere, men dataene som er lagret på denne enheten, går tapt."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Vil du at enheten skal glemme <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Alle appene, bildene og dataene som er lagret på <xliff:g id="NAME">^1</xliff:g>, går tapt for alltid."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Systemet inkluderer filer som brukes for å kjøre Android versjon <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Systemet inkluderer filer som brukes for å kjøre ethOS versjon <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Brukere i gjestemodus kan ikke formatere SD-kort"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Konfigurer <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Formater SD-kort som bærbar lagring"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Foretrukket installeringssted"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Endre foretrukket plassering for installasjon av nye apper"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Deaktiver appen"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Hvis du slår av denne appen, slutter muligens Android og andre apper å fungere som de skal. Husk at du ikke kan slette denne appen fordi den var forhåndsinstallert på enheten din. Ved å slå av, slår du av denne appen og skjuler den på enheten din."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Hvis du slår av denne appen, slutter muligens ethOS og andre apper å fungere som de skal. Husk at du ikke kan slette denne appen fordi den var forhåndsinstallert på enheten din. Ved å slå av, slår du av denne appen og skjuler den på enheten din."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Vil du deaktivere varsler?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Butikk"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Informasjon om appen"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Bakgrunn"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Forgrunn"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Bufret"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Innebygd"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kernel"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Tale (inn/ut)"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Innstillinger for talekommando og -styring"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Talesøk"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android-tastatur"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS-tastatur"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Innstillinger for taleinndata"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Taleinndata"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Taleinndatatjenester"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, kjøremodus"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, kjøremodus, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, kjøremodus"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, kjøremodus, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, kjøremodus"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Utilgjengelig fordi NFC er av"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Du må installere en betalingsapp for å bruke denne funksjonen"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Apper og varsler"</string>
@@ -3799,7 +3799,7 @@
     <string name="keywords_imei_info" msgid="8848791606402333514">"imei, meid, min, prl-versjon, imei sv"</string>
     <string name="keywords_sim_status" msgid="8784456547742075508">"nettverk, status for mobilnettverk, servicestatus, signalstyrke, mobilnettverkstype, roaming, iccid, eid"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"serienummer, maskinvareversjon"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"nivå av sikkerhetsoppdatering i Android, basisbåndversjon, kjerneversjon"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"nivå av sikkerhetsoppdatering i ethOS, basisbåndversjon, kjerneversjon"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"tema, lys, mørk, modus, lyssensitivitet, fotofobi, gjør mørkere, mørkne, mørk modus, migrene"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"mørkt tema"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"Feil"</string>
@@ -3811,7 +3811,7 @@
     <string name="keywords_display_auto_brightness" msgid="7162942396941827998">"dim skjermen, berøringsskjerm, batteri, smart lysstyrke, dynamisk lysstyrke, automatisk lysstyrke"</string>
     <string name="keywords_display_adaptive_sleep" msgid="4905300860114643966">"smart, ton ned skjermen, hvilemodus, batteri, tidsavbrudd, oppmerksomhet, visning, skjerm, inaktivitet"</string>
     <string name="keywords_auto_rotate" msgid="7288697525101837071">"kamera, smart, automatisk rotasjon, rotér automatisk, rotér, vend, rotasjon, stående, liggende, retning, vertikal, horisontal"</string>
-    <string name="keywords_system_update_settings" msgid="5769003488814164931">"oppgrader, Android"</string>
+    <string name="keywords_system_update_settings" msgid="5769003488814164931">"oppgrader, ethOS"</string>
     <string name="keywords_zen_mode_settings" msgid="7810203406522669584">"ikke forstyrr, oversikt, varsler, blokkér, demp, vibrer, hvilemodus, jobb, fokuser, lyd, kutt lyden, dag, ukedag, helg, hverdagskveld, aktivitet"</string>
     <string name="keywords_screen_timeout" msgid="8921857020437540572">"skjerm, låsetid, tidsavbrudd, låseskjerm"</string>
     <string name="keywords_storage_settings" msgid="6018856193950281898">"minne, buffer, data, slett, fjern, frigjør, lagringsplass"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Ingen installerte apper har bedt om tilgang til varsler."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Gi tilgang til varsler"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Vil du gi tilgang til varsler for <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Forbedrede varsler erstatter tilpassede Android-varsler i Android 12. Denne funksjonen viser foreslåtte handlinger og svar og organiserer varslene dine. \n\nForbedrede varsler har tilgang til varselinnhold, inkludert personopplysninger som kontaktnavn og meldinger. Funksjonen kan også avvise og svare på varsler, for eksempel svare på anrop og kontrollere «Ikke forstyrr»."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Forbedrede varsler erstatter tilpassede ethOS-varsler i ethOS 12. Denne funksjonen viser foreslåtte handlinger og svar og organiserer varslene dine. \n\nForbedrede varsler har tilgang til varselinnhold, inkludert personopplysninger som kontaktnavn og meldinger. Funksjonen kan også avvise og svare på varsler, for eksempel svare på anrop og kontrollere «Ikke forstyrr»."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Vil du gi tilgang til varsler for <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kan lese alle varsler, inkludert personopplysninger som kontaktnavn, bilder og tekstinnholdet i meldinger du mottar. Appen kan også slumre eller avvise varsler eller bruke knapper i varsler, inkludert å svare på telefonanrop. \n\nDette gir også appen muligheten til å slå Ikke forstyrr av eller på samt endre tilknyttede innstillinger."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kan gjøre dette:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Ingen installerte apper har bedt om «Ikke forstyrr»-tilgang"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Laster inn appene …"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Du har ikke tillatt varsler fra denne appen"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"I tråd med det du har valgt, blokkerer Android denne varselkategorien fra å vises på denne enheten"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"I tråd med det du har valgt, blokkerer Android denne varselgruppen fra å vises på denne enheten"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"I tråd med det du har valgt, blokkerer ethOS denne varselkategorien fra å vises på denne enheten"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"I tråd med det du har valgt, blokkerer ethOS denne varselgruppen fra å vises på denne enheten"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Denne appen sender ikke varsler"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Kategorier"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Annet"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Logget på som <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> er angitt som standard"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Sikkerhetskopiering er slått av"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Oppdatert til Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Oppdatert til ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"En oppdatering er tilgjengelig"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"Blokkert av IT-administratoren din"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Kan ikke endre volumet"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Du kan miste tilgang til gjenværende tid eller data. Sjekk med leverandøren din før fjerning."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"innholdsregistrering, appinnhold"</string>
     <string name="content_capture" msgid="868372905432812238">"Appinnhold"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Tillater at apper sender innhold til Android-systemet"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Tillater at apper sender innhold til ethOS-systemet"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Samle inn minnedump fra systemet"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"Start på nytt med MTE"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Systemet starter på nytt og tillater eksperimentering med Memory Tagging Extension (MTE). MTE kan ha negativ innvirkning på systemytelse og stabilitet. Dette blir tilbakestilt etter neste omstart."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Samler inn minnedump fra systemet"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Kunne ikke samle inn minnedump for systemet"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Samle automatisk inn minnedumper fra systemet"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Samle automatisk inn en minnedump for Android-systemet når det bruker for mye minne"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Samle automatisk inn en minnedump for ethOS-systemet når det bruker for mye minne"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Koble fra"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Nødanrop"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Nødanrop via wifi-anrop støttes ikke av operatøren din.\nEnheten bytter automatisk til et mobilnettverk for å foreta et nødanrop.\nNødanrop er bare mulige i områder med mobildekning."</string>

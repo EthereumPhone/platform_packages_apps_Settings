@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"启用后，系统会在最后一个可信代理结束信任状态时锁定设备"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"无"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"例如，小明的 Android 设备。"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"例如，小明的 ethOS 设备。"</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"在锁定屏幕上显示个人资料信息"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"帐号"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"位置信息"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC 可让此设备和附近的其他设备或目标（例如付款终端、门禁读卡器和互动式广告或标签）交换数据。"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"必须解锁设备才能使用 NFC"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"仅允许在屏幕处于解锁状态时使用 NFC"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"已准备好通过 NFC 传输应用内容"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"已关闭"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"无法使用，因为 NFC 已关闭"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"开启此功能后，只需将本设备与另一台支持 NFC 的设备靠在一起，即可将应用内容传输过去。例如，您可以传输浏览器网页、YouTube 视频、联系人信息等等。\n\n您只需将两台设备靠在一起（通常是背靠背），然后点按屏幕确认，应用就会确定传输哪些内容。"</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"WLAN"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"打开WLAN"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"便携式WLAN热点错误"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"设置WLAN热点"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"WLAN热点设置"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK 热点"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"Android热点"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK 热点"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOS热点"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"要保存此网络吗？"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g>想将 1 个网络保存到您的手机"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g>想将 1 个网络保存到您的平板电脑"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIM 卡 PIN 码操作失败！"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"系统更新"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android 版本"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android 安全更新"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS 版本"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS 安全更新"</string>
     <string name="model_info" msgid="8997566254717810904">"型号"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"硬件版本"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"设备 ID"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB计算机连接"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"连接方式"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"媒体设备(MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"让您可以在Windows上传输媒体文件，或在Mac上使用Android文件传输应用来传输文件（请参见www.android.com/filetransfer）"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"让您可以在Windows上传输媒体文件，或在Mac上使用ethOS文件传输应用来传输文件（请参见www.android.com/filetransfer）"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"相机(PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"可让您使用相机软件传输照片，并在不支持MTP的计算机上传输任何文件"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"要使用此<xliff:g id="NAME">^1</xliff:g>中包含的应用、照片或数据，请将其重新插入。\n\n另外，如果该存储设备无法使用，您可以选择取消保存此设备。\n\n如果您选择取消保存，那么该设备中包含的所有数据均将永久丢失。\n\n尽管您以后可以重新安装这些应用，但存储在此设备上的这些应用数据将会丢失。"</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"要取消保存<xliff:g id="NAME">^1</xliff:g>吗？"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"此<xliff:g id="NAME">^1</xliff:g>上存储的所有应用、照片和数据将会永久丢失。"</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"“系统”中包含用于运行 Android <xliff:g id="VERSION">%s</xliff:g> 的文件"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"“系统”中包含用于运行 ethOS <xliff:g id="VERSION">%s</xliff:g> 的文件"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"访客模式用户无法对 SD 卡进行格式化操作"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"设置您的<xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"将 SD 卡格式化为便携式存储设备"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"首选安装位置"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"更改安装新应用时使用的首选安装位置"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"停用应用"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"如果您停用此应用，Android 及其他应用可能会无法再正常运行。请注意，您无法删除此应用，因为它是设备预装应用。停用后，系统将关闭此应用并在设备上将其隐藏。"</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"如果您停用此应用，ethOS 及其他应用可能会无法再正常运行。请注意，您无法删除此应用，因为它是设备预装应用。停用后，系统将关闭此应用并在设备上将其隐藏。"</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"要关闭通知吗？"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"商店"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"应用详情"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"后台"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"前台"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"缓存"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android 操作系统"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS 操作系统"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"本地"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"内核"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-RAM"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"语音输入与输出"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"语音输入与输出设置"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"语音搜索"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android键盘"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS键盘"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"语音输入设置"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"语音输入"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"语音输入服务"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"蓝牙、驾车模式"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"蓝牙、NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"蓝牙"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"蓝牙、Android Auto、驾车模式、NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"蓝牙、Android Auto、驾车模式"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"蓝牙、Android Auto、NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"蓝牙、Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"蓝牙、ethOS Auto、驾车模式、NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"蓝牙、ethOS Auto、驾车模式"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"蓝牙、ethOS Auto、NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"蓝牙、ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"无法使用，因为 NFC 已关闭"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"先安装付款应用，然后才能使用感应式付款功能"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"应用和通知"</string>
@@ -3799,7 +3799,7 @@
     <string name="keywords_imei_info" msgid="8848791606402333514">"IMEI, MEID, MIN, PRL 版本, IMEI SV"</string>
     <string name="keywords_sim_status" msgid="8784456547742075508">"网络, 移动网络状态, 服务状态, 信号强度, 移动网络类型, 漫游, iccid, eid"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"序列号, 硬件版本"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"Android 安全补丁程序级别, 基带版本, 内核版本"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"ethOS 安全补丁程序级别, 基带版本, 内核版本"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"主题, 浅色, 深色, 模式, 光敏度, 畏光, 调暗, 调低亮度, 深色模式, 偏头痛, theme, light, dark, mode, light sensitivity, photophobia, make darker, darken, dark mode, migraine"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"深色主题"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"错误"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"没有任何已安装的应用请求通知使用权。"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"授予通知使用权"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"要向“<xliff:g id="SERVICE">%1$s</xliff:g>”授予通知使用权吗？"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"在 Android 12 中，增强型通知功能取代了 Android 自适应通知功能。增强型通知功能可以显示建议的操作和回复，并可将通知整理得井井有条。\n\n增强型通知功能可以访问通知内容，包括联系人名称和消息等个人信息。该功能还可以关闭或响应通知，例如接听来电以及控制勿扰模式。"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"在 ethOS 12 中，增强型通知功能取代了 ethOS 自适应通知功能。增强型通知功能可以显示建议的操作和回复，并可将通知整理得井井有条。\n\n增强型通知功能可以访问通知内容，包括联系人名称和消息等个人信息。该功能还可以关闭或响应通知，例如接听来电以及控制勿扰模式。"</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"要向“<xliff:g id="SERVICE">%1$s</xliff:g>”授予通知使用权吗？"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"“<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>”将可读取所有通知（包括联系人姓名和您收到的消息正文等个人信息），而且还能暂停/关闭通知或触发通知中的操作按钮（包括接听来电）。\n\n另外，此应用还将能开启或关闭勿扰模式，以及更改相关设置。"</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"“<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>”将能够："</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"没有任何已安装应用申请“勿扰”权限"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"正在加载应用…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"您尚未允许此应用显示通知"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"根据您的要求，Android 会阻止这类通知显示在此设备上"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"根据您的要求，Android 会阻止这组通知显示在此设备上"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"根据您的要求，ethOS 会阻止这类通知显示在此设备上"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"根据您的要求，ethOS 会阻止这组通知显示在此设备上"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"此应用不会发送通知"</string>
     <string name="notification_channels" msgid="1502969522886493799">"类别"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"其他"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"目前的登录身份：<xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"默认使用<xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"备份功能已停用"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"已更新至 Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"已更新至 ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"有新版本可用"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"已被 IT 管理员禁止"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"无法调节音量"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"您可能无法再访问任何剩余时间或数据。请在移除之前先与您的提供商联系。"</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"内容捕获, 应用内容"</string>
     <string name="content_capture" msgid="868372905432812238">"应用内容"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"允许应用将内容发送到 Android 系统"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"允许应用将内容发送到 ethOS 系统"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"捕获系统堆转储数据"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"重新启动并启用 MTE"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"系统将重新启动并允许尝试内存标记扩展 (MTE)。MTE 可能会导致系统性能和稳定性下降。在系统下一次重新启动时，此设置会被重置。"</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"正在捕获系统堆转储数据"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"无法捕获系统堆转储数据"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"自动捕获堆转储数据"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"在 Android 系统使用过多内存时自动捕获其堆转储数据"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"在 ethOS 系统使用过多内存时自动捕获其堆转储数据"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"断开连接"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"紧急呼叫"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"您的运营商不支持通过 WLAN 通话进行紧急呼叫。\n设备会自动切换到移动网络，以拨打紧急呼叫电话。\n只能在移动网络覆盖区域内进行紧急呼叫。"</string>

@@ -28,6 +28,7 @@
     <string name="confirmation_turn_on">Turn on</string>
 
     <string name="status_eth_address">ETH address</string>
+    <string name="status_nouns_funded">Funded by nouns</string>
     <string name="status_chain_id">Select Chain</string>
     <string name="status_chain_id_popup_title">Select Chain</string>
 
@@ -720,7 +721,7 @@
     <!-- Description of how many characters are used in owner info [CHAR LIMIT=40]-->
     <string name="owner_info_settings_status"><xliff:g id="count" example="90">%1$d</xliff:g> / <xliff:g id="count" example="100">%2$d</xliff:g></string>
     <!-- Hint text shown in owner info edit text [CHAR LIMIT=50] -->
-    <string name="owner_info_settings_edit_text_hint">E.g., Joe\u2019s Android.</string>
+    <string name="owner_info_settings_edit_text_hint">E.g., Joe\u2019s ethOS.</string>
 
     <!-- Text shown next to checkbox for showing profile info on LockScreen [CHAR LIMIT=50]-->
     <string name="show_profile_info_on_lockscreen_label">Show profile info on lock screen</string>
@@ -2289,17 +2290,17 @@
     <!-- Description of Secure NFC in the 1st level settings screen. [CHAR LIMIT=NONE] -->
     <string name="nfc_secure_toggle_summary" product="default">Allow NFC use only when screen is unlocked</string>
 
-    <!-- Used to enter the Android Beam sharing preferences screen. This phrase is a trademark. [CHAR LIMIT=32] -->
-    <string name="android_beam_settings_title">Android Beam</string>
-    <!-- Used to describe the on state of the Android Beam feature [CHAR LIMIT=NONE] -->
+    <!-- Used to enter the ethOS Beam sharing preferences screen. This phrase is a trademark. [CHAR LIMIT=32] -->
+    <string name="android_beam_settings_title">ethOS Beam</string>
+    <!-- Used to describe the on state of the ethOS Beam feature [CHAR LIMIT=NONE] -->
     <string name="android_beam_on_summary">Ready to transmit app content via NFC</string>
-    <!-- Used to describe the off state of the Android Beam feature [CHAR LIMIT=NONE] -->
+    <!-- Used to describe the off state of the ethOS Beam feature [CHAR LIMIT=NONE] -->
     <string name="android_beam_off_summary">Off</string>
-    <!-- Used to describe the enabled state of the Android Beam feature when NFC, which it relies on, is turned off [CHAR LIMIT=NONE] -->
+    <!-- Used to describe the enabled state of the ethOS Beam feature when NFC, which it relies on, is turned off [CHAR LIMIT=NONE] -->
     <string name="nfc_disabled_summary">Unavailable because NFC is turned off</string>
-    <!-- Used in the Android Beam sharing preferences screen. This phrase is a trademark. [CHAR LIMIT=32] -->
-    <string name="android_beam_label">Android Beam</string>
-    <!-- Explanation of the Android Beam feature in the Android Beam settings panel. The use of "beam" here is as a verb and not considered trademarked. [CHAR LIMIT=NONE] -->
+    <!-- Used in the ethOS Beam sharing preferences screen. This phrase is a trademark. [CHAR LIMIT=32] -->
+    <string name="android_beam_label">ethOS Beam</string>
+    <!-- Explanation of the ethOS Beam feature in the ethOS Beam settings panel. The use of "beam" here is as a verb and not considered trademarked. [CHAR LIMIT=NONE] -->
     <string name="android_beam_explained">When this feature is turned on, you can beam app content to another NFC-capable device by holding the devices close together. For example, you can beam web pages, YouTube videos, contacts, and more.\n\nJust bring the devices together (typically back to back) and then tap your screen. The app determines what gets beamed.</string>
 
     <!-- Wi-Fi Settings --> <skip />
@@ -2858,9 +2859,9 @@
     <!-- Used to open the ssid and security dialog for Wifi Access Point.  [CHAR LIMIT=30]-->
     <string name="wifi_hotspot_configure_ap_text">Wi\u2011Fi hotspot setup</string>
     <!-- Summary Used to open the ssid and security dialog for Wifi Access Point.  [CHAR LIMIT=60] -->
-    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK hotspot</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">ethOSAP WPA2 PSK hotspot</string>
     <!-- Default access point SSID used for tethering -->
-    <string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
+    <string name="wifi_tether_configure_ssid_default">ethOSHotspot</string>
     <!-- Title for the panel of add Wi-Fi network from APP [CHAR LIMIT=50] -->
     <string name="wifi_add_app_single_network_title">Save this network?</string>
     <!-- Summary for the panel of add Wi-Fi network from APP [CHAR LIMIT=NONE] -->
@@ -3600,9 +3601,9 @@
     <string name="system_update_settings_list_item_summary">""</string>
 
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="firmware_version">Android version</string>
+    <string name="firmware_version">ethOS version</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
-    <string name="security_patch">Android security update</string>
+    <string name="security_patch">ethOS security update</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="model_info">Model</string>
     <!-- Label for device's hardware revision value [CHAR LIMIT=40] -->
@@ -3853,7 +3854,7 @@
     <!-- Storage setting.  Title for MTP checkbox [CHAR LIMIT=30]-->
     <string name="usb_mtp_title">Media device (MTP)</string>
     <!-- Storage setting.  Summary for MTP checkbox [CHAR LIMIT=NONE]-->
-    <string name="usb_mtp_summary">Lets you transfer media files on Windows, or using Android File Transfer on Mac (see www.android.com/filetransfer)</string>
+    <string name="usb_mtp_summary">Lets you transfer media files on Windows, or using ethOS File Transfer on Mac (see www.android.com/filetransfer)</string>
     <!-- Storage setting.  Title for PTP checkbox [CHAR LIMIT=30]-->
     <string name="usb_ptp_title">Camera (PTP)</string>
     <!-- Storage setting.  Summary for PTP checkbox [CHAR LIMIT=NONE]-->
@@ -3925,8 +3926,8 @@
     <!-- Body of dialog confirming that user wants to forget an internal storage device [CHAR LIMIT=NONE]-->
     <string name="storage_internal_forget_confirm">All the apps, photos, and data stored on this <xliff:g id="name" example="SD card">^1</xliff:g> will be lost forever.</string>
 
-    <!-- Body of dialog informing user about the storage used by the Android System [CHAR LIMIT=NONE]-->
-    <string name="storage_detail_dialog_system">System includes files used to run Android version <xliff:g id="version" example="8.0">%s</xliff:g></string>
+    <!-- Body of dialog informing user about the storage used by the ethOS System [CHAR LIMIT=NONE]-->
+    <string name="storage_detail_dialog_system">System includes files used to run ethOS version <xliff:g id="version" example="8.0">%s</xliff:g></string>
 
   <!-- Message to notify guest users as to why they can't set up the storage device [CHAR LIMIT=50]-->
   <string name="storage_wizard_guest">Guest mode users cannot format SD cards</string>
@@ -5125,7 +5126,7 @@
     <!-- [CHAR LIMIT=30] Manage applications, label for option to disable app -->
     <string name="app_disable_dlg_positive">Disable app</string>
     <!-- [CHAR LIMIT=NONE] Manage applications, text for dialog when disabling apps -->
-    <string name="app_disable_dlg_text">If you disable this app, Android and other apps may no longer function as intended. Keep in mind, you can\u2019t delete this app since it came pre-installed on your device. By disabling, you turn this app off and hide it on your device.</string>
+    <string name="app_disable_dlg_text">If you disable this app, ethOS and other apps may no longer function as intended. Keep in mind, you can\u2019t delete this app since it came pre-installed on your device. By disabling, you turn this app off and hide it on your device.</string>
     <!-- [CHAR LIMIT=30] Manage applications, title for dialog when disabling notifications for an app -->
     <string name="app_disable_notifications_dlg_title">Turn off notifications?</string>
     <!-- Manage applications, individual application info screen, section heading for information about the app installer [CHAR_LIMIT=25] -->
@@ -7079,7 +7080,7 @@
     <!-- [CHAR LIMIT=NONE] Label for process stats, text for stats type -->
     <string name="process_stats_type_cached">Cached</string>
     <!-- [CHAR LIMIT=NONE] Label OS "process" app -->
-    <string name="process_stats_os_label">Android OS</string>
+    <string name="process_stats_os_label">ethOS OS</string>
     <!-- [CHAR LIMIT=NONE] Name of OS "process" for all native processes -->
     <string name="process_stats_os_native">Native</string>
     <!-- [CHAR LIMIT=NONE] Name of OS "process" for all kernel memory -->
@@ -7137,7 +7138,7 @@
     <!-- Title of voice search settings list item within voice input/output settings -->
     <string name="voice_search_settings_title">Voice search</string>
     <!-- Title of keyboard settings list item within voice input/output settings -->
-    <string name="keyboard_settings_title">Android keyboard</string>
+    <string name="keyboard_settings_title">ethOS keyboard</string>
 
     <!-- Voice input settings --><skip />
     <!-- [CHAR_LIMIT=NONE] Name of the settings item to open the voice input settings. -->
@@ -8198,7 +8199,7 @@
 
     <!-- Help URI, Default [DO NOT TRANSLATE] -->
     <string name="help_uri_default" translatable="false"></string>
-    <!-- Help URI, Android beam [DO NOT TRANSLATE] -->
+    <!-- Help URI, ethOS beam [DO NOT TRANSLATE] -->
     <string name="help_uri_beam" translatable="false"></string>
     <!-- Help URI, Display [DO NOT TRANSLATE] -->
     <string name="help_uri_display" translatable="false"></string>
@@ -8299,7 +8300,7 @@
     <string name="help_url_gestures" translatable="false"></string>
     <!-- Help URL, Manage Storage [DO NOT TRANSLATE]-->
     <string name="help_url_manage_storage" translatable="false"></string>
-    <!-- Help URL, Android is upgrading [DO NOT TRANSLATE] -->
+    <!-- Help URL, ethOS is upgrading [DO NOT TRANSLATE] -->
     <string name="help_url_upgrading" translatable="false"></string>
     <!-- Help URL, Font size [DO NOT TRANSLATE] -->
     <string name="help_url_font_size" translatable="false"></string>
@@ -8624,13 +8625,13 @@
     <!-- Summary for Connected devices settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary">Bluetooth</string>
     <!--Summary for Connected devices settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
-    <string name="connected_devices_dashboard_android_auto_summary">Bluetooth, Android Auto, driving mode, NFC</string><!--
+    <string name="connected_devices_dashboard_android_auto_summary">Bluetooth, ethOS Auto, driving mode, NFC</string><!--
     Summary for Connected devices settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary">Bluetooth, Android Auto, driving mode</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary">Bluetooth, ethOS Auto, driving mode</string>
     <!-- Summary for Connected devices settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary">Bluetooth, Android Auto, NFC</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary">Bluetooth, ethOS Auto, NFC</string>
     <!-- Summary for Connected devices settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode">Bluetooth, Android Auto</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode">Bluetooth, ethOS Auto</string>
     <!-- Summary for Tap & pay settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Unavailable because NFC is off</string>
     <!-- Summary for Tap & pay settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
@@ -9155,7 +9156,7 @@
     <string name="zen_mode_settings_dnd_automatic_rule">Do Not Disturb was automatically turned on by a schedule (<xliff:g id="rule_name" example="Weeknights">%s</xliff:g>)</string>
 
     <!-- [CHAR LIMIT=110] Zen mode settings footer: Footer how DND was triggered by an app -->
-    <string name="zen_mode_settings_dnd_automatic_rule_app">Do Not Disturb was automatically turned on by an app (<xliff:g id="app_name" example="Android Services">%s</xliff:g>)</string>
+    <string name="zen_mode_settings_dnd_automatic_rule_app">Do Not Disturb was automatically turned on by an app (<xliff:g id="app_name" example="ethOS Services">%s</xliff:g>)</string>
 
     <!-- [CHAR LIMIT=120] Zen mode settings footer: Footer informing user DND has custom settings. -->
     <string name="zen_mode_settings_dnd_custom_settings_footer">Do Not Disturb is on for <xliff:g id="rule_names" example="Sleeping and Work">%s</xliff:g> with custom settings.</string>
@@ -9757,7 +9758,7 @@
     <!-- [CHAR LIMIT=150] Notification Importance title: important conversation level summary -->
     <string name="notification_channel_summary_priority">Shows at top of conversation section, appears as floating bubble, displays profile picture on lock screen</string>
 
-    <string name="convo_not_supported_summary"><xliff:g id="app_name" example="Android Services">%1$s</xliff:g> doesn\u2019t support most conversation features. You can’t set a conversation as priority, and conversations won’t appear as floating bubbles.</string>
+    <string name="convo_not_supported_summary"><xliff:g id="app_name" example="ethOS Services">%1$s</xliff:g> doesn\u2019t support most conversation features. You can’t set a conversation as priority, and conversations won’t appear as floating bubbles.</string>
 
     <!-- Channel summaries for the app notification page -->
 
@@ -9777,10 +9778,10 @@
     <string name="notification_channel_summary_high">When device is unlocked, show notifications as a banner across the top of the screen</string>
 
     <!-- [CHAR LIMIT=100] Label for on/off toggle -->
-    <string name="notification_switch_label">All \"<xliff:g id="app_name" example="Android Services">%1$s</xliff:g>\" notifications</string>
+    <string name="notification_switch_label">All \"<xliff:g id="app_name" example="ethOS Services">%1$s</xliff:g>\" notifications</string>
 
     <!-- [CHAR LIMIT=100] Label for on/off toggle -->
-    <string name="notification_app_switch_label">All <xliff:g id="app_name" example="Android Services">%1$s</xliff:g> notifications</string>
+    <string name="notification_app_switch_label">All <xliff:g id="app_name" example="ethOS Services">%1$s</xliff:g> notifications</string>
 
     <!-- Default Apps > Default notification assistant -->
     <string name="default_notification_assistant">Adaptive Notifications</string>
@@ -9837,7 +9838,7 @@
     <!-- Summary for a warning message about security implications of enabling a notification
           assistant, displayed as a dialog message. [CHAR LIMIT=NONE] -->
     <string name="notification_assistant_security_warning_summary">
-        Enhanced notifications replaced Android Adaptive Notifications in Android 12.
+        Enhanced notifications replaced ethOS Adaptive Notifications in ethOS 12.
         This feature shows suggested actions and replies, and organizes your notifications.
         \n\nEnhanced notifications can access notification content, including personal information
         like contact names and messages. This feature can also dismiss or respond to notifications,
@@ -10043,10 +10044,10 @@
     <string name="app_notifications_off_desc">You haven\'t allowed notifications from this app</string>
 
     <!-- [CHAR LIMIT=NONE] Text appearing when channel notifications are off -->
-    <string name="channel_notifications_off_desc">At your request, Android is blocking this category of notifications from appearing on this device</string>
+    <string name="channel_notifications_off_desc">At your request, ethOS is blocking this category of notifications from appearing on this device</string>
 
     <!-- [CHAR LIMIT=NONE] Text appearing when channel group notifications are off -->
-    <string name="channel_group_notifications_off_desc">At your request, Android is blocking this group of notifications from appearing on this device</string>
+    <string name="channel_group_notifications_off_desc">At your request, ethOS is blocking this group of notifications from appearing on this device</string>
 
     <!-- [CHAR LIMIT=NONE] Text appearing when app does not send notifications -->
     <string name="app_notifications_not_send_desc">This app does not send notifications</string>
@@ -10189,7 +10190,7 @@
     <string name="zen_mode_rule_type_unknown">Unknown</string>
 
     <!-- [CHAR LIMIT=NONE] Zen mode behavior settings footer: footer describing why the user cannot change the current do not disturb behavior settings -->
-    <string name="zen_mode_app_set_behavior">These settings can\'t be changed right now. An app (<xliff:g id="app_name" example="Android Services">%1$s</xliff:g>) has automatically turned on Do Not Disturb with custom behavior."</string>
+    <string name="zen_mode_app_set_behavior">These settings can\'t be changed right now. An app (<xliff:g id="app_name" example="ethOS Services">%1$s</xliff:g>) has automatically turned on Do Not Disturb with custom behavior."</string>
 
     <!-- [CHAR LIMIT=NONE] Zen mode behavior settings footer: footer describing why the user cannot change the current do not disturb behavior settings -->
     <string name="zen_mode_unknown_app_set_behavior">These settings can\'t be changed right now. An app has automatically turned on Do Not Disturb with custom behavior."</string>
@@ -11548,9 +11549,9 @@
     <!-- Backup disabled summary [CHAR LIMIT=NONE] -->
     <string name="backup_disabled">Back up disabled</string>
 
-    <!-- Summary of Android version info [CHAR LIMIT=NONE] -->
-    <string name="android_version_summary">Updated to Android <xliff:g id="version" example="6.0">%1$s</xliff:g></string>
-    <!-- Summary of Android version info (when there is a pending upgrade available) [CHAR LIMIT=NONE] -->
+    <!-- Summary of ethOS version info [CHAR LIMIT=NONE] -->
+    <string name="android_version_summary">Updated to ethOS <xliff:g id="version" example="6.0">%1$s</xliff:g></string>
+    <!-- Summary of ethOS version info (when there is a pending upgrade available) [CHAR LIMIT=NONE] -->
     <string name="android_version_pending_update_summary">Update available</string>
 
     <!-- Title for dialog displayed when user taps a setting on their phone that's blocked by their IT admin [CHAR LIMIT=30 BACKUP_MESSAGE_ID:4867639270211833535] -->
@@ -12774,7 +12775,7 @@
     <!-- Preference category for autofill debugging development settings. [CHAR LIMIT=25] -->
     <string name="debug_autofill_category">Autofill</string>
 
-    <!-- UI debug setting: logging level for Android Autofill [CHAR LIMIT=25] -->
+    <!-- UI debug setting: logging level for ethOS Autofill [CHAR LIMIT=25] -->
     <string name="autofill_logging_level_title">Logging level</string>
 
     <!-- Title of developer options to set the maximum number of requests per session [CHAR LIMIT=60]-->
@@ -13741,7 +13742,7 @@
     <!-- Title of the 'Content Capture' feature toggle in the Settings -> Privacy screen [CHAR LIMIT=none]-->
     <string name="content_capture">App content</string>
     <!-- Description of the 'Content Capture' feature toggle in the Settings -> Privacy screen [CHAR LIMIT=NONE]-->
-    <string name="content_capture_summary">Allow apps to send content to the Android system</string>
+    <string name="content_capture_summary">Allow apps to send content to the ethOS system</string>
 
     <!-- Title for the button to initiate a heap dump for the system server. [CHAR LIMIT=NONE] -->
     <string name="capture_system_heap_dump_title">Capture system heap dump</string>
@@ -13755,7 +13756,7 @@
     <!-- Title of toggle for whether to enable automatic heap dumps for the system server or not. [CHAR LIMIT=NONE] -->
     <string name="automatic_system_heap_dump_title">Automatically capture system heap dumps</string>
     <!-- Summary of toggle for whether to enable automatic heap dumps for the system server or not. [CHAR LIMIT=NONE] -->
-    <string name="automatic_system_heap_dump_summary">Automatically capture a heap dump for Android System when it uses too much memory</string>
+    <string name="automatic_system_heap_dump_summary">Automatically capture a heap dump for ethOS System when it uses too much memory</string>
 
     <!-- Button label to disconnect a Wi-Fi network. [CHAR LIMIT=40] -->
     <string name="wifi_disconnect_button_text">Disconnect</string>
@@ -14263,9 +14264,9 @@
     <!-- Strings for Dialog connect button -->
     <string name="bluetooth_connect_access_dialog_positive">Connect</string>
 
-    <!-- Title for the button to edit The Android Resource Economy settings. "TARE" is the name of
+    <!-- Title for the button to edit The ethOS Resource Economy settings. "TARE" is the name of
     the feature that contains the AlarmManager and JobScheduler policies which are both android
-    APIs. AlarmManager and JobScheduler are the names of Android system services and cannot be
+    APIs. AlarmManager and JobScheduler are the names of ethOS system services and cannot be
     translated. "TARE" is not translatable. [CHAR LIMIT=NONE] -->
     <string name="tare_title" translatable="false">TARE</string>
     <!-- TARE settings title in developer options; "TARE" is the name of the feature and cannot be
@@ -14278,10 +14279,10 @@
     <!-- Allows user to revert the TARE settings to their default values [CHAR LIMIT=40] -->
     <string name="tare_revert">Revert to Default Settings</string>
     <!-- Allows user to view AlarmManager policy factors. Alarm in this context is referring to the
-    possible alarm cases in the AlarmManager policy. AlarmManager is the name of an Android system
+    possible alarm cases in the AlarmManager policy. AlarmManager is the name of an ethOS system
     service and cannot be translated. [CHAR LIMIT=40]-->
     <string name="tare_alarmmanager" translatable="false">AlarmManager</string>
-    <!-- Allows user to view JobScheduler policy factors. JobScheduler is the name of an Android
+    <!-- Allows user to view JobScheduler policy factors. JobScheduler is the name of an ethOS
     system service and cannot be translated.[CHAR LIMIT=40]-->
     <string name="tare_jobscheduler" translatable="false">JobScheduler</string>
     <!-- Toast notifying the developer that settings were reverted to their default values in
@@ -14290,8 +14291,8 @@
     <!-- Title for the TARE policy factor that determines the maximum credits an app can have in one
     battery life cycle. Satiated means battery is fully charged; If this is not easily translatable,
     translate "maximum balance when device is fully charged" instead. Balance is the same meaning as
-    having money in a bank account. Balance in our feature is the amount of Android Resource Credits
-    an app can have. Android Resource Credits are a form of payment used by apps to be able to
+    having money in a bank account. Balance in our feature is the amount of ethOS Resource Credits
+    an app can have. ethOS Resource Credits are a form of payment used by apps to be able to
     perform tasks. [CHAR LIMIT=80]-->
     <string name="tare_max_satiated_balance">Maximum Satiated Balance</string>
     <!-- Title for the TARE policy factors that affect how many credits an app may have. Balance
@@ -14439,7 +14440,7 @@
     state the device is in [CHAR LIMIT=50]-->
     <string-array name="tare_modifiers_subfactors">
         <item>Charging</item>
-        <!-- Doze refers to the Android Doze feature -->
+        <!-- Doze refers to the ethOS Doze feature -->
         <item>Doze</item>
         <item>Power Save Mode</item>
         <!-- An app's process state is the internal level of an app's process inside the system -->
@@ -14600,11 +14601,11 @@
 
     <string name="storage_scopes">Storage Scopes</string>
 
-    <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
+    <string name="allow_access_to_obb_directory_title">Allow access to ethOS/obb folder</string>
     <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
 
     <string name="app_relax_hardening_title">Exploit protection compatibility mode</string>
-    <string name="app_relax_hardening_summary">Improve compatibility with misbehaving apps by using Android\'s standard address space size and memory allocator</string>
+    <string name="app_relax_hardening_summary">Improve compatibility with misbehaving apps by using ethOS\'s standard address space size and memory allocator</string>
     <string name="app_hardening_config">Configure hardening</string>
 
     <string name="app_info_install_time">Installed: %1$s</string>

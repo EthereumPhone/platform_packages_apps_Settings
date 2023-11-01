@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Эгер иштетилсе, акыркы ишеним агенти ишеничин жоготкондо, түзмөк кулпуланып калат"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Жок"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Мисалы, Асандын Android түзмөгү."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Мисалы, Асандын ethOS түзмөгү."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Бөгөт көшөгөсүндө профайлдын маалыматын көргөзүү"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Аккаунттар"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Жайгашкан жер"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC ушул жана башка жакын арадагы түзмөктөрдүн (мисалы, төлөм терминалдары, кабыл алуучу түзмөктөр жана интерактивдүү жарнамалар менен тегдер) ортосунда маалымат алмашууга мүмкүндүк берет."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFC\'ни колдонуу үчүн түзмөктүн кулпусун ачуу керек"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Экрандын кулпусу ачылып турганда гана NFC аркылуу төлөөгө уруксат бересиз"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Дайындар NFC аркылуу өткөрүлөт"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Өчүк"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC өчүк болгондуктан, жеткиликсиз"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Бул мүмкүнчүлүк жандырылганда, түзмөктөрдү бири-бирине тийиштирип, NFC аркылуу веб баракчалар, YouTube видеолору, байланыштар, шилтемелер, сүрөттөр сыяктуу маалыматтарды биринен экинчисине өткөрө аласыз.\n\nТүзмөктөрдү бири-бирине тийиштирип (арка жактарын), экраныңызды басып коюңуз. Эмне өткөрүлөөрүн колдонмо өзү аныктай алат."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi‑Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Wi‑Fi\'ды жандыруу"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Көчмө Wi‑Fi түйүнүнө туташууда ката кетти"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Wi‑Fi байланыш түйүнүн жөндөө"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Wi‑Fi байланыш түйүнүн жөндөө"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK байланыш түйүнү"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK байланыш түйүнү"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Тармак сакталсынбы?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> тармакты телефонуңузга сактаганы жатат"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> тармакты планшетиңизге сактаганы жатат"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIM-карта PIN аракети кыйрады!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Системанын жаңыртуулары"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android версиясы"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android\'дин коопсуздук системасын жаңыртуу"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS версиясы"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS\'дин коопсуздук системасын жаңыртуу"</string>
     <string name="model_info" msgid="8997566254717810904">"Үлгүсү"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Аппараттын версиясы"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"Жабдуунун ID\'си"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB аркылуу компүтерге туташуу"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Катары туташуу"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Медиа түзмөк (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Сизге Windows аркылуу медиа-файлдарды көчүрүү же MacOS чөйрөсүндө Android File Transfer менен иштөө мүмкүнчүлүгүн берет (караңыз: www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Сизге Windows аркылуу медиа-файлдарды көчүрүү же MacOS чөйрөсүндө ethOS File Transfer менен иштөө мүмкүнчүлүгүн берет (караңыз: www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Камера (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Камера софтун колдонуп, сүрөттөрдү көчүрүү, жана MTP колдобогон компүтерлерге, файлдардын бардык түрлөрүн көчүрүү мүмкүнчүлүгүн берет"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Колдонмолорду, сүрөттөрдү жана башка маалыматтарды колдонуу үчүн <xliff:g id="NAME">^1</xliff:g> картасын кайра кыстарыңыз. \n\nБолбосо, \"Сактагыч унутулсун\" деген вариантты тандаңыз. \n\nСактагыч унутулгандан кийин, картада сакталган бардык нерселер биротоло өчүп калат. \n\nКолдонмону кийин кайра орнотсоңуз болот, бирок түзмөктөгү жоголгон дайындар кайра калыбына келбейт."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g> унутулсунбу?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Бул <xliff:g id="NAME">^1</xliff:g> ичинде сакталган бардык колдонмолор, сүрөттөр жана башка нерселер биротоло жоголот."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Тутумда Android <xliff:g id="VERSION">%s</xliff:g> версиясында иштеген файлдар бар"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Тутумда ethOS <xliff:g id="VERSION">%s</xliff:g> версиясында иштеген файлдар бар"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Конок режиминде SD карталарды форматтоого болбойт"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"<xliff:g id="NAME">^1</xliff:g> түзмөгүңүздү орнотуңуз"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"SD картаны ташыма сактагыч катары форматтоо"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Орнотууга тандалган жер"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Жаңы колдонмолор үчүн орнотуу жайын алмаштырыңыз"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Колдонмону өчүрүү"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Эгер бул колдонмону өчүрсөңүз, Android жана башка колдонмолор талаптагыдай иштебей калышы мүмкүн. Бул колдонмо түзмөгүңүздө алдын ала орнотулуп келген, андыктан аны өчүрө албайсыз. Өчүрүү менен, бул түзмөктү өчүрүп, түзмөгүңүздө жашырасыз."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Эгер бул колдонмону өчүрсөңүз, ethOS жана башка колдонмолор талаптагыдай иштебей калышы мүмкүн. Бул колдонмо түзмөгүңүздө алдын ала орнотулуп келген, андыктан аны өчүрө албайсыз. Өчүрүү менен, бул түзмөктү өчүрүп, түзмөгүңүздө жашырасыз."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Билдирмелерди өчүрөсүзбү?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Дүкөн"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Колдонмонун чоо-жайы"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Фондук"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Алдынкы планда"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Кештелген"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Өздүк"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Өзөк"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Үн киргизүү жана чыгаруу"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Үн киргизүү жана чыгаруунун параметрлери"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Айтып издөө"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android тергичи"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS тергичи"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Айтып киргизүү параметрлери"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Айтып киргизүү"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Үн киргизүү кызматтары"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, айдоо режими"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, айдоо режими, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, айдоо режими"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, айдоо режими, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, айдоо режими"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Жеткиликсиз, анткени NFC өчүк"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Колдонуу үчүн адегенде төлөм колдонмосун орнотуп алыңыз"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Колдонмолор/билдирмелер"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Орнотулган колдонмолор үчүн эскертме мүмкүнчүлүгү талап кылынбайт"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Билдирмелерди алып турууга уруксат берүү"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> кызматына билдирмелерди пайдаланууга уруксат бересизби?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12 версиясында ыңгайлаштырылуучу билдирмелер жакшыртылган билдирмелерге алмаштырылды. Бул функция ыкчам аракеттерди жана жоопторду көрсөтүп, ошондой эле билдирмелериңизди иреттейт. \n\nЖакшыртылган билдирмелер бардык билдирмелердин мазмунун, анын ичинде байланыштардын аты-жөнү жана билдирүүлөрү сыяктуу жеке маалыматты көрө алат. Ошондой эле, бул функция билдирмелерди жаап, баскычтарын басып, телефон чалууларга жооп берип жана \"Тынчымды алба\" функциясын башкара алат."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ethOS 12 версиясында ыңгайлаштырылуучу билдирмелер жакшыртылган билдирмелерге алмаштырылды. Бул функция ыкчам аракеттерди жана жоопторду көрсөтүп, ошондой эле билдирмелериңизди иреттейт. \n\nЖакшыртылган билдирмелер бардык билдирмелердин мазмунун, анын ичинде байланыштардын аты-жөнү жана билдирүүлөрү сыяктуу жеке маалыматты көрө алат. Ошондой эле, бул функция билдирмелерди жаап, баскычтарын басып, телефон чалууларга жооп берип жана \"Тынчымды алба\" функциясын башкара алат."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g> колдонмосу үчүн билдирмелерди иштетесизби?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> колдонмосу билдирмелердин баарын, ошону менен катар байланыштардын аты-жөнү, сүрөттөрү жана алынган билдирүүлөр сыяктуу жеке маалыматты окуй алат. Мындан тышкары, билдирмелерди тындырып, жаап же телефон чалууларына жооп берүү сыяктуу билдирмелердеги баскычтарды баса алат. \n\nКолдонмо \"Тынчымды алба\" режимин күйгүзүп же өчүрүп, ошондой эле анын параметрлерин өзгөртүү мүмкүнчүлүгүнө ээ болот."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> төмөнкүлөрдү аткара алат:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Орнотулган колдонмолор үчүн \"Тынчымды алба\" функциясы талап кылынбайт"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Колдонмолор жүктөлүүдө…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Бул колдонмонун билдирмелерине тыюу салдыңыз"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Суранычыңыз боюнча Android ушул категориядагы билдирмелерди бул түзмөктөн көрсөтпөй, бөгөттөп жатат"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Суранычыңыз боюнча Android ушул категориядагы билдирмелерди бул түзмөктөн көрсөтпөй, бөгөттөп жатат"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Суранычыңыз боюнча ethOS ушул категориядагы билдирмелерди бул түзмөктөн көрсөтпөй, бөгөттөп жатат"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Суранычыңыз боюнча ethOS ушул категориядагы билдирмелерди бул түзмөктөн көрсөтпөй, бөгөттөп жатат"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Бул колдонмо билдирмелерди жөнөтпөйт"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Категориялар"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Башка"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> катары кирдиңиз"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> демейки колдонмо"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Камдык көчүрмө өчүрүлгөн"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> версиясына жаңырды"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ethOS <xliff:g id="VERSION">%1$s</xliff:g> версиясына жаңырды"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Жаңы версия бар"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"IT администраторуңуз бөгөттөп койгон"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Үнү өзгөртүлбөйт"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Калган убакытты же маалыматтарды пайдалануу мүмкүнчүлүгүнөн айрыласыз. Өчүрүүдөн мурда, операторуңузга байланышыңыз."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"мазмунду сүрөткө тартуу, колдонмонун мазмуну"</string>
     <string name="content_capture" msgid="868372905432812238">"Колдонмонун мазмуну"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Колдонмолорго Android тутумунда материалдарды жөнөтүүгө уруксат бересиз"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Колдонмолорго ethOS тутумунда материалдарды жөнөтүүгө уруксат бересиз"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Системалык үймөктүн дампын түзүү"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"MTE менен өчүрүп күйгүзүү"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Тутум өчүрүлүп-күйгүзүлүп, Эстутумду тегдөө кеңейтүүсү (MTE) иштетилет. MTE системанын ишинин майнаптуулугуна жана туруктуулугуна кедергисин тийгизиши мүмкүн. Кийинки жолу өчүрүп-күйгүзгөндө баштапкы абалга келтирилет."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Системанын үймө дампы тартылып алынууда"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Системанын үймө дампы сакталган жок"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Тутумдардын үймө дамптарын автоматтык түрдө тартып алуу"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Android системасы өтө көп эстутумун колдоногондо, автоматтык түрдө анын үймө дампын тартып алуу"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ethOS системасы өтө көп эстутумун колдоногондо, автоматтык түрдө анын үймө дампын тартып алуу"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Ажыратуу"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Шашылыш чалуулар"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Операторуңузда кырсыктаганда Wi‑Fi аркылуу чалуу мүмкүнчүлүгү каралган эмес.\nКырсыктаганда жардамга келчү кызматтарга чалганыңызда, түзмөгүңүз автоматтык түрдө мобилдик тармакка которулат.\nМындай кырдаалдарда мобилдик тармак кармаган аймактарда гана чала аласыз."</string>

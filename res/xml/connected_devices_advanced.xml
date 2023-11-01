@@ -45,10 +45,10 @@
         settings:keywords="@string/keywords_wifi_display_settings"/>
 
     <com.android.settingslib.RestrictedPreference
-        android:fragment="com.android.settings.nfc.AndroidBeam"
+        android:fragment="com.android.settings.nfc.ethOSBeam"
         android:key="android_beam_settings"
         android:title="@string/android_beam_settings_title"
-        settings:controller="com.android.settings.nfc.AndroidBeamPreferenceController"
+        settings:controller="com.android.settings.nfc.ethOSBeamPreferenceController"
         android:icon="@drawable/ic_android"
         android:order="-5"/>
 

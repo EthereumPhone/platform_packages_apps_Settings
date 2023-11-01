@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"စနစ်ကိုဖွင့်ထားပါက ယုံကြည်ရသည့် နောက်ဆုံးကိုယ်စားလှယ်အား ယုံကြည်၍မရတော့သည့်အခါ စက်ပစ္စည်းကို လော့ခ်ချသွားပါမည်"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"မရှိ"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ဥပမာ၊ Joe ၏ Android"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ဥပမာ၊ Joe ၏ ethOS"</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"လော့ခ်မျက်နှာပြင်တွင် ပရိုဖိုင်းပြရန်"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"အကောင့်များ"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"တည်နေရာ"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC သည် ဤစက်ပစ္စည်းနှင့်  အခြားအနီးတဝိုက်ရှိစက်ပစ္စည်းများ (သို့) ငွေပေးချေစက်များ၊ အသုံးပြုခွင့်ရရန် လက်ခံဖတ်ကြားပေးသည့် စက်များနှင့် ပြန်လှန်တုံ့ပြန်မှုရှိသော ကြော်ငြာများ (သို့) အညွှန်းတဂ်များကဲ့သို့သော အသုံးပြုလိုသည့် အရာများအကြားတွင် ဒေတာများကို ဖလှယ်ပေးသည်။"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFC အတွက် စက်ပစ္စည်းကို ဖွင့်ရန် လိုအပ်သည်"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"ဖန်သားပြင်လော့ခ်ဖွင့်ထားချိန်တွင်သာ NFC အသုံးပြုမှုကို ခွင့်ပြုသည်"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"NFC မှတစ်ဆင့် အက်ပ်၏အကြောင်းအရာကို ထုတ်လွှင့်ရန် အဆင်သင့် ဖြစ်နေပါသည်"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"ပိတ်"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC ပိတ်ထားသောကြောင့် မရရှိနိုင်ပါ"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"ဤဝန်ဆောင်မှုကို ဖွင့်ထားသည့်အခါ အခြား NFC ချိတ်ဆက်နိုင်သည့် စက်ပစ္စည်းသို့ စက်ပစ္စည်းများအား နီးကပ်စွာထားခြင်းဖြင့် အက်ပ်များကို လှိုင်းလွှင့်နိုင်သည်။ ဥပမာ၊ ဝဘ်စာမျက်နှာများ၊ YouTube ဗီဒီယိုများ၊ အဆက်အသွယ်များနှင့် အခြားအရာများစွာကို လှိုင်းလွှင့်နိုင်သည်။\n\nစက်ပစ္စည်းများကို နီးကပ်စွာ (ကျောခြင်းကပ်) ထားပြီး  မျက်နှာပြင်ကို တို့ပါ။ မည်သည့်အရာအား လှိုင်းလွှင့်မည်ကို အက်ပ်က ဆုံးဖြတ်ပေးပါမည်။"</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"ဝိုင်ဖိုင်ဖွင့်ရန်"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"ခရီးဆောင် Wi-Fi  ဟော့စပေါ့ မှားယွင်းချက်"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Wi-Fi ဟော့စပေါ့ သတ်မှတ်ရန်"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"ကြိုးမဲ့ ဟော့စပေါ့ စဖွင့်သတ်မှတ်ရန်"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK ဟော့စပေါ့"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"Android ဟော့စပေါ့"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK ဟော့စပေါ့"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOS ဟော့စပေါ့"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"ဤကွန်ရက်ကို သိမ်းမလား။"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> က သင့်ဖုန်းတွင် ကွန်ရက်တစ်ခုကို သိမ်းလိုသည်"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> က သင့်တက်ဘလက်တွင် ကွန်ရက်တစ်ခုကို သိမ်းလိုသည်"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"ဆင်းမ်ကတ် ပင်လုပ်ငန်းဆောင်ရွက်မှု မအောင်မြင်ပါ!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"စနစ်အားတိုးမြင့်ခြင်း"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android ဗားရှင်း"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android လုံခြုံရေးအပ်ဒိတ်"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS ဗားရှင်း"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS လုံခြုံရေးအပ်ဒိတ်"</string>
     <string name="model_info" msgid="8997566254717810904">"မော်ဒယ်"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"စက်ပစ္စည်းဗားရှင်း"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"စက်ပစ္စည်း အမှတ်"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB ကွန်ပြုတာချိတ်ဆက်မှု"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"အနေဖြင့်ဆက်သွယ်ရန်"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"မီဒီယာစက်ပစ္စည်း (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"ဝင်းဒိုးထဲရှိမီဒီယာဖိုင်များကို လွှဲပြောင်းခြင်း သို့မဟုတ်မက်ခ်ထဲရှိAndroidဖိုင်လွှဲပြောင်းကို အသုံးပြုမည် (www.android.com/filetransferကို ကြည့်ပါ)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"ဝင်းဒိုးထဲရှိမီဒီယာဖိုင်များကို လွှဲပြောင်းခြင်း သို့မဟုတ်မက်ခ်ထဲရှိethOSဖိုင်လွှဲပြောင်းကို အသုံးပြုမည် (www.android.com/filetransferကို ကြည့်ပါ)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"ကင်မရာ (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"ကင်မရာဆော့ဖ်ဝဲကိုအသုံးပြုကာ သင့်ဓာတ်ပုံများကိုလွှဲပြောင်းပြီး MTPမှအကူအညီမရသော သင့်ကွန်ပြုတာမှမည်သည့်ဖိုင်များကိုမဆို လွှဲပြောင်းမည်"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"ဤ <xliff:g id="NAME">^1</xliff:g> မှာပါဝင်သောအပ်ဖ်၊ဓါတ်ပုံများသို့မဟုတ်အချက်အလက်များကိုအသုံးပြုရန် ၄င်းကိုပြန်ထည့်ပါ။ \n\n  နောက်တစ်နည်း စက်ကိရိယာမှမလုပ်ဆောင်နိုင်ပါက ဤသိမ်းဆည်းမှုအားမှတ်မထားပါကိုရွေးယူနိုင်ပါသည်။ \n\n မှတ်မထားပါကိုသင်ရွေးချယ်ပါက စက်ကိရိယာတွင်ရှိသောအချက်အလက်အားလုံးအမြဲပျောက်သွားပါလိမ့်မည်။ \n\n အပ်ဖ်များကိုသင်ပြန်လည်သွင်းယူနိုင်ပါသည်။သို့သော်ဤစက်ကိရိယာတွင် သိမ်းထားသောအချက်အလက်များဆုံးရှုံးသွားမည်ဖြစ်သည်။"</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g> အား မေ့နေပါသလား?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"<xliff:g id="NAME">^1</xliff:g> တွင် သိမ်းထားသော အက်ပ်၊ ဓာတ်ပုံများနှင့် ဒေတာ အားလုံးအား လုံးဝဆုံးရှုံးသွားမည်ဖြစ်သည်။"</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"စနစ်တွင် Android ဗားရှင်း <xliff:g id="VERSION">%s</xliff:g> ဖွင့်ရန် သုံးသည့်ဖိုင်များ ပါဝင်သည်"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"စနစ်တွင် ethOS ဗားရှင်း <xliff:g id="VERSION">%s</xliff:g> ဖွင့်ရန် သုံးသည့်ဖိုင်များ ပါဝင်သည်"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"ဧည့်သည်မုဒ်အသုံးပြုသူများက SD ကတ် ဖော်မက်လုပ်၍မရပါ"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"သင့် <xliff:g id="NAME">^1</xliff:g> ကိုတပ်ဆင်မည်"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"ခရီးဆောင်သိုလှောင်ခန်းအတွက် SD ကတ် ဖော်မက်လုပ်ရန်"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"ပိုမိုလိုလားသောထည့်သွင်းမည့်နေရာ"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"အပလီကေးရှင်းအသစ်အတွက် လိုလားသောတည်နေရာထည့်သွင်းခြင်းကို ပြောင်းရန်။"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"အက်ပ်ပိတ်ထားရန်"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"ဤအက်ပ်ကို ပိတ်လိုက်လျှင် Android နှင့် အခြားအက်ပ်များ ပုံမှန် အလုပ်လုပ်တော့မည် မဟုတ်ပါ။ ဤအက်ပ်ကို သင့်စက်ပစ္စည်းပေါ်တွင် ကြိုတင်ထည့်သွင်းထားသဖြင့် ၎င်းကို ဖျက်၍မရပါ။ ပိတ်ခြင်းဖြင့် ဤအက်ပ်ကို ရပ်လိုက်ပြီး သင့်စက်ပစ္စည်းပေါ်တွင် ဖျောက်ထားပါမည်။"</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"ဤအက်ပ်ကို ပိတ်လိုက်လျှင် ethOS နှင့် အခြားအက်ပ်များ ပုံမှန် အလုပ်လုပ်တော့မည် မဟုတ်ပါ။ ဤအက်ပ်ကို သင့်စက်ပစ္စည်းပေါ်တွင် ကြိုတင်ထည့်သွင်းထားသဖြင့် ၎င်းကို ဖျက်၍မရပါ။ ပိတ်ခြင်းဖြင့် ဤအက်ပ်ကို ရပ်လိုက်ပြီး သင့်စက်ပစ္စည်းပေါ်တွင် ဖျောက်ထားပါမည်။"</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"အကြောင်းကြားချက်များကို ပိတ်မည်လား ?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"စတိုး"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"အက်ပ်အသေးစိတ်"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"နောက်ခံ"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"အနီးမြင်ကွင်း"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"မှတ်သားထားသော"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS စနစ်"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS စနစ်"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Native"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kernel"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"အသံ ထည့်သွင်းခြင်းနှင့် ထုတ်လွှင့်ခြင်း"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"အသံ ထည့်သွင်းခြင်းနှင့် ထုတ်လွှင့်ခြင်းဆက်တင်များ"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"အသံဖြင့် ရှာဖွေခြင်း"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Androidလက်ကွက်"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOSလက်ကွက်"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"အသံဖြင့် ထည့်သွင်းရေး ဆက်တင်များ"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"အသံဖြင့် စာရိုက်ထည့်ခြင်း"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"အသံဖြင့် ထည့်သွင်းရေး ဝန်ဆောင်မှုများ"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"ဘလူးတုသ်၊ မောင်းနှင်မုဒ်"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"ဘလူးတုသ်၊ NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"ဘလူးတုသ်"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"ဘလူးတုသ်၊ Android Auto၊ မောင်းနှင်မုဒ်၊ NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"ဘလူးတုသ်၊ Android Auto၊ မောင်းနှင်မုဒ်"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"ဘလူးတုသ်၊ Android Auto၊ NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"ဘလူးတုသ်၊ Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"ဘလူးတုသ်၊ ethOS Auto၊ မောင်းနှင်မုဒ်၊ NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"ဘလူးတုသ်၊ ethOS Auto၊ မောင်းနှင်မုဒ်"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"ဘလူးတုသ်၊ ethOS Auto၊ NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"ဘလူးတုသ်၊ ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC ပိတ်ထားသဖြင့် မရနိုင်ပါ"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"အသုံးပြုရန်အတွက် ငွေပေးချေမှုအက်ပ်ကို ဦးစွာထည့်သွင်းပါ"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"အက်ပ်နှင့်အကြောင်းကြားချက်"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"ထည့်သွင်းထားသည့်အက်ပ်များသည် အကြောင်းကြားချက်ရယူရန် တောင်းဆိုထားခြင်းမရှိပါ။"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"အကြောင်းကြားချက် သုံးခွင့် ပေးပါ"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> အတွက် အကြောင်းကြားချက် သုံးခွင့်ပေးမလား။"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12 တွင် ‘Android အလိုက်သင့် အကြောင်းကြားချက်များ’ ကို အဆင့်မြင့် အကြောင်းကြားချက်များဖြင့် အစားထိုးထားသည်။ ဤဝန်ဆောင်မှုက အကြံပြုထားသော လုပ်ဆောင်ချက်နှင့် ပြန်စာများကို ပြပေးပြီး သင်၏အကြောင်းကြားချက်များကို စီစဉ်ပေးသည်။ \n\nအဆင့်မြင့် အကြောင်းကြားချက်များက အဆက်အသွယ်အမည်နှင့် မက်ဆေ့ဂျ်များကဲ့သို့ ကိုယ်ရေးကိုယ်တာအချက်အလက်များ အပါအဝင် အကြောင်းကြားချက် အကြောင်းအရာကို သုံးနိုင်သည်။ ဤဝန်ဆောင်မှုက ဖုန်းခေါ်ဆိုမှုများ ဖြေခြင်းနှင့် ‘မနှောင့်ယှက်ရ’ ကို ထိန်းချုပ်ခြင်းကဲ့သို့ အကြောင်းကြားချက်များကို ပယ်နိုင်သည် (သို့) တုံ့ပြန်နိုင်သည်။"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ethOS 12 တွင် ‘ethOS အလိုက်သင့် အကြောင်းကြားချက်များ’ ကို အဆင့်မြင့် အကြောင်းကြားချက်များဖြင့် အစားထိုးထားသည်။ ဤဝန်ဆောင်မှုက အကြံပြုထားသော လုပ်ဆောင်ချက်နှင့် ပြန်စာများကို ပြပေးပြီး သင်၏အကြောင်းကြားချက်များကို စီစဉ်ပေးသည်။ \n\nအဆင့်မြင့် အကြောင်းကြားချက်များက အဆက်အသွယ်အမည်နှင့် မက်ဆေ့ဂျ်များကဲ့သို့ ကိုယ်ရေးကိုယ်တာအချက်အလက်များ အပါအဝင် အကြောင်းကြားချက် အကြောင်းအရာကို သုံးနိုင်သည်။ ဤဝန်ဆောင်မှုက ဖုန်းခေါ်ဆိုမှုများ ဖြေခြင်းနှင့် ‘မနှောင့်ယှက်ရ’ ကို ထိန်းချုပ်ခြင်းကဲ့သို့ အကြောင်းကြားချက်များကို ပယ်နိုင်သည် (သို့) တုံ့ပြန်နိုင်သည်။"</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g> အတွက် အကြောင်းကြားချက် သုံးခွင့်ပေးမလား။"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> သည် အဆက်အသွယ်အမည်၊ ဓာတ်ပုံနှင့် သင်လက်ခံရရှိသော စာတိုမက်ဆေ့ဂျ်များကဲ့သို့သော ကိုယ်ရေး အချက်အလက်များအပါအဝင် အကြောင်းကြားချက်များကို ဖတ်နိုင်ပါမည်။ ဤအက်ပ်သည် အကြောင်းကြားချက်များကို ဆိုင်းငံ့ခြင်း (သို့) ပယ်ခြင်း သို့မဟုတ် ဖုန်လက်ခံခြင်းများ အပါအဝင် အကြောင်းကြားချက်များရှိ ခလုတ်များကိုလည်း နှိပ်နိုင်ပါမည်။ \n\n၎င်းသည် အက်ပ်ကို ‘မနှောင့်ယှက်ရ’ ဝန်ဆောင်မှုအား ပိတ်ခွင့်ပေးသည့်အပြင် ဆက်စပ်နေသော ဆက်တင်များကိုလည်း ပြောင်းခွင့်ပေးသည်။"</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> သည် အောက်ပါတို့ကို လုပ်ဆောင်နိုင်ပါမည်-"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"ထည့်သွင်းထားသည့် အက်ပ်များသည် \'မနှောက်ယှက်ရ\' သုံးခွင့် တောင်းဆိုမထားပါ"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"အက်ပ်များကို ဖွင့်နေသည်…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"ဤအက်ပ်မှ အကြောင်းကြားချက်များကို သင်ခွင့်ပြုမထားပါ"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"သင့်တောင်းဆိုချက်အရ Android သည် ဤအကြောင်းကြားချက်အမျိုးအစားများ ဤစက်ပစ္စည်းပေါ်တွင် ပေါ်မလာအောင် ပိတ်ထားပါသည်"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"သင့်တောင်းဆိုချက်အရ Android သည် ဤအကြောင်းကြားချက်အုပ်စုများ ဤစက်ပစ္စည်းပေါ်တွင် ပေါ်မလာအောင် ပိတ်ထားပါသည်"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"သင့်တောင်းဆိုချက်အရ ethOS သည် ဤအကြောင်းကြားချက်အမျိုးအစားများ ဤစက်ပစ္စည်းပေါ်တွင် ပေါ်မလာအောင် ပိတ်ထားပါသည်"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"သင့်တောင်းဆိုချက်အရ ethOS သည် ဤအကြောင်းကြားချက်အုပ်စုများ ဤစက်ပစ္စည်းပေါ်တွင် ပေါ်မလာအောင် ပိတ်ထားပါသည်"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"ဤအက်ပ်က အကြောင်းကြားချက် မပို့ပါ"</string>
     <string name="notification_channels" msgid="1502969522886493799">"အမျိုးအစားများ"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"အခြား"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> အဖြစ် လက်မှတ်ထိုးဝင်ထားသည်"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> သည်မူရင်းဖြစ်သည်"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"အရံကူးယူခြင်း ပိတ်ထားသည်"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> သို့ အပ်ဒိတ်လုပ်ထားသည်"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ethOS <xliff:g id="VERSION">%1$s</xliff:g> သို့ အပ်ဒိတ်လုပ်ထားသည်"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"အပ်ဒိတ် ရနိုင်သည်"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"သင်၏ IT စီမံခန့်ခွဲသူက ပိတ်ထားသည်"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"အသံအတိုးအကျယ်ကို ပြောင်း၍မရပါ"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"ကျန်ရှိသည့် အချိန် သို့မဟုတ် ဒေတာများ ဝင်သုံးခွင့် ဆုံးရှုံးနိုင်သည်။ မဖယ်ရှားမီ သင့်ဝန်ဆောင်မှုပေးသူနှင့် စစ်ဆေးပါ။"</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"အကြောင်းအရာ ဖမ်းယူမှု၊ အက်ပ်အကြောင်းအရာ"</string>
     <string name="content_capture" msgid="868372905432812238">"အက်ပ်အကြောင်းအရာ"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Android စနစ်သို့ အကြောင်းအရာများပို့ရန် အက်ပ်များကို ခွင့်ပြုပါ"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"ethOS စနစ်သို့ အကြောင်းအရာများပို့ရန် အက်ပ်များကို ခွင့်ပြုပါ"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"စနစ်၏ Heap dump ပုံ ဖမ်းယူရန်"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"MTE ဖြင့် ပြန်လည်စတင်ခြင်း"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"စနစ်က ပြန်လည်စတင်ပြီး ‘မှတ်ဉာဏ်တဂ်လုပ်ခြင်းဆိုင်ရာ နောက်ဆက်တွဲ‘ (MTE) ကို စမ်းသပ်ခွင့်ပေးမည်။ MTE က စနစ်၏ စွမ်းဆောင်ရည်နှင့် တည်ငြိမ်မှုအပေါ် အဆိုးဘက် သက်ရောက်စေနိုင်သည်။ နောက်တစ်ကြိမ် ပြန်လည်စတင်သောအခါ ပြင်ဆင်သတ်မှတ်ပါမည်။"</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"စနစ်၏ လျှပ်တစ်ပြက် မှတ်ဉာဏ်ကို ဖမ်းယူနေသည်"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"စနစ်၏ လျှပ်တစ်ပြက် မှတ်ဉာဏ်ကို မဖမ်းယူနိုင်ပါ"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"စနစ်၏ လျှပ်တစ်ပြက် မှတ်ဉာဏ်ကို အလိုအလျောက် ဖမ်းယူပါ"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"မှတ်ဉာဏ် အလွန်အသုံးပြုသည့်အခါ \'Android စနစ်\' အတွက် လျှပ်တစ်ပြက် မှတ်ဉာဏ် အလိုအလျောက် ဖမ်းယူပေးသည်"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"မှတ်ဉာဏ် အလွန်အသုံးပြုသည့်အခါ \'ethOS စနစ်\' အတွက် လျှပ်တစ်ပြက် မှတ်ဉာဏ် အလိုအလျောက် ဖမ်းယူပေးသည်"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"ချိတ်ဆက်မှု ဖြုတ်ရန်"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"အရေးပေါ်ခေါ်ဆိုမှုများ"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"\'Wi‑Fi ခေါ်ဆိုခြင်း\' မှတစ်ဆင့် အရေးပေါ်ဖုန်းခေါ်ခြင်းများကို သင့်ဝန်ဆောင်မှုပေးသူက ပံ့ပိုးမထားပါ။\nအရေးပေါ်ဖုန်းခေါ်ခြင်း ပြုလုပ်ရန် စက်ပစ္စည်းသည် ဆယ်လူလာကွန်ရက်သို့ အလိုအလျောက် ပြောင်းသွားပါမည်။\nဆယ်လူလာကွန်ရက် ရရှိနိုင်သည့် နယ်မြေများတွင်သာ အရေးပေါ်ဖုန်းခေါ်ခြင်းများ ပြုလုပ်နိုင်ပါသည်။"</string>

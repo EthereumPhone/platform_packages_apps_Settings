@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Si s\'activa aquesta opció, el dispositiu es bloquejarà quan l\'últim agent de confiança deixi de ser-ho"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Cap"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"P. ex., Android del Lluís"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"P. ex., ethOS del Lluís"</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Mostra la inf. de perfil a la pantalla de bloqueig"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Comptes"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Ubicació"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"L\'NFC permet que aquest dispositiu pugui intercanviar dades amb altres dispositius o objectius propers, com ara terminals de pagament, lectors d\'accés o anuncis i etiquetes interactius."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Sol·licita el desbloqueig del dispositiu per a l\'NFC"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Permet l\'ús de l\'NFC només quan la pantalla estigui desbloquejada"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Preparat per compartir contingut d\'aplicacions per NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Desactivat"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"No disponible perquè la funció NFC està desactivada"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Si aquesta funció està activada, pots col·locar el dispositiu a prop d\'un altre que també sigui compatible amb la tecnologia NFC per compartir contingut d\'aplicacions entre tots dos. Per exemple, pots compartir-hi pàgines web, vídeos de YouTube, contactes i moltes coses més.\n\nCol·loca els dispositius a prop (normalment encarant-los per la part posterior) i, a continuació, toca la pantalla del teu dispositiu. L\'aplicació determina el contingut que es pot compartir."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Activa la Wi-Fi"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Error de punt d\'accés Wi-Fi"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Configura el punt d\'accés Wi-Fi"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Configuració del punt d\'accés Wi-Fi"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Punt d\'accés Wi-Fi PSK AndroidAP WPA2"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Punt d\'accés Wi-Fi PSK ethOSAP WPA2"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Vols desar aquesta xarxa?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> vol desar una xarxa al teu telèfon"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> vol desar una xarxa a la teva tauleta"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"Ha fallat l\'operació del PIN de la SIM"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Actualitzacions del sistema"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Versió d\'Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Actualització de seguretat d\'Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"Versió d\'ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"Actualització de seguretat d\'ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"Model"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Versió del maquinari"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"Id. de l\'equip"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"Connexió USB a l\'ordinador"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Connexió com a"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Dispositiu multimèdia (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Et permet transferir fitxers multimèdia a Windows o utilitzant l\'aplicació de transferència de fitxers d\'Android a Mac (consulta www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Et permet transferir fitxers multimèdia a Windows o utilitzant l\'aplicació de transferència de fitxers d\'ethOS a Mac (consulta www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Càmera (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Et permet transferir fotos amb programari de la càmera i transferir qualsevol fitxer en els equips que no són compatibles amb MTP"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Torna a inserir el dispositiu d\'emmagatzematge <xliff:g id="NAME">^1</xliff:g> per fer servir les aplicacions, les fotos o les dades que conté. \n\nTambé pots decidir que s\'oblidi el dispositiu d\'emmagatzematge si no està disponible. \n\nSi tries aquesta darrera opció, es perdran permanentment totes les dades emmagatzemades al dispositiu. \n\nPodràs tornar a instal·lar les aplicacions més endavant, però no podràs recuperar les dades que tenies emmagatzemades al dispositiu."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Vols que s\'oblidi <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Les aplicacions, les fotos i les dades que s\'hagin desat a <xliff:g id="NAME">^1</xliff:g> es perdran per sempre."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"El sistema inclou fitxers que s\'utilitzen per executar la versió d\'Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"El sistema inclou fitxers que s\'utilitzen per executar la versió d\'ethOS <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"No es poden formatar targetes SD en mode de convidat"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Configurar <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Formata la targeta SD com a emmagatzematge portàtil"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Ubicació d\'instal·lació preferida"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Canvia la ubicació d\'instal·lació preferida per a les aplicacions noves"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Desactiva l\'aplicació"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Si desactives aquesta aplicació, és possible que Android i altres aplicacions deixin de funcionar com esperes. Tingues en compte que no pots suprimir aquesta aplicació perquè estava preinstal·lada al dispositiu. Si la desactives, l\'aplicació s\'amagarà al dispositiu."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Si desactives aquesta aplicació, és possible que ethOS i altres aplicacions deixin de funcionar com esperes. Tingues en compte que no pots suprimir aquesta aplicació perquè estava preinstal·lada al dispositiu. Si la desactives, l\'aplicació s\'amagarà al dispositiu."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Vols desactivar les notificacions?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Botiga"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Informació de l\'aplicació"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"Fons"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Primer pla"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"A la memòria cau"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"SO Android"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"SO ethOS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Nadiu"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kernel"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Entrada i sortida de veu"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Configuració d\'entrada i sortida de veu"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Cerca per veu"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Teclat Android"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"Teclat ethOS"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Configuració de l\'entrada de veu"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Entrada de veu"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Serveis d\'entrada de veu"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, mode de conducció"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, mode de conducció i NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto i mode de conducció"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto i NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth i Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, mode de conducció i NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto i mode de conducció"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto i NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth i ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"No està disponible perquè la funció NFC està desactivada"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Per utilitzar aquesta funció, primer instal·la una aplicació de pagaments"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Aplicacions i notificacions"</string>
@@ -3799,7 +3799,7 @@
     <string name="keywords_imei_info" msgid="8848791606402333514">"imei, meid, min, versió de prl, versió de software d\'imei"</string>
     <string name="keywords_sim_status" msgid="8784456547742075508">"xarxa, estat de la xarxa mòbil, estat del servei, intensitat del senyal, tipus de xarxa mòbil, itinerància, iccid, eid"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"número de sèrie, versió de maquinari"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"nivell de pedaç de seguretat d\'Android, versió de banda base, versió de kernel"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"nivell de pedaç de seguretat d\'ethOS, versió de banda base, versió de kernel"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"tema, llum, fosc, mode, sensibilitat a la llum, fotofòbia, fer més fosc, enfosquir, mode fosc, migranya"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"tema fosc"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"error"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Cap aplicació instal·lada no ha sol·licitat accés a les notificacions."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Permet l\'accés a les notificacions"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Vols que <xliff:g id="SERVICE">%1$s</xliff:g> tingui accés a les notificacions?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Les notificacions millorades han substituït les notificacions adaptatives d\'Android a Android 12. Aquesta funció mostra les accions i respostes suggerides, i organitza les teves notificacions. \n\nLes notificacions millorades poden accedir al contingut de les notificacions, inclosa la informació personal com els noms dels contactes i els missatges. Aquesta funció també pot ignorar les notificacions o respondre-hi; per exemple, pot contestar a trucades i controlar el mode No molestis."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Les notificacions millorades han substituït les notificacions adaptatives d\'ethOS a ethOS 12. Aquesta funció mostra les accions i respostes suggerides, i organitza les teves notificacions. \n\nLes notificacions millorades poden accedir al contingut de les notificacions, inclosa la informació personal com els noms dels contactes i els missatges. Aquesta funció també pot ignorar les notificacions o respondre-hi; per exemple, pot contestar a trucades i controlar el mode No molestis."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Vols que <xliff:g id="SERVICE">%1$s</xliff:g> tingui accés a les notificacions?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> podrà llegir totes les notificacions, inclosa la informació personal com ara els noms dels contactes, les fotos i el text dels missatges que rebis. Aquesta aplicació també podrà posposar o ignorar les notificacions o fer accions amb els botons de les notificacions, com ara contestar a trucades. \n\nL\'aplicació també podrà activar i desactivar el mode No molestis i canviar la configuració que hi estigui relacionada."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> podrà:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Cap aplicació instal·lada no ha sol·licitat accés a No molestis."</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"S\'estan carregant les aplicacions…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"No has permès les notificacions d\'aquesta aplicació"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Tal com has sol·licitat, Android està bloquejant aquesta categoria de notificacions perquè no apareguin al dispositiu"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Tal com has sol·licitat, Android està bloquejant aquest grup de notificacions perquè no apareguin al dispositiu"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Tal com has sol·licitat, ethOS està bloquejant aquesta categoria de notificacions perquè no apareguin al dispositiu"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Tal com has sol·licitat, ethOS està bloquejant aquest grup de notificacions perquè no apareguin al dispositiu"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Aquesta aplicació no envia notificacions"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Categories"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Altres"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Sessió iniciada com a <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"Aplicació predeterminada: <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Còpia de seguretat desactivada"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Actualitzat a Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Actualitzat a ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Actualització disponible"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"Bloquejat per l\'administrador de TI"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"No es pot canviar el volum"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"És possible que perdis l\'accés al temps o a les dades restants. Contacta amb el proveïdor abans de suprimir res."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"captura de contingut, contingut d\'aplicació"</string>
     <string name="content_capture" msgid="868372905432812238">"Contingut de l\'aplicació"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Permet que les aplicacions enviïn contingut al sistema Android"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Permet que les aplicacions enviïn contingut al sistema ethOS"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Captura l\'abocament de memòria en monticle del sistema"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"Reinicia amb MTE"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Es reiniciarà el sistema i es permetran els experiments amb l\'extensió d\'etiquetatge de memòria (MTE). L\'MTE pot tenir un impacte negatiu en el rendiment i l\'estabilitat del sistema. Es restablirà en el reinici subsegüent."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"S\'està capturant l\'abocament de memòria en monticle del sistema"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"No s\'ha pogut capturar l\'abocament de memòria en monticle del sistema"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Captura automàticament els abocaments de memòria en monticle del sistema"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Captura automàticament un abocament de memòria en monticle per al sistema Android si utilitza massa memòria"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Captura automàticament un abocament de memòria en monticle per al sistema ethOS si utilitza massa memòria"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Desconnecta"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Trucades d\'emergència"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"El teu operador de telefonia mòbil no permet fer trucades d\'emergència a través de la funció Trucades per Wi‑Fi.\nEl dispositiu canvia automàticament a una xarxa mòbil per fer una trucada d\'emergència.\nNomés es poden fer trucades d\'emergència en zones amb cobertura mòbil."</string>

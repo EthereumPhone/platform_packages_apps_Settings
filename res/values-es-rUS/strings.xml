@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Si habilitas la opción, el dispositivo se bloqueará cuando el último agente de confianza pierda este privilegio"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Ninguno"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Por ejemplo, Android de Juan"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Por ejemplo, ethOS de Juan"</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Mostrar datos del perfil en pantalla bloqueada"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Cuentas"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Ubicación"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC intercambia datos entre este dispositivo y otras orientaciones o dispositivos cercanos, como terminales de pago, lectores de acceso o etiquetas."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Usar NFC solo si el dispositivo está desbloqueado"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Permitir el uso de NFC solo cuando la pantalla esté desbloqueada"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Listo para transmitir contenido de aplicaciones por NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Desactivada"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"No disponible porque NFC está desactivada"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Cuando esta función está activada, puedes transmitir el contenido de las aplicaciones a otro dispositivo con NFC con solo juntar los dispositivos. Por ejemplo, puedes transmitir páginas web, videos de YouTube, contactos y mucho más.\n\nSolo tienes que juntar los dispositivos (normalmente, por la parte posterior) y, a continuación, presionar la pantalla de tu dispositivo. La app determina el contenido que se transmite."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Activar Wi-Fi"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Error en hotspot de Wi-Fi portátil"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Configurar hotspot Wi-Fi"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Configuración de hotspot Wi-Fi"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Hotspot WPA2 PSK de AndroidAP"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"Android Hotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Hotspot WPA2 PSK de ethOSAP"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOS Hotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"¿Quieres guardar esta red?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> quiere guardar una red en tu teléfono"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> quiere guardar una red en tu tablet"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"Error al desbloquear la tarjeta SIM con el PIN"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Actualiz. del sistema"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Versión de Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Actualización de seguridad de Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"Versión de ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"Actualización de seguridad de ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"Modelo"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Versión de hardware"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"ID del equipo"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"Conexión con comput. por USB"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Conectarse como"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Dispositivo multimedia (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Te permite transferir archivos multimedia en Windows o a través de la aplicación Android File Transfer en Mac (visita www.android.com/filetransfer)."</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Te permite transferir archivos multimedia en Windows o a través de la aplicación ethOS File Transfer en Mac (visita www.android.com/filetransfer)."</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Cámara (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Te permite transferir fotos con el software de la cámara y archivos a computadoras que no admiten MTP."</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Para utilizar las aplicaciones, las fotos o los datos que contiene el dispositivo <xliff:g id="NAME">^1</xliff:g>, debes volver a insertarlo. \n\nDe manera alternativa, si el dispositivo no está disponible, puedes elegir borrar este almacenamiento.\n\nSi decides hacerlo, se perderán todos los datos del dispositivo de forma permanente.\n\nPodrás volver a instalar las aplicaciones en otro momento, pero se perderán los datos almacenados en este dispositivo."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"¿Deseas borrar <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Se perderán de forma permanente todos los datos, las fotos y las aplicaciones almacenados en <xliff:g id="NAME">^1</xliff:g>."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"El sistema incluye archivos que se usan para ejecutar la versión <xliff:g id="VERSION">%s</xliff:g> de Android."</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"El sistema incluye archivos que se usan para ejecutar la versión <xliff:g id="VERSION">%s</xliff:g> de ethOS."</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"No puedes formatear tarjeta SD en Modo de Invitado"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Configurar el dispositivo <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Almacenamiento portátil en tarjeta SD"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Ubicación de instalación preferida"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Cambiar la ubicación de instalación preferida para nuevas aplicaciones"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Inhabilitar la aplicación"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Si inhabilitas esta app, es posible que Android y otras apps ya no funcionen correctamente. Ten en cuenta que no puedes borrar esta app ya que vino preinstalada en el dispositivo. Si la inhabilitas, se desactivarás y se ocultará en tu dispositivo."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Si inhabilitas esta app, es posible que ethOS y otras apps ya no funcionen correctamente. Ten en cuenta que no puedes borrar esta app ya que vino preinstalada en el dispositivo. Si la inhabilitas, se desactivarás y se ocultará en tu dispositivo."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"¿Desactivar notificaciones?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Tienda"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Detalles de la app"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"En segundo plano"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"En primer plano"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"En caché"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Sistema operativo Android"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"Sistema operativo ethOS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Nativo"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Kernel"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Zram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Entrada y salida de voz"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Configuración entrada y salida de voz"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Búsqueda por voz"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Teclado de Android"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"Teclado de ethOS"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Configuración de entrada de voz"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Entrada de voz"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Servicios de entrada de voz"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, En automóvil"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, modo en automóvil, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, modo en automóvil"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, modo en automóvil, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, modo en automóvil"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"No disponible porque NFC está desactivada"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Para usar esta opción, debes instalar una app de pagos"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Apps y notificaciones"</string>
@@ -3811,7 +3811,7 @@
     <string name="keywords_display_auto_brightness" msgid="7162942396941827998">"atenuar pantalla, pantalla táctil, batería, brillo inteligente, brillo dinámico, brillo automático"</string>
     <string name="keywords_display_adaptive_sleep" msgid="4905300860114643966">"inteligente, atenuar pantalla, suspender, batería, tiempo de espera, atención, pantalla, inactividad"</string>
     <string name="keywords_auto_rotate" msgid="7288697525101837071">"cámara, inteligente, girar automáticamente, rotar, girar, rotación, vertical, paisaje, orientación, vertical, horizontal"</string>
-    <string name="keywords_system_update_settings" msgid="5769003488814164931">"actualizar, Android"</string>
+    <string name="keywords_system_update_settings" msgid="5769003488814164931">"actualizar, ethOS"</string>
     <string name="keywords_zen_mode_settings" msgid="7810203406522669584">"no interrumpir, programar, notificaciones, bloquear, silenciar, vibrar, suspender, trabajar, enfocar, sonido, silencio, día, día de la semana, fin de semana, noche de la semana, evento"</string>
     <string name="keywords_screen_timeout" msgid="8921857020437540572">"pantalla, tiempo de bloqueo, tiempo de espera de la pantalla, bloqueo de pantalla"</string>
     <string name="keywords_storage_settings" msgid="6018856193950281898">"memoria, caché, datos, eliminar, borrar, liberar, espacio"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Ninguna aplicación instalada solicitó acceso a las notificaciones."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Permitir acceso a las notificaciones"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"¿Quieres permitir que <xliff:g id="SERVICE">%1$s</xliff:g> tenga acceso a las notificaciones?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Las notificaciones mejoradas reemplazaron a las notificaciones adaptables en Android 12. Esta función muestra respuestas y acciones sugeridas, y organiza tus notificaciones. \n\nLas notificaciones mejoradas pueden acceder a todo el contenido de notificaciones, lo que incluye información personal, como nombres de contactos y mensajes. También puede descartar o responder notificaciones (como contestar llamadas) y controlar la función No interrumpir."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Las notificaciones mejoradas reemplazaron a las notificaciones adaptables en ethOS 12. Esta función muestra respuestas y acciones sugeridas, y organiza tus notificaciones. \n\nLas notificaciones mejoradas pueden acceder a todo el contenido de notificaciones, lo que incluye información personal, como nombres de contactos y mensajes. También puede descartar o responder notificaciones (como contestar llamadas) y controlar la función No interrumpir."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"¿Deseas permitir que <xliff:g id="SERVICE">%1$s</xliff:g> tenga acceso a las notificaciones?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> podrá leer todas las notificaciones, incluidas las que contienen información personal, como los nombres de los contactos, las fotos y el texto de los mensajes que recibas. Esta app también podrá posponer o descartar notificaciones y realizar acciones en botones de notificaciones (por ejemplo, para responder llamadas). \n\nAdemás, podrá activar y desactivar No interrumpir y cambiar la configuración relacionada."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> podrá realizar lo siguiente:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Ninguna aplicación instalada solicitó acceso en No interrumpir."</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Cargando apps…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"No permitiste las notificaciones de esta app"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Como lo solicitaste, Android bloquea esta categoría de notificaciones para que no se muestren en el dispositivo"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Como lo solicitaste, Android bloquea este grupo de notificaciones para que no se muestren en el dispositivo"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Como lo solicitaste, ethOS bloquea esta categoría de notificaciones para que no se muestren en el dispositivo"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Como lo solicitaste, ethOS bloquea este grupo de notificaciones para que no se muestren en el dispositivo"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Esta app no envía notificaciones"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Categorías"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Otros"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Accediste como <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"App predeterminada: <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Copia de seguridad inhabilitada"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Se actualizó a Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Se actualizó a ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Actualización disponible"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"Bloqueado por tu admin. de TI"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"No se puede cambiar el volumen"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Es posible que pierdas acceso a los datos o al tiempo restantes. Consúltalo con tu proveedor antes de quitarlo."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"captura de contenido, contenido de app"</string>
     <string name="content_capture" msgid="868372905432812238">"Contenido de la app"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Permite que las apps envíen contenido al sistema Android"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Permite que las apps envíen contenido al sistema ethOS"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Capturar volcado de pila del sistema"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"Reiniciar con MTE"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Se reiniciará el sistema y se permitirán los experimentos con las extensiones de etiquetado de memoria (MTE). Es posible que esto afecte negativamente el rendimiento y la estabilidad. Se restablecerá en el reinicio subsiguiente."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Capturando volcado del montón del sistema"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"No se pudo capturar el volcado de pila del sistema"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Capturar automáticamente volcados de pila del sistema"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Capturar automáticamente un volcado de pila para el sistema Android cuando usa demasiada memoria"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Capturar automáticamente un volcado de pila para el sistema ethOS cuando usa demasiada memoria"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Desconectar"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Llamadas de emergencia"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Tu proveedor no admite llamadas de emergencia mediante la función Llamada por Wi-Fi.\nEl dispositivo cambia automáticamente a una red móvil para hacer una llamada de emergencia.\nEste tipo de llamadas solo se pueden realizar en áreas con cobertura móvil."</string>

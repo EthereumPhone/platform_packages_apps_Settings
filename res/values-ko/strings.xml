@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"이 옵션을 사용 설정하면 마지막 Trust Agent가 신뢰를 잃었을 때 기기가 잠깁니다."</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"없음"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"예: Joe의 Android"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"예: Joe의 ethOS"</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"잠금 화면에 프로필 정보 표시"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"계정"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"위치"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC는 이 기기와 결제 단말기, 액세스 리더, 양방향 광고나 태그 등 기타 주변 기기 또는 타겟 사이의 데이터를 교환합니다."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFC 사용 시 기기 잠금 해제 필요"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"화면이 잠금 해제되어 있을 때만 NFC 사용 허용"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"앱 콘텐츠를 NFC를 통해 전송할 준비 완료"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"사용 안함"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC가 꺼져 있어 사용할 수 없음"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"이 기능을 사용 설정하면 기기를 서로 가까이 두어 앱 콘텐츠를 다른 NFC 지원 기기와 공유할 수 있습니다. 예를 들어 웹페이지, YouTube 동영상, 연락처 등을 공유할 수 있습니다.\n\n기기를 서로 가까이 두고(일반적으로 뒷면끼리 맞댐) 화면을 탭하기만 하면 됩니다. 공유할 대상은 앱에서 결정합니다."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Wi-Fi 사용"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"휴대용 Wi-Fi 핫스팟 오류"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Wi-Fi 핫스팟 설정"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Wi‑Fi 핫스팟 설정"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK 핫스팟"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK 핫스팟"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"이 네트워크를 저장할까요?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g>에서 네트워크를 휴대전화에 저장하려고 합니다."</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g>에서 네트워크를 태블릿에 저장하려고 합니다."</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIM PIN 작업이 실패했습니다."</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"시스템 업데이트"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android 버전"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android 보안 업데이트"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS 버전"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS 보안 업데이트"</string>
     <string name="model_info" msgid="8997566254717810904">"모델"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"하드웨어 버전"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"장비 ID"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB 컴퓨터 연결"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"다음으로 연결"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"미디어 기기(MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Windows에서 또는 MAC의 Android 파일 전송을 사용하여 미디어 파일을 전송할 수 있습니다(www.android.com/filetransfer 참조)."</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Windows에서 또는 MAC의 ethOS 파일 전송을 사용하여 미디어 파일을 전송할 수 있습니다(www.android.com/filetransfer 참조)."</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"카메라(PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"카메라 소프트웨어를 사용하여 사진을 전송하고, MTP를 지원하지 않는 컴퓨터의 파일을 전송할 수 있습니다."</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"<xliff:g id="NAME">^1</xliff:g>에 포함된 앱, 사진, 데이터를 사용하려면 다시 삽입하세요. \n\n또는 기기를 사용할 수 없는 경우 저장소를 저장하지 않을 수도 있습니다. \n\n저장하지 않으려는 경우 기기에 포함된 모든 데이터가 완전히 삭제됩니다. \n\n나중에 앱을 다시 설치할 수 있으나 기기에 저장된 데이터는 모두 사라집니다."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g>을(를) 삭제하시겠습니까?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"<xliff:g id="NAME">^1</xliff:g>에 저장된 앱, 사진, 데이터가 모두 완전히 삭제됩니다."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"시스템에는 Android 버전 <xliff:g id="VERSION">%s</xliff:g> 실행에 사용되는 파일이 포함되어 있습니다."</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"시스템에는 ethOS 버전 <xliff:g id="VERSION">%s</xliff:g> 실행에 사용되는 파일이 포함되어 있습니다."</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"게스트 모드 사용자는 SD 카드를 포맷할 수 없습니다."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"<xliff:g id="NAME">^1</xliff:g> 설정"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"SD 카드를 휴대용 저장소로 포맷"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"기본 설치 위치"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"새 앱의 기본 설치 위치를 변경합니다."</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"앱 사용 중지"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"이 앱을 사용 중지하면 Android와 다른 앱이 제대로 작동하지 않을 수도 있습니다. 기기에 사전 설치된 앱이므로 이 앱을 삭제할 수 없습니다. 비활성화하면 이 앱이 사용 중지되고 기기에서 숨겨집니다."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"이 앱을 사용 중지하면 ethOS와 다른 앱이 제대로 작동하지 않을 수도 있습니다. 기기에 사전 설치된 앱이므로 이 앱을 삭제할 수 없습니다. 비활성화하면 이 앱이 사용 중지되고 기기에서 숨겨집니다."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"알림을 사용 중지하시겠습니까?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"스토어"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"앱 세부정보"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"백그라운드"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"포그라운드"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"캐시된 프로세스"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"기본"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"커널"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-RAM"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"음성 입력 &amp; 출력"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"음성 입력 &amp; 출력 설정"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"음성 검색"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android 키보드"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS 키보드"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"음성 입력 설정"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"음성 입력"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"음성 입력 서비스"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"블루투스, 운전 모드"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"블루투스, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"블루투스"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"블루투스, Android Auto, 운전 모드, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"블루투스, Android Auto, 운전 모드"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"블루투스, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"블루투스, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"블루투스, ethOS Auto, 운전 모드, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"블루투스, ethOS Auto, 운전 모드"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"블루투스, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"블루투스, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC가 꺼져 있어 사용할 수 없음"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"사용하려면 먼저 결제 앱을 설치하세요."</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"앱 및 알림"</string>
@@ -3799,7 +3799,7 @@
     <string name="keywords_imei_info" msgid="8848791606402333514">"IMEI, MEID, MIN, PRL 버전, IMEI SV"</string>
     <string name="keywords_sim_status" msgid="8784456547742075508">"네트워크, 모바일 네트워크 상태, 서비스 상태, 신호 강도, 모바일 네트워크 유형, 로밍, ICCID, EID"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"일련번호, 하드웨어 버전"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"Android 보안 패치 수준, 베이스밴드 버전, 커널 버전"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"ethOS 보안 패치 수준, 베이스밴드 버전, 커널 버전"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"테마, 밝기, 어두운 모드, 광과민성, 광선공포증, 밝기 낮추기, 어둡게, 어두운 모드, 편두통"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"어두운 테마"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"버그"</string>
@@ -3811,7 +3811,7 @@
     <string name="keywords_display_auto_brightness" msgid="7162942396941827998">"화면 어둡게 하기, 터치스크린, 배터리, 스마트 밝기, 동적 밝기, 자동 밝기"</string>
     <string name="keywords_display_adaptive_sleep" msgid="4905300860114643966">"스마트, 화면 어둡게, 절전 모드, 배터리, 자동 잠금 시간, 시선 감지, 디스플레이, 화면, 활동 없음"</string>
     <string name="keywords_auto_rotate" msgid="7288697525101837071">"카메라, 스마트, 자동 회전, 회전하기, 뒤집기, 회전, 세로, 가로, 방향, 수직, 수평"</string>
-    <string name="keywords_system_update_settings" msgid="5769003488814164931">"업그레이드, Android"</string>
+    <string name="keywords_system_update_settings" msgid="5769003488814164931">"업그레이드, ethOS"</string>
     <string name="keywords_zen_mode_settings" msgid="7810203406522669584">"방해 금지 모드, 예약, 알림, 차단, 무음, 진동, 절전 모드, 업무, 집중, 소리, 음소거, 낮, 평일, 주말, 평일 밤, 일정"</string>
     <string name="keywords_screen_timeout" msgid="8921857020437540572">"화면, 잠금 시간, 자동 잠금 시간, 잠금 화면"</string>
     <string name="keywords_storage_settings" msgid="6018856193950281898">"메모리, 캐시, 데이터, 삭제, 지우기, 공간 확보, 공간"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"설치된 앱 중에서 알림 액세스를 요청한 앱이 없습니다."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"알림 액세스 허용"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g>의 알림 액세스를 허용하시겠습니까?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12에서는 Android 적응형 알림이 개선된 알림으로 대체됩니다. 이 기능은 추천 작업과 답장을 표시하고 알림을 정리해 줍니다. \n\n개선된 알림은 연락처 이름과 메시지 등 개인 정보가 포함된 알림 내용에 액세스할 수 있습니다. 또한 전화를 받고 방해 금지 모드를 제어하는 등 알림을 닫거나 처리하는 것도 가능합니다."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ethOS 12에서는 ethOS 적응형 알림이 개선된 알림으로 대체됩니다. 이 기능은 추천 작업과 답장을 표시하고 알림을 정리해 줍니다. \n\n개선된 알림은 연락처 이름과 메시지 등 개인 정보가 포함된 알림 내용에 액세스할 수 있습니다. 또한 전화를 받고 방해 금지 모드를 제어하는 등 알림을 닫거나 처리하는 것도 가능합니다."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g>의 알림 액세스를 허용하시겠습니까?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>에서 연락처 이름, 사진, 받은 문자 메시지 등 개인 정보가 포함된 모든 알림을 읽을 수 있게 됩니다. 앱에서 알림을 일시중지하거나 닫고, 알림에 대해 버튼에 표시된 조치(예: 전화 받기)를 취하는 것도 가능합니다. \n\n또한 앱에서 방해 금지 모드를 켜거나 끄고 관련 설정을 변경할 수 있습니다."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>에서는 다음을 할 수 있습니다."</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"설치된 앱 중에서 방해 금지 모드 액세스를 요청한 앱이 없습니다."</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"앱 로드 중…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"이 앱의 알림을 허용하지 않았습니다."</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"사용자의 요청에 따라 Android에서 기기에 이 카테고리의 알림이 표시되지 않도록 차단하고 있습니다"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"사용자의 요청에 따라 Android에서 기기에 이 그룹의 알림이 표시되지 않도록 차단하고 있습니다"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"사용자의 요청에 따라 ethOS에서 기기에 이 카테고리의 알림이 표시되지 않도록 차단하고 있습니다"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"사용자의 요청에 따라 ethOS에서 기기에 이 그룹의 알림이 표시되지 않도록 차단하고 있습니다"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"이 앱은 알림을 전송하지 않습니다."</string>
     <string name="notification_channels" msgid="1502969522886493799">"카테고리"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"기타"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g>(으)로 로그인됨"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g>은(는) 기본 앱입니다."</string>
     <string name="backup_disabled" msgid="4503062265560959320">"백업 사용 안함"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> 버전으로 업데이트됨"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ethOS <xliff:g id="VERSION">%1$s</xliff:g> 버전으로 업데이트됨"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"업데이트 가능"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"IT 관리자에 의해 차단됨"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"볼륨을 변경할 수 없음"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"남은 시간 또는 데이터를 이용하지 못할 수 있습니다. 삭제하기 전에 제공업체에 확인하세요."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"콘텐츠 캡처, 앱 콘텐츠"</string>
     <string name="content_capture" msgid="868372905432812238">"앱 콘텐츠"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"앱이 콘텐츠를 Android 시스템에 전송하도록 허용"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"앱이 콘텐츠를 ethOS 시스템에 전송하도록 허용"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"시스템 힙 덤프 캡처"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"MTE로 재부팅"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"시스템이 재부팅되고 MTE(Memory Tagging Extensions)를 실험해 볼 수 있습니다. MTE로 인해 시스템 성능과 안정성이 저하될 가능성이 있습니다. 다음에 재부팅할 때 재설정됩니다."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"시스템 힙 덤프 캡처 중"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"시스템 힙 덤프를 캡처하지 못함"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"시스템 힙 덤프 자동 캡처"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"너무 많은 메모리를 사용할 경우 Android 시스템의 힙 덤프를 자동으로 캡처합니다."</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"너무 많은 메모리를 사용할 경우 ethOS 시스템의 힙 덤프를 자동으로 캡처합니다."</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"연결 해제"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"긴급 전화"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Wi‑Fi 통화를 사용한 긴급 전화가 이용 중인 이동통신사에서 지원되지 않습니다.\n긴급 전화를 걸면 기기에서 모바일 네트워크로 자동 전환합니다.\n긴급 전화는 모바일 데이터가 지원되는 지역에서만 사용할 수 있습니다."</string>

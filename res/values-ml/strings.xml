@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"പ്രവർത്തനക്ഷമമാക്കിയാൽ, അവസാനത്തെ വിശ്വസ്‌ത ഏജന്റിന് വിശ്വാസം നഷ്‌ടപ്പെടുമ്പോൾ, ഉപകരണം ലോക്കാവും"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"ഒന്നുമില്ല"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ഉദാ. ജോയുടെ Android."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"ഉദാ. ജോയുടെ ethOS."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"ലോക്ക് സ്‌ക്രീനിൽ പ്രൊഫൈൽ വിവരം ദൃശ്യമാക്കുക"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"അക്കൗണ്ടുകൾ"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"ലൊക്കേഷൻ"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"ഈ ഉപകരണത്തിനും മറ്റേതെങ്കിലും ചുറ്റുവട്ട ഉപകരണങ്ങൾക്കും അല്ലെങ്കിൽ പേയ്മെന്റ് ടെർമിനലുകളും ആക്സസ്സ് റീഡറുകളും ഇന്ററാക്ടീവ് പരസ്യങ്ങളും അല്ലെങ്കിൽ ടാഗുകളും പോലുള്ള ലക്ഷ്യങ്ങൾക്കും ഇടയിൽ NFC, വിവരങ്ങൾ കൈമാറുന്നു."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFC-യ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യൽ നിർബന്ധമാക്കുക"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"സ്‌ക്രീൻ അൺലോക്ക് ചെയ്‌ത സമയത്ത് മാത്രം NFC ഉപയോഗം അനുവദിക്കുക"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android ബീം"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS ബീം"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"ആപ്പിന്‍റെ ഉള്ളടക്കം NFC കൈമാറ്റത്തിന് തയ്യാർ"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"ഓഫ്"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC ഓഫ് ചെയ്‌തതിനാൽ ലഭ്യമല്ല"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android ബീം"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS ബീം"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"ഈ ഫീച്ചർ ഓണായിരിക്കുമ്പോൾ, ഉപകരണങ്ങൾ വളരെ അടുത്തടുത്തായി പിടിച്ചുകൊണ്ട് NFC പ്രവർത്തനക്ഷമമാക്കിയ മറ്റൊരു ഉപകരണത്തിലേക്ക് നിങ്ങൾക്ക് ആപ്പ് ഉള്ളടക്കം ബീം ചെയ്യാനാകും. ഉദാഹരണത്തിന്, വെബ് പേജുകളും YouTube വീഡിയോകളും കോൺടാക്റ്റുകളും മറ്റും നിങ്ങൾക്ക് ബീം ചെയ്യാം.\n\nഉപകരണങ്ങൾ ഒരുമിച്ച് കൊണ്ടുവന്ന് (സാധാരണ ഗതിയിൽ പിൻഭാഗങ്ങൾ ചേർത്തുപിടിച്ച്) നിങ്ങളുടെ സ്‌ക്രീനിൽ ടാപ്പുചെയ്യുകയേ വേണ്ടൂ. എന്തൊക്കെ ബീം ചെയ്യണമെന്നത് ആപ്പാണ് നിർണ്ണയിക്കുന്നത്."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"വൈഫൈ"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"വൈഫൈ ഓണാക്കുക"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"പോർട്ടബിൾ വൈഫൈ ഹോട്ട്‌സ്പോട്ട് പിശക്"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"വൈഫൈ ഹോട്ട്‌സ്പോട്ട് സജ്ജീകരിക്കുക"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"വൈഫൈ ഹോട്ട്‌സ്‌പോട്ട് സജ്ജീകരണം"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK ഹോട്ട്‌സ്‌പോട്ട്"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK ഹോട്ട്‌സ്‌പോട്ട്"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"ഈ നെറ്റ്‌വർക്ക് സംരക്ഷിക്കണോ?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"നെറ്റ്‌വർക്ക് നിങ്ങളുടെ ഫോണിൽ സംരക്ഷിക്കാൻ <xliff:g id="APPNAME">%1$s</xliff:g> ആഗ്രഹിക്കുന്നു"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"ഒരു നെറ്റ്‌വർക്ക് നിങ്ങളുടെ ടാബ്‌ലെറ്റിൽ സംരക്ഷിക്കാൻ <xliff:g id="APPNAME">%1$s</xliff:g> താൽപ്പര്യപ്പെടുന്നു"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"സിം പിൻ പ്രവർത്തനം പരാജയപ്പെട്ടു!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"സി‌സ്‌റ്റം അപ്‌ഡേറ്റുകൾ"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android പതിപ്പ്"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android സുരക്ഷാ അപ്ഡേറ്റ്"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS പതിപ്പ്"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS സുരക്ഷാ അപ്ഡേറ്റ്"</string>
     <string name="model_info" msgid="8997566254717810904">"മോഡല്‍"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"ഹാർഡ്‌വെയർ പതിപ്പ്"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"ഉപകരണ ഐഡി"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB കമ്പ്യൂട്ടർ കണക്ഷൻ"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"ഇതായി കണ‌ക്റ്റുചെയ്യുക"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"മീഡിയ ഉപകരണം (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Windows-ൽ മീഡിയ ഫയലുകൾ കൈമാറ്റംചെയ്യാനോ Mac-ൽ Android ഫയൽ കൈമാറ്റം ഉപയോഗിക്കുന്നതിനോ അനുവദിക്കുന്നു (www.android.com/filetransfer കാണുക)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Windows-ൽ മീഡിയ ഫയലുകൾ കൈമാറ്റംചെയ്യാനോ Mac-ൽ ethOS ഫയൽ കൈമാറ്റം ഉപയോഗിക്കുന്നതിനോ അനുവദിക്കുന്നു (www.android.com/filetransfer കാണുക)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"ക്യാമറ (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"ക്യാമറ സോ‌ഫ്‌റ്റ്‌വെയർ ഉപയോഗിച്ച് ഫോട്ടോകൾ കൈമാറ്റം ചെയ്യാനും MTP-യെ പിന്തുണയ്ക്കാത്ത കമ്പ്യൂട്ടറുകളിലെ എല്ലാ ഫയലുകളും കൈമാറ്റം ചെയ്യാനും നിങ്ങളെ അനുവദിക്കുന്നു"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"ഈ <xliff:g id="NAME">^1</xliff:g> അടങ്ങിയിരിക്കുന്ന ആപ്പുകൾ, ഫോട്ടോകൾ അല്ലെങ്കിൽ വിവരം ഉപയോഗിക്കാൻ, അത് വീണ്ടും ചേർക്കുക. \n\nപകരം, ഉപകരണം ലഭ്യമല്ലെങ്കിൽ, നിങ്ങൾക്ക് ഈ ഉപകരണം മറക്കാൻ തിരഞ്ഞെടുക്കാനാകും. \n\nനിങ്ങൾ മറക്കാൻ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, ഉപകരണത്തിൽ അടങ്ങിയിരിക്കുന്ന എല്ലാ വിവരവും ശാശ്വതമായി നഷ്‌ടമാകും. \n\nനിങ്ങൾക്ക് ഈ ആപ്പുകൾ പിന്നീട് വീണ്ടും ഇൻസ്റ്റാൾ ചെയ്യാനാകും, എന്നാൽ ഈ ഉപകരണത്തിൽ സംഭരിച്ചിരിക്കുന്ന അവയുടെ വിവരം നഷ്‌ടമാകും."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g> മറക്കണോ?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"<xliff:g id="NAME">^1</xliff:g> എന്നതിൽ സംഭരിച്ചിരിക്കുന്ന എല്ലാ ആപ്സും ഫോട്ടോകളും ഡാറ്റയും ശാശ്വതമായി നഷ്ടപ്പെടും."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"സിസ്‌റ്റത്തിൽ Android <xliff:g id="VERSION">%s</xliff:g> പതിപ്പ് റൺ ചെയ്യാൻ ഉപയോഗിച്ച ഫയലുകളും ഉൾപ്പെടുന്നു"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"സിസ്‌റ്റത്തിൽ ethOS <xliff:g id="VERSION">%s</xliff:g> പതിപ്പ് റൺ ചെയ്യാൻ ഉപയോഗിച്ച ഫയലുകളും ഉൾപ്പെടുന്നു"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"അതിഥി മോഡ് യൂസർക്ക് SD കാർഡ് ഫോർമാറ്റ് ചെയ്യാനാകില്ല"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"നിങ്ങളുടെ <xliff:g id="NAME">^1</xliff:g> സജ്ജമാക്കുക"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"പോർട്ടബിൾ സ്റ്റോറേജിനായി SD കാർഡ് ഫോർമാറ്റ് ചെയ്യൂ"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"തിരഞ്ഞെടുത്ത ഇൻസ്‌റ്റാൾ ലൊക്കേഷൻ"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"പുതിയ അപ്ലിക്കേഷനുകൾക്കായി തിരഞ്ഞെടുത്ത ഇൻസ്‌റ്റാളേഷൻ ലൊക്കേഷൻ മാറ്റുക"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"ആപ്പ് പ്രവർത്തനരഹിതമാക്കുക"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"നിങ്ങൾ ഈ ആപ്പ് പ്രവർത്തനരഹിതമാക്കിയാൽ, Android-ഉം മറ്റ് ആപ്പുകളും ഇനി ഉദ്ദേശിച്ചത് പോലെ പ്രവർത്തിച്ചേക്കില്ല. ശ്രദ്ധിക്കുക, നിങ്ങളുടെ ഉപകരണത്തിൽ മുമ്പേ ഇൻസ്‌റ്റാൾ ചെയ്‌തതായതിനാൽ ഈ ആപ്പ് നിങ്ങൾക്ക് ഇല്ലാതാക്കാനാവില്ല. പ്രവർത്തനരഹിതമാക്കുന്നത് വഴി, ഈ ആപ്പ് ഓഫാക്കി നിങ്ങൾക്കിത് ഉപകരണത്തിൽ മറച്ചു വയ്ക്കാം."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"നിങ്ങൾ ഈ ആപ്പ് പ്രവർത്തനരഹിതമാക്കിയാൽ, ethOS-ഉം മറ്റ് ആപ്പുകളും ഇനി ഉദ്ദേശിച്ചത് പോലെ പ്രവർത്തിച്ചേക്കില്ല. ശ്രദ്ധിക്കുക, നിങ്ങളുടെ ഉപകരണത്തിൽ മുമ്പേ ഇൻസ്‌റ്റാൾ ചെയ്‌തതായതിനാൽ ഈ ആപ്പ് നിങ്ങൾക്ക് ഇല്ലാതാക്കാനാവില്ല. പ്രവർത്തനരഹിതമാക്കുന്നത് വഴി, ഈ ആപ്പ് ഓഫാക്കി നിങ്ങൾക്കിത് ഉപകരണത്തിൽ മറച്ചു വയ്ക്കാം."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"അറിയിപ്പുകൾ ഓഫാക്കണോ?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"സ്റ്റോർ"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"ആപ്പ് വിശദാംശങ്ങൾ"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"പശ്ചാത്തലം"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"മുൻവശം"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"കാഷെചെയ്‌തു"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"നേറ്റീവ്"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"കേർനൽ"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"വോയ്‌സ് ഇൻപുട്ടും ഔട്ട്പുട്ടും"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"വോയ്‌സ് ഇൻപുട്ട്, ഔട്ട് പുട്ട് ക്രമീകരണങ്ങൾ"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"ശബ്ദതിരയൽ"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android കീബോർഡ്"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS കീബോർഡ്"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"വോയ്‌സ് ഇൻപുട്ട് ക്രമീകരണങ്ങൾ"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"വോയ്‌സ് ഇൻപുട്ട്"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"വോയ്‌സ് ഇൻപുട്ട് സേവനങ്ങൾ"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, ഡ്രൈവിംഗ് മോഡ്"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, ഡ്രൈവിംഗ് മോഡ്, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, ഡ്രൈവിംഗ് മോഡ്"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, ഡ്രൈവിംഗ് മോഡ്, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, ഡ്രൈവിംഗ് മോഡ്"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC ഓഫായതിനാൽ ലഭ്യമല്ല"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"ഉപയോഗിക്കാൻ, ആദ്യം പേയ്മെന്റ് ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്യുക"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"ആപ്പുകളും അറിയിപ്പുകളും"</string>
@@ -3811,7 +3811,7 @@
     <string name="keywords_display_auto_brightness" msgid="7162942396941827998">"സ്‌ക്രീൻ മങ്ങിക്കൽ, ടച്ച്‌സ്‌ക്രീൻ, ബാറ്ററി, സ്‌മാർട്ട് തെളിച്ചം, ചലനാത്മക തെളിച്ചം, സ്വയമേവ ഉള്ള തെളിച്ചം"</string>
     <string name="keywords_display_adaptive_sleep" msgid="4905300860114643966">"സ്മാർട്ട്, മങ്ങിയ സ്ക്രീൻ, സ്ലീപ്പ് മോഡ്, ബാറ്ററി, ടൈംഔട്ട്, സ്ക്രീൻ ശ്രദ്ധ, ഡിസ്‌പ്ലേ, സ്‌ക്രീൻ, നിഷ്ക്രിയത്വം"</string>
     <string name="keywords_auto_rotate" msgid="7288697525101837071">"ക്യാമറ,സ്മാർട്ട്, സ്വയമേ തിരിയുക, സ്വയമേ തിരിയുക, തിരിക്കുക, ഫ്ലിപ്പ്, തിരിക്കൽ, പോർ‌ട്രെയ്റ്റ്, ലാൻഡ്‌സ്കേപ്പ്, ഓറിയന്റേഷൻ, ലംബം, സമാന്തരം"</string>
-    <string name="keywords_system_update_settings" msgid="5769003488814164931">"അപ്‌ഗ്രേഡ്, Android"</string>
+    <string name="keywords_system_update_settings" msgid="5769003488814164931">"അപ്‌ഗ്രേഡ്, ethOS"</string>
     <string name="keywords_zen_mode_settings" msgid="7810203406522669584">"dnd, ഷെഡ്യൂൾ, അറിയിപ്പുകൾ, തടയുക, നിശബ്‌ദത, വൈബ്രേറ്റ്, സ്ലീപ്പ്, ജോലി, ഫോക്കസ്, ശബ്‌ദം, മ്യൂട്ട്, ദിവസം, പ്രവർത്തി ദിവസം, വാരാന്ത്യം, പ്രവർത്തിദിന രാവ്, ഇവന്റ്"</string>
     <string name="keywords_screen_timeout" msgid="8921857020437540572">"സ്‌ക്രീൻ, ലോക്ക് സമയം, ടൈംഔട്ട്, ലോക്ക്‌സ്ക്രീൻ"</string>
     <string name="keywords_storage_settings" msgid="6018856193950281898">"മെമ്മറി, കാഷെ, ഡാറ്റ, ഇല്ലാതാക്കുക, മായ്ക്കുക, സൗജന്യം, സ്‌പെയ്‌സ്"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"ഇൻസ്റ്റാളുചെയ്തിട്ടുള്ള ആപ്സൊന്നും അറിയിപ്പ് ആക്‌സസ് അഭ്യർത്ഥിച്ചിട്ടില്ല."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"അറിയിപ്പ് ആക്‌സസ് അനുവദിക്കുക"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> എന്നതിന് അറിയിപ്പ് ആക്‌സസ് അനുവദിക്കണോ?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12-ൽ Android അഡാപ്റ്റീവ് അറിയിപ്പുകൾക്ക് പകരം മെച്ചപ്പെടുത്തിയ അറിയിപ്പുകൾ ഉൾപ്പെടുത്തിയിരിക്കുന്നു. നിർദ്ദേശിക്കുന്ന പ്രവർത്തനങ്ങളും മറുപടികളും കാണിക്കുന്നതിനൊപ്പം ഈ ഫീച്ചർ നിങ്ങളുടെ അറിയിപ്പുകൾ ഓർഗനൈസ് ചെയ്യുന്നു. \n\nമെച്ചപ്പെടുത്തിയ അറിയിപ്പുകൾക്ക്, കോൺടാക്റ്റ് പേരുകളും സന്ദേശങ്ങളും പോലുള്ള വ്യക്തിപരമായ വിവരങ്ങൾ ഉൾപ്പെടെയുള്ള അറിയിപ്പ് ഉള്ളടക്കം ആക്‌സസ് ചെയ്യാനാകും. ഫോൺ കോളുകൾക്ക് മറുപടി നൽകുക, \'ശല്യപ്പെടുത്തരുത്\' നിയന്ത്രിക്കുക എന്നിവ പോലെ, അറിയിപ്പുകൾ ഡിസ്‌മിസ് ചെയ്യാനും അവയ്‌ക്ക് മറുപടി നൽകാനും ഈ ഫീച്ചറിന് കഴിയും."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ethOS 12-ൽ ethOS അഡാപ്റ്റീവ് അറിയിപ്പുകൾക്ക് പകരം മെച്ചപ്പെടുത്തിയ അറിയിപ്പുകൾ ഉൾപ്പെടുത്തിയിരിക്കുന്നു. നിർദ്ദേശിക്കുന്ന പ്രവർത്തനങ്ങളും മറുപടികളും കാണിക്കുന്നതിനൊപ്പം ഈ ഫീച്ചർ നിങ്ങളുടെ അറിയിപ്പുകൾ ഓർഗനൈസ് ചെയ്യുന്നു. \n\nമെച്ചപ്പെടുത്തിയ അറിയിപ്പുകൾക്ക്, കോൺടാക്റ്റ് പേരുകളും സന്ദേശങ്ങളും പോലുള്ള വ്യക്തിപരമായ വിവരങ്ങൾ ഉൾപ്പെടെയുള്ള അറിയിപ്പ് ഉള്ളടക്കം ആക്‌സസ് ചെയ്യാനാകും. ഫോൺ കോളുകൾക്ക് മറുപടി നൽകുക, \'ശല്യപ്പെടുത്തരുത്\' നിയന്ത്രിക്കുക എന്നിവ പോലെ, അറിയിപ്പുകൾ ഡിസ്‌മിസ് ചെയ്യാനും അവയ്‌ക്ക് മറുപടി നൽകാനും ഈ ഫീച്ചറിന് കഴിയും."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g> എന്നതിന് അറിയിപ്പ് ആക്സസ് അനുവദിക്കണോ?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"കോൺടാക്റ്റ് പേരുകൾ, ഫോട്ടോകൾ, നിങ്ങൾക്ക് ലഭിക്കുന്ന സന്ദേശങ്ങളുടെ വാചകം എന്നിവ പോലുള്ള വ്യക്തിപരമായ വിവരങ്ങൾ ഉൾപ്പെടെ എല്ലാ അറിയിപ്പുകളും <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> എന്നയാൾക്ക് വായിക്കാൻ കഴിയും. അറിയിപ്പുകൾ ഡിസ്‌മിസ് ചെയ്യാനോ സ്‌നൂസ് ചെയ്യാനോ ഫോൺ കോളുകൾക്ക് മറുപടി നൽകുന്നതുൾപ്പെടെ അറിയിപ്പുകളിലെ ബട്ടണുകളിൽ നടപടിയെടുക്കാനോ ഈ ആപ്പിന് കഴിയും. \n\nആപ്പിന് \'ശല്യപ്പെടുത്തരുത്\' ഓൺ അല്ലെങ്കിൽ ഓഫ് ആക്കാനും ബന്ധപ്പെട്ട ക്രമീകരണം മാറ്റാനുമുള്ള ശേഷിയും ഇത് നൽകും."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> എന്നതിന് ഇനിപ്പറയുന്ന കാര്യങ്ങൾ ചെയ്യാം:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"ഇൻസ്റ്റാളുചെയ്‌തവയൊന്നും \'ശല്യപ്പെടുത്തരുത്\' മോഡിൽ പ്രവേശിക്കാൻ അഭ്യർത്ഥിച്ചിട്ടില്ല"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"ആപ്പുകൾ ലോഡ് ചെയ്യുന്നു…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"ഈ ആപ്പിൽ നിന്നുള്ള അറിയിപ്പുകൾ നിങ്ങൾ അനുവദിച്ചിട്ടില്ല"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"നിങ്ങളുടെ അഭ്യർത്ഥനപ്രകാരം, ഈ ഉപകരണത്തിൽ ഈ വിഭാഗത്തിൽപ്പെട്ട അറിയിപ്പുകൾ ദൃശ്യമാകുന്നത് Android ബ്ലോക്ക് ചെയ്യുന്നു"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"നിങ്ങളുടെ അഭ്യർത്ഥനപ്രകാരം, ഈ ഗ്രൂപ്പിൽപ്പെട്ട അറിയിപ്പുകൾ ഈ ഉപകരണത്തിൽ ദൃശ്യമാകുന്നത് Android ബ്ലോക്ക് ചെയ്യുന്നു"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"നിങ്ങളുടെ അഭ്യർത്ഥനപ്രകാരം, ഈ ഉപകരണത്തിൽ ഈ വിഭാഗത്തിൽപ്പെട്ട അറിയിപ്പുകൾ ദൃശ്യമാകുന്നത് ethOS ബ്ലോക്ക് ചെയ്യുന്നു"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"നിങ്ങളുടെ അഭ്യർത്ഥനപ്രകാരം, ഈ ഗ്രൂപ്പിൽപ്പെട്ട അറിയിപ്പുകൾ ഈ ഉപകരണത്തിൽ ദൃശ്യമാകുന്നത് ethOS ബ്ലോക്ക് ചെയ്യുന്നു"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"ഈ ആപ്പ് അറിയിപ്പുകൾ അയയ്ക്കുന്നില്ല"</string>
     <string name="notification_channels" msgid="1502969522886493799">"വിഭാഗങ്ങള്‍"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"മറ്റുള്ളവ"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> ആയി സൈൻ ഇൻ ചെയ്‌തു"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ഡിഫോൾട്ട് ആണ്"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"ബാക്കപ്പ് പ്രവർത്തനരഹിതമാക്കി"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g>-ലേക്ക് അപ്‌ഡേറ്റ് ചെയ്തു"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ethOS <xliff:g id="VERSION">%1$s</xliff:g>-ലേക്ക് അപ്‌ഡേറ്റ് ചെയ്തു"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"അപ്‌ഡേറ്റ് ലഭ്യമാണ്"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"നിങ്ങളുടെ ഐടി അഡ്‌മിൻ ബ്ലോക്ക് ചെയ്‌തു"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"വോളിയം മാറ്റാനാകില്ല"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"ഏതെങ്കിലും ബാക്കിയുള്ള സമയത്തിലേക്കോ ഡാറ്റയിലേക്കോ ഉള്ള ആക്‌സസ് നഷ്‌ടപ്പെട്ടേക്കാം. നീക്കം ചെയ്യുന്നതിന് മുമ്പ് നിങ്ങളുടെ ദാതാവുമായി പരിശോധിക്കുക"</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"ഉള്ളടക്കം ക്യാപ്‌ചർ ചെയ്യൽ, ആപ്പ് ഉള്ളടക്കം"</string>
     <string name="content_capture" msgid="868372905432812238">"ആപ്പ് ഉള്ളടക്കം"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Android സിസ്റ്റത്തിലേക്ക് ഉള്ളടക്കം അയയ്ക്കാൻ ആപ്പുകളെ അനുവദിക്കുക"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"ethOS സിസ്റ്റത്തിലേക്ക് ഉള്ളടക്കം അയയ്ക്കാൻ ആപ്പുകളെ അനുവദിക്കുക"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"സിസ്‌റ്റം ഹീപ്പ് ഡംപ് ക്യാപ്‌ചർ ചെയ്യുക"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"MTE ഉപയോഗിച്ച് റീബൂട്ട് ചെയ്യുക"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"സിസ്‌റ്റം റീബൂട്ട് ചെയ്യുകയും മെമ്മറി ടാഗിംഗ് എക്‌സ്‌റ്റെൻഷൻ (MTE) ഉപയോഗിച്ച് പരീക്ഷണത്തിന് അനുവദിക്കുകയും ചെയ്യും. സിസ്‌റ്റത്തിന്റെ പ്രകടനത്തെയും സ്ഥിരതയെയും MTE പ്രതികൂലമായി ബാധിച്ചേക്കാം. അടുത്ത പ്രാവശ്യം റീബൂട്ട് ചെയ്യുമ്പോൾ റീസെറ്റ് ചെയ്യും."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"സിസ്‌റ്റം ഹീപ്പ് ഡംപ് ക്യാപ്‌ചർ ചെയ്യുന്നു"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"സിസ്‌റ്റം ഹീപ്പ് ഡംപ് ക്യാപ്‌ചർ ചെയ്യാനായില്ല"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"സിസ്‌റ്റം ഹീപ്പ് ഡംപുകൾ സ്വയമേവ ക്യാപ്‌ചർ ചെയ്യുക"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Android സിസ്‌റ്റം വളരെയധികം മെമ്മറി ഉപയോഗിക്കുമ്പോൾ അതിന്റെ ഒരു ഹീപ്പ് ഡംപ് സ്വയമേവ ക്യാപ്‌ചർ ചെയ്യുക"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ethOS സിസ്‌റ്റം വളരെയധികം മെമ്മറി ഉപയോഗിക്കുമ്പോൾ അതിന്റെ ഒരു ഹീപ്പ് ഡംപ് സ്വയമേവ ക്യാപ്‌ചർ ചെയ്യുക"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"വിച്ഛേദിക്കുക"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"എമർജൻസി കോളുകൾ"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"വൈഫൈ കോളിംഗ് വഴി എമർജൻസി കോളുകൾ നിങ്ങളുടെ സേവനദാതാവ് പിന്തുണയ്ക്കുന്നില്ല.\nഎമർജൻസി കോൾ വിളിക്കാൻ ഉപകരണം ഒരു സെല്ലുലാർ നെറ്റ്‍വര്‍ക്കിലേക്ക് സ്വയമേവ സ്വിച്ചുചെയ്യുന്നു.\nസെല്ലുലാർ കവറേജ് ഉപയോഗിച്ച് മാത്രമേ എമർജൻസി കോളുകൾ സാധ്യമാകൂ."</string>

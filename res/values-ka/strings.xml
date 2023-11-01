@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"ჩართვის შემთხვევაში, მოწყობილობა ჩაიკეტება, როცა ბოლო აგენტი დაკარგავს ნდობას."</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"არცერთი"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"მაგ. „ქეთინოს Android“."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"მაგ. „ქეთინოს ethOS“."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"პროფილის ინფორმაციის დაბლოკილ ეკრანზე ჩვენება"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"ანგარიშები"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"მდებარეობა"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC-ის მეშვეობით, ეს მოწყობილობა ცვლის მონაცემების სხვა ახლომდებარე მოწყობილობებთან ან ისეთ ობიექტებთან, როგორიცაა გადახდის ტერმინალები, წვდომის მონაცემთა წამკითხველები და ინტერაქტიული რეკლამები ან თეგები."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"მოწყობილობის განბლოკვის მოთხოვნა NFC-ისთვის"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"NFC-ის გამოყენების დაშვება მხოლოდ მაშინ, როცა ეკრანი განბლოკილია"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android სხივი"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS სხივი"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"მზადაა გადასცეს აპის კონტენტი NFC-ის მეშვეობით"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"გამორთული"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"მიუწვდომელია, რადგან NFC გამორთულია"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android სხივი"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS სხივი"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"როცა ეს ფუნქცია ჩართულია, შესაძლებელია აპების კონტენტის სხვა NFC-სთან თავსებად მოწყობილობებზე სხივით გადაცემა, რისთვისაც საჭიროა მოწყობილობების ერთმანეთთან ახლოს მოთავსება. მაგალითად, შეგიძლიათ გადასცეთ ვებგვერდები, YouTube ვიდეოები, კონტაქტები და სხვა კონტენტი.\n\nუბრალოდ, მიადეთ მოწყობილობები ერთმანეთს (ჩვეულებრივ, უკანა მხრით) და შეეხეთ ეკრანს. აპი თავად მიხვდება, რა ტიპის კონტენტი უნდა გადაიცეს სხივით."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi‑Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Wi‑Fi-ს ჩართვა"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"პორტატიული Wi-Fi-ის უსადენო ქსელის შეცდომა"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"დააყენეთ Wi‑Fi უსადენო ქსელი"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Wi‑Fi უსადენო ქსელის დაყენება"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK უსადენო ქსელი"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK უსადენო ქსელი"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"შეინახოს ეს ქსელი?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g>-ს სურს, ქსელი თქვენს ტელეფონზე შეინახოს"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g>-ს სურს, ქსელი თქვენს ტაბლეტზე შეინახოს"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIM PIN ოპერაცია ჩაიშალა!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"სისტემური განახლებები"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android-ის ვერსია"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android-ის უსაფრთხოების განახლება"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS-ის ვერსია"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS-ის უსაფრთხოების განახლება"</string>
     <string name="model_info" msgid="8997566254717810904">"მოდელი"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"აპარატურის ვერსია"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"მოწყობილობის ID"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB კავშირი კომპიუტერთან"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"დაკავშირება როგორც"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"მედია-მოწყობილობა (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"შესაძლებელს ხდის მედია ფაილების გადაცემას Windows-ში, ან Android File Transfer-ის გამოყენებით Mac-ში (იხილეთ www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"შესაძლებელს ხდის მედია ფაილების გადაცემას Windows-ში, ან ethOS File Transfer-ის გამოყენებით Mac-ში (იხილეთ www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"კამერა ( PTP )"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"იძლევა ფოტოების კამერის პროგრამული უზერუნველყოფის საშუალებით გადაცემის და ასევე კომპიუტერებზე MTP-ს მხარდაჭერის მქონე ნებისმიერი ფაილების გადაცემის საშუალებას."</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"ხელმეორედ ჩასვით <xliff:g id="NAME">^1</xliff:g> მასში შენახული აპების, ფოტოების ან მონაცემების გამოსაყენებლად. \n\nან, შეგიძლიათ აირჩიოთ ამ მეხსიერების დავიწყება, თუ მოწყობილობა მიუწვდომელია. \n\nთუ დავიწყებას აირჩევთ, მოწყობილობაზე შენახული ყველა მონაცემი სამუდამოდ დაიკარგება. \n\nმოგვიანებით შეგიძლიათ ხელახლა დააინსტალიროთ აპები, მაგრამ ამ მოწყობილობაზე შენახული მათი მონაცემები დაიკარგება."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"გსურთ <xliff:g id="NAME">^1</xliff:g>-ის დავიწყება?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"ყველა აპი, ფოტო და მონაცემი, რომელიც ინახება ამ <xliff:g id="NAME">^1</xliff:g>-ზე, სამუდამოდ დაიკარგება."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"სისტემა მოიცავს ფაილებს, რომლებიც Android <xliff:g id="VERSION">%s</xliff:g>-ის გასაშვებად გამოიყენება"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"სისტემა მოიცავს ფაილებს, რომლებიც ethOS <xliff:g id="VERSION">%s</xliff:g>-ის გასაშვებად გამოიყენება"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"სტუმრის რეჟიმში მყოფთ არ შეუძლიათ SD ბარათის დაფ."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"დააყენეთ თქვენი <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"SD ბარათის დაფორმატება პორტატიული მეხსიერებისთვის"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"დაყენების ადგილი"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"შეცვალეთ ახალი აპების დაყენებისთვის შერჩეული მდებარეობა"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"აპის გამორთვა"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"ამ აპის გათიშვის შემთხვევაში, Android-მა და სხვა აპებმა შეიძლება გამართულად აღარ იმუშაოს. გაითვალისწინეთ, რომ ამ აპს ვერ წაშლით, რადგან ის მოწყობილობაზე წინასწარ იყო ინსტალირებული. გათიშვით, თქვენ გამორთავთ ამ აპს და დამალავთ მოწყობილობაზე."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"ამ აპის გათიშვის შემთხვევაში, ethOS-მა და სხვა აპებმა შეიძლება გამართულად აღარ იმუშაოს. გაითვალისწინეთ, რომ ამ აპს ვერ წაშლით, რადგან ის მოწყობილობაზე წინასწარ იყო ინსტალირებული. გათიშვით, თქვენ გამორთავთ ამ აპს და დამალავთ მოწყობილობაზე."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"გამოვრთოთ შეტყობინებები?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"მაღაზია"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"აპის შესახებ"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"ფონი"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"წინა პლანი"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"ქეშირებული"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android-ის ოპერაციული სისტემა"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS-ის ოპერაციული სისტემა"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"მკვიდრი"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"ბირთვი"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"ხმის შეტანა და გამოტანა"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"ხმოვანი შეყვანისა და გამოტანის პარამეტრები"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"ხმოვანი ძიება"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android კლავიატურა"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS კლავიატურა"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"ხმოვანი მონაცემების შეტანის პარამეტრები"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"ხმოვანი შეყვანა"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"ხმის შეყვანის სერვისები"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, საავტომობილო რეჟიმი"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, საავტომობილო რეჟიმი, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, საავტომობილო რეჟიმი"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, საავტომობილო რეჟიმი, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, საავტომობილო რეჟიმი"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"მიუწვდომელია, რადგან NFC გამორთულია"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"გამოსაყენებლად დააინსტალირეთ გადახდის აპი"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"აპები და შეტყობინებები"</string>
@@ -3799,7 +3799,7 @@
     <string name="keywords_imei_info" msgid="8848791606402333514">"IMEI, MEID, MIN, PRL ვერსია, IMEI SV"</string>
     <string name="keywords_sim_status" msgid="8784456547742075508">"ქსელი, მობილური ქსელის მდგომარეობა, სერვისის მდგომარეობა, სიგნალის სიძლიერე, მობილური ქსელის ტიპი, როუმინგი, ICCID, EID"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"სერიული ნომერი, აპარატურის ვერსია"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"Android-ის უსაფრთხოების ჩასწორების დონე, baseband-ის ვერსია, kernel-ის ვერსია"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"ethOS-ის უსაფრთხოების ჩასწორების დონე, baseband-ის ვერსია, kernel-ის ვერსია"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"თემა, განათება, მუქი რეჟიმი, მგრძნობელობა სინათლის მიმართ, ფოტოფობია, გამუქება, ჩაბნელება, მუქი რეჟიმი, შაკიკი"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"მუქი თემა"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"ხარვეზი"</string>
@@ -3811,7 +3811,7 @@
     <string name="keywords_display_auto_brightness" msgid="7162942396941827998">"ეკრანის ჩაბნელება, სენსორული ეკრანი, ბატარეა, გონიერი სიკაშკაშე, დინამიკური სიკაშკაშე, ავტომატური სიკაშკაშე"</string>
     <string name="keywords_display_adaptive_sleep" msgid="4905300860114643966">"გონიერი, ეკრანის ჩაბნელება, ძილი, ბატარეა, დროის ლიმიტი, ყურადღება, დისპლეი, ეკრანი, უმოქმედობა"</string>
     <string name="keywords_auto_rotate" msgid="7288697525101837071">"კამერა, გონიერი, ავტომატური შეტრიალება, ავტო შეტრიალება, შეტრიალება, ამობრუნება, შეტრიალება, პორტრეტი, ლანდშაფტი, ორიენტაცია, ვერტიკალური, ჰორიზონტალური"</string>
-    <string name="keywords_system_update_settings" msgid="5769003488814164931">"განახლება, Android"</string>
+    <string name="keywords_system_update_settings" msgid="5769003488814164931">"განახლება, ethOS"</string>
     <string name="keywords_zen_mode_settings" msgid="7810203406522669584">"DND, განრიგი, შეტყობინებები, დაბლოკვა, სიჩუმე, ვიბრაცია, ძილი, მუშაობა, კონცენტრირება, ხმა, დადუმება, დღე, სამუშაო დღე, შაბათ-კვირა, სამუშაო კვირის საღამო, მოვლენა"</string>
     <string name="keywords_screen_timeout" msgid="8921857020437540572">"ეკრანი, ჩაკეტვის დრო, დროის ლიმიტი, ჩაკეტილი ეკრანი"</string>
     <string name="keywords_storage_settings" msgid="6018856193950281898">"მეხსიერება, ქეში, მონაცემები, წაშლა, გასუფთავება, ცარიელი, სივრცე"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"შეტყობინებაზე წვდომა არც ერთ ინსტალირებულ აპს არ მოუთხოვია."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"დაუშვით წვდომა შეტყობინებებზე"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"გსურთ მიანიჭოთ <xliff:g id="SERVICE">%1$s</xliff:g>-ს შეტყობინებებზე წვდომა?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"გაფართოებულმა შეტყობინებებმა ჩაანაცვლა Android-ის ადაპტაციური შეტყობინებების ფუნქცია Android 12-ში. ეს ფუნქცია გაჩვენებთ შემოთავაზებულ მოქმედებებს და პასუხებს, ამასთანავე კი ახდენს თქვენი შეტყობინებების ორგანიზებას. \n\nგაფართოებულ შეტყობინებებს შეუძლია ყველა შეტყობინების კონტენტზე, მათ შორის, ისეთ პერსონალურ ინფორმაციაზე წვდომა, როგორიცაა კონტაქტების სახელები და შეტყობინებები. ამ ფუნქციას ასევე შეუძლია შეტყობინებათა დახურვა ან მათზე პასუხის გაცემა, მაგალითად, სატელეფონო ზარებზე პასუხი და „არ შემაწუხოთ“ რეჟიმის მართვა."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"გაფართოებულმა შეტყობინებებმა ჩაანაცვლა ethOS-ის ადაპტაციური შეტყობინებების ფუნქცია ethOS 12-ში. ეს ფუნქცია გაჩვენებთ შემოთავაზებულ მოქმედებებს და პასუხებს, ამასთანავე კი ახდენს თქვენი შეტყობინებების ორგანიზებას. \n\nგაფართოებულ შეტყობინებებს შეუძლია ყველა შეტყობინების კონტენტზე, მათ შორის, ისეთ პერსონალურ ინფორმაციაზე წვდომა, როგორიცაა კონტაქტების სახელები და შეტყობინებები. ამ ფუნქციას ასევე შეუძლია შეტყობინებათა დახურვა ან მათზე პასუხის გაცემა, მაგალითად, სატელეფონო ზარებზე პასუხი და „არ შემაწუხოთ“ რეჟიმის მართვა."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"გსურთ მიანიჭოთ <xliff:g id="SERVICE">%1$s</xliff:g>-ს შეტყობინებებზე წვდომა?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> შეძლებს ყველა შეტყობინების, მაგალითად, ისეთი პერსონალური ინფორმაციის წაკითხვას, როგორიცაა კონტაქტების სახელები, ფოტოები და თქვენ მიერ მიღებული შეტყობინებების ტექსტი. ეს აპი ასევე შეძლებს, ჩააჩუმოს ან დახუროს შეტყობინებები და აამოქმედოს შეტყობინებათა ღილაკები, მათ შორის, სატელეფონო ზარებზე პასუხი. \n\nაპს მიეცემა „არ შემაწუხოთ“ რეჟიმის ჩართვის ან გამორთვის და დაკავშირებული პარამეტრების შეცვლის შესაძლებლობაც."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>-ს შეეძლება:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"დაუინსტალირებელმა აპებმა მოითხოვა „არ შემაწუხოთ“ წვდომა"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"მიმდინარეობს აპების ჩატვირთვა…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"თქვენ არ დაუშვით შეტყობინებები ამ აპიდან"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"თქვენი მოთხოვნის მიხედვით, Android ბლოკავს შეტყობინებების ამ კატეგორიის მოწყობილობაზე გამოჩენას"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"თქვენი მოთხოვნის მიხედვით, Android ბლოკავს შეტყობინებების ამ ჯგუფის გამოჩენას მოწყობილობაზე"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"თქვენი მოთხოვნის მიხედვით, ethOS ბლოკავს შეტყობინებების ამ კატეგორიის მოწყობილობაზე გამოჩენას"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"თქვენი მოთხოვნის მიხედვით, ethOS ბლოკავს შეტყობინებების ამ ჯგუფის გამოჩენას მოწყობილობაზე"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"ეს აპი არ აგზავნის შეტყობინებებს"</string>
     <string name="notification_channels" msgid="1502969522886493799">"კატეგორიები"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"სხვა"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"შესული ხართ, როგორც <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ნაგულისხმევია"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"სარეზერვო ასლების შექმნა გათიშულია"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"განახლდა Android <xliff:g id="VERSION">%1$s</xliff:g>-ზე"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"განახლდა ethOS <xliff:g id="VERSION">%1$s</xliff:g>-ზე"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"განახლება ხელმისაწვდომია"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"დაბლოკილია თქვენი IT-ადმინისტრატორის მიერ"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"ხმის შეცვლა ვერ მოხერხდა"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"შეიძლება დაკარგოთ წვდომა ნებისმიერ დარჩენილ დროზე ან მონაცემზე. ამოშლამდე გადაამოწმეთ თქვენს პროვაიდერთან."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"კონტენტის აღბეჭდვა, აპის კონტენტი"</string>
     <string name="content_capture" msgid="868372905432812238">"აპის კონტენტი"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"დართეთ ნება აპებს, გაგზავნონ კონტენტი Android სისტემაში"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"დართეთ ნება აპებს, გაგზავნონ კონტენტი ethOS სისტემაში"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"სისტემის გროვის ამონაწერის აღბეჭდვა"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"MTE-ს მეშვეობით გადატვირთვა"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"სისტემა გადაიტვირთება და მეხსიერების ტეგირების გაფართოების (MTE) ტესტირებას დაიწყებს. MTE-მ შეიძლება უარყოფითად იმოქმედოს სისტემის ეფექტურობასა და სტაბილურობაზე. ეს პარამეტრი გადაყენდება შემდეგი გადატვირთვის დროს."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"სისტემის გროვის ამონაწერის აღბეჭდვა"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"სისტემის გროვის ამონაწერი ვერ აღიბეჭდა"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"სისტემის გროვის ამონაწერის ავტომატურად აღბეჭდვა"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ავტომატურად აღიბეჭდოს გროვის ამონაწერი Android სისტემისთვის, როდესაც ის მეტისმეტად ბევრ მეხსიერებას იყენებს"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"ავტომატურად აღიბეჭდოს გროვის ამონაწერი ethOS სისტემისთვის, როდესაც ის მეტისმეტად ბევრ მეხსიერებას იყენებს"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"გათიშვა"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"გადაუდებელი ზარები"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"გადაუდებელი ზარების Wi‑Fi დარეკვის საშუალებით შესრულება არ არის მხარდაჭერილი თქვენი ოპერატორის მიერ.\nგადაუდებელი ზარის განსახორციელებლად მოწყობილობა ავტომატურად გადაერთვება ფიჭურ ქსელზე.\nგადაუდებელი ზარები მხოლოდ იმ არეალებშია შესაძლებელი, სადაც ფიჭური კავშირგაბმულობა არსებობს."</string>

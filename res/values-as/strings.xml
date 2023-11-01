@@ -314,7 +314,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"সক্ষম কৰিলে অন্তিম বিশ্বাসী এজেণ্টটোৱে বিশ্বাস হেৰুৱালে ডিভাইচটো লক হ’ব"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"নাই"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"যেনে, জয়েজৰ Android।"</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"যেনে, জয়েজৰ ethOS।"</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"লক স্ক্ৰীনত প্ৰ’ফাইল-বিষয়ক তথ্য দেখুৱাওক"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"একাউণ্টসমূহ"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"অৱস্থান"</string>
@@ -1039,11 +1039,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFCএ এইটো ডিভাইচ আৰু অন্যান্য নিকটৱৰ্তী ডিভাইচসমূহ বা লক্ষ্যসমূহ যেনে পৰিশোধ টাৰ্মিনেল, এক্সেছ ৰিডাৰ আৰু ইণ্টাৰেক্টিভ এড বা টেগসমূহৰ মাজত ডেটা বিনিময় কৰিব পাৰে৷"</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFCৰ বাবে ডিভাইচ আনলক কৰাৰ প্ৰয়োজন"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"স্ক্ৰীনখন আনলক হৈ থকা অৱস্থাতহে NFCৰ ব্যৱহাৰৰ অনুমতি দিয়ক"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android বীম"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS বীম"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"NFCৰ জৰিয়তে এপৰ সমলবিলাক পঠালৈ সাজু"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"অফ"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"NFC অফ হৈ থকাৰ কাৰণে অনুপলব্ধ"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android বীম"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS বীম"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"এই সুবিধাটো সক্ষম কৰিলে, আপুনি এপৰ সমল অইন এটা NFC-সক্ষম ডিভাইচলৈ দুয়োটা ডিভাইচ ওচৰা-ওচৰিকৈ ৰাখি বীম কৰিব পাৰিব। উদাহৰণস্বৰূপে, আপুনি ৱেব পৃষ্ঠা, YouTubeৰ ভিডিঅ\' আৰু সম্পৰ্ক সূচীকে আদি কৰি অইন বহুত সমল বীম কৰিব পাৰিব।\n\nদুয়োটা ডিভাইচ ওচৰা-ওচৰিকৈ ৰাখক (সাধাৰণতে, পিঠিয়া-পিঠিকৈ) আৰু তাৰ পাছত স্ক্ৰীনত টিপক। কি কি বীম কৰা হয় তাক এপ্‌টোৱে নিৰ্ধাৰিত কৰে।"</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"ৱাই-ফাই"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"বাই-ফাই অন কৰক"</string>
@@ -1313,8 +1313,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"প\'ৰ্টেবল ৱাই-ফাই হটস্পট  ত্ৰুটি"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"ৱাই-ফাই হটস্পট ছেট আপ কৰক"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"ৱাই-ফাই হটস্পট  ছেটআপ"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK হটস্পট"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK হটস্পট"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"এই নেটৱৰ্কটো ছেভ কৰিবনে?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g>এ আপোনাৰ ফ’নত এটা নেটৱৰ্ক ছেভ কৰিবলৈ বিচাৰে"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g>এ আপোনাৰ টেবলেটত এটা নেটৱৰ্ক ছেভ কৰিবলৈ বিচাৰে"</string>
@@ -1610,8 +1610,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"ছিম পিন অপাৰেশ্বন সফল নহ\'ল!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"ছিষ্টেম আপডেইট"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android সংস্কৰণ"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Android সুৰক্ষা আপডে’ট"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS সংস্কৰণ"</string>
+    <string name="security_patch" msgid="4071756145347865382">"ethOS সুৰক্ষা আপডে’ট"</string>
     <string name="model_info" msgid="8997566254717810904">"মডেল"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"হাৰ্ডৱেৰৰ সংস্কৰণ"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"সঁজুলিৰ ID"</string>
@@ -1726,7 +1726,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB কম্পিউটাৰ সংযোগ"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"এই হিচাপে সংযোগ কৰক"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"মিডিয়া ডিভাইচ (এমটিপি)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Windowsত, বা Macত Android স্থানান্তৰণ ব্যৱহাৰ কৰি মিডিয়া ফাইল স্থানান্তৰ কৰিবলৈ দিয়ে (www.android.com/filetransfer চাওক)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Windowsত, বা Macত ethOS স্থানান্তৰণ ব্যৱহাৰ কৰি মিডিয়া ফাইল স্থানান্তৰ কৰিবলৈ দিয়ে (www.android.com/filetransfer চাওক)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"কেমেৰা (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"কেমেৰা ছফটৱেৰ ব্যৱহাৰ কৰি ফট’ স্থানান্তৰ কৰাৰ লগতে MTPৰ সুবিধা নথকা কম্পিউটাৰৰ মাজত যিকোনো ফাইল স্থানান্তৰ কৰাৰ সুবিধা দিয়ে"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"এমআইডিআই"</string>
@@ -1749,7 +1749,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"<xliff:g id="NAME">^1</xliff:g>ত থকা এপ্‌সমূহ, ফট’ বা ডেটা ব্যৱহাৰ কৰিবলৈ ইয়াক পুনৰ ডিভাইচত ভৰাওক। \n\nইয়াৰ উপৰিও, যদি ডিভাইচটো উপলব্ধ নহয়, তেতিয়া আপুনি এই ষ্ট’ৰেজ ইচ্ছা কৰিলে পাহৰি যাব পাৰিব। \n\nযদি আপুনি পাহৰি যাবলৈ বিচাৰে, তেতিয়া ডিভাইচত থকা আটাইখিনি ডেটা হেৰুৱাব। \n\nআপুনি এপ্‌সমূহ পাছত আকৌ ইনষ্টল কৰিব পাৰে, কিন্তু এই ডিভাইচত জমা হৈ থকা সেই এপ্‌সমূহৰ কোনো ডেটা পুনৰ ঘূৰাই নাপাব।"</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g>ক পাহৰিব বিচাৰেনে?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"এই <xliff:g id="NAME">^1</xliff:g>ত সঞ্চিত আটাইবোৰ এপ্, ফট\' আৰু ডেটা চিৰদিনৰ কাৰণে হেৰুৱাব।"</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"ছিষ্টেমত Android সংস্কৰণ <xliff:g id="VERSION">%s</xliff:g> চলিবলৈ দৰকাৰী ফাইল অন্তৰ্ভুক্ত হৈ আছে"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"ছিষ্টেমত ethOS সংস্কৰণ <xliff:g id="VERSION">%s</xliff:g> চলিবলৈ দৰকাৰী ফাইল অন্তৰ্ভুক্ত হৈ আছে"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"অতিথি ম’ড ব্যৱহাৰকাৰীসকলে SD কাৰ্ড ফৰ্মেট কৰিব নোৱাৰে"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"আপোনাৰ <xliff:g id="NAME">^1</xliff:g> ছেট আপ কৰক"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"প’ৰ্টেবল ষ্ট’ৰেজৰ বাবে SD কাৰ্ড ফৰ্মেট কৰক"</string>
@@ -2256,7 +2256,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"ইনষ্টল কৰাৰ বাবে অগ্ৰাধিকাৰ দিয়া অৱস্থান"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"নতুন এপৰ বাবে পচন্দৰ ইনষ্টলেশ্বন অৱস্থান সলনি কৰক"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"এপ্ অক্ষম কৰক"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"আপুনি যদি এই এপ্‌টো অক্ষম কৰে, তেন্তে Android আৰু অন্য এপ্‌সমূহে বিচৰাৰ দৰে কাম নকৰিব পাৰে। মনত ৰাখিব, আপুনি এই এপ্‌টো মচিব নোৱাৰে কাৰণ এইটো আপোনাৰ ডিভাইচত আগৰেপৰা ইনষ্টল কৰি থোৱা আছে। অক্ষম কৰি আপুনি এই এপ্‌টো অফ কৰে আৰু ইয়াক আপোনাৰ ডিভাইচৰপৰা লুকুৱায়।"</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"আপুনি যদি এই এপ্‌টো অক্ষম কৰে, তেন্তে ethOS আৰু অন্য এপ্‌সমূহে বিচৰাৰ দৰে কাম নকৰিব পাৰে। মনত ৰাখিব, আপুনি এই এপ্‌টো মচিব নোৱাৰে কাৰণ এইটো আপোনাৰ ডিভাইচত আগৰেপৰা ইনষ্টল কৰি থোৱা আছে। অক্ষম কৰি আপুনি এই এপ্‌টো অফ কৰে আৰু ইয়াক আপোনাৰ ডিভাইচৰপৰা লুকুৱায়।"</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"জাননীসমুহ অফ কৰিবনে?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Store"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"এপৰ সবিশেষ"</string>
@@ -3118,7 +3118,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"নেপথ্য"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"অগ্ৰভাগ"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"কেশ্ব কৰা হোৱা"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"স্থানীয়"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"কাৰ্ণেল"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"জেড-ৰেম"</string>
@@ -3145,7 +3145,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"ভইচ ইনপুট আৰু আউটপুট"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"ভইচ ইনপুট আৰু আউটপুট ছেটিং"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"কণ্ঠধ্বনিৰদ্বাৰা অনুসন্ধান"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android কীব\'ৰ্ড"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS কীব\'ৰ্ড"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"ভইচ ইনপুটৰ ছেটিং"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"ধ্বনি ইনপুট"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"ধ্বনি ইনপুট সেৱাসমূহ"</string>
@@ -3725,10 +3725,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"ব্লুটুথ, গাড়ী চালনা ম\'ড"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"ব্লুটুথ, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"ব্লুটুথ"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"ব্লুটুথ, Android Auto, গাড়ীচালনা ম’ড, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"ব্লুটুথ, Android Auto, গাড়ীচালনা ম’ড"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"ব্লুটুথ, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"ব্লুটুথ, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"ব্লুটুথ, ethOS Auto, গাড়ীচালনা ম’ড, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"ব্লুটুথ, ethOS Auto, গাড়ীচালনা ম’ড"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"ব্লুটুথ, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"ব্লুটুথ, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC অফ হৈ থকাৰ কাৰণে উপলব্ধ নহয়"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"ব্যৱহাৰ কৰিবলৈ প্ৰথমে এটা পৰিশোধ এপ্ ইনষ্টল কৰক"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"এপ্ আৰু জাননীসমূহ"</string>
@@ -4175,7 +4175,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"ইনষ্টল কৰা হোৱা কোনো এপে জাননীৰ এক্সেছ অনুৰোধ কৰা নাই।"</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"জাননী এক্সেছ কৰাৰ অনুমতি দিয়ক"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g>ক জাননী এক্সেছ কৰাৰ অনুমতি দিবনে?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Android 12ত Androidৰ অভিযোজিত জাননীক উন্নত জাননীৰ দ্বাৰা সলনি কৰা হৈছে। এই সুবিধাটোৱে পৰামৰ্শ দিয়া কাৰ্য আৰু প্ৰত্যুত্তৰ দেখুৱায় আৰু আপোনাৰ জাননীসমূহ শৃংখলাবদ্ধ কৰে। \n\nউন্নত জাননীয়ে সম্পৰ্কৰ নাম আৰু বাৰ্তাৰ দৰে ব্যক্তিগত তথ্যকে ধৰি জাননীৰ সমল এক্সেছ কৰিব পাৰে। এই সুবিধাটোৱে জাননী অগ্ৰাহ্য কৰিব অথবা জাননীৰ প্ৰতি সঁহাৰি জনাবও পাৰে, যেনে ফ’ন কলৰ উত্তৰ দিয়া আৰু অসুবিধা নিদিব সুবিধাটো নিয়ন্ত্ৰণ কৰা আদি।"</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"ethOS 12ত ethOSৰ অভিযোজিত জাননীক উন্নত জাননীৰ দ্বাৰা সলনি কৰা হৈছে। এই সুবিধাটোৱে পৰামৰ্শ দিয়া কাৰ্য আৰু প্ৰত্যুত্তৰ দেখুৱায় আৰু আপোনাৰ জাননীসমূহ শৃংখলাবদ্ধ কৰে। \n\nউন্নত জাননীয়ে সম্পৰ্কৰ নাম আৰু বাৰ্তাৰ দৰে ব্যক্তিগত তথ্যকে ধৰি জাননীৰ সমল এক্সেছ কৰিব পাৰে। এই সুবিধাটোৱে জাননী অগ্ৰাহ্য কৰিব অথবা জাননীৰ প্ৰতি সঁহাৰি জনাবও পাৰে, যেনে ফ’ন কলৰ উত্তৰ দিয়া আৰু অসুবিধা নিদিব সুবিধাটো নিয়ন্ত্ৰণ কৰা আদি।"</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"<xliff:g id="SERVICE">%1$s</xliff:g>ক জাননী এক্সেছ কৰাৰ অনুমতি দিবনে?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>এ আটাইবোৰ জাননী পঢ়িব পাৰিব, য’ত সম্পৰ্কৰ নাম, ফট’ আৰু আপুনি পোৱা পাঠ বাৰ্তাৰ দৰে ব্যক্তিগত তথ্য অন্তৰ্ভুক্ত। এই এপ্‌টোৱে জাননী স্নুজ কৰিব অথবা ফ’ন কলৰ উত্তৰ দিয়াৰ দৰে জাননীত থকা বুটামৰ ওপৰত কাৰ্যব্যৱস্থা ল’বও পাৰিব। \n\nএইটোৱে এপ্‌টোক অসুবিধা নিদিব অন অথবা অফ কৰা আৰু তাৰ লগত জড়িত ছেটিংসমূহ সলনি কৰাৰ সক্ষমতাও দিব।"</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>এ এইবোৰ কৰিব পাৰিব:"</string>
@@ -4246,8 +4246,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"ইনষ্টল কৰি থোৱা কোনো এপে অসুবিধা নিদিবৰ এক্সেছ বিচৰা নাই"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"এপসমূহ ল’ড কৰি থকা হৈছে…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"আপুনি এই এপ্‌টোৰ পৰা জাননী পঠিয়াবলৈ অনুমতি দিয়া নাই"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"আপোনাৰ অনুৰোধমৰ্মে, Androidএ জাননীসমূহৰ এই শ্ৰেণীটোক এই ডিভাইচটোত দৃশ্যমান হ\'বলৈ দিয়া নাই"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"আপোনাৰ অনুৰোধমৰ্মে, Androidএ জাননীসমূহৰ এই গোটটোক এই ডিভাইচটোত দৃশ্যমান হ\'বলৈ দিয়া নাই"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"আপোনাৰ অনুৰোধমৰ্মে, ethOSএ জাননীসমূহৰ এই শ্ৰেণীটোক এই ডিভাইচটোত দৃশ্যমান হ\'বলৈ দিয়া নাই"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"আপোনাৰ অনুৰোধমৰ্মে, ethOSএ জাননীসমূহৰ এই গোটটোক এই ডিভাইচটোত দৃশ্যমান হ\'বলৈ দিয়া নাই"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"এই এপ্‌টোৱে জাননী নপঠায়"</string>
     <string name="notification_channels" msgid="1502969522886493799">"শ্ৰেণী"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"অন্যান্য"</string>
@@ -4823,7 +4823,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> হিচাপে ছাইন কৰিছে"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ডিফ\'ল্টহৈ আছে"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"বেকআপ নিষ্ক্ৰিয়হৈ আছে"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g>লৈ আপডে’ট কৰা হ’ল"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"ethOS <xliff:g id="VERSION">%1$s</xliff:g>লৈ আপডে’ট কৰা হ’ল"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"আপডে’ট উপলব্ধ"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"আপোনাৰ আইটি প্ৰশাসকে অৱৰোধ কৰিছে"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"ভলিউম সলনি কৰিব নোৱাৰি"</string>
@@ -5660,14 +5660,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"আপুনি বাকী থকা সময় অথবা ডেটাৰ এক্সেছ হেৰুৱাব পাৰে। আঁতৰোৱাৰ আগতে আপোনাৰ সেৱা প্ৰদানকাৰীৰ সৈতে যোগাযোগ কৰক।"</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"সমলৰ কেপচাৰ, এপৰ সমল"</string>
     <string name="content_capture" msgid="868372905432812238">"এপৰ সমল"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Android ছিষ্টেমলৈ সমল পঠিয়াবলৈ এপক অনুমতি দিয়ক"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"ethOS ছিষ্টেমলৈ সমল পঠিয়াবলৈ এপক অনুমতি দিয়ক"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"ছিষ্টেম হীপ ডাম্প কেপচাৰ কৰক"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"MTEৰ সৈতে ৰিবুট কৰক"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"ছিষ্টেমটো ৰিবুট হ’ব আৰু মেম’ৰী টেগিং এক্সটেনশ্যনৰ (MTE) সৈতে পৰীক্ষণৰ অনুমতি দিব। MTEএ ছিষ্টেমৰ কাৰ্যদক্ষতা আৰু স্থিৰতাত নেতিবাচক প্ৰভাৱ পেলাব পাৰে। কিছু সময়ৰ পাছৰ পৰৱৰ্তী ৰিবুটত ৰিছেট কৰা হ’ব।"</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"ছিষ্টেম হীপ ডাম্প কেপচাৰ কৰি থকা হৈছে"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"ছিষ্টেম হীপ ডাম্প কেপচাৰ কৰিব পৰা নগ’ল"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"ছিষ্টেম হীপ ডাম্পসমূহ স্বয়ংক্ৰিয়ভাৱে কেপচাৰ কৰক"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"যেতিয়া Android ছিষ্টেমে অতি বেছি মেম’ৰী ব্যৱহাৰ কৰে তেতিয়া ইয়াৰ বাবে স্বয়ংক্ৰিয়ভাৱে এটা হীপ ডাম্প কেপচাৰ কৰক"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"যেতিয়া ethOS ছিষ্টেমে অতি বেছি মেম’ৰী ব্যৱহাৰ কৰে তেতিয়া ইয়াৰ বাবে স্বয়ংক্ৰিয়ভাৱে এটা হীপ ডাম্প কেপচাৰ কৰক"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"সংযোগ বিচ্ছিন্ন কৰক"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"জৰুৰীকালীন কল"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"আপোনাৰ বাহকত ৱাই-ফাই কলিং ব্যৱহাৰ কৰি জৰুৰীকালীন কল কৰাৰ সুবিধা নাই।\nজৰুৰীকালীন কল কৰিবলৈ ডিভাইচটোৱে স্বয়ংক্ৰিয়ভাৱে চেলুলাৰ নেটৱৰ্কলৈ সলনি কৰে।\nকেৱল চেলুলাৰ নেটৱৰ্ক থকা ঠাইৰ পৰাহে জৰুৰীকালীন কল কৰিব পৰা যায়।"</string>

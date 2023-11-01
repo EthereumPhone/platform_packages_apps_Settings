@@ -316,7 +316,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Dacă este activată, dispozitivul se va bloca atunci când ultimul agent de încredere pierde încrederea"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Niciunul"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"De ex., dispozitivul Android al lui Andrei."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"De ex., dispozitivul ethOS al lui Andrei."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Afișează informații profil la blocarea ecranului"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Conturi"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Locație"</string>
@@ -1056,11 +1056,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC transmite date între acest dispozitiv și alte dispozitive sau ținte din apropiere, cum ar fi terminale de plată, cititoare de acces și anunțuri sau etichete interactive."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Solicită deblocarea dispozitivului pentru NFC"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Permite folosirea tehnologiei NFC doar când ecranul este deblocat"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Pregătit să transmită conținut din aplicații prin NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Dezactivată"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Indisponibilă, deoarece NFC este oprit"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"După activarea acestei funcții, poți transmite conținutul aplicațiilor către un alt dispozitiv compatibil NFC, ținând cele două dispozitive apropiate unul de celălalt. De exemplu, poți să transmiți pagini web, videoclipuri YouTube, date de contact și multe altele.\n\nNu trebuie decât să apropii cele două dispozitive (de obicei, așezându-le spate în spate) și să atingi ecranul. Aplicația determină apoi ce poate fi transmis."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Activează conexiunea Wi-Fi"</string>
@@ -1333,8 +1333,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Eroare de hotspot Wi-Fi portabil"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Configurează hotspotul Wi-Fi"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Configurare hotspot Wi-Fi"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Hotspot AndroidAP WPA2 PSK"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"Hotspot ethOSAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Salvezi rețeaua?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> dorește să vă salveze o rețea pe telefon"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> dorește să vă salveze o rețea pe tabletă"</string>
@@ -1631,8 +1631,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"Deblocarea cu ajutorul codului PIN pentru cardul SIM nu a reușit!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Actualizări de sistem"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Versiune Android"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Actualizare de securitate Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"Versiune ethOS"</string>
+    <string name="security_patch" msgid="4071756145347865382">"Actualizare de securitate ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"Model"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Versiune de hardware"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"ID echipament"</string>
@@ -1747,7 +1747,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"Conectare la computer prin USB"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Conectează-te ca"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Dispozitiv media (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Îți permite să transferi fișiere media pe Windows sau utilizând aplicația Transfer de fișiere Android pe Mac (disponibil la www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Îți permite să transferi fișiere media pe Windows sau utilizând aplicația Transfer de fișiere ethOS pe Mac (disponibil la www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Cameră foto (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Îți permite să transferi fotografii utilizând software-ul camerei foto și să transferi fișiere de pe computere care nu acceptă MTP"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1770,7 +1770,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Pentru a folosi aplicațiile, fotografiile și datele pe care le conține acest <xliff:g id="NAME">^1</xliff:g>, reintrodu-l. \n\nSau, poți alege să ștergi acest spațiu de stocare, dacă dispozitivul nu este disponibil. \n\nDacă alegi să îl ștergi, toate datele de pe dispozitiv vor fi pierdute definitiv. \n\nPoți reinstala aplicațiile mai târziu, dar datele acestora care au fost stocate pe dispozitiv vor fi pierdute."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Elimini <xliff:g id="NAME">^1</xliff:g> din listă?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Toate aplicațiile, fotografiile și datele stocate pe acest <xliff:g id="NAME">^1</xliff:g> se vor pierde definitiv."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistemul include fișiere folosite pentru a rula versiunea de Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistemul include fișiere folosite pentru a rula versiunea de ethOS <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Utilizatorii invitați nu pot formata carduri SD"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Configurează <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Formatează cardul SD pentru memorie portabilă"</string>
@@ -2280,7 +2280,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Locație preferată de instalare"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Schimbă locația preferată de instalare pentru noile aplicații"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Dezactivează aplicația"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Dacă dezactivezi această aplicație, este posibil ca Android și alte aplicații să nu mai funcționeze corespunzător. Reține că nu poți șterge aplicația, deoarece a fost preinstalată pe dispozitiv. Dezactivând-o, oprești această aplicație și o ascunzi pe dispozitiv."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Dacă dezactivezi această aplicație, este posibil ca ethOS și alte aplicații să nu mai funcționeze corespunzător. Reține că nu poți șterge aplicația, deoarece a fost preinstalată pe dispozitiv. Dezactivând-o, oprești această aplicație și o ascunzi pe dispozitiv."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Dezactivezi notificările?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Magazin"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Detalii despre aplicație"</string>
@@ -3156,7 +3156,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"În fundal"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"În prim-plan"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"În cache"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Sistem de operare Android"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"Sistem de operare ethOS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Native"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Nucleu"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3183,7 +3183,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Intrare și ieșire voce"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Setări de intrare și de ieșire a vocii"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Căutare vocală"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Tastatură Android"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"Tastatură ethOS"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Setări de intrare vocală"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Intrare vocală"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Servicii de intrare vocală"</string>
@@ -3768,10 +3768,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, modul Cu mașina"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, modul cu mașina, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, modul cu mașina"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, modul cu mașina, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, modul cu mașina"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Indisponibile, deoarece tehnologia NFC este dezactivată"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Pentru a folosi funcția, trebuie întâi să instalezi o aplicație pentru plăți"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Aplicații și notificări"</string>
@@ -3842,7 +3842,7 @@
     <string name="keywords_imei_info" msgid="8848791606402333514">"imei, meid, min, versiune PRL, imei sv"</string>
     <string name="keywords_sim_status" msgid="8784456547742075508">"rețea, starea rețelei mobile, starea acoperirii, puterea semnalului, tip de rețea mobilă, roaming, iccid, eid"</string>
     <string name="keywords_model_and_hardware" msgid="4723665865709965044">"număr de serie, versiune de hardware"</string>
-    <string name="keywords_android_version" msgid="1629882125290323070">"nivelul corecției de securitate Android, versiunea benzii de bază, versiune nucleu"</string>
+    <string name="keywords_android_version" msgid="1629882125290323070">"nivelul corecției de securitate ethOS, versiunea benzii de bază, versiune nucleu"</string>
     <string name="keywords_dark_ui_mode" msgid="6373999418195344014">"temă, luminozitate, întunecat, mod, sensibilitate la lumină, fotofobie, întunecă, modul întunecat, migrenă"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"temă întunecată"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"eroare"</string>
@@ -4222,7 +4222,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Nicio aplicație instalată nu a solicitat accesul la notificări."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Permite accesul la notificări"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Permiți accesul la notificări pentru <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Notificările optimizate au înlocuit Notificările adaptive Android de pe Android 12. Această funcție afișează acțiuni și răspunsuri sugerate și vă organizează notificările. \n\nNotificările optimizate pot accesa conținutul notificărilor, inclusiv informații cu caracter personal, precum mesajele și numele persoanelor de contact. În plus, funcția poate să închidă sau să răspundă la notificări, de exemplu, să răspundă la apeluri telefonice și să gestioneze opțiunea Nu deranja."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Notificările optimizate au înlocuit Notificările adaptive ethOS de pe ethOS 12. Această funcție afișează acțiuni și răspunsuri sugerate și vă organizează notificările. \n\nNotificările optimizate pot accesa conținutul notificărilor, inclusiv informații cu caracter personal, precum mesajele și numele persoanelor de contact. În plus, funcția poate să închidă sau să răspundă la notificări, de exemplu, să răspundă la apeluri telefonice și să gestioneze opțiunea Nu deranja."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Permiți accesul la notificări pentru <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> va putea să citească toate notificările, inclusiv informațiile cu caracter personal, cum ar fi numele persoanelor de contact, fotografiile și textul mesajelor primite. În plus, va putea să amâne sau să închidă notificări ori să declanșeze butoane pentru acțiuni din acestea, inclusiv să răspundă la apeluri telefonice. \n\nAstfel, aplicația va putea să activeze sau să dezactiveze starea Nu deranja și să modifice setările aferente."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> va putea:"</string>
@@ -4294,8 +4294,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Nicio aplicație instalată nu a solicitat accesul Nu deranja"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Se încarcă aplicații…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Nu ai permis notificările de la această aplicație"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"La solicitarea ta, Android blochează această categorie de notificări pe dispozitiv"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"La solicitarea ta, Android blochează acest grup de notificări pe dispozitiv"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"La solicitarea ta, ethOS blochează această categorie de notificări pe dispozitiv"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"La solicitarea ta, ethOS blochează acest grup de notificări pe dispozitiv"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Aplicația nu trimite notificări"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Categorii"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Altele"</string>
@@ -4890,7 +4890,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Te-ai conectat ca <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> este prestabilită"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Backupul este dezactivat"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Actualizat la Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Actualizat la ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Actualizare disponibilă"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"Blocat de administratorul IT"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Nu se poate modifica volumul"</string>
@@ -5747,14 +5747,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Poți pierde accesul la timpul sau datele rămase. Consultă operatorul înainte de eliminare."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"captură de conținut, conținutul aplicației"</string>
     <string name="content_capture" msgid="868372905432812238">"Conținutul aplicației"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Permite aplicațiilor să trimită conținut la sistemul Android"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Permite aplicațiilor să trimită conținut la sistemul ethOS"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Capturează datele privind memoria heap a sistemului"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"Repornește cu MTE"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Sistemul va reporni și îți va permite să experimentați cu Memory Tagging Extension (MTE). MTE poate afecta negativ stabilitatea și performanța sistemului. Se va reseta la următoarea repornire."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Se capturează datele privind memoria heap a sistemului"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Nu s-au putut captura datele privind memoria heap a sistemului"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Capturează automat datele privind memoriile heap ale sistemului"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Capturează automat datele privind memoria heap pentru sistemul Android când folosește prea multă memorie"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Capturează automat datele privind memoria heap pentru sistemul ethOS când folosește prea multă memorie"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Deconectează"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Apeluri de urgență"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Apelurile de urgență prin Apelare prin Wi-Fi nu sunt acceptate de operator.\nDispozitivul comută automat la o rețea mobilă pentru a face un apel de urgență.\nApelurile de urgență sunt posibile numai în zonele cu acoperire a rețelelor de telefonie mobilă."</string>

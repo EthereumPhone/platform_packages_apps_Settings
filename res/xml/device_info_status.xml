@@ -77,6 +77,13 @@
         android:summary="@string/summary_placeholder"
         android:persistent="false" />
     <Preference
+        android:key="funded_by_nouns"
+        android:enabled="false"
+        android:shouldDisableView="false"
+        android:title="@string/status_nouns_funded"
+        android:summary="@string/summary_placeholder"
+        android:persistent="false" />
+    <Preference
         android:key="serial_number"
         android:enabled="false"
         android:shouldDisableView="false"

@@ -112,7 +112,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
                 Log.d(TAG, "Update statue unknown");
                 // fall through to next branch
             case SystemUpdateManager.STATUS_IDLE:
-                final String version = updateInfo.getString(SystemUpdateManager.KEY_TITLE);
+                final String version = "2.1";
                 if (!TextUtils.isEmpty(version)) {
                     summary = mContext.getString(R.string.android_version_summary, version);
                 }

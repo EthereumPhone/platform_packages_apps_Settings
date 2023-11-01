@@ -316,7 +316,7 @@
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Ako se omogući, uređaj će se zaključati kada poslednji pouzdani agent više ne bude pouzdan"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Ništa"</string>
     <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Npr. Jocin Android."</string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Npr. Jocin ethOS."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Prikaži podatke o profilu na zaključanom ekranu"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Nalozi"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Lokacija"</string>
@@ -1056,11 +1056,11 @@
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC razmenjuje podatke između ovog uređaja i drugih obližnjih uređaja ili meta, poput terminala za plaćanje, čitača za kontrolu pristupa i interaktivnih oglasa ili oznaka."</string>
     <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Za korišćenje NFC-a mora da se otključa uređaj"</string>
     <string name="nfc_secure_toggle_summary" product="default" msgid="407654335737959071">"Dozvoli korišćenje NFC-a samo kada je ekran otključan"</string>
-    <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
+    <string name="android_beam_settings_title" msgid="2797963824490671295">"ethOS Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Spremno za prenos sadržaja aplikacija preko NFC-a"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Isključeno"</string>
     <string name="nfc_disabled_summary" msgid="8737797364522502351">"Nije dostupno zato što je NFC isključen"</string>
-    <string name="android_beam_label" msgid="7168565080321110094">"Android Beam"</string>
+    <string name="android_beam_label" msgid="7168565080321110094">"ethOS Beam"</string>
     <string name="android_beam_explained" msgid="5684416131846701256">"Kada je ova funkcija uključena, možete da prebacujete sadržaj aplikacija na drugi uređaj na kome je omogućen NFC tako što ćete približiti uređaje jedan drugome. Na primer, možete da prebacujete veb-stranice, YouTube video snimke, kontakte i još toga.\n\nSamo prislonite uređaje jedan na drugi (obično sa zadnje strane), a zatim dodirnite ekran. Aplikacija određuje šta će biti prebačeno."</string>
     <string name="wifi_quick_toggle_title" msgid="2737097538432862807">"Wi‑Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="4957267477820468553">"Uključivanje WiFi-a"</string>
@@ -1333,8 +1333,8 @@
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Greška prenosnog Wi‑Fi hotspota"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Podesi WiFi hotspot"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="9027072969831022321">"Podešavanje Wi‑Fi hotspota"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"AndroidAP WPA2 PSK hotspot"</string>
-    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"AndroidHotspot"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="1445157424926935178">"ethOSAP WPA2 PSK hotspot"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"ethOSHotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Želite li da sačuvate ovu mrežu?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> želi da sačuva mrežu na telefonu"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> želi da sačuva mrežu na telefonu"</string>
@@ -1631,8 +1631,8 @@
     <string name="pin_failed" msgid="3726505565797352255">"Radnja sa PIN kodom za SIM nije uspela!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Ažuriranja sistema"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Android verzija"</string>
-    <string name="security_patch" msgid="4071756145347865382">"Bezbednosno ažuriranje za Android"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"ethOS verzija"</string>
+    <string name="security_patch" msgid="4071756145347865382">"Bezbednosno ažuriranje za ethOS"</string>
     <string name="model_info" msgid="8997566254717810904">"Model"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"Verzija hardvera"</string>
     <string name="fcc_equipment_id" msgid="6596668314025646129">"ID opreme"</string>
@@ -1747,7 +1747,7 @@
     <string name="storage_title_usb" msgid="1332488715547400452">"USB uređaj je povezan sa računarom"</string>
     <string name="usb_connection_category" msgid="2288543238378907242">"Poveži kao"</string>
     <string name="usb_mtp_title" msgid="9068009584556422314">"Medijski uređaj (MTP)"</string>
-    <string name="usb_mtp_summary" msgid="6293240861011560842">"Omogućava vam da prenosite medijske datoteke u Windows-u, odnosno pomoću aplikacije Android File Transfer na Mač računarima (pogledajte www.android.com/filetransfer)"</string>
+    <string name="usb_mtp_summary" msgid="6293240861011560842">"Omogućava vam da prenosite medijske datoteke u Windows-u, odnosno pomoću aplikacije ethOS File Transfer na Mač računarima (pogledajte www.android.com/filetransfer)"</string>
     <string name="usb_ptp_title" msgid="4496529268189091846">"Kamera (PTP)"</string>
     <string name="usb_ptp_summary" msgid="8382539472311655671">"Omogućava vam da prenosite fotografije pomoću softvera za kameru i da prenosite datoteke na računare koji ne podržavaju MTP"</string>
     <string name="usb_midi_title" msgid="1139558846427981761">"MIDI"</string>
@@ -1770,7 +1770,7 @@
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"Da biste koristili aplikacije, slike ili podatke na ovom uređaju (<xliff:g id="NAME">^1</xliff:g>), umetnite ga ponovo. \n\nDruga mogućnost je da izaberete da zaboravite taj memorijski uređaj ako nije dostupan. \n\nAko odlučite da zaboravite, svi podaci na tom uređaju biće zauvek izgubljeni. \n\nAplikacije možete da kasnije ponovo instalirate, ali će podaci uskladišteni na uređaju biti izgubljeni."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Želite da zaboravite uređaj <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Sve aplikacije, slike i podaci sačuvani na uređaju <xliff:g id="NAME">^1</xliff:g> biće zauvek izbrisani."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem obuhvata datoteke koje se koriste za pokretanje verzije Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem obuhvata datoteke koje se koriste za pokretanje verzije ethOS <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_wizard_guest" msgid="5813419895687733649">"Korisnici u režimu gosta ne mogu da formatiraju SD"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Podesite uređaj <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="5304499882951772292">"Formatirajte SD karticu za prenosivu memoriju"</string>
@@ -2280,7 +2280,7 @@
     <string name="app_install_location_title" msgid="8932938164156303191">"Željena lokacija instalacije"</string>
     <string name="app_install_location_summary" msgid="4948270795544357021">"Menjanje željene lokacije za instalaciju novih aplikacija"</string>
     <string name="app_disable_dlg_positive" msgid="1414218905322009505">"Onemogući aplikaciju"</string>
-    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Ako onemogućite ovu aplikaciju, Android i druge aplikacije možda više neće raditi ispravno. Imajte na umu da ne možete da izbrišete ovu aplikaciju jer je bila unapred instalirana na uređaju. Ako je onemogućite, isključićete ovu aplikaciju i sakrićete je na uređaju."</string>
+    <string name="app_disable_dlg_text" msgid="2449382902751908916">"Ako onemogućite ovu aplikaciju, ethOS i druge aplikacije možda više neće raditi ispravno. Imajte na umu da ne možete da izbrišete ovu aplikaciju jer je bila unapred instalirana na uređaju. Ako je onemogućite, isključićete ovu aplikaciju i sakrićete je na uređaju."</string>
     <string name="app_disable_notifications_dlg_title" msgid="6686569904059411780">"Želite li da isklj. obaveštenja?"</string>
     <string name="app_install_details_group_title" msgid="1172114479073704677">"Prodavnica"</string>
     <string name="app_install_details_title" msgid="7783556181897142187">"Detalji o aplikaciji"</string>
@@ -3156,7 +3156,7 @@
     <string name="process_stats_type_background" msgid="4094034441562453522">"U pozadini"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"U prvom planu"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Keširano"</string>
-    <string name="process_stats_os_label" msgid="2096501347732184886">"Android OS"</string>
+    <string name="process_stats_os_label" msgid="2096501347732184886">"ethOS OS"</string>
     <string name="process_stats_os_native" msgid="794547105037548539">"Izvorni"</string>
     <string name="process_stats_os_kernel" msgid="5626269994512354996">"Jezgro"</string>
     <string name="process_stats_os_zram" msgid="3067278664868354143">"Z-Ram"</string>
@@ -3183,7 +3183,7 @@
     <string name="voice_input_output_settings" msgid="1055497319048272051">"Glasovni unos i izlaz"</string>
     <string name="voice_input_output_settings_title" msgid="6449454483955543064">"Podešavanja glasovnog unosa i izlaza"</string>
     <string name="voice_search_settings_title" msgid="228743187532160069">"Glasovna pretraga"</string>
-    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android tastatura"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"ethOS tastatura"</string>
     <string name="voice_input_settings" msgid="105821652985768064">"Podešavanja glasovnog unosa"</string>
     <string name="voice_input_settings_title" msgid="3708147270767296322">"Glasovni unos"</string>
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"Usluge glasovnog unosa"</string>
@@ -3768,10 +3768,10 @@
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, režim za vožnju"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"Bluetooth"</string>
-    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, Android Auto, režim vožnje, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, Android Auto, režim vožnje"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, Android Auto, NFC"</string>
-    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, Android Auto"</string>
+    <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"Bluetooth, ethOS Auto, režim vožnje, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"Bluetooth, ethOS Auto, režim vožnje"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"Bluetooth, ethOS Auto, NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"Bluetooth, ethOS Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"Nije dostupno zato što je NFC isključen"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Da biste ovo koristili, prvo instalirajte aplikaciju za plaćanje"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Aplikacije i obaveštenja"</string>
@@ -4222,7 +4222,7 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Nijedna instalirana aplikacija nije zahtevala pristup obaveštenjima."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Dozvoli pristup obaveštenjima"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Želite li da dozvolite da <xliff:g id="SERVICE">%1$s</xliff:g> ima pristup obaveštenjima?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Poboljšana obaveštenja su zamenila Android prilagodljiva obaveštenja u Android-u 12. Ova funkcija pokazuje predložene radnje i odgovore, a i organizuje obaveštenja. \n\nPoboljšana obaveštenja mogu da pristupaju sadržaju obaveštenja, uključujući lične podatke poput imena kontakata i poruka. Ova funkcija može i da odbacuje obaveštenja ili da odgovara na njih, na primer, da se javlja na telefonske pozive i kontroliše režim Ne uznemiravaj."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Poboljšana obaveštenja su zamenila ethOS prilagodljiva obaveštenja u ethOS-u 12. Ova funkcija pokazuje predložene radnje i odgovore, a i organizuje obaveštenja. \n\nPoboljšana obaveštenja mogu da pristupaju sadržaju obaveštenja, uključujući lične podatke poput imena kontakata i poruka. Ova funkcija može i da odbacuje obaveštenja ili da odgovara na njih, na primer, da se javlja na telefonske pozive i kontroliše režim Ne uznemiravaj."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Želite li da dozvolite pristup obaveštenjima za <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="notification_listener_security_warning_summary" msgid="4317764112725749020">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> će moći da čita sva obaveštenja, uključujući lične podatke, poput imena kontakata, slika i teksta poruka koje primate. Ova aplikacija će moći i da odlaže ili odbacuje obaveštenja ili aktivira dugmad u obaveštenjima, uključujući javljanje na telefonske pozive. \n\nOvo će aplikaciji omogućiti i da uključuje ili isključuje režim Ne uznemiravaj i menja srodna podešavanja."</string>
     <string name="nls_warning_prompt" msgid="9143226910825830619">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> će moći:"</string>
@@ -4294,8 +4294,8 @@
     <string name="zen_access_empty_text" msgid="3779921853282293080">"Nijedna instalirana aplikacija nije zahtevala pristup opciji Ne uznemiravaj"</string>
     <string name="loading_notification_apps" msgid="5139471829295287945">"Aplikacije se učitavaju…"</string>
     <string name="app_notifications_off_desc" msgid="2484843759466874201">"Niste dozvolili obaveštenja iz ove aplikacije"</string>
-    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Na vaš zahtev, Android blokira prikazivanje ove kategorije obaveštenja na ovom uređaju"</string>
-    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Na vaš zahtev, Android blokira prikazivanje ove grupe obaveštenja na ovom uređaju"</string>
+    <string name="channel_notifications_off_desc" msgid="6202042207121633488">"Na vaš zahtev, ethOS blokira prikazivanje ove kategorije obaveštenja na ovom uređaju"</string>
+    <string name="channel_group_notifications_off_desc" msgid="9096417708500595424">"Na vaš zahtev, ethOS blokira prikazivanje ove grupe obaveštenja na ovom uređaju"</string>
     <string name="app_notifications_not_send_desc" msgid="5683060986735070528">"Ova aplikacija ne šalje obaveštenja"</string>
     <string name="notification_channels" msgid="1502969522886493799">"Kategorije"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Drugo"</string>
@@ -4890,7 +4890,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Prijavljeni ste kao <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> je podrazumevana"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Pravljenje rezervne kopije je onemogućeno"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Ažurirano na Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Ažurirano na ethOS <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Dostupno je ažuriranje"</string>
     <string name="disabled_by_policy_title" msgid="3635622338687810583">"Blokira IT administrator"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Ne možete da promenite jačinu zvuka"</string>
@@ -5747,14 +5747,14 @@
     <string name="forget_passpoint_dialog_message" msgid="2433875063907365760">"Možete da izgubite pristup preostalom vremenu ili podacima. Proverite sa dobavljačem usluge pre uklanjanja."</string>
     <string name="keywords_content_capture" msgid="7802155522681936956">"snimanje sadržaja, sadržaj aplikacije"</string>
     <string name="content_capture" msgid="868372905432812238">"Sadržaj aplikacije"</string>
-    <string name="content_capture_summary" msgid="49720773699715531">"Dozvolite aplikacijama da šalju sadržaj Android sistemu"</string>
+    <string name="content_capture_summary" msgid="49720773699715531">"Dozvolite aplikacijama da šalju sadržaj ethOS sistemu"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Snimi dinamički deo memorije sistema"</string>
     <string name="reboot_with_mte_title" msgid="9167242803901899693">"Restartuj uz MTE"</string>
     <string name="reboot_with_mte_message" msgid="7675836625682561153">"Sistem će se restartovati i omogućiti eksperimentisanje sa Dodatkom za označavanje memorije (MTE). MTE može negativno da utiče na performanse i stabilnost sistema. Biće poništeno pri sledećem restartovanju."</string>
     <string name="capturing_system_heap_dump_message" msgid="8410503247477360622">"Snimanje dinamičkog dela memorije sistema"</string>
     <string name="error_capturing_system_heap_dump_message" msgid="2352983250048200052">"Snimanje dinamičkog dela memorije sistema nije uspelo"</string>
     <string name="automatic_system_heap_dump_title" msgid="4093306504711109479">"Automatski snimaj dinamički deo memorije sistema"</string>
-    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Automatski snima dinamički deo memorije za Android sistem kada koristi previše memorije"</string>
+    <string name="automatic_system_heap_dump_summary" msgid="4060846186592886986">"Automatski snima dinamički deo memorije za ethOS sistem kada koristi previše memorije"</string>
     <string name="wifi_disconnect_button_text" msgid="5698154296678571998">"Prekini vezu"</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text" msgid="8276287227589397162">"Hitni pozivi"</string>
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Mobilni operater ne podržava hitne pozive pomoću funkcije Pozivanje preko WiFi-a.\nUređaj automatski prelazi na mobilnu mrežu da bi uputio hitan poziv.\nHitni pozivi su mogući samo u oblastima pokrivenim mobilnom mrežom."</string>
