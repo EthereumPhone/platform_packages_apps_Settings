@@ -53,6 +53,7 @@ public final class BootBroadcastReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
+        System.out.println("ETHOSDEBUG IS BOOTING IN SETTINGS");
         final String action = intent == null ? "" : intent.getAction();
         if (BatteryUtils.isWorkProfile(context)) {
             Log.w(TAG, "do not start job for work profile action=" + action);

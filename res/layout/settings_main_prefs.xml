@@ -43,23 +43,36 @@
         android:layout_height="wrap_content"
         android:visibility="gone">
 
-        <Button
-            android:id="@+id/back_button"
-            style="@style/SudGlifButton.Secondary"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_marginEnd="@dimen/sud_glif_button_margin_end"
-            android:text="@*android:string/back_button_label" />
+        <Button android:id="@+id/back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_alignParentStart="true"
+                android:text="@*android:string/back_button_label"
+                style="@style/ethOSButton" />
 
-        <Button
-            android:id="@+id/skip_button"
-            style="@style/SudGlifButton.Secondary"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/back_button"
-            android:text="@*android:string/skip_button_label"
-            android:visibility="gone" />
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true">
+
+            <Button android:id="@+id/skip_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:text="@*android:string/skip_button_label"
+                    android:visibility="gone"
+                    style="@style/ethOSButton"/>
+
+            <Button android:id="@+id/next_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:text="@*android:string/next_button_label"
+                    style="@style/ethOSButton"/>
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/next_button"

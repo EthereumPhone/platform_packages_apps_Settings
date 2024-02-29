@@ -52,7 +52,7 @@
     <string name="sleep_on_fold_title" msgid="7626123024330501411">"Nooit"</string>
     <string name="sleep_on_fold_summary" msgid="7737992842459588846">"Boonste skerm sluit wanneer jy jou toestel vou"</string>
     <string name="auto_rotate_settings_primary_switch_title" msgid="3440951924928594520">"Gebruik outodraai"</string>
-    <string name="smart_rotate_text_headline" msgid="5878008933992951904">"Gesigbespeuring gebruik die voorste kamera om die akkuraatheid van outodraai te verbeter. Prente word nooit geberg of na Google toe gestuur nie."</string>
+    <string name="smart_rotate_text_headline" msgid="5878008933992951904">"Gesigbespeuring gebruik die voorste kamera andrstringom die akkuraatheid van outodraai te verbeter. Prente word nooit geberg of na Google toe gestuur nie."</string>
     <string name="bluetooth" msgid="8898478620943459654">"Bluetooth"</string>
     <string name="bluetooth_is_discoverable" msgid="4798961627677790935">"Sigbaar vir alle nabye Bluetooth-toestelle (<xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g>)"</string>
     <string name="bluetooth_is_discoverable_always" msgid="8122823110652921674">"Sigbaar vir alle Bluetooth-toestelle wat naby is"</string>
@@ -2525,7 +2525,7 @@
     <string name="battery_saver_pref_auto_routine_summary" msgid="4739240095966241508">"Sal aanskakel op grond van jou roetine"</string>
     <string name="battery_saver_auto_percentage" msgid="558533724806281980">"Gegrond op persentasie"</string>
     <string name="battery_saver_auto_routine_summary" msgid="3913145448299472628">"Batterybespaarder skakel aan as jou battery waarskynlik sal leegloop voor die volgende keer wanneer jy dit normaalweg laai"</string>
-    <andrstring name="battery_saver_turn_on_automatically_never" msgid="6194649389871448663">"Nooit"</string>
+    <string name="battery_saver_turn_on_automatically_never" msgid="6194649389871448663">"Nooit"</string>
     <string name="battery_saver_turn_on_automatically_pct" msgid="4294335680892392449">"met battery <xliff:g id="PERCENT">%1$s</xliff:g> vol"</string>
     <string name="battery_percentage" msgid="1779934245963043490">"Batterypersentasie"</string>
     <string name="battery_percentage_description" msgid="2321465139126125541">"Wys batterypersentasie op statusbalk"</string>
