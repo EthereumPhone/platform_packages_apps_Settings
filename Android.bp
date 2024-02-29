@@ -104,10 +104,7 @@ android_library {
         "Settings-change-ids",
         "androidx.room_room-runtime",
         "SystemUIUnfoldLib",
-        "ReverseWirelessCharging"
-        "windowExtLib",
-        "org.lineageos.platform.internal",
-        "vendor.lineage.fastcharge-V1.0-java",
+        "ReverseWirelessCharging",
         "SystemUISharedLib",
         "web3j-core",
         "web3j-crypto",

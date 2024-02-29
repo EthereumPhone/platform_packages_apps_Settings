@@ -97,6 +97,12 @@ public class EthChainPreferenceController extends AbstractEthChainPreferenceCont
             newChainId = 10;
         } else if(value.equals("arbitrum")) {
             newChainId = 42161;
+        } else if(value.equals("base_mainnet")) {
+            newChainId = 8453;
+        } else if(value.equals("zora")) {
+            newChainId = 7777777;
+        } else if(value.equals("base_testnet")) {
+            newChainId = 84531;
         } else if(value.equals("goerli")) {
             newChainId = 5;
         }
@@ -140,6 +146,12 @@ public class EthChainPreferenceController extends AbstractEthChainPreferenceCont
             } else if (chainId == 42161){
                 preference.setValue("arbitrum");
                 preference.setSummary("Arbitrum One");
+            } else if (chainId == 8453){
+                preference.setValue("base_mainnet");
+                preference.setSummary("Base Mainnet");
+            } else if (chainId == 7777777){
+                preference.setValue("zora");
+                preference.setSummary("Zora L2");
             } else if (chainId == 84531){
                 preference.setValue("base_testnet");
                 preference.setSummary("Base Testnet");

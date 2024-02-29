@@ -46,7 +46,7 @@ import android.os.UserManager;
 import android.util.Log;
 
 import androidx.annotation.Nullable;
-
+import android.graphics.Color;
 import com.android.internal.util.FrameworkStatsLog;
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
@@ -282,6 +282,8 @@ public class BiometricEnrollActivity extends InstrumentedActivity {
             // Start enrollment process if we haven't bailed out yet
             startEnrollWith(authenticators, isSetupWizard);
         }
+
+        getWindow().setStatusBarColor(Color.BLACK);
     }
 
     private void updateFingerprintEnrollable(boolean isSetupWizard) {

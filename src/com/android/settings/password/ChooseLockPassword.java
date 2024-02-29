@@ -76,6 +76,7 @@ import android.widget.ImeAwareEditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
+import android.graphics.Color;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
@@ -106,6 +107,9 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import android.content.res.Configuration;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ChooseLockPassword extends SettingsActivity {
     private static final String TAG = "ChooseLockPassword";
@@ -484,6 +488,21 @@ public class ChooseLockPassword extends SettingsActivity {
         public void onViewCreated(View view, Bundle savedInstanceState) {
             super.onViewCreated(view, savedInstanceState);
 
+            Activity tempActivity = getActivity();
+
+            if (tempActivity != null) {
+                Context tempContext = getContext();
+                int currentNightMode = tempContext.getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
+                boolean isDarkMode = currentNightMode == Configuration.UI_MODE_NIGHT_YES;
+
+                if(isDarkMode) {
+                    tempActivity.getWindow().setStatusBarColor(Color.BLACK);
+                } else {
+                    tempActivity.getWindow().setStatusBarColor(Color.WHITE);
+                }
+
+            }
+
             mLayout = (GlifLayout) view;
 
             // Make the password container consume the optical insets so the edit text is aligned
@@ -605,6 +624,7 @@ public class ChooseLockPassword extends SettingsActivity {
                 sa.setTitle(title);
                 mLayout.setHeaderText(title);
             }
+
         }
 
         @Override

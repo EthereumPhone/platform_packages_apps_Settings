@@ -69,6 +69,7 @@ import com.android.settings.core.SettingsBaseActivity;
 import com.android.settings.core.SubSettingLauncher;
 import com.android.settings.core.gateway.SettingsGateway;
 import com.android.settings.dashboard.DashboardFeatureProvider;
+import com.android.settings.dashboard.profileselector.ProfileSelectFragment;
 import com.android.settings.homepage.DeepLinkHomepageActivityInternal;
 import com.android.settings.homepage.SettingsHomepageActivity;
 import com.android.settings.homepage.TopLevelSettings;
@@ -359,6 +360,8 @@ public class SettingsActivity extends SettingsBaseActivity
 
         // see if we should show Back/Next buttons
         if (intent.getBooleanExtra(EXTRA_PREFS_SHOW_BUTTON_BAR, false)) {
+
+             FontHelper.applyFontToView(getWindow().getDecorView().getRootView(), FontHelper.loadFontFromAssets(this, "inter_semibold.ttf"));
 
             View buttonBar = findViewById(R.id.button_bar);
             if (buttonBar != null) {

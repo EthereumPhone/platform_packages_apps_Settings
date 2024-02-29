@@ -58,6 +58,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.window.embedding.SplitRule;
+import android.view.ViewGroup;
 
 import com.android.settings.R;
 import com.android.settings.Settings;
@@ -76,6 +77,7 @@ import com.android.settingslib.core.lifecycle.HideNonSystemOverlayMixin;
 
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
+import java.lang.reflect.Method;
 import java.net.URISyntaxException;
 import java.util.Set;
 
@@ -175,6 +177,15 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        int nightModeFlags = getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
+
+        if (nightModeFlags == Configuration.UI_MODE_NIGHT_NO) {
+            // Set background color to settings_bg
+            //getWindow().getDecorView().setBackgroundColor(getResources().getColor(R.color.settings_bg));
+        } else if (nightModeFlags == Configuration.UI_MODE_NIGHT_YES) {
+            getWindow().getDecorView().getRootView().setBackgroundColor(getResources().getColor(R.color.black));
+        }
+        
         mIsEmbeddingActivityEnabled = ActivityEmbeddingUtils.isEmbeddingActivityEnabled(this);
         if (mIsEmbeddingActivityEnabled) {
             final UserManager um = getSystemService(UserManager.class);
@@ -248,7 +259,37 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         updateSplitLayout();
 
         enableTaskLocaleOverride();
+
+        if (nightModeFlags == Configuration.UI_MODE_NIGHT_YES) {
+            View view = findViewById(R.id.app_bar_container);
+            view.setBackgroundColor(getResources().getColor(R.color.black));
+            applyBackgroundColorToView(view);     
+        }
     }
+
+    public void applyBackgroundColorToView(View view) {
+        if (view != null) {
+            try {
+                Method setBackgroundColorMethod = view.getClass().getMethod("setBackgroundColor", int.class);
+                if (setBackgroundColorMethod != null) {
+                    int blackColor = view.getResources().getColor(R.color.black);
+                    setBackgroundColorMethod.invoke(view, blackColor);
+                }
+            } catch (Exception e) {
+                // Handle exceptions if the view does not support setBackgroundColor
+            }
+
+            if (view instanceof ViewGroup) {
+                ViewGroup viewGroup = (ViewGroup) view;
+                int childCount = viewGroup.getChildCount();
+                for (int i = 0; i < childCount; i++) {
+                    View childView = viewGroup.getChildAt(i);
+                    applyBackgroundColorToView(childView);
+                }
+            }
+        }
+    }
+
 
     @VisibleForTesting
     void initSplitPairRules() {

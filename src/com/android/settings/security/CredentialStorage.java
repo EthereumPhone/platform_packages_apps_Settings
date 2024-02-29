@@ -210,6 +210,7 @@ public final class CredentialStorage extends FragmentActivity {
         protected Boolean doInBackground(Void... unused) {
 
             // Clear all the users credentials could have been installed in for this user.
+            System.out.println("ETHOSDEBUG: CredentialStorage: " + UserHandle.myUserId());
             mUtils.resetKeyStore(UserHandle.myUserId());
 
             try {
