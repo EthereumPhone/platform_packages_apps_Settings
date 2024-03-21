@@ -974,6 +974,26 @@
         <item>daltonizer_mode_grayscale</item>
     </string-array>
 
+        <string-array name="eth_chain_array_summaries" translatable="false">
+        <item>Ethereum Mainnet</item>
+        <item>Optimism</item>
+        <item>Arbitrum One</item>
+        <item>Base Mainnet</item>
+        <item>Zora L2</item>
+        <item>Base Testnet</item>
+        <item>Goerli Testnet</item>
+    </string-array>
+
+    <string-array name="eth_chain_array_values" translatable="false">
+        <item>ethereum</item>
+        <item>optimism</item>
+        <item>arbitrum</item>
+        <item>base_mainnet</item>
+        <item>zora</item>
+        <item>base_testnet</item>
+        <item>goerli</item>
+    </string-array>
+
     <!-- Values for display color space adjustment modes for accessibility -->
     <integer-array name="daltonizer_type_values" translatable="false">
         <item>12</item>

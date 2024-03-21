@@ -82,6 +82,9 @@ import com.google.android.setupcompat.util.WizardManagerHelper;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.content.res.Configuration;
+import android.view.ViewGroup;
+
 
 public class SettingsActivity extends SettingsBaseActivity
         implements PreferenceManager.OnPreferenceTreeClickListener,

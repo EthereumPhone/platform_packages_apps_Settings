@@ -22,6 +22,8 @@ import static android.provider.Settings.EXTRA_SETTINGS_EMBEDDED_DEEP_LINK_INTENT
 
 import static com.android.settings.SettingsActivity.EXTRA_USER_HANDLE;
 
+import android.view.ViewGroup;
+
 import android.animation.LayoutTransition;
 import android.app.ActivityManager;
 import android.app.settings.SettingsEnums;
