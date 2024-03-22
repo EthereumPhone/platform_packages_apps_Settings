@@ -20,8 +20,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_height="match_parent"
-              android:layout_width="match_parent"
-    >
+              android:layout_width="match_parent">
 
     <com.android.settings.widget.SettingsMainSwitchBar
         android:id="@+id/switch_bar"
@@ -35,7 +34,6 @@
         android:layout_height="0dp"
         android:layout_weight="1"/>
 
-    <!-- button bar is used only by activities that use setupdesign-->
     <RelativeLayout
         android:id="@+id/button_bar"
         style="@style/SudGlifButtonBar.Stackable"
@@ -55,7 +53,8 @@
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true">
+                android:layout_alignParentEnd="true"
+                android:gravity="right">
 
             <Button android:id="@+id/skip_button"
                     android:layout_width="wrap_content"
@@ -74,12 +73,5 @@
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/next_button"
-            style="@style/SudGlifButton.Primary"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:text="@*android:string/next_button_label" />
     </RelativeLayout>
 </LinearLayout>

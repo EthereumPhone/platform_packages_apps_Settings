@@ -350,7 +350,7 @@ public class SettingsActivity extends SettingsBaseActivity
         // see if we should show Back/Next buttons
         if (intent.getBooleanExtra(EXTRA_PREFS_SHOW_BUTTON_BAR, false)) {
 
-             FontHelper.applyFontToView(getWindow().getDecorView().getRootView(), FontHelper.loadFontFromAssets(this, "inter_semibold.ttf"));
+            FontHelper.applyFontToView(getWindow().getDecorView().getRootView(), FontHelper.loadFontFromAssets(this, "inter_semibold.ttf"));
 
             View buttonBar = findViewById(R.id.button_bar);
             if (buttonBar != null) {
