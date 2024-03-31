@@ -92,7 +92,7 @@ open class SystemUpdatePreferenceController(context: Context, preferenceKey: Str
             SystemUpdateManager.STATUS_UNKNOWN -> {
                 val version = updateInfo.getString(SystemUpdateManager.KEY_TITLE)
                 if (!version.isNullOrEmpty()) {
-                    return mContext.getString(R.string.android_version_summary, version)
+                    return mContext.getString(R.string.android_version_summary, "3.0")
                 }
             }
         }
@@ -101,7 +101,7 @@ open class SystemUpdatePreferenceController(context: Context, preferenceKey: Str
 
     private fun getReleaseVersionSummary(): String = mContext.getString(
         R.string.android_version_summary,
-        Build.VERSION.RELEASE_OR_PREVIEW_DISPLAY,
+        "3.0",
     )
 
     companion object {
